@@ -1,0 +1,1393 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academia CATO | Plataforma Técnica de Tornillería</title>
+<meta name="description" content="Plataforma de entrenamiento técnico, metrología y control de calidad en tornillería industrial.">
+<meta name="theme-color" content="#071018">
+
+<!-- Open Graph / Redes Sociales para GitHub Pages -->
+<meta property="og:title" content="Academia CATO | Domina la Tornillería">
+<meta property="og:description" content="225 retos por niveles, práctica por categorías, laboratorio de metrología y control de calidad auditable.">
+<meta property="og:type" content="website">
+
+<!-- Favicon SVG nativo embebido (sin archivos externos) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2225%22 fill=%22%23e53935%22/><text x=%2250%22 y=%2268%22 font-size=%2255%22 font-weight=%22900%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22>C</text></svg>">
+
+<style>
+:root{--bg:#071018;--panel:#101c27;--panel2:#172735;--ink:#f5f7fa;--muted:#a9b8c5;--red:#e53935;--red2:#ff5a52;--cyan:#26c6da;--green:#39d98a;--amber:#ffca3a;--line:#294151;--shadow:0 18px 50px rgba(0,0,0,.45)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 80% 0,#173449 0,#071018 42%);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;min-height:100vh}
+button,select,input{font:inherit}
+.app{max-width:1180px;margin:auto;padding:18px}
+.top{display:flex;gap:16px;align-items:center;justify-content:space-between;background:#0b1720dd;border:1px solid var(--line);padding:14px 18px;border-radius:18px;position:sticky;top:8px;z-index:10;backdrop-filter:blur(12px)}
+.brand{display:flex;gap:12px;align-items:center}
+.nut{width:44px;height:44px;background:var(--red);display:grid;place-items:center;font-weight:900;border-radius:12px;box-shadow:inset 0 0 0 5px #ff8a85;color:#fff}
+.brand b{font-size:1.05rem;display:block}
+.brand small{display:block;color:var(--muted)}
+.stats{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.pill{padding:8px 11px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);font-size:.88rem}
+.view{display:none}
+.view.active{display:block}
+.hero{padding:54px 18px 24px;text-align:center}
+.hero h1{font-size:clamp(2rem,6vw,4.3rem);line-height:.95;margin:0}
+.hero h1 span{color:var(--red2)}
+.hero p{max-width:760px;margin:20px auto;color:var(--muted);font-size:1.08rem}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{background:linear-gradient(145deg,#122331,#0d1821);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow)}
+.mode{grid-column:span 4;min-height:180px;cursor:pointer;transition:.18s;position:relative;overflow:hidden;text-align:left}
+.mode:hover{transform:translateY(-4px);border-color:var(--cyan)}
+.mode .icon{font-size:2rem}
+.mode h3{margin:10px 0 6px}
+.mode p{color:var(--muted);margin:0}
+.badge{display:inline-block;background:#e5393522;color:#ff8b86;border:1px solid #e5393566;padding:4px 8px;border-radius:99px;font-size:.75rem}
+.section-title{margin:34px 0 14px}
+.levels{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.level{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:14px;text-align:left;cursor:pointer}
+.level:hover:not(:disabled){border-color:var(--amber)}
+.level:disabled{opacity:.42;cursor:not-allowed}
+.level strong,.level span{display:block}
+.level span{color:var(--muted);font-size:.8rem;margin-top:5px}
+.level.done{border-color:var(--green)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;padding:18px}
+.btn{border:0;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:750;transition:.15s}
+.btn:hover{filter:brightness(1.1)}
+.primary{background:var(--red);color:white}
+.secondary{background:var(--panel2);color:white;border:1px solid var(--line)}
+.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.quiz-wrap{max-width:880px;margin:28px auto}
+.progress{height:10px;background:#1e3342;border-radius:20px;overflow:hidden}
+.bar{height:100%;background:linear-gradient(90deg,var(--red),var(--amber));width:0;transition:.35s}
+.qhead{display:flex;justify-content:space-between;color:var(--muted);margin:14px 0}
+.question{font-size:clamp(1.25rem,3vw,2rem);margin:0 0 20px}
+.options{display:grid;gap:10px}
+.option{background:#132532;color:var(--ink);border:1px solid var(--line);padding:15px;border-radius:14px;text-align:left;cursor:pointer;transition:.15s}
+.option:hover:not(:disabled){border-color:var(--cyan);transform:translateX(3px)}
+.option.correct{background:#123f31;border-color:var(--green)}
+.option.wrong{background:#481d21;border-color:var(--red2)}
+.feedback{margin-top:16px;padding:16px;border-radius:14px;display:none}
+.feedback.show{display:block}
+.feedback.good{background:#123f31}
+.feedback.bad{background:#481d21}
+.feedback b{display:block;margin-bottom:6px}
+.row{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.next{margin-top:16px;display:none}
+.next.show{display:inline-block}
+.result{text-align:center;max-width:700px;margin:40px auto}
+.score-ring{width:160px;height:160px;border-radius:50%;margin:20px auto;display:grid;place-items:center;background:conic-gradient(var(--green) var(--p),#203442 0);position:relative}
+.score-ring:after{content:"";position:absolute;inset:14px;background:var(--panel);border-radius:50%}
+.score-ring b{z-index:1;font-size:2rem}
+.cats{display:flex;flex-wrap:wrap;gap:9px}
+.cat{padding:10px 12px;border-radius:12px;background:#142734;border:1px solid var(--line);color:white;cursor:pointer}
+.cat.selected{background:var(--red);border-color:var(--red)}
+.category-levels{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;width:100%;margin-top:16px}
+.category-level{background:#132c3b;color:#fff;border:2px solid #355a70;border-radius:13px;padding:13px;font-weight:850;cursor:pointer;text-align:left}
+.category-level span{display:block;color:#b9cfdb;font-size:.78rem;margin-top:4px}
+.category-level.done{background:#0c5d42;border-color:#62dca9}
+.category-level.active{background:#b52d2a;border-color:#ff8f89}
+.category-level:disabled{opacity:.4;cursor:not-allowed}
+.category-summary{width:100%;padding:13px;border-radius:12px;background:#0c1d27;border:1px solid var(--line)}
+.mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.mini-btn{min-height:160px;text-align:left;color:#fff}
+.mini-btn h3,.mini-btn p{color:#fff}
+.mini-btn p{color:#dce9f0}
+.game-area{max-width:850px;margin:30px auto}
+.order-list{display:grid;gap:8px}
+.order-item{padding:13px;background:#17364a;border:1px solid var(--line);border-radius:12px;cursor:pointer;color:#fff;font-weight:750;text-align:left}
+.order-item:hover{background:#21526d;border-color:#77deef}
+.order-item.chosen{color:#fff;background:#735c12;border-color:#ffd75e}
+.match-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.match-card{min-height:95px;border:1px solid var(--line);color:#fff;border-radius:12px;padding:10px;cursor:pointer;font-weight:800;font-size:1rem;background:#17364a}
+.match-card.open{background:#126782;border-color:#7ce9ff}
+.match-card.matched{background:#0b6b45;border-color:#75f0ba}
+.mini-campaign{display:grid;grid-template-columns:repeat(10,1fr);gap:7px;margin:14px 0 20px}
+.mini-stage{min-height:44px;background:#17364a;color:#fff;border:2px solid #41677e;border-radius:10px;font-weight:900;cursor:pointer}
+.mini-stage.active{background:#e53935;border-color:#ffaaa6}
+.mini-stage.done{background:#08704a;border-color:#66e9b5}
+.mini-stage:disabled{opacity:.38;cursor:not-allowed}
+.next-mini{background:#ffca3a;color:#101820;border:0;padding:13px 18px;border-radius:12px;font-weight:950;cursor:pointer}
+.auto-next{margin-top:12px;color:#ffe889;font-weight:800}
+.mini-progress{height:9px;background:#102532;border-radius:20px;overflow:hidden;margin:10px 0 18px}
+.mini-progress>span{display:block;height:100%;background:linear-gradient(90deg,#26c6da,#39d98a);transition:.3s}
+.game-hud{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}
+.game-chip{background:#203e52;color:#fff;border:1px solid #5b8198;padding:7px 10px;border-radius:999px;font-weight:800}
+.game-instruction{color:#e7f1f7;line-height:1.5}
+.game-success{background:#075e3d;color:#fff;border:1px solid #55e6ae;padding:13px;border-radius:10px}
+.metrology-wrap{max-width:1050px;margin:28px auto}
+.instrument-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.reading-panel{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+.reading-box{background:#071820;color:#fff;border:1px solid #456476;border-radius:12px;padding:12px;text-align:center}
+.reading-box strong{display:block;color:#ffe36e;font-size:1.25rem}
+.sim-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.sim-input{background:#071018;color:#fff;border:1px solid #4d7083;padding:11px;border-radius:10px;max-width:180px}
+.decode{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#071018;padding:16px;border-radius:12px;color:var(--amber);font-size:1.2rem;border:2px solid #48687c;font-weight:900}
+.timer{font-variant-numeric:tabular-nums;color:var(--amber);font-weight:900}
+.toast{position:fixed;right:20px;bottom:20px;background:#172735;border:1px solid var(--line);padding:14px 18px;border-radius:14px;display:none;z-index:50;box-shadow:var(--shadow)}
+.toast.show{display:block}
+.footer{text-align:center;color:var(--muted);font-size:.82rem;padding:40px 10px}
+.curiosity-tools{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.search{flex:1;min-width:220px;background:#0b1720;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px}
+.curiosity-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.curiosity{position:relative;overflow:hidden}
+.curiosity h3{padding-right:70px}
+.curiosity .tag{color:var(--cyan);font-size:.78rem;font-weight:800;text-transform:uppercase}
+.curiosity .fact{color:var(--ink);line-height:1.55}
+.talk{background:#071018;border-left:4px solid var(--amber);padding:12px;border-radius:8px;color:#dbe8f0;margin-top:10px}
+.talk b{color:var(--amber)}
+.favorite{position:absolute;right:15px;top:15px;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:50%;width:38px;height:38px;cursor:pointer}
+.favorite.on{color:var(--amber);border-color:var(--amber)}
+.daily{background:linear-gradient(135deg,#48251c,#123344);border-color:#8a4d32}
+.achievement{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;background:#162a37;border:1px solid var(--line);border-radius:99px;font-size:.82rem}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.stat-card{background:#0a1720;padding:12px;border-radius:12px;text-align:center}
+.stat-card strong{display:block;font-size:1.4rem;color:var(--amber)}
+.quality-nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.quality-panel{display:none}
+.quality-panel.active{display:block}
+.step{display:grid;grid-template-columns:44px 1fr;gap:12px;margin:10px 0;padding:14px;background:#0b1821;border:1px solid var(--line);border-radius:14px}
+.step-num{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--red);font-weight:900}
+.matrix{display:grid;gap:10px}
+.matrix-row{display:grid;grid-template-columns:1.1fr 1.5fr 1.5fr;gap:10px;padding:12px;background:#0b1821;border-radius:12px}
+.matrix-row.head{background:#243b4a;font-weight:800}
+.check-item{display:flex;gap:10px;align-items:flex-start;padding:12px;background:#0b1821;border-radius:12px;margin:8px 0}
+.check-item input{margin-top:4px;transform:scale(1.25)}
+.warning{border-left:4px solid var(--amber);background:#3c3215;padding:12px;border-radius:8px}
+.quiz-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start}
+.help-panel{position:sticky;top:94px;background:linear-gradient(145deg,#173044,#101d28);border:1px solid #36566b;border-radius:20px;padding:18px;box-shadow:var(--shadow)}
+.help-panel h3{margin:0 0 6px;color:var(--amber)}
+.help-panel>p{margin:0 0 14px;color:var(--muted);font-size:.88rem}
+.glossary-list{display:grid;gap:10px}
+.glossary-item{background:#0a1720;border-left:3px solid var(--cyan);border-radius:9px;padding:10px}
+.glossary-item b{display:block;color:#8fe8f2;margin-bottom:4px}
+.glossary-item span{display:block;font-size:.88rem;line-height:1.42;color:#d7e2e9}
+.help-empty{color:var(--muted);font-size:.9rem}
+.help-tip{margin-top:12px;padding:10px;border-radius:10px;background:#3b3013;color:#ffe394;font-size:.84rem}
+.help-toggle{display:none;width:100%;margin-bottom:10px}
+.help-search{width:100%;background:#071018;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px;margin:8px 0 12px}
+.glossary-all{max-height:390px;overflow:auto;padding-right:4px}
+.manual-instrument{background:#d9e1e5;border:5px solid #263b49;border-radius:18px;padding:16px;color:#071018;overflow-x:auto}
+.manual-note{background:#fff8ce;border-left:5px solid #e2a600;color:#2c260f;padding:11px;border-radius:8px;margin:10px 0}
+.vernier-scene{position:relative;width:920px;height:270px;margin:auto}
+.v-beam{position:absolute;left:58px;top:65px;width:800px;height:72px;background:linear-gradient(#f4f6f7,#a9b5bc);border:3px solid #253842}
+.v-main{position:absolute;left:90px;top:70px;width:740px;height:62px}
+.v-main-tick{position:absolute;top:0;width:1px;background:#071018}
+.v-main-label{position:absolute;top:43px;transform:translateX(-50%);font:bold 11px Arial}
+.v-zero-unit{position:absolute;left:54px;top:42px;font:bold 12px Arial}
+.v-fixed{position:absolute;left:28px;top:15px;width:65px;height:205px;background:linear-gradient(90deg,#9eabb2,#f1f4f5);border:3px solid #253842;border-radius:5px}
+.v-fixed:after{content:'';position:absolute;left:47px;top:0;width:43px;height:104px;background:#c5ced3;border:3px solid #253842}
+.v-slide{position:absolute;top:112px;height:115px;background:linear-gradient(#f4f6f7,#9aa9b1);border:3px solid #253842;border-radius:5px}
+.v-slide:before{content:'';position:absolute;left:0;bottom:105px;width:40px;height:112px;background:#c6cfd4;border:3px solid #253842}
+.v-vernier{position:absolute;left:8px;right:8px;top:11px;height:76px;border-top:2px solid #071018}
+.v-vernier-tick{position:absolute;top:0;width:2px;background:#071018}
+.v-vernier-label{position:absolute;top:48px;transform:translateX(-50%);font:bold 10px Arial}
+.v-index{position:absolute;left:8px;top:-5px;width:3px;height:92px;background:#c1121f}
+.v-piece{position:absolute;left:96px;top:18px;height:42px;background:linear-gradient(90deg,#8b5d2c,#ffd174,#865723);border:2px solid #3a260f;border-radius:4px}
+.micro-scene{position:relative;width:900px;height:310px;margin:auto}
+.m-frame{position:absolute;left:25px;top:22px;width:330px;height:228px;border:42px solid #175477;border-right:0;border-radius:120px 0 0 120px}
+.m-anvil{position:absolute;left:326px;top:116px;width:58px;height:40px;background:#dce3e6;border:3px solid #263944}
+.m-piece{position:absolute;left:383px;top:93px;height:85px;background:linear-gradient(90deg,#8b5d2c,#ffd174,#865723);border:2px solid #3a260f}
+.m-spindle{position:absolute;top:121px;height:30px;background:linear-gradient(#edf2f5,#909fa8);border:2px solid #263944}
+.m-sleeve{position:absolute;left:470px;top:84px;width:190px;height:105px;background:linear-gradient(#f0f3f4,#aab5bb);border:3px solid #263944;overflow:hidden}
+.m-datum{position:absolute;left:0;right:0;top:52px;height:3px;background:#b20d1b}
+.m-sleeve-tick{position:absolute;width:2px;background:#071018}
+.m-sleeve-label{position:absolute;top:14px;transform:translateX(-50%);font:bold 11px Arial}
+.m-thimble{position:absolute;left:650px;top:65px;width:125px;height:145px;background:linear-gradient(90deg,#8fa0a9,#e8edef,#8798a1);border:3px solid #263944;border-radius:7px 35px 35px 7px;overflow:hidden}
+.m-thimble-line{position:absolute;left:4px;width:55px;height:2px;background:#071018}
+.m-thimble-line.major{width:82px;height:3px}
+.m-thimble-label{position:absolute;left:87px;transform:translateY(-50%);font:bold 11px Arial}
+.m-ratchet{position:absolute;left:772px;top:83px;width:70px;height:107px;background:repeating-linear-gradient(90deg,#314854 0 3px,#6e818b 3px 8px);border:3px solid #263944;border-radius:0 25px 25px 0}
+.reading-guide{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}
+.guide-step{background:#102734;color:#fff;padding:12px;border-radius:10px}
+.guide-step b{display:block;color:#ffe36e;margin-bottom:5px}
+.line-legend{font-size:.9rem;color:#dce7ec;margin:10px 0}
+.ref-memory-grid{display:grid;grid-template-columns:repeat(4,minmax(145px,1fr));gap:10px;margin:16px 0}
+.ref-memory-card{min-height:112px;background:#17364a;color:#fff;border:2px solid #4f7389;border-radius:14px;padding:12px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.35;word-break:break-word}
+.ref-memory-card.hidden-card{color:transparent;position:relative}
+.ref-memory-card.hidden-card:after{content:'?';position:absolute;color:#ffe36e;font-size:2rem}
+.ref-memory-card.open{background:#0f6680;border-color:#8deeff;color:#fff}
+.ref-memory-card.matched{background:#08704a;border-color:#6ff0ba;color:#fff}
+.ref-memory-card.reference.open,.ref-memory-card.reference.matched{color:#fff;font-family:ui-monospace,monospace}
+.ref-memory-card.meaning.open,.ref-memory-card.meaning.matched{font-size:.88rem}
+.memory-preview{background:#071820;border:1px solid #496d82;padding:14px;border-radius:12px;margin:12px 0}
+.memory-preview b{color:#ffe36e}
+.memory-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.memory-controls label{display:flex;gap:7px;align-items:center;color:#dce9f0}
+.recall-card{background:linear-gradient(135deg,#15394d,#0a1f2b);border:2px solid #5d8297;border-radius:18px;padding:24px;text-align:center;margin:16px 0}
+.recall-reference{font:900 clamp(1.24rem,3vw,2rem) ui-monospace,monospace;color:#ffe36e;letter-spacing:.02em;line-height:1.45}
+.recall-countdown{font-size:1.15rem;color:#9eeeff;font-weight:900}
+.recall-hidden{filter:blur(14px);user-select:none}
+.recall-question{background:#0c202c;border-left:5px solid #26c6da;padding:14px;border-radius:10px;margin:14px 0}
+.recall-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.recall-option{background:#17364a;color:#fff;border:2px solid #466b80;border-radius:12px;padding:13px;text-align:left;font-weight:800;cursor:pointer}
+.recall-option:hover{border-color:#92e8ff;background:#205169}
+.recall-option.correct{background:#08704a;border-color:#62e8b2}
+.recall-option.wrong{background:#7b262c;border-color:#ff9298}
+.recall-detail{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}
+.recall-chip{background:#102a39;color:#fff;border:1px solid #496e82;border-radius:10px;padding:9px}
+.recall-chip b{display:block;color:#ffe36e}
+
+/* Responsive queries */
+@media(max-width:980px){
+  .quiz-layout{grid-template-columns:1fr}
+  .help-toggle{display:block}
+  .help-panel{position:static;display:none}
+  .help-panel.open{display:block}
+}
+@media(max-width:850px){
+  .ref-memory-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:800px){
+  .mini-campaign{grid-template-columns:repeat(5,1fr)}
+  .curiosity-grid{grid-template-columns:1fr}
+  .stat-grid{grid-template-columns:1fr 1fr 1fr}
+  .mode{grid-column:span 6}
+  .levels{grid-template-columns:repeat(2,1fr)}
+  .stats .pill:nth-child(-n+2){display:none}
+  .mini-grid{grid-template-columns:1fr}
+  .match-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .instrument-stage{overflow-x:auto}
+  .reading-panel{grid-template-columns:1fr 1fr}
+  .vernier-scene,.micro-scene{transform:scale(.72);transform-origin:left top;margin-bottom:-75px}
+  .manual-instrument{min-height:260px}
+  .reading-guide{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .matrix-row{grid-template-columns:1fr}
+  .matrix-row.head{display:none}
+}
+@media(max-width:650px){
+  .category-levels{grid-template-columns:repeat(2,1fr)}
+  .recall-options{grid-template-columns:1fr}
+  .recall-detail{grid-template-columns:1fr 1fr}
+}
+@media(max-width:580px){
+  .ref-memory-grid{grid-template-columns:repeat(2,1fr)}
+  .ref-memory-card{min-height:105px;font-size:.86rem}
+}
+@media(max-width:520px){
+  .mini-campaign{grid-template-columns:repeat(4,1fr)}
+  .app{padding:9px}
+  .top{position:relative;top:0}
+  .mode{grid-column:span 12}
+  .hero{padding-top:32px}
+  .match-card{min-height:80px}
+}
+</style>
+</head>
+<body>
+<noscript><div style="padding:18px;background:#7f1d1d;color:white;font-family:sans-serif">Este simulador interactivo requiere JavaScript activo. Habilítalo en tu navegador para continuar.</div></noscript>
+<div id="startupError" style="display:none;padding:18px;background:#7f1d1d;color:white;font-family:sans-serif"></div>
+
+<div class="app">
+<header class="top">
+  <div class="brand">
+    <div class="nut">C</div>
+    <div><b>ACADEMIA CATO</b><small>Domina la tornillería</small></div>
+  </div>
+  <div class="stats">
+    <span class="pill" id="xpTop">⚡ 0 XP</span>
+    <span class="pill" id="streakTop">🔥 0</span>
+    <span class="pill" id="rankTop">Aprendiz</span>
+    <button class="btn ghost" onclick="showHome()">Inicio</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="view active">
+  <div class="hero">
+    <span class="badge">EDICIÓN INTEGRAL · 15 NIVELES</span>
+    <h1>Aprende. Practica.<br><span>Elige con criterio.</span></h1>
+    <p>225 retos por niveles, práctica por categorías, preguntas aleatorias y minijuegos. Funciona sin internet y guarda el progreso automáticamente en el dispositivo.</p>
+  </div>
+  <div class="grid">
+    <div class="card mode" onclick="startCampaign()"><div class="icon">🏭</div><h3>Campaña técnica</h3><p>15 niveles de 15 preguntas. La dificultad aumenta y desbloquea nuevos temas.</p></div>
+    <div class="card mode" onclick="openCategories()"><div class="icon">🧰</div><h3>Por categorías</h3><p>Referencias, procesos, tarjetas, materiales, puntas, aplicación y calidad.</p></div>
+    <div class="card mode" onclick="startRandom()"><div class="icon">🎲</div><h3>Desafío aleatorio</h3><p>15 preguntas mezcladas de todo el manual y todos los niveles.</p></div>
+    <div class="card mode" onclick="openMinis()"><div class="icon">⚙️</div><h3>Minijuegos</h3><p>Ordena el proceso, empareja conceptos, decodifica referencias y contrarreloj.</p></div>
+    <div class="card mode" onclick="openCuriosities()"><div class="icon">💡</div><h3>Curiosidades técnicas</h3><p>Preguntas y retos de criterio para conversar con clientes y producción.</p></div>
+    <div class="card mode" onclick="openQualityCenter()"><div class="icon">🧪</div><h3>Centro de Calidad</h3><p>Protocolos de inspección, ensayos, matriz de acabados y checklist auditable.</p></div>
+    <div class="card mode" onclick="startReview()"><div class="icon">🧠</div><h3>Repaso inteligente</h3><p>Vuelve a practicar las preguntas falladas en sesiones anteriores.</p></div>
+    <div class="card mode" onclick="resetProgress()"><div class="icon">♻️</div><h3>Reiniciar progreso</h3><p>Borra niveles, XP, rachas y respuestas falladas guardadas.</p></div>
+  </div>
+  <h2 class="section-title">Ruta principal de 15 niveles</h2>
+  <div class="levels" id="levels"></div>
+</section>
+
+<section id="categories" class="view">
+  <div class="card filters">
+    <div style="width:100%">
+      <span class="badge">10 NIVELES POR CATEGORÍA</span>
+      <h2>Elige una categoría</h2>
+      <p style="color:var(--muted)">Cada categoría tiene una ruta propia de 10 niveles progresivos con 10 preguntas cada uno.</p>
+    </div>
+    <div class="cats" id="catList"></div>
+    <div id="categorySummary" class="category-summary" style="display:none"></div>
+    <div class="category-levels" id="categoryLevels"></div>
+    <div style="width:100%" class="row">
+      <button class="btn ghost" onclick="showHome()">Volver</button>
+      <button class="btn secondary" onclick="startCategoryRandom()">Práctica libre de la categoría</button>
+    </div>
+  </div>
+</section>
+
+<section id="quiz" class="view">
+  <div class="quiz-wrap">
+    <div class="progress"><div class="bar" id="bar"></div></div>
+    <div class="qhead"><span id="qCount"></span><span id="qMeta"></span><span class="timer" id="timer"></span></div>
+    <button type="button" class="btn secondary help-toggle" onclick="toggleQuestionHelp()">📘 Mostrar u ocultar ayuda</button>
+    <div class="quiz-layout">
+      <div class="card">
+        <h2 class="question" id="question"></h2>
+        <div class="options" id="options"></div>
+        <div class="feedback" id="feedback"></div>
+        <button class="btn primary next" id="nextBtn" onclick="nextQuestion()">Siguiente →</button>
+      </div>
+      <aside class="help-panel open" id="questionHelp" aria-label="Información de ayuda">
+        <h3>📘 Información de ayuda</h3>
+        <p>Glosario relacionado con la pregunta actual. Brinda orientación técnica sin revelar la respuesta.</p>
+        <div class="glossary-list" id="questionGlossary"></div>
+        <div class="help-tip">Consejo: identifica primero material, medida nominal, geometría y soporte de la unión.</div>
+        <button type="button" class="btn ghost" style="width:100%;margin-top:12px" onclick="openFullGlossary()">Ver glosario completo</button>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="results" class="view"><div class="card result" id="resultBox"></div></section>
+
+<section id="glossary" class="view">
+  <div class="game-area" style="max-width:1000px">
+    <div class="row">
+      <div>
+        <span class="badge">CONSULTA RÁPIDA</span>
+        <h2>📚 Glosario técnico CATO</h2>
+        <p style="color:var(--muted)">Busca términos, siglas, procesos, materiales y conceptos de fijación.</p>
+      </div>
+      <button class="btn ghost" onclick="showHome()">Volver</button>
+    </div>
+    <div class="card">
+      <input id="fullGlossarySearch" class="help-search" type="search" placeholder="Buscar: drywall, MDF, TPI, cementación..." oninput="renderFullGlossary()">
+      <div id="fullGlossaryList" class="glossary-list glossary-all"></div>
+    </div>
+  </div>
+</section>
+
+<section id="quality" class="view">
+  <div class="game-area" style="max-width:1080px">
+    <div class="row">
+      <div>
+        <span class="badge">NIVELES 11–15</span>
+        <h2>🧪 Centro de Calidad e Inspección</h2>
+        <p style="color:var(--muted)">Guía técnica de laboratorio. Para liberación prevalecen planos, fichas y equipos calibrados.</p>
+      </div>
+      <button class="btn secondary" onclick="window.print()">Imprimir guía</button>
+    </div>
+    <div class="quality-nav">
+      <button class="btn primary" onclick="qualityTab('protocols',this)">Protocolos</button>
+      <button class="btn secondary" onclick="qualityTab('tests',this)">Ensayos</button>
+      <button class="btn secondary" onclick="qualityTab('coatings',this)">Acabados</button>
+      <button class="btn secondary" onclick="qualityTab('audit',this)">Checklist auditor</button>
+    </div>
+    <div id="protocols" class="quality-panel active"></div>
+    <div id="tests" class="quality-panel"></div>
+    <div id="coatings" class="quality-panel"></div>
+    <div id="audit" class="quality-panel"></div>
+  </div>
+</section>
+
+<section id="curiosities" class="view">
+  <div class="game-area" style="max-width:1050px">
+    <div class="card daily" id="dailyFact"></div>
+    <div class="row">
+      <div>
+        <h2>💡 Curiosidades para conversaciones técnicas</h2>
+        <p style="color:var(--muted)">Puntos clave para sustentar recomendaciones ante clientes o planta.</p>
+      </div>
+      <span class="achievement" id="curiosityProgress">0 exploradas</span>
+    </div>
+    <div class="curiosity-tools">
+      <input class="search" id="curiositySearch" type="search" placeholder="Buscar: rosca, acero, corrosión, instalación..." oninput="renderCuriosities()">
+      <select class="search" id="curiosityCategory" onchange="renderCuriosities()"><option value="Todas">Todas las categorías</option></select>
+      <button class="btn secondary" onclick="randomCuriosity()">🎲 Sorpréndeme</button>
+      <button class="btn ghost" onclick="toggleFavorites()" id="favFilter">☆ Favoritas</button>
+    </div>
+    <div class="curiosity-grid" id="curiosityGrid"></div>
+  </div>
+</section>
+
+<section id="minis" class="view">
+  <div class="game-area">
+    <h2>Laboratorio de minijuegos</h2>
+    <p style="color:var(--muted)">Selecciona dificultad. Cada nivel incrementa cantidad, exigencia y reduce tolerancias de tiempo.</p>
+    <div class="card" style="margin-bottom:18px">
+      <div class="row">
+        <div><b>Campaña de minijuegos</b><div style="color:var(--muted);font-size:.88rem">20 niveles correlativos con desbloqueo continuo.</div></div>
+        <span class="game-chip" id="miniCampaignStatus">Nivel 1 de 20</span>
+      </div>
+      <div class="mini-progress"><span id="miniCampaignBar" style="width:5%"></span></div>
+      <div class="mini-campaign" id="miniLevelPicker"></div>
+    </div>
+    <div class="mini-grid">
+      <button class="card mode mini-btn" onclick="startOrderGame()"><span class="icon">🔩</span><h3>Ordena la fabricación</h3><p>Selecciona las etapas en la secuencia correcta de conformado y roscado.</p></button>
+      <button class="card mode mini-btn" onclick="startMatchGame()"><span class="icon">🧩</span><h3>Parejas técnicas</h3><p>Une siglas técnicas industriales con sus definiciones exactas.</p></button>
+      <button class="card mode mini-btn" onclick="startReferenceMemory()"><span class="icon">🧠</span><h3>Memoria de referencias</h3><p>Une referencias de ingeniería completas con su desglose dimensional.</p></button>
+      <button class="card mode mini-btn" onclick="startRecallChallenge()"><span class="icon">👁️</span><h3>Observa y recuerda</h3><p>Memoriza una referencia, espera que se oculte y responde sobre sus campos.</p></button>
+      <button class="card mode mini-btn" onclick="startDecodeGame()"><span class="icon">🔎</span><h3>Decodifica la referencia</h3><p>Interpreta cada campo bajo las convenciones estándar CATO.</p></button>
+      <button class="card mode mini-btn" onclick="startSpeed()"><span class="icon">⏱️</span><h3>Reto 60 segundos</h3><p>Responde la mayor cantidad de conceptos antes de que expire el cronómetro.</p></button>
+      <button class="card mode mini-btn" onclick="openMetrologySimulator()"><span class="icon">📏</span><h3>Laboratorio de medición</h3><p>Aprende y practica la lectura en nonio y tambor manual sin visor digital.</p></button>
+    </div>
+  </div>
+</section>
+
+<section id="metrology" class="view">
+  <div class="metrology-wrap">
+    <div class="row">
+      <div>
+        <span class="badge">SIMULADOR INTERACTIVO</span>
+        <h2>📏 Laboratorio virtual de metrología</h2>
+        <p style="color:var(--muted)">Lee las marcas manuales del pie de rey y micrómetro, ingresa el valor y valida la tolerancia.</p>
+      </div>
+      <button class="btn ghost" onclick="openMinis()">Volver</button>
+    </div>
+    <div class="instrument-tabs">
+      <button class="btn primary" id="caliperTab" onclick="setInstrument('caliper',this)">Pie de rey</button>
+      <button class="btn secondary" id="microTab" onclick="setInstrument('micrometer',this)">Micrómetro</button>
+      <button class="btn secondary" onclick="newMeasureChallenge()">Nueva pieza</button>
+    </div>
+    <div id="measureGame"></div>
+  </div>
+</section>
+
+<section id="game" class="view"><div class="game-area card" id="gameBox"></div></section>
+</main>
+
+<footer class="footer">Material formativo interactivo para ingeniería y asesoría técnica CATO. Para fabricación o liberación final, prevalecen plano y plan de control de calidad.</footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+
+const cats = ['Fundamentos','Conversiones','Calibres','UNC / UNF','Rosca métrica','Longitudes','Lectura de referencias','Selección técnica','Familia Madera','Identifica la familia por referencia','Identifica la punta por referencia','Referencias','Roscas y medidas','Cabezas y huellas','Puntas','Materiales','Acabados','Aplicaciones','Procesos','Calidad','Tarjetas','Automatización','Venta técnica','Clasificación de referencias','Referencias comparadas','Selección de referencias','Referencias reales','Diagnóstico de referencias','Casos de mostrador','Selección avanzada','Comparación dimensional','Auditoría de referencias','Casos expertos de referencia','Inspección dimensional','Inspección visual','Inspección funcional','Metrología','Pruebas de laboratorio','Excentricidad','Probador de cabezas','Calidad auditable','Auditoría','Caso experto'];
+
+/* Banco de preguntas completo */
+const raw = [
+['Fundamentos',1,'¿Cuál es la función principal de un tornillo?',['Unir o sujetar componentes mediante una rosca','Medir el espesor','Transferir calor','Cambiar la química del acero'],0,'La rosca permite unir, sujetar o ajustar piezas. La selección depende de la unión completa.'],
+['Referencias',1,'En 8-32 × 1/2, ¿qué indica 32?',['Longitud en mm','Hilos por pulgada (TPI)','Diámetro de cabeza','Unidades por caja'],1,'En una referencia imperial como 8-32, 8 es el calibre y 32 son los hilos por pulgada.'],
+['Referencias',1,'¿Cómo se lee M4 × 0,7 × 12?',['M4 de largo, 0,7 de cabeza','Diámetro 4 mm, paso 0,7 mm y largo 12 mm','Calibre #4 y 12 TPI','Diámetro 12 mm'],1,'En sistema métrico: M + diámetro, luego paso en mm y longitud en mm.'],
+['Cabezas y huellas',1,'¿Qué identifica PH?',['Cabeza Pan','Huella Phillips','Punta hexagonal','Pavonado'],1,'PH describe el accionamiento Phillips, no la forma exterior de la cabeza.'],
+['Cabezas y huellas',1,'¿Qué cabeza puede quedar al ras con alojamiento compatible?',['PAN','HH','FH / avellanada','BH'],2,'La cabeza FH o avellanada entra en un asiento avellanado compatible.'],
+['Puntas',1,'¿Qué significa BP?',['Broca profunda','Blunt Point o punta roma','Bajo paso','Bicromatado'],1,'BP es punta roma. Normalmente trabaja con agujero o rosca preparada y no perfora por sí sola.'],
+['Puntas',1,'¿Qué punta se asocia comúnmente con autorroscantes para lámina?',['AB','BP','CA','F'],0,'AB suele usarse en familias autorroscantes para lámina. Hay que validar espesor, agujero y catálogo.'],
+['Materiales',1,'¿Cuál es un material no ferroso?',['SAE 1018','Acero inoxidable','Aluminio','Hierro fundido'],2,'El aluminio no tiene hierro como base. El inoxidable sí es ferroso porque su base sigue siendo hierro.'],
+['Acabados',1,'¿Qué suele significar ZN en el manual?',['Zincado blanco','Zona neutra','Zinc negro','Rosca fina'],0,'ZN se usa para zincado blanco en esta nomenclatura; siempre debe confirmarse en el catálogo vigente.'],
+['Aplicaciones',1,'Para una rosca ya fabricada, ¿qué familia se evalúa primero?',['Tornillo máquina','Autotaladrante','Drywall','Madera'],0,'El tornillo máquina debe coincidir con el diámetro y el paso de la rosca existente.'],
+['Procesos',2,'¿Qué hace el trefilado?',['Deposita zinc','Reduce el diámetro del alambre con hileras','Forma la cabeza','Endurece por temple'],1,'El trefilado reduce y calibra el diámetro del alambre. Puede modificar resistencia y ductilidad.'],
+['Procesos',2,'¿Qué operación forma normalmente la cabeza?',['Galvanizado','Cámara salina','Estampado o conformado en frío','Revenido'],2,'La estampadora corta el blank y forma cabeza y cuerpo mediante golpes y matrices.'],
+['Procesos',2,'¿Cómo se forma la rosca laminada?',['Por pintura','Por deformación entre peines o matrices','Fundiendo la pieza','Con cámara salina'],1,'La laminación desplaza el material por presión; no corta un perfil completo de viruta.'],
+['Materiales',2,'¿Qué es MDP?',['Tablero de partículas de madera con resinas','Fibra de vidrio','Acero al carbono','Una escala de dureza'],0,'MDP o aglomerado usa partículas de madera. MDF usa fibras más finas y homogéneas.'],
+['Materiales',2,'¿Qué distingue al MDF?',['Es inoxidable','Usa fibras de madera finas','Es yeso-cartón','Es una rosca'],1,'MDF es tablero de fibras de densidad media, y puede requerir piloto y control de distancia al borde.'],
+['Roscas y medidas',2,'¿Cuál tiene más TPI en el mismo diámetro: 1/4-20 o 1/4-28?',['1/4-20 UNC','1/4-28 UNF','Tienen igual paso','No se puede saber'],1,'28 TPI significa más hilos por pulgada y una rosca más fina que 20 TPI.'],
+['Roscas y medidas',2,'¿Cuánto equivale 1/2 pulgada?',['6,35 mm','9,525 mm','12,7 mm','25,4 mm'],2,'1 in = 25,4 mm; por tanto 1/2 in = 12,7 mm.'],
+['Cabezas y huellas',2,'¿Qué herramienta usa normalmente una cabeza HH?',['Llave o dado','Solo Phillips','Broca de concreto','Punta plana interna'],0,'HH es cabeza hexagonal exterior y normalmente se acciona con llave o dado compatible.'],
+['Cabezas y huellas',2,'¿Qué precaución aplica a JIS y Phillips?',['Son siempre idénticos','Pueden tener geometrías diferentes','JIS es un acabado','PH es una punta'],1,'Aunque se parecen, JIS y Phillips pueden diferir. Una herramienta incorrecta puede deformar la huella.'],
+['Puntas',2,'¿Qué distingue una punta TEK?',['Es roma','Tiene geometría de broca','Es un acabado','Solo sirve en madera'],1,'TEK/autotaladrante perfora dentro de una capacidad definida. No sirve para cualquier espesor.'],
+['Puntas',2,'¿Qué describe CT en la convención del manual?',['Punta cortante','Cementado total','Cabeza Torx','Cobre tratado'],0,'CT se presenta como geometría cortante. Su uso exacto se valida con dibujo o catálogo.'],
+['Acabados',2,'¿Qué afirmación sobre el color del acabado es correcta?',['Determina la vida útil exacta','Basta para escoger exterior','No sustituye la especificación técnica','Indica el grado mecánico'],2,'Color y apariencia no confirman espesor, pasivado ni resistencia a corrosión.'],
+['Aplicaciones',2,'¿Qué debe confirmarse para drywall?',['Solo color negro','Placa, soporte, espesor, punta y longitud','Solo diámetro','Únicamente precio'],1,'La estructura puede ser madera o metal. El tipo de punta y la longitud dependen del sistema.'],
+['Referencias',2,'En LAM 8 × 3/4 CC PH ZNNG C100, ¿qué es 3/4?',['Calibre','Longitud en pulgadas','TPI','Empaque'],1,'3/4 indica la longitud nominal en pulgadas; equivale aproximadamente a 19,05 mm.'],
+['Referencias',3,'En una referencia, ¿qué campo responde “con qué herramienta se instala”?',['Punta','Accionamiento o huella','Acabado','Material'],1,'PH, SL, TX y HX son ejemplos de accionamiento o huella.'],
+['Materiales',3,'¿Por qué el acero inoxidable sigue siendo ferroso?',['Por su color','Porque su base es hierro','Porque siempre es magnético','Porque tiene zinc'],1,'La clasificación ferroso/no ferroso depende del metal base, no solo del magnetismo o la corrosión.'],
+['Materiales',3,'¿Qué inoxidable suele evaluarse para cloruros frente a 304?',['316','1018','1022','Latón'],0,'El 316, con molibdeno, suele ofrecer mejor desempeño frente a cloruros, pero el ambiente debe evaluarse.'],
+['Acabados',3,'¿Qué función principal tiene el galvanizado?',['Endurecer el núcleo','Depositar zinc para protección anticorrosiva','Formar rosca','Crear la huella'],1,'El galvanizado protege contra corrosión; no reemplaza el tratamiento térmico.'],
+['Acabados',3,'¿Qué caracteriza al pavonado negro?',['Alta protección marina garantizada','Protección limitada, a menudo con aceite','Convierte acero en inoxidable','Aumenta TPI'],1,'El pavonado aporta apariencia oscura y protección limitada; no debe ofrecerse para humedad severa sin validar.'],
+['Procesos',3,'¿Cuál es la secuencia técnica correcta?',['Temple → cementación → recocido','Cementación → temple → revenido','Revenido → zincado → cementación','Trefilado → cámara salina → temple'],1,'La cementación aporta carbono superficial, el temple desarrolla dureza y el revenido ajusta fragilidad y tensiones.'],
+['Procesos',3,'¿Qué hace normalmente el recocido?',['Aumenta dureza al máximo','Mejora ductilidad y alivia tensiones','Deposita zinc','Mide torque'],1,'El recocido acondiciona el alambre para deformación posterior; no es la etapa principal de endurecimiento.'],
+['Calidad',3,'¿Qué revisa una inspección dimensional?',['Color únicamente','Longitud, diámetro, cabeza y rosca','Precio','Procedencia comercial'],1,'La revisión dimensional compara medidas con plano, ficha y tolerancias aplicables.'],
+['Calidad',3,'¿Qué evalúa una prueba en lámina?',['Comportamiento de instalación en una lámina definida','Vida útil exacta en años','Solo color','Producción por hora'],0,'Debe definirse material, espesor, herramienta, velocidad y criterio de aceptación.'],
+['Venta técnica',3,'Un cliente dice “tornillo para aluminio”. ¿Qué haces primero?',['Escoger cualquiera plateado','Preguntar piezas, espesor, agujero, ambiente y muestra','Ofrecer el más largo','Elegir por precio'],1,'La palabra aluminio no basta. Se diagnostica la unión completa antes de seleccionar familia y referencia.'],
+['Aplicaciones',3,'Para dos perfiles metálicos sin perforación previa, ¿qué se evalúa?',['Un autotaladrante con capacidad adecuada','Un BP siempre','Un tornillo de madera','Un prisionero CA'],0,'Hay que confirmar espesor combinado, material, capacidad de perforación, herramienta y velocidad.'],
+['Calidad',4,'¿Qué puede indicar una huella deformada?',['Bit incorrecto o desgastado, mala alineación o torque alto','Exceso de zinc únicamente','TPI correcto','Buen tratamiento térmico'],0,'El diagnóstico debe revisar herramienta, alineación, presión axial, velocidad y torque.'],
+['Procesos',4,'¿Qué hace la cementación?',['Enriquece la superficie con carbono','Forma la cabeza','Reduce el diámetro','Deposita níquel'],0,'La cementación es termoquímica. El carbono difunde hacia la capa superficial antes del temple.'],
+['Procesos',4,'¿Qué busca el revenido después del temple?',['Ajustar propiedades y reducir fragilidad','Aumentar corrosión','Eliminar rosca','Formar huella'],0,'El revenido reduce tensiones y ajusta la combinación final de dureza y tenacidad.'],
+['Materiales',4,'¿Qué significa CHQ?',['Cold Heading Quality','Cabeza Hexagonal de Calidad','Control de Horno Químico','Clase de Huella'],0,'CHQ identifica calidad de alambre apta para conformado en frío; no reemplaza el grado químico.'],
+['Materiales',4,'En SAE 1022, los últimos dígitos se relacionan con…',['Aproximadamente 0,22 % C nominal','22 % de boro','22 mm de diámetro','Grado 22 de zinc'],0,'Es una relación nominal. La composición válida es el intervalo de la norma y el certificado del lote.'],
+['Materiales',4,'¿Qué indica la B en 10B22?',['Acero tratado con boro en trazas','10 % de boro','Bronce','Punta B'],0,'El boro aparece en cantidades muy pequeñas y puede mejorar la templabilidad bajo condiciones adecuadas.'],
+['Roscas y medidas',4,'¿Qué NO significa clase 2A?',['Clase/tolerancia de rosca externa','Grado mecánico SAE 2','Ajuste de rosca unificada','Dato geométrico'],1,'2A describe una clase de rosca externa; no es por sí sola un grado de resistencia.'],
+['Calidad',4,'¿Qué mide HV?',['Dureza Vickers','Hilos verticales','Velocidad de horno','Humedad'],0,'HV corresponde al ensayo Vickers. Debe indicarse también la carga cuando aplique.'],
+['Calidad',4,'¿Son equivalentes 45 HRC y 45 HR15N?',['Sí','No, son escalas diferentes','Solo si es zincado','Solo en métricos'],1,'HRC y HR15N son escalas distintas. No se intercambian directamente.'],
+['Aplicaciones',4,'Si la rosca se barre en lámina, ¿qué revisar?',['Piloto, espesor, enganche, torque y rosca','Solo el color','Solo la caja','Aumentar torque sin medir'],0,'Agujero grande, poco enganche o torque excesivo son causas posibles. El cambio debe basarse en diagnóstico.'],
+['Referencias',4,'¿Qué significa C100 en los ejemplos del manual?',['Caja/empaque de 100','Carbono 100 %','Cabeza 100 mm','Clase de rosca'],0,'C100 se interpreta como presentación de 100 unidades en la nomenclatura de trabajo.'],
+['Tarjetas',5,'¿Qué color identifica Remache en tarjetas por área?',['Azul','Blanco','Rosa','Verde'],0,'La tarjeta azul acompaña el proceso de remache o formación de cabeza.'],
+['Tarjetas',5,'¿Qué color identifica Rosca por área?',['Blanco','Azul','Naranja','Rosa'],0,'La tarjeta blanca identifica el proceso de formación de rosca.'],
+['Tarjetas',5,'¿Qué color identifica Ranura por área?',['Amarillo','Verde','Azul','Negro'],0,'La tarjeta amarilla se usa para ranura como tarjeta de proceso. Hay que leer el título porque amarillo también puede indicar rechazo en otra tarjeta.'],
+['Tarjetas',5,'¿Qué color identifica Galvano por área?',['Rosa','Blanco','Naranja','Azul'],0,'Galvano usa tarjeta rosa de proceso. No confundir con la tarjeta rosa de estado “INSPECCIONAR”.'],
+['Tarjetas',5,'¿Qué indica la tarjeta rosa “INSPECCIONAR”?',['Lote con error pendiente de Calidad','Galvano siempre','Producto liberado','Materia prima perfecta'],0,'Debe identificarse y mantenerse según el procedimiento hasta que Calidad decida su disposición.'],
+['Tarjetas',5,'¿Qué indica la tarjeta amarilla de estado?',['Rechazo','Ranura siempre','Tratamiento térmico','Materia base NC'],0,'Como tarjeta de estado, amarillo significa rechazo. El título prevalece sobre el color.'],
+['Tarjetas',5,'¿Qué indica la tarjeta naranja?',['Material base no conforme','Rosca','Galvano','Producto aprobado'],0,'La naranja identifica material base no conforme y evita que avance sin disposición autorizada.'],
+['Tarjetas',5,'¿Qué identifica la tarjeta verde?',['Control de tratamiento térmico','Remache','Rechazo','Ranura'],0,'La tarjeta verde acompaña los registros e identificación del tratamiento térmico.'],
+['Calidad',5,'Para 0–50 kg, ¿cuántos registros mínimos se comunicaron?',['15','25','35','50'],0,'Se distribuyen en 3 rondas o idas de 5 registros. Debe validarse con el plan vigente.'],
+['Calidad',5,'Para 51–100 kg, ¿cuántos registros?',['3','5','7','10'],1,'Son 25 registros, distribuidos en 5 rondas de 5.'],
+['Calidad',5,'Para 101–150 kg, ¿cuántos registros?',['15','25','35','50'],2,'El esquema comunicado indica 35 registros, 7 rondas de 5.'],
+['Calidad',5,'Para 151–200 kg, ¿cuántos registros?',['30','40','50','60'],2,'El esquema comunicado indica 50 registros, en 10 rondas de 5.'],
+['Calidad',5,'¿Cuánto dura el chequeo preoperacional informado?',['5 minutos','15 minutos','30 minutos','1 hora'],0,'Se realiza antes de operar la máquina. No reemplaza el formato oficial de seguridad.'],
+['Automatización',6,'¿Qué significa PID?',['Proporcional, integral y derivativo','Proceso integrado diario','Punta interna doble','Producción industrial directa'],0,'PID compara la consigna con la medición y calcula una acción para reducir el error.'],
+['Automatización',6,'¿Qué es SP?',['Valor objetivo o setpoint','Valor medido','Salida de empaque','Sensor de presión'],0,'SP es la consigna deseada; PV es la variable medida del proceso.'],
+['Automatización',6,'¿Qué es PV?',['Variable de proceso medida','Precio de venta','Punta Vickers','Peso vacío'],0,'PV es la medición que recibe el controlador desde el sensor.'],
+['Automatización',6,'¿Qué hace típicamente un PLC?',['Ejecuta lógica, secuencias e interlocks','Cementa el acero','Mide Vickers sin sensor','Forma la rosca físicamente'],0,'El PLC lee entradas y gobierna salidas conforme a un programa.'],
+['Automatización',6,'¿Para qué sirve una HMI?',['Visualizar estados, alarmas y parámetros','Enriquecer carbono','Laminar rosca','Aplicar zinc'],0,'Es la interfaz local entre operador y sistema de control.'],
+['Automatización',6,'¿Qué es un interlock?',['Condición que impide o detiene una acción fuera de requisitos','Acabado negro','Rosca fina','Tipo de punta'],0,'Los interlocks protegen secuencias o condiciones. No deben anularse.'],
+['Automatización',6,'¿Qué mide un termopar?',['Temperatura','Torque','TPI','Longitud'],0,'Un termopar produce una señal termoeléctrica relacionada con la temperatura.'],
+['Automatización',6,'¿Qué hace un intercambiador de calor?',['Transfiere energía térmica entre fluidos','Forma cabeza','Cuenta tornillos','Mide dureza'],0,'Normalmente los fluidos permanecen separados por una superficie de transferencia.'],
+['Automatización',6,'¿Por qué el PID de temperatura no garantiza una buena cementación?',['También importan atmósfera, tiempo, carga, acero y receta','Porque la temperatura no importa','Porque no hay sensores','Porque el PID mide TPI'],0,'La temperatura es crítica, pero no es la única variable metalúrgica.'],
+['Procesos',6,'En Q̇ = ṁ × cp × ΔT, ¿qué representa ΔT?',['Cambio de temperatura','Diámetro total','Tiempo de temple','Torque'],0,'La relación aproxima la tasa de calor transferido cuando propiedades y pérdidas se consideran controladas.'],
+['Calidad',7,'¿Qué evalúa la cámara salina?',['Comportamiento de corrosión en condiciones definidas','Años exactos de vida real','Dureza del núcleo','Paso de rosca'],0,'Las horas de cámara salina no se convierten directamente en años de servicio.'],
+['Calidad',7,'¿Qué es corrosión roja en un recubrimiento de zinc?',['Corrosión del acero base','Color del pasivado','Zinc intacto','Prueba de torque'],0,'Debe distinguirse de productos de corrosión del zinc, a menudo llamados corrosión blanca.'],
+['Calidad',7,'¿Qué debe acompañar un resultado de dureza?',['Escala, método/carga, lote y criterio','Solo un número','Color de caja','Precio'],0,'Una cifra sin escala, lugar de medición y criterio no demuestra conformidad.'],
+['Calidad',7,'Al detectar una grieta tras el golpe, ¿qué hacer?',['Contener desde el último control conforme e investigar','Seguir produciendo','Pintarla','Aumentar velocidad'],0,'Se separa producto sospechoso, se documenta y se revisan material, punzón, matriz y ajustes.'],
+['Procesos',7,'¿Qué es un blank o remache en este proceso?',['Preforma con cabeza y cuerpo antes de roscar','Tornillo terminado','Baño de zinc','Tarjeta de calidad'],0,'El término se usa para la pieza conformada todavía sin la rosca laminada.'],
+['Calidad',7,'¿Qué verifica un calibre pasa/no pasa?',['Aceptación funcional de dimensiones de rosca','Color','Dureza Vickers','Peso del empaque'],0,'La galga permite comprobar límites funcionales de la rosca según el sistema aplicable.'],
+['Procesos',7,'¿Qué variable puede elevar el costo por pieza?',['Menor cantidad de piezas buenas por hora','Mayor trazabilidad','Referencia correcta','Muestreo distribuido'],0,'Costo hora dividido por unidades buenas/hora es una relación básica del costo de máquina por pieza.'],
+['Venta técnica',7,'¿Qué NO debes prometer?',['Que el color garantiza resistencia exterior','Que se validará la ficha','Que se confirmará el paso','Que se hará prueba de ensamble'],0,'La protección se sustenta en especificación, espesor, sistema y ensayo, no solo en apariencia.'],
+['Aplicaciones',8,'Para MDF cerca del borde, ¿qué debes revisar?',['Piloto, distancia al borde, diámetro y torque','Solo color','Solo largo','Usar el mayor diámetro posible'],0,'El MDF puede abultarse o fisurarse. Una prueba representativa y el piloto correcto reducen riesgos.'],
+['Aplicaciones',8,'Para una cubierta exterior, ¿qué es esencial?',['Arandela/sello, sustrato, perforación, acabado y patrón','Solo cabeza hexagonal','Solo largo total','Solo color'],0,'Una arandela incorrecta o mal comprimida puede causar filtración.'],
+['Aplicaciones',8,'Para concreto o mampostería, ¿qué se debe usar?',['Sistema diseñado y aprobado para el sustrato','Tornillo común de madera','Cualquier AB','Un BP sin validar'],0,'Se confirman material base, perforación, profundidad, bordes y carga permitida.'],
+['Aplicaciones',8,'¿Qué es Superboard en general?',['Panel cementicio','Yeso-cartón idéntico a drywall','MDF','Lámina de acero'],0,'No debe asumirse que recibe automáticamente el mismo tornillo de drywall.'],
+['Venta técnica',8,'Si el cliente no conoce la referencia, ¿qué ayuda?',['Muestra, foto con escala, plano o factura anterior','Solo recordar el color','Adivinar por la aplicación','Ofrecer la más vendida'],0,'La identificación responsable combina evidencia física/documental y medición.'],
+['Venta técnica',8,'¿Cuál es una buena apertura de venta consultiva?',['¿Qué está fijando y en qué condiciones trabaja?','¿Cuál es su color favorito?','¿Quiere el más caro?','¿Cuántas cajas sin importar uso?'],0,'Primero se entiende la unión; después se recomienda y cotiza.'],
+['Referencias',8,'En M6 × 1,0 × 20, ¿qué es 1,0?',['Paso en mm','Longitud','TPI','Diámetro de cabeza'],0,'El paso métrico es la distancia entre crestas consecutivas.'],
+['Roscas y medidas',8,'¿Cuál es el paso equivalente de 20 TPI?',['1,27 mm','0,5 mm','2,54 mm','20 mm'],0,'Paso equivalente = 25,4 ÷ TPI; 25,4 ÷ 20 = 1,27 mm.'],
+['Referencias',8,'En 5-40 × 1/2 CC PH BP JIS ZN, ¿qué NO debe asumirse?',['Que BP perfora por sí sola','Que 40 es TPI','Que 1/2 es largo','Que PH es accionamiento'],0,'BP es punta roma y normalmente requiere rosca o agujero preparado.'],
+['Materiales',9,'¿Qué combinación se busca en un tornillo cementado?',['Superficie dura y núcleo con tenacidad adecuada','Todo frágil','Núcleo de zinc','Superficie blanda'],0,'La capa soporta desgaste/formación de rosca y el núcleo ayuda a resistir torsión sin rotura frágil.'],
+['Procesos',9,'¿Qué puede causar un temple inadecuado?',['Distorsión, grietas o dureza fuera de rango','Más TPI','Cambio automático de cabeza','Mejor empaque'],0,'El medio, temperatura, agitación y geometría influyen en el enfriamiento.'],
+['Acabados',9,'¿Qué riesgo se evalúa en recubrimientos electrolíticos de aceros de alta resistencia?',['Fragilización por hidrógeno','Pérdida de TPI por color','Conversión a aluminio','Aumento de fibra MDF'],0,'El proceso y la dureza deben ser compatibles y controlados según especificación.'],
+['Materiales',9,'¿10B22 es siempre mejor que 1022?',['No; depende de diseño, proceso y requisitos','Sí, sin excepción','Solo por tener B','Sí, para todo acabado'],0,'El desempeño es resultado de acero, geometría, tratamiento y control, no de una etiqueta aislada.'],
+['Calidad',9,'¿Qué información es esencial en trazabilidad?',['Lote, OF, referencia, máquina, material, turno y operario','Solo color','Solo peso total','Solo nombre comercial'],0,'La trazabilidad permite relacionar materia prima, proceso, controles y producto terminado.'],
+['Tarjetas',9,'¿Por qué no decidir solo por el color de una tarjeta?',['Un color puede repetirse con distinto título o función','Todos los colores son iguales','El color mide dureza','No existen tarjetas'],0,'Rosa puede ser Galvano o INSPECCIONAR; amarillo puede ser Ranura o RECHAZO.'],
+['Procesos',9,'¿Qué debe registrarse en un reporte de tiempo de máquina?',['Alistamiento, producción, paradas, piezas buenas y rechazo','Solo hora de salida','Solo velocidad nominal','Solo operario'],0,'Separar tiempos y cantidades permite calcular velocidad real y costo con mejor fundamento.'],
+['Calidad',9,'Para lotes mayores a 200 kg, ¿qué se hace con la tabla interna?',['Consultar el plan vigente; no extrapolar sin autorización','Duplicarla','Usar 50 siempre','No inspeccionar'],0,'El manual solo reproduce valores hasta 200 kg y pide confirmar el plan aplicable.'],
+['Procesos',10,'¿Por qué una punta broca debe completar perforación antes de que la rosca engrane?',['Para evitar interferencia y permitir evacuación durante el taladrado','Para cambiar el acabado','Para aumentar TPI','Para medir dureza'],0,'La longitud útil de la flauta y la capacidad de punta deben cubrir el espesor total.'],
+['Aplicaciones',10,'Dos láminas de 1,2 mm forman un espesor combinado de…',['2,4 mm','1,2 mm','12 mm','0,6 mm'],0,'La capacidad del autotaladrante se verifica contra el paquete total real de material.'],
+['Calidad',10,'¿Una prueba sin lote, método y criterio demuestra conformidad?',['No','Sí','Solo si el tornillo es negro','Solo en métricos'],0,'La evidencia de calidad debe ser trazable, reproducible y compararse con una aceptación definida.'],
+['Referencias',10,'Si una sigla no está definida en el catálogo, ¿qué haces?',['Solicitar ficha, plano, dibujo o muestra; no adivinar','Asignar el significado más común','Ignorarla','Cambiar el código'],0,'Las abreviaturas varían entre proveedores, familias y normas.'],
+['Venta técnica',10,'Para sustituir una referencia crítica, ¿qué criterio manda?',['Plano, norma, ficha, prueba y aprobación aplicable','Apariencia','Precio únicamente','Misma longitud'],0,'Una referencia que “entra” no necesariamente tiene la misma rosca, resistencia, punta o protección.'],
+['Procesos',10,'¿Qué factores limitan una estampadora?',['Alambre, blank, carrera, cabeza, herramienta, material y calidad','Solo el nombre del modelo','Solo color','Solo turno'],0,'La capacidad nominal no garantiza que cualquier geometría sea fabricable en el límite.'],
+['Calidad',10,'¿Qué debe verificarse al afirmar una certificación vigente?',['Certificado actual, alcance y fechas','Folleto antiguo','Color del logo','Prueba de torque'],0,'La vigencia no debe suponerse. Debe sustentarse en documentación actualizada.'],
+['Venta técnica',10,'¿Cuál es la frase más profesional?',['Necesito confirmar material, espesor, ambiente, rosca y acabado requerido','Ese sirve porque se parece','El más duro siempre es mejor','El negro siempre sirve afuera'],0,'La recomendación técnica parte de datos verificables de la aplicación.'],
+['Inspección dimensional',11,'Antes de medir una muestra, ¿qué se verifica primero?',['Que el instrumento sea el más pesado','Identificación de lote, característica, tolerancia e instrumento vigente','Solo el color de la pieza','La velocidad de empaque'],1,'La medición debe estar vinculada a referencia, lote, característica, tolerancia, método e instrumento calibrado.'],
+['Inspección dimensional',11,'¿Cómo debe limpiarse una pieza antes de medir?',['Con material que no dañe ni altere la superficie','Con lija siempre','Con ácido sin procedimiento','No debe limpiarse'],0,'Retira aceite, rebaba suelta o suciedad con el método autorizado, sin modificar la dimensión.'],
+['Inspección dimensional',11,'¿Cuál es un buen uso del calibrador?',['Medir dimensiones generales dentro de su capacidad y resolución','Medir dureza','Medir composición química','Detectar grietas internas'],0,'El calibrador sirve para longitudes y diámetros generales; no sustituye al micrómetro cuando se requiere mayor resolución.'],
+['Inspección dimensional',11,'¿Cuándo se prefiere un micrómetro?',['Cuando se requiere mejor resolución y control de fuerza de medición','Para contar cajas','Para cámara salina','Para identificar color'],0,'El micrómetro es apropiado para diámetros o espesores que exigen mayor precisión, usando caras limpias y fuerza controlada.'],
+['Inspección dimensional',11,'¿Qué ayuda a verificar un proyector de perfiles?',['Ángulos, radios, contornos y geometría de rosca','Torque de rotura','Composición del baño','Peso del lote'],0,'El proyector amplifica el contorno y permite compararlo con geometrías o tolerancias definidas.'],
+['Inspección dimensional',11,'¿Qué debe registrarse junto a una medida?',['Valor, unidad, tolerancia, equipo, fecha, lote y responsable','Solo aprobado','Solo la hora','El precio'],0,'Un registro auditable permite reconstruir qué se midió, cómo, con cuál equipo y contra qué criterio.'],
+['Inspección dimensional',11,'Si el instrumento marca fuera de cero antes de medir, ¿qué procede?',['Ajustar o retirar de uso según procedimiento; no compensar mentalmente','Restar de memoria','Continuar','Cambiar la tolerancia'],0,'Una desviación de cero requiere atención conforme al procedimiento metrológico.'],
+['Inspección visual',11,'¿Qué condiciones mejoran la inspección visual?',['Iluminación adecuada, pieza limpia y criterio de defecto disponible','Oscuridad','Pieza en movimiento','Sin referencia aprobada'],0,'La inspección visual necesita condiciones repetibles y criterios definidos.'],
+['Inspección visual',11,'¿Una marca superficial siempre es rechazo?',['No; se compara con el criterio, ubicación y severidad permitida','Sí, siempre','Solo si es negra','Nunca'],0,'No toda marca afecta función. Grietas, laps, pliegues y defectos críticos se juzgan contra norma/plano.'],
+['Inspección visual',11,'Al detectar una posible grieta, ¿qué se hace?',['Contener, identificar, registrar y escalar a Calidad','Pulirla y liberar','Mezclar el lote','Ignorarla'],0,'Una posible grieta exige segregación y evaluación autorizada.'],
+['Inspección funcional',11,'Una prueba de roscado debe definir…',['Material receptor, agujero, velocidad, herramienta y criterio','Solo color','Solo longitud','Solo operador'],0,'Sin condiciones controladas el resultado no es comparable ni repetible.'],
+['Inspección funcional',11,'¿Qué diferencia hay entre torque de instalación y torque de fallo?',['Son resultados distintos y el método debe indicar cuál se mide','Ninguna','Solo cambia la unidad','El primero mide corrosión'],0,'El torque de instalación caracteriza montaje; el de fallo evalúa el límite bajo un método definido.'],
+['Inspección funcional',11,'¿Qué debe comprobarse en un ensamble funcional?',['Entrada, alineación, formación/enganche de rosca, apoyo y ausencia de daño','Solo brillo','Solo empaque','Solo peso'],0,'La función se evalúa sobre el comportamiento completo del componente en la unión definida.'],
+['Trazabilidad',11,'¿Qué hacer si la muestra pierde identificación?',['Detener la evaluación y restablecer trazabilidad de forma autorizada','Adivinar el lote','Usar cualquier etiqueta','Liberar'],0,'Un resultado sin trazabilidad no demuestra conformidad del lote.'],
+['Metrología',11,'¿Qué significa que un equipo esté calibrado?',['Que su relación con patrones y resultados está documentada dentro de vigencia','Que es nuevo','Que es digital','Que tiene batería'],0,'La calibración documenta desempeño metrológico; además debe verificarse aptitud para la tolerancia.'],
+['Pruebas de laboratorio',12,'¿Qué evalúa una prueba de golpe en este contexto?',['Respuesta a carga dinámica e indicios de fragilidad bajo método definido','Color del zinc','TPI','Cantidad por caja'],0,'La energía, apoyo, orientación y criterio deben estar definidos; “golpe” no identifica por sí solo un método universal.'],
+['Pruebas de laboratorio',12,'Antes de ejecutar una prueba de impacto se debe confirmar…',['Equipo, energía/altura, soporte, orientación, muestra y aceptación','Solo el operario','Solo la cabeza','Precio'],0,'La repetibilidad depende de una configuración controlada y trazable.'],
+['Pruebas de laboratorio',12,'Después de una prueba de golpe, ¿qué se inspecciona?',['Grietas, desprendimiento, deformación y modo de fallo según criterio','Solo color','Solo peso de caja','Solo longitud inicial'],0,'El resultado incluye observación y clasificación del modo de falla.'],
+['Excentricidad',12,'¿Qué es excentricidad?',['Desalineación entre ejes o centros geométricos de características relacionadas','Dureza superficial','Color irregular','Paso métrico'],0,'Puede relacionar eje del vástago/rosca con cabeza u otra característica de referencia.'],
+['Excentricidad',12,'¿Qué efecto puede causar excentricidad excesiva?',['Balanceo, mala entrada, carga desigual o interferencia de ensamble','Mejor corrosión','Más dureza','Menor TPI'],0,'La desalineación afecta concentricidad funcional y comportamiento de montaje.'],
+['Excentricidad',12,'¿Cómo puede revisarse el descentramiento?',['Con fixture, comparador o proyector según método y datum','Con balanza únicamente','Con cámara salina','Con imán'],0,'La pieza se referencia de forma definida y se observa variación durante giro o comparación óptica.'],
+['Excentricidad',12,'¿Qué es esencial al reportar excentricidad?',['Datum/eje de referencia, método, lectura máxima, unidad y tolerancia','Solo “bien”','Color','Precio'],0,'Sin referencia geométrica, el valor es ambiguo.'],
+['Probador de cabezas',12,'¿Qué busca una prueba de integridad de cabeza?',['Detectar debilidad, grietas o desprendimiento bajo deformación/carga especificada','Medir zinc','Contar TPI','Medir pH'],0,'Evalúa soundness de la cabeza y transición cabeza-vástago según método aplicable.'],
+['Probador de cabezas',12,'¿Qué debe evitarse en la prueba de cabeceo?',['Aplicar un método improvisado sin ángulo, apoyo ni criterio','Registrar lote','Usar muestra','Inspeccionar grietas'],0,'El ensayo debe seguir una especificación o procedimiento aprobado.'],
+['Probador de cabezas',12,'Si la cabeza se desprende, ¿qué procede?',['Contener lote, documentar, revisar estampado/material/tratamiento y decidir por Calidad','Liberar el resto','Pintar la fractura','Cambiar empaque'],0,'Es una falla crítica que requiere investigación y disposición formal.'],
+['Pruebas de laboratorio',12,'¿La prueba de impacto y la revisión del golpe de estampado son lo mismo?',['No; una es ensayo mecánico y otra inspección del proceso de conformado','Sí','Solo en métricos','Solo si hay zinc'],0,'Deben diferenciarse para evitar registros y criterios incorrectos.'],
+['Pruebas de laboratorio',12,'¿Por qué conservar piezas falladas?',['Para análisis del modo de falla y trazabilidad','Para volverlas a empacar','No se conservan','Para cambiar el lote'],0,'Las evidencias ayudan a identificar origen y verificar acciones correctivas.'],
+['Calidad auditable',12,'¿Qué convierte un ensayo en auditable?',['Método, equipo, identificación, resultado, criterio, fecha y responsable','Una foto sin contexto','Un comentario verbal','Solo “aprobado”'],0,'La evidencia debe permitir reconstruir y verificar la decisión.'],
+['Pruebas de laboratorio',12,'¿Qué se hace si el equipo está fuera de vigencia?',['No usar para liberar; aplicar procedimiento de control y evaluar impacto','Usarlo una vez','Cambiar fecha','Aumentar muestras'],0,'La aptitud metrológica del equipo es parte de la validez del resultado.'],
+['Excentricidad',12,'Una cabeza visualmente centrada…',['No reemplaza una medición cuando hay tolerancia de concentricidad/excentricidad','Siempre cumple','Nunca cumple','Define el torque'],0,'La inspección visual puede detectar casos evidentes, pero no cuantifica tolerancias estrechas.'],
+['Acabados',13,'¿Qué es normalmente un bicromatizado?',['Zincado con una conversión/passivado cromatado posterior','Temple','Pavonado','Niquelado sin zinc'],0,'La conversión sobre zinc aporta color y protección; la formulación exacta debe confirmarse.'],
+['Acabados',13,'¿Qué caracteriza al cromatado hexavalente Cr6+?',['Buen desempeño histórico, pero restricciones ambientales y de sustancias peligrosas','Es siempre ecológico','No contiene cromo','Es tratamiento térmico'],0,'El uso de Cr6+ está restringido en múltiples mercados; debe verificarse cumplimiento legal y del cliente.'],
+['Acabados',13,'¿Qué caracteriza al pasivado trivalente Cr3+?',['Alternativa de menor preocupación regulatoria que Cr6+, con desempeño dependiente del sistema','No protege','Es acero inoxidable','Es pintura'],0,'Cr3+ suele emplearse para cumplir requisitos de sustancias, pero se valida espesor, sellador y ensayo.'],
+['Acabados',13,'¿Qué debe confirmarse para “2 Incapo”?',['Que sea un código interno de dos capas/pasos y su receta oficial','Que siempre son 2 micras','Que es Cr6+','Que es latón'],0,'La expresión no es universal; no se debe inventar su expansión técnica.'],
+['Acabados',13,'¿Qué debe confirmarse para “2ncr” o “2n6r”?',['Código interno, química, espesor, color, sellador y requisito de corrosión','Solo color','Solo empaque','Solo TPI'],0,'Los códigos proporcionados parecen internos/no universales y necesitan maestro de acabados.'],
+['Acabados',13,'¿Qué aporta un bicronegro?',['Apariencia negra y protección según el sistema de zinc, pasivado y sellador','Dureza del núcleo','Rosca fina','Mayor diámetro'],0,'Negro no define por sí solo la química ni las horas de corrosión.'],
+['Acabados',13,'¿Qué es latonado?',['Depósito con apariencia/composición de latón usado por estética o función especificada','Temple','Cementación','Galvanizado en caliente'],0,'Puede usarse decorativamente o como capa funcional/intermedia; conductividad y desempeño dependen del sistema.'],
+['Acabados',13,'¿El latonado garantiza alta conductividad?',['No; depende del depósito, espesor, sustrato, contactos y especificación','Sí siempre','Solo por color','Solo si es negro'],0,'La apariencia dorada no certifica propiedades eléctricas.'],
+['Acabados',13,'¿Qué puede aportar un bicroverde?',['Identificación visual y protección según formulación aprobada','Grado mecánico','Más TPI','Temple'],0,'El verde puede ser cromatado/pasivado de un sistema particular; su función exacta debe documentarse.'],
+['Acabados',13,'¿Para qué puede usarse industrialmente el color verde?',['Identificación de familia/lote o cumplimiento de especificación, además de protección definida','Para indicar siempre uso militar','Para aumentar torque','Para medir dureza'],0,'No debe afirmarse uso militar o automotriz sin requisito documental del cliente.'],
+['Acabados',13,'¿Qué exige una matriz técnica de recubrimientos?',['Código, proceso, química, espesor, sellador, apariencia, ensayo, restricción y aplicación','Solo color','Solo precio','Solo proveedor'],0,'La matriz debe permitir selección y auditoría, no solo reconocimiento visual.'],
+['Acabados',13,'¿Qué relación tiene RoHS con Cr6+?',['Limita sustancias peligrosas en equipos eléctricos/electrónicos dentro de su alcance y excepciones','Es una prueba de dureza','Define TPI','Es norma de rosca'],0,'El cumplimiento debe verificarse con declaración/material y alcance vigente, no solo por apariencia.'],
+['Acabados',13,'¿Qué debe comprobarse frente a REACH?',['Sustancias aplicables, obligaciones de cadena y documentación vigente','Solo color','Torque','Longitud'],0,'REACH es un marco químico europeo; la obligación concreta depende de sustancia, uso y suministro.'],
+['Acabados',13,'¿Se pueden comparar dos acabados solo por horas de cámara salina?',['No; deben coincidir método, criterio, geometría y condición del sistema','Sí siempre','Solo si tienen mismo color','Nunca se ensayan'],0,'La comparación necesita condiciones equivalentes y criterios de corrosión blanca/roja definidos.'],
+['Acabados',13,'Para acero endurecido, ¿qué riesgo debe evaluarse en procesos electrolíticos?',['Fragilización por hidrógeno','Pérdida de color únicamente','Cambio de paso métrico','Daño de caja'],0,'La limpieza y electrodeposición pueden introducir hidrógeno; se requieren controles según especificación.'],
+['Auditoría',14,'¿La punta C presenta el bisel/guía conforme al plano y sin rebaba crítica?',['Es una pregunta auditable correcta','No debe revisarse','Solo se pregunta por color','La punta C siempre perfora'],0,'Se debe verificar geometría, simetría, longitud de guía y transición, con método definido.'],
+['Auditoría',14,'Para punta B sin filo, ¿qué debe confirmar el auditor?',['Extremo romo, forma definida, diámetro final y ausencia de filo/rebaba no permitida','Que sea aguda','Que sea TEK','Solo acabado'],0,'La función depende de una geometría roma controlada y del agujero previsto.'],
+['Auditoría',14,'Para punta F, ¿qué pregunta evita ambigüedad?',['¿Cuál plano/norma define F para esta referencia y qué geometría exacta exige?','¿Es dorada?','¿Tiene cualquier filo?','¿Pesa más?'],0,'F puede significar cosas diferentes entre catálogos; la definición documental es crítica.'],
+['Auditoría',14,'¿Qué evidencia pide un auditor para una punta especial?',['Plano vigente, patrón/muestra aprobada, método, registro y trazabilidad','Solo memoria del operario','Solo fotografía','Solo empaque'],0,'La conformidad debe demostrarse con evidencia controlada.'],
+['Auditoría',14,'¿Cómo se verifica que una punta C no esté descentrada?',['Método óptico/fixture contra eje de referencia y tolerancia','Mirando la caja','Con cámara salina','Con balanza'],0,'El centrado se relaciona con eje del vástago y debe medirse cuando sea característica crítica.'],
+['Auditoría',14,'¿Qué se pregunta sobre desgaste de herramienta?',['¿Existe límite, frecuencia de verificación y reacción documentada?','¿Cuál es su color?','¿Quién la compró?','¿Cuánto pesa?'],0,'El desgaste puede cambiar punta, huella y cabeza antes de que el defecto sea evidente.'],
+['Auditoría',14,'¿Qué debe ocurrir tras un cambio de matriz o punzón?',['Inspección de primera pieza y liberación según procedimiento','Producción sin revisar','Cambiar lote','Omitir registros'],0,'El cambio de herramienta es un evento que exige revalidación.'],
+['Auditoría',14,'¿Qué pregunta aplica al calibrador usado en línea?',['¿Está identificado, vigente, apto para la tolerancia y verificado antes de uso?','¿Es del operario?','¿Es azul?','¿Es el más barato?'],0,'Calibración, resolución, condición y verificación son evidencias metrológicas.'],
+['Auditoría',14,'¿Cómo se controla una tolerancia bilateral?',['Registrar nominal, límites inferior/superior y valor real','Registrar solo “cerca”','Usar porcentaje','Cambiar unidad'],0,'El resultado debe compararse contra ambos límites.'],
+['Auditoría',14,'¿Qué pregunta evalúa inspección visual?',['¿Hay catálogo de defectos, iluminación definida y criterio de aceptación/rechazo?','¿Hay música?','¿La pieza brilla?','¿Es pesada?'],0,'Los criterios visuales deben reducir interpretación subjetiva.'],
+['Auditoría',14,'¿Qué pregunta evalúa la prueba de roscado?',['¿Sustrato, piloto, velocidad, torque, número de usos y criterio están definidos?','¿La caja es nueva?','¿Hay zinc?','¿Es métrica?'],0,'La prueba funcional solo es reproducible con condiciones documentadas.'],
+['Auditoría',14,'¿Qué pregunta evalúa reacción a no conformidad?',['¿Se contiene desde el último punto conforme y se documenta la disposición?','¿Se mezcla el lote?','¿Se borra el dato?','¿Se continúa siempre?'],0,'La contención protege al cliente y conserva trazabilidad.'],
+['Auditoría',14,'¿Qué pregunta evalúa muestreo?',['¿Las rondas se distribuyen durante el lote y coinciden con el plan vigente?','¿Se toma todo al final?','¿Se escoge solo lo mejor?','¿No se registra hora?'],0,'El muestreo distribuido ayuda a detectar tendencias y cambios.'],
+['Auditoría',14,'¿Qué evidencia demuestra competencia del inspector?',['Formación, autorización y evaluación en métodos asignados','Antigüedad únicamente','Uniforme','Turno'],0,'La competencia debe estar definida y documentada.'],
+['Auditoría',14,'¿Qué pregunta evalúa control documental?',['¿El plano, formato y criterio disponibles son la revisión vigente?','¿La copia es de color?','¿Tiene muchas páginas?','¿Está impreso?'],0,'Usar una revisión obsoleta puede liberar producto incorrecto.'],
+['Caso experto',15,'Un valor está dentro de tolerancia, pero el equipo está vencido. ¿Se libera?',['No hasta aplicar el procedimiento y asegurar validez del resultado','Sí automáticamente','Solo si es digital','Solo si hay cinco muestras'],0,'La conformidad numérica no compensa falta de control metrológico.'],
+['Caso experto',15,'Una punta B cumple longitud, pero tiene rebaba afilada no permitida. ¿Resultado?',['No conforme por defecto geométrico/visual aplicable','Conforme por longitud','Conforme por color','No se registra'],0,'La aceptación considera todas las características relevantes, no una sola dimensión.'],
+['Caso experto',15,'La cabeza pasa dimensiones pero falla soundness. ¿Decisión?',['Contener y tratar como no conforme','Liberar por dimensiones','Cambiar acabado','Reducir muestra'],0,'La integridad funcional es independiente de que las dimensiones estén dentro de rango.'],
+['Caso experto',15,'Dos inspectores discrepan sobre una grieta. ¿Qué hacer?',['Aplicar criterio visual documentado, ampliación/método y escalamiento autorizado','Votar','Liberar la mitad','Borrar dato'],0,'La decisión debe basarse en estándar y evidencia, no en opinión.'],
+['Caso experto',15,'Un bicroverde nuevo se ve igual al anterior. ¿Basta para aprobarlo?',['No; verificar química/código, espesor, proceso, ensayo y aprobación de cambio','Sí por color','Sí por proveedor','Sí por precio'],0,'La apariencia no demuestra equivalencia del sistema.'],
+['Caso experto',15,'El proveedor declara “trivalente”. ¿Qué evidencia conviene pedir?',['Ficha/declaración de composición, cumplimiento y resultados acordados','Solo una foto','Solo factura','Solo muestra verde'],0,'La declaración técnica debe ser trazable al producto y requisito.'],
+['Caso experto',15,'Una prueba de excentricidad no define eje de referencia. ¿Es válida?',['No es suficientemente definida para una decisión auditable','Sí','Solo si da cero','Solo en puntas C'],0,'Toda medición geométrica necesita datum o referencia establecida.'],
+['Caso experto',15,'La prueba de golpe se hizo con otra altura. ¿Qué procede?',['Registrar desviación y no comparar/liberar sin evaluación autorizada','Cambiar el registro','Aprobar si no se rompió','Ocultarlo'],0,'Cambiar energía o configuración altera el método y la comparabilidad.'],
+['Caso experto',15,'Una prueba funcional falla una vez y pasa al repetir. ¿Qué hacer?',['Seguir regla de reensayo vigente, investigar y documentar; no escoger el resultado favorable','Aceptar el segundo','Repetir hasta pasar','Descartar el primero'],0,'El reensayo debe estar predefinido para evitar sesgo.'],
+['Caso experto',15,'¿Cuál es la secuencia de inspección más robusta?',['Identificar → revisar documento/equipo → muestrear → inspeccionar → registrar → decidir/segregar','Medir → adivinar lote → liberar','Empacar → medir','Pintar → liberar'],0,'La secuencia protege trazabilidad y asegura decisiones basadas en requisitos.'],
+['Caso experto',15,'¿Qué debe incluir una no conformidad de punta especial?',['Lote, referencia, defecto, ubicación, evidencia, cantidad, contención y disposición','Solo “mala”','Solo foto','Solo operario'],0,'El registro completo permite análisis y acción correctiva.'],
+['Caso experto',15,'¿Por qué una matriz de acabados debe tener control de revisión?',['Porque fórmulas, restricciones, códigos y requisitos pueden cambiar','Porque cambia el color de pantalla','No necesita','Solo por diseño'],0,'La selección debe basarse en información vigente y aprobada.'],
+['Caso experto',15,'¿Qué frase es correcta sobre bicroverde y uso militar?',['Solo puede afirmarse si una especificación contractual lo exige y el sistema está aprobado','Todo verde es militar','Nunca se usa','El color prueba el grado'],0,'No debe atribuirse un sector o desempeño sin documentación.'],
+['Caso experto',15,'¿Qué decisión toma Calidad ante defecto crítico confirmado?',['Aplicar procedimiento de no conformidad, contención y disposición autorizada','Cambiar tolerancia','Mezclar lote','Omitir registro'],0,'La disposición puede ser rechazo, reproceso u otra autorizada, nunca improvisada.'],
+['Caso experto',15,'¿Qué define finalmente la aceptación de una punta C, B o F?',['Plano/norma/ficha vigente y criterios del plan de control','La letra aislada','El color','La costumbre'],0,'Las siglas no son universales; la geometría y función deben vincularse a documentación específica.'],
+['Conversiones',1,'¿Cuántos milímetros equivalen exactamente a 1 pulgada?',['25,4 mm','24,5 mm','2,54 mm','12,7 mm'],0,'Una pulgada equivale exactamente a 25,4 mm.'],
+['Conversiones',1,'¿Cuál es el equivalente de 1/2 pulgada?',['12,700 mm','6,350 mm','19,050 mm','25,400 mm'],0,'1/2 × 25,4 = 12,7 mm.'],
+['Conversiones',1,'¿Cuál es el equivalente de 3/4 de pulgada?',['19,050 mm','15,875 mm','22,225 mm','9,525 mm'],0,'3/4 × 25,4 = 19,05 mm.'],
+['Conversiones',2,'¿Cuál es el equivalente de 5/8 de pulgada?',['15,875 mm','12,700 mm','17,463 mm','7,938 mm'],0,'5/8 × 25,4 = 15,875 mm.'],
+['Conversiones',2,'¿Cuál es el equivalente de 7/8 de pulgada?',['22,225 mm','19,050 mm','23,813 mm','25,400 mm'],0,'7/8 × 25,4 = 22,225 mm.'],
+['Conversiones',2,'¿Cuánto equivalen 2 pulgadas?',['50,800 mm','25,400 mm','38,100 mm','63,500 mm'],0,'2 × 25,4 = 50,8 mm.'],
+['Calibres',3,'¿Qué diámetro aproximado corresponde al calibre #8?',['4,166 mm','8,000 mm','3,505 mm','4,826 mm'],0,'El #8 es un calibre nominal, no 8 mm. Su diámetro aproximado es 0,164 in, equivalentes a 4,166 mm.'],
+['Calibres',3,'¿Qué diámetro aproximado corresponde al calibre #10?',['4,826 mm','10,000 mm','5,486 mm','4,166 mm'],0,'El #10 tiene un diámetro nominal aproximado de 0,190 in, equivalentes a 4,826 mm.'],
+['Calibres',3,'¿Qué diámetro aproximado corresponde al calibre #6?',['3,505 mm','6,000 mm','3,175 mm','4,166 mm'],0,'El calibre #6 corresponde aproximadamente a 0,138 in o 3,505 mm.'],
+['Calibres',3,'¿Por qué #10 no significa 10 mm?',['Porque es una designación nominal de calibre','Porque representa 10 TPI','Porque siempre mide 1 pulgada','Porque indica la longitud'],0,'Los calibres numerados no son medidas directas en milímetros.'],
+['Roscas y medidas',4,'En #7-19 × 7/8, ¿qué representa 19?',['19 hilos por pulgada','Paso de 19 mm','Longitud de 19 mm','Diámetro de 19 mm'],0,'El valor después del guion indica TPI en esta referencia imperial.'],
+['Roscas y medidas',4,'En 1/4-14 × 7/8, ¿qué representa 14?',['14 hilos por pulgada','Diámetro de 14 mm','Longitud de 14/8','Paso de 14 mm'],0,'14 es la cantidad de hilos en una pulgada.'],
+['Roscas y medidas',4,'¿Qué fórmula convierte TPI a paso aproximado en milímetros?',['25,4 ÷ TPI','TPI ÷ 25,4','25,4 × TPI','Diámetro ÷ TPI'],0,'Una pulgada tiene 25,4 mm; dividirla entre los hilos da la distancia entre crestas.'],
+['Roscas y medidas',4,'¿Cuál es el paso aproximado de una rosca de 40 TPI?',['0,635 mm','0,794 mm','1,058 mm','1,270 mm'],0,'25,4 ÷ 40 = 0,635 mm.'],
+['Roscas y medidas',5,'¿Cuál es el paso aproximado de 24 TPI?',['1,058 mm','0,794 mm','1,270 mm','1,814 mm'],0,'25,4 ÷ 24 ≈ 1,058 mm.'],
+['Roscas y medidas',5,'¿Cuál es el paso aproximado de 20 TPI?',['1,270 mm','0,907 mm','1,058 mm','0,635 mm'],0,'25,4 ÷ 20 = 1,27 mm.'],
+['Roscas y medidas',5,'¿Cuál es el paso aproximado de 14 TPI?',['1,814 mm','1,270 mm','0,794 mm','2,540 mm'],0,'25,4 ÷ 14 ≈ 1,814 mm.'],
+['UNC / UNF',6,'Para un diámetro 1/4, ¿cuál referencia corresponde a UNC?',['1/4-20','1/4-28','1/4-14','M6-1,0'],0,'En la tabla de roscas unificadas, 1/4-20 es UNC y 1/4-28 es UNF.'],
+['UNC / UNF',6,'Para un diámetro 1/4, ¿cuál referencia corresponde a UNF?',['1/4-28','1/4-20','1/4-14','M6-0,75'],0,'La serie fina de 1/4 usa 28 TPI.'],
+['UNC / UNF',6,'¿Cuál es más fina: 1/4-20 UNC o 1/4-28 UNF?',['1/4-28 UNF','1/4-20 UNC','Son iguales','Ninguna tiene paso'],0,'28 TPI equivalen a aproximadamente 0,907 mm; 20 TPI equivalen a 1,270 mm.'],
+['UNC / UNF',6,'¿Puede elegirse UNC o UNF solo mirando el diámetro?',['No; hay que confirmar tuerca, agujero, plano o referencia','Sí, UNC siempre','Sí, UNF siempre','Solo por el color'],0,'Un mismo diámetro puede tener series de paso diferentes.'],
+['Rosca métrica',7,'En M6 × 1,0, ¿qué significa 1,0?',['Paso de 1,0 mm','Longitud de 1 mm','Diámetro de 1 mm','1 TPI'],0,'En rosca métrica, el segundo valor es la distancia axial entre crestas.'],
+['Rosca métrica',7,'¿Cuál es el paso grueso común de M4?',['0,70 mm','0,40 mm','1,00 mm','1,25 mm'],0,'M4 tiene como paso grueso común 0,70 mm.'],
+['Rosca métrica',7,'¿Cuál es el paso grueso común de M8?',['1,25 mm','0,80 mm','1,50 mm','1,75 mm'],0,'El paso grueso común de M8 es 1,25 mm.'],
+['Rosca métrica',7,'¿Cuál de estos es un paso fino común de M10?',['1,25 mm','1,50 mm únicamente','2,00 mm','0,40 mm'],0,'Para M10, 1,50 mm es grueso común y 1,25 o 1,00 mm son finos comunes.']
+];
+
+const names = ['Inicio seguro','Identificación básica','Selección inicial','Metalurgia práctica','Control y tarjetas','Automatización','Calidad avanzada','Aplicación experta','Diagnóstico integral','Maestro CATO','Protocolo de inspección','Ensayos de laboratorio','Acabados avanzados','Auditor de línea','Especialista de calidad'];
+
+const DEFAULT_STATE = {xp:0,streak:0,unlocked:1,best:{},wrong:[],curiousSeen:[],favorites:[],answeredTotal:0,seenQuestions:[],categoryProgress:{},miniUnlocked:1,miniBest:{}};
+
+function loadState(){
+  try{
+    const saved = localStorage.getItem('catoGame');
+    if(!saved) return {...DEFAULT_STATE};
+    const parsed = JSON.parse(saved);
+    return {
+      ...DEFAULT_STATE,
+      ...parsed,
+      best: parsed.best || {},
+      wrong: Array.isArray(parsed.wrong) ? parsed.wrong : [],
+      curiousSeen: Array.isArray(parsed.curiousSeen) ? parsed.curiousSeen : [],
+      favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
+      answeredTotal: Number(parsed.answeredTotal) || 0,
+      seenQuestions: Array.isArray(parsed.seenQuestions) ? parsed.seenQuestions : [],
+      categoryProgress: parsed.categoryProgress || {},
+      miniUnlocked: Number(parsed.miniUnlocked) || 1,
+      miniBest: parsed.miniBest || {}
+    };
+  }catch(e){
+    return {...DEFAULT_STATE};
+  }
+}
+
+let state = loadState();
+let quiz = [], qi = 0, correct = 0, answered = false, mode = '', currentLevel = 1, timerId = null, timeLeft = 0, selectedCats = new Set(), currentCategory = '', currentCategoryLevel = 1;
+
+function save(){
+  try{
+    localStorage.setItem('catoGame', JSON.stringify(state));
+  }catch(e){}
+  renderStats();
+  renderLevels();
+}
+
+function renderStats(){
+  $('#xpTop').textContent = '⚡ ' + state.xp + ' XP';
+  $('#streakTop').textContent = '🔥 ' + state.streak;
+  $('#rankTop').textContent = rank();
+}
+
+function rank(){
+  let x = state.xp;
+  return x>=1800?'Maestro CATO':x>=1200?'Especialista':x>=700?'Técnico':x>=300?'Inspector':'Aprendiz';
+}
+
+function views(id){
+  $$('.view').forEach(v => v.classList.remove('active'));
+  const target = $('#'+id);
+  if(target) target.classList.add('active');
+  try{ window.scrollTo({top:0,behavior:'smooth'}); }catch(e){ window.scrollTo(0,0); }
+}
+
+function showHome(){
+  clearInterval(timerId);
+  views('home');
+  renderLevels();
+}
+
+function renderLevels(){
+  let h = '';
+  for(let i=1; i<=15; i++){
+    let lock = i > state.unlocked, b = state.best[i];
+    h += `<button class="level ${b?'done':''}" ${lock?'disabled':''} onclick="startLevel(${i})">
+      <strong>${lock?'🔒':'Nivel '+i}</strong>
+      <span>${names[i-1]}</span>
+      <span>${b?'Mejor: '+b+'/15':'15 preguntas'}</span>
+    </button>`;
+  }
+  $('#levels').innerHTML = h;
+}
+
+function seeded(arr, seed){
+  let a = [...arr], x = seed * 997 + 17;
+  for(let i=a.length-1; i>0; i--){
+    x = (x * 9301 + 49297) % 233280;
+    let j = Math.floor(x / 233280 * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function qid(q){ return raw.indexOf(q); }
+
+function shuffleReal(a){
+  a = [...a];
+  for(let i=a.length-1; i>0; i--){
+    let j = Math.floor(Math.random()*(i+1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function freshPick(pool, n){
+  let recent = new Set((state.seenQuestions||[]).slice(-180));
+  let fresh = shuffleReal(pool.filter(q => !recent.has(qid(q))));
+  let old = shuffleReal(pool.filter(q => recent.has(qid(q))));
+  let pick = [...fresh, ...old].slice(0, n);
+  state.seenQuestions = [...(state.seenQuestions||[]), ...pick.map(qid)].slice(-260);
+  save();
+  return pick;
+}
+
+function makeLevel(level){
+  let exact = raw.filter(q => q[1] === level);
+  let near = raw.filter(q => Math.abs(q[1] - level) === 1);
+  let far = raw.filter(q => Math.abs(q[1] - level) > 1);
+  return freshPick([...exact, ...shuffleReal(near), ...shuffleReal(far)], 15);
+}
+
+function startCampaign(){ startLevel(Math.min(state.unlocked, 15)); }
+
+function startLevel(n){
+  currentLevel = n;
+  mode = 'level';
+  begin(makeLevel(n), `Nivel ${n} · ${names[n-1]}`);
+}
+
+function startRandom(){
+  mode = 'random';
+  begin(freshPick(raw, 15), 'Desafío aleatorio');
+}
+
+const categoryGroups = {
+  'Conversiones':['Conversiones','Longitudes'],
+  'Calibres':['Calibres','Roscas y medidas'],
+  'UNC / UNF':['UNC / UNF','Roscas y medidas','Referencias comparadas'],
+  'Rosca métrica':['Rosca métrica','Roscas y medidas','Referencias'],
+  'Longitudes':['Longitudes','Conversiones','Inspección dimensional'],
+  'Lectura de referencias':['Lectura de referencias','Referencias','Referencias reales'],
+  'Selección técnica':['Selección técnica','Selección de referencias','Venta técnica'],
+  'Familia Madera':['Familia Madera','Aplicaciones','Materiales'],
+  'Fundamentos':['Fundamentos','Referencias','Aplicaciones'],
+  'Roscas y medidas':['Roscas y medidas','Referencias','Referencias comparadas'],
+  'Cabezas y huellas':['Cabezas y huellas','Referencias','Inspección visual'],
+  'Puntas':['Puntas','Aplicaciones','Selección avanzada','Inspección visual'],
+  'Materiales':['Materiales','Procesos','Aplicaciones'],
+  'Acabados':['Acabados','Calidad','Materiales'],
+  'Aplicaciones':['Aplicaciones','Selección de referencias','Venta técnica','Puntas'],
+  'Procesos':['Procesos','Materiales','Calidad','Automatización'],
+  'Calidad':['Calidad','Inspección visual','Inspección dimensional','Inspección funcional','Auditoría'],
+  'Tarjetas':['Tarjetas','Trazabilidad','Calidad','Procesos'],
+  'Automatización':['Automatización','Procesos','Calidad'],
+  'Venta técnica':['Venta técnica','Casos de mostrador','Selección de referencias','Aplicaciones']
+};
+
+function categoryKey(c){ return c.replace(/[^a-z0-9]/gi,'_'); }
+
+function catProgress(c){
+  let k = categoryKey(c);
+  if(!state.categoryProgress[k]) state.categoryProgress[k] = {unlocked:1, best:{}};
+  return state.categoryProgress[k];
+}
+
+function openCategories(){
+  selectedCats.clear();
+  currentCategory = '';
+  $('#catList').innerHTML = cats.map(c => `<button class="cat" data-c="${c}" onclick="selectCategory('${c.replace(/'/g,"\\'")}',this)">${c}</button>`).join('');
+  $('#categoryLevels').innerHTML = '';
+  $('#categorySummary').style.display = 'none';
+  views('categories');
+}
+
+function selectCategory(c, b){
+  currentCategory = c;
+  selectedCats = new Set([c]);
+  $$('#catList .cat').forEach(x => x.classList.remove('selected'));
+  b.classList.add('selected');
+  renderCategoryLevels();
+}
+
+function renderCategoryLevels(){
+  if(!currentCategory) return;
+  let p = catProgress(currentCategory);
+  let pool = categoryPool(currentCategory);
+  $('#categorySummary').style.display = 'block';
+  $('#categorySummary').innerHTML = `<b>${currentCategory}</b><br><span style="color:var(--muted)">${pool.length} preguntas relacionadas · 10 niveles · 10 preguntas por nivel · Requiere 80 % para avanzar</span>`;
+  $('#categoryLevels').innerHTML = Array.from({length:10}, (_, i) => {
+    let n = i + 1, lock = n > p.unlocked, best = p.best[n] || 0;
+    return `<button class="category-level ${best?'done':''}" ${lock?'disabled':''} onclick="startCategoryLevel(${n})">
+      <b>${lock?'🔒':'Nivel '+n}</b>
+      <span>${best?'Mejor: '+best+'/10':categoryLevelName(n)}</span>
+    </button>`;
+  }).join('');
+  save();
+}
+
+function categoryLevelName(n){
+  return ['Reconocimiento','Identificación','Lectura técnica','Comparación','Selección','Diagnóstico','Aplicación','Control','Auditoría','Especialista'][n-1];
+}
+
+function categoryPool(c){
+  let names = categoryGroups[c] || [c];
+  let pool = raw.filter(q => names.includes(q[0]));
+  if(pool.length < 15) pool = [...pool, ...raw.filter(q => Math.abs(q[1] - Math.ceil(currentCategoryLevel*1.5)) <= 2)];
+  return [...new Set(pool)];
+}
+
+function startCategoryLevel(n){
+  if(!currentCategory){ toast('Selecciona una categoría'); return; }
+  currentCategoryLevel = n;
+  mode = 'categoryLevel';
+  let pool = categoryPool(currentCategory);
+  let target = Math.min(15, Math.max(1, Math.ceil(n*1.5)));
+  let ranked = [...pool.filter(q => Math.abs(q[1] - target) <= 2), ...pool.filter(q => Math.abs(q[1] - target) > 2)];
+  begin(freshPick([...new Set(ranked)], 10), `${currentCategory} · Nivel ${n}: ${categoryLevelName(n)}`);
+}
+
+function startCategoryRandom(){
+  if(!currentCategory){ toast('Selecciona una categoría'); return; }
+  mode = 'category';
+  begin(freshPick(categoryPool(currentCategory), 15), `Práctica libre · ${currentCategory}`);
+}
+
+function startReview(){
+  let ids = state.wrong || [];
+  let pool = ids.map(i => raw[i]).filter(Boolean);
+  if(!pool.length){ toast('No hay respuestas falladas pendientes. ¡Excelente!'); return; }
+  mode = 'review';
+  begin(shuffleReal(pool).slice(0, 15), 'Repaso inteligente');
+}
+
+function begin(list, label){
+  clearInterval(timerId);
+  quiz = list;
+  qi = 0;
+  correct = 0;
+  answered = false;
+  quiz.label = label;
+  views('quiz');
+  showQ();
+}
+
+function shuffleOptions(q){
+  let opts = q[3].map((t, i) => ({t, ok: i === q[4]}));
+  return seeded(opts, qi + q[1]*31 + correct*7);
+}
+
+function showQ(){
+  if(qi >= quiz.length) return finish();
+  answered = false;
+  let q = quiz[qi];
+  $('#bar').style.width = (qi / quiz.length * 100) + '%';
+  $('#qCount').textContent = `Pregunta ${qi+1} de ${quiz.length}`;
+  $('#qMeta').textContent = `${q[0]} · Dificultad ${q[1]}`;
+  $('#timer').textContent = mode === 'speed' ? timeLeft + ' s' : '';
+  $('#question').textContent = q[2];
+  let opts = shuffleOptions(q);
+  $('#options').innerHTML = opts.map((o, i) => `<button class="option" data-ok="${o.ok}" onclick="answer(this, ${raw.indexOf(q)})"><b>${String.fromCharCode(65+i)}.</b> ${o.t}</button>`).join('');
+  $('#feedback').className = 'feedback';
+  $('#feedback').innerHTML = '';
+  $('#nextBtn').classList.remove('show');
+  renderQuestionGlossary(q);
+}
+
+function answer(btn, rawId){
+  if(answered) return;
+  answered = true;
+  let ok = btn.dataset.ok === 'true';
+  $$('.option').forEach(b => {
+    b.disabled = true;
+    if(b.dataset.ok === 'true') b.classList.add('correct');
+  });
+  if(!ok) btn.classList.add('wrong');
+  
+  let q = quiz[qi];
+  state.answeredTotal = (state.answeredTotal || 0) + 1;
+  if(ok){
+    correct++;
+    state.streak++;
+    state.xp += 10 + q[1] * 2;
+    state.wrong = (state.wrong || []).filter(i => i !== rawId);
+  }else{
+    state.streak = 0;
+    if(rawId >= 0 && !state.wrong.includes(rawId)) state.wrong.push(rawId);
+  }
+  save();
+  
+  let f = $('#feedback');
+  f.className = 'feedback show ' + (ok ? 'good' : 'bad');
+  f.innerHTML = `<b>${ok ? '✅ Correcto' : '❌ Incorrecto'}</b>${q[5]}`;
+  $('#nextBtn').classList.add('show');
+  if(mode === 'speed') setTimeout(nextQuestion, 500);
+}
+
+function nextQuestion(){
+  qi++;
+  showQ();
+}
+
+function finish(){
+  clearInterval(timerId);
+  if(!quiz.length){ toast('Sin preguntas disponibles'); showHome(); return; }
+  let pct = Math.round(correct / quiz.length * 100);
+  let pass = pct >= 80;
+  
+  if(mode === 'level'){
+    state.best[currentLevel] = Math.max(state.best[currentLevel] || 0, correct);
+    if(pass && currentLevel < 15) state.unlocked = Math.max(state.unlocked, currentLevel + 1);
+    if(pass) state.xp += 50;
+    save();
+  }
+  if(mode === 'categoryLevel'){
+    let cp = catProgress(currentCategory);
+    cp.best[currentCategoryLevel] = Math.max(cp.best[currentCategoryLevel] || 0, correct);
+    if(pass && currentCategoryLevel < 10) cp.unlocked = Math.max(cp.unlocked, currentCategoryLevel + 1);
+    if(pass) state.xp += 30;
+    save();
+  }
+  
+  $('#bar').style.width = '100%';
+  let title = pass ? '¡Nivel dominado!' : 'Buen intento: requiere reforzar';
+  let action = mode === 'categoryLevel' && pass && currentCategoryLevel < 10 
+    ? `<button class="btn primary" onclick="startCategoryLevel(${currentCategoryLevel+1})">Siguiente nivel de ${currentCategory} →</button>`
+    : mode === 'level' && pass && currentLevel < 15 
+    ? `<button class="btn primary" onclick="startLevel(${currentLevel+1})">Ir al nivel ${currentLevel+1}</button>`
+    : `<button class="btn primary" onclick="begin(quiz, quiz.label)">Repetir reto</button>`;
+    
+  $('#resultBox').innerHTML = `
+    <span class="badge">${quiz.label}</span>
+    <h1>${title}</h1>
+    <div class="score-ring" style="--p:${pct}%"><b>${pct}%</b></div>
+    <p>Acertaste <strong>${correct} de ${quiz.length}</strong> (${pct}%). ${pass ? 'Superaste el 80% exigido.' : 'Repasa las fichas y vuelve a intentarlo.'}</p>
+    <div class="stat-grid">
+      <div class="stat-card"><strong>${state.xp}</strong>XP Total</div>
+      <div class="stat-card"><strong>${state.streak}</strong>Racha</div>
+      <div class="stat-card"><strong>${state.wrong.length}</strong>Por repasar</div>
+    </div>
+    <div class="row" style="justify-content:center">${action}<button class="btn secondary" onclick="showHome()">Volver al inicio</button></div>
+  `;
+  views('results');
+}
+
+const glossary = {
+  'Drywall':'Sistema de construcción en seco con placas de yeso-cartón fijadas a soportes metálicos o de madera.',
+  'MDF':'Tablero de fibras de madera homogéneas. Requiere perforación piloto y respetar márgenes al borde.',
+  'MDP':'Tablero de partículas aglomeradas. Posee densidad menor que el MDF.',
+  'Superboard':'Panel constructivo a base de cemento y fibras. No utiliza los mismos tornillos estándar de yeso.',
+  'TPI':'Threads Per Inch (Hilos por pulgada). Expresa la densidad de filetes en roscas imperiales.',
+  'Paso':'Distancia axial entre crestas consecutivas en rosca métrica (en milímetros).',
+  'UNC':'Unified National Coarse. Rosca imperial de paso grueso.',
+  'UNF':'Unified National Fine. Rosca imperial de paso fino para uniones bajo vibración.',
+  'Rosca métrica':'Estándar internacional identificado con M, diámetro nominal y paso en mm.',
+  'PH':'Huella Phillips en cruz.',
+  'FH':'Flat Head. Cabeza avellanada que se asienta al ras.',
+  'PAN':'Cabeza redondeada abombada tipo lenteja.',
+  'HH':'Cabeza hexagonal exterior accionada con llave o copa.',
+  'Punta AB':'Punta autorroscante convencional para lámina delgada.',
+  'BP':'Blunt Point. Punta roma para alojamientos con rosca previa.',
+  'TEK':'Punta con flautas de broca para autoperforar perfiles de acero.'
+};
+
+function glossaryMatches(q){
+  const text = (q[2] + ' ' + q[0] + ' ' + q[3].join(' ') + ' ' + q[5]).toLowerCase();
+  return Object.keys(glossary).filter(k => text.includes(k.toLowerCase())).slice(0, 4);
+}
+
+function renderQuestionGlossary(q){
+  const box = $('#questionGlossary');
+  if(!box) return;
+  const keys = glossaryMatches(q);
+  box.innerHTML = keys.length ? keys.map(k => `<div class="glossary-item"><b>${k}</b><span>${glossary[k]}</span></div>`).join('') : '<div class="help-empty">No hay un término específico asignado a este reto. Consulta el glosario completo si tienes dudas.</div>';
+}
+
+function toggleQuestionHelp(){
+  const p = $('#questionHelp');
+  if(p) p.classList.toggle('open');
+}
+
+function openFullGlossary(){
+  views('glossary');
+  $('#fullGlossarySearch').value = '';
+  renderFullGlossary();
+}
+
+function renderFullGlossary(){
+  const el = $('#fullGlossaryList');
+  if(!el) return;
+  const term = ($('#fullGlossarySearch')?.value || '').toLowerCase();
+  const rows = Object.entries(glossary).filter(([k,v]) => (k+' '+v).toLowerCase().includes(term)).sort((a,b) => a[0].localeCompare(b[0],'es'));
+  el.innerHTML = rows.length ? rows.map(([k,v]) => `<div class="glossary-item"><b>${k}</b><span>${v}</span></div>`).join('') : '<div class="help-empty">Sin coincidencias técnicas.</div>';
+}
+
+const qualityData = {
+  protocols:`<div class="card"><h2>Protocolo de inspección dimensional y metrología</h2><div class="warning"><b>Procedimiento CATO:</b> Comprobar calibración y cero antes de iniciar cualquier liberación de lote.</div><div class="step"><span class="step-num">1</span><div><b>Preparación</b><p>Validar Orden de Fabricación, plano y especificación de tolerancias.</p></div></div><div class="step"><span class="step-num">2</span><div><b>Alineación</b><p>Posicionar mordazas del calibrador o palpadores del micrómetro perfectamente perpendiculares.</p></div></div><div class="step"><span class="step-num">3</span><div><b>Registro</b><p>Anotar valor real medido sin redondear hacia la zona de tolerancia.</p></div></div></div>`,
+  tests:`<div class="card"><h2>Pruebas de laboratorio y resistencia</h2><div class="matrix"><div class="matrix-row head"><div>Ensayo</div><div>Propiedad evaluada</div><div>Criterio</div></div><div class="matrix-row"><b>Impacto / Cabeceo</b><span>Tenacidad de la transición vástago-cabeza</span><span>Sin fisuras ni desprendimiento</span></div><div class="matrix-row"><b>Cámara Salina</b><span>Resistencia a la corrosión acelerada</span><span>Horas sin corrosión roja en acero base</span></div></div></div>`,
+  coatings:`<div class="card"><h2>Matriz de acabados superficiales</h2><div class="matrix"><div class="matrix-row head"><div>Código</div><div>Tipo</div><div>Uso sugerido</div></div><div class="matrix-row"><b>ZN</b><span>Zincado blanco electrolítico</span><span>Interiores y ensambles comerciales</span></div><div class="matrix-row"><b>BICRO</b><span>Bicromatizado trivalente / hexavalente</span><span>Protección mejorada y ferretería</span></div></div></div>`,
+  audit:`<div class="card"><h2>Checklist auditable de puesto</h2><label class="check-item"><input type="checkbox"><span>Instrumento de medición con etiqueta de calibración vigente.</span></label><label class="check-item"><input type="checkbox"><span>Plano y ficha técnica en la última versión autorizada.</span></label><label class="check-item"><input type="checkbox"><span>Muestreo distribuido en inicio, intermedio y fin de lote.</span></label></div>`
+};
+
+function openQualityCenter(){
+  ['protocols','tests','coatings','audit'].forEach(id => {
+    const el = $('#'+id);
+    if(el) el.innerHTML = qualityData[id];
+  });
+  views('quality');
+}
+
+function qualityTab(id, b){
+  $$('.quality-panel').forEach(x => x.classList.remove('active'));
+  $('#'+id).classList.add('active');
+  $$('.quality-nav .btn').forEach(x => { x.classList.remove('primary'); x.classList.add('secondary'); });
+  b.classList.remove('secondary');
+  b.classList.add('primary');
+}
+
+const curiosities = [
+  {c:'Roscas',t:'Más hilos no siempre significa mejor unión',f:'Una rosca fina permite ajustes micrométricos, pero una rosca gruesa es más rápida de montar y tolera impurezas.',q:'¿En qué casos convendría cambiar de UNC a UNF en un proyecto?'},
+  {c:'Puntas',t:'La punta broca no perfora espesor infinito',f:'La flauta de una broca TEK debe superar el grosor total de las placas antes de que el primer hilo de rosca entre.',q:'¿Qué sucede si el filete muerde la placa cuando aún se está perforando?'},
+  {c:'Metrología',t:'La presión en el micrómetro altera el resultado',f:'Apretar directamente el tambor puede falsear micras e incluso deformar la pieza; siempre se debe usar el trinquete.',q:'¿Cuántos clics de carraca aplicas habitualmente al medir?'}
+];
+let favOnly = false;
+
+function openCuriosities(){
+  const sel = $('#curiosityCategory');
+  const cs = [...new Set(curiosities.map(x => x.c))];
+  sel.innerHTML = '<option value="Todas">Todas las categorías</option>' + cs.map(c => `<option>${c}</option>`).join('');
+  const d = curiosities[0];
+  $('#dailyFact').innerHTML = `<span class="badge">CURIOSIDAD TÉCNICA</span><h2>${d.t}</h2><p>${d.f}</p><div class="talk"><b>Para reflexionar:</b> ${d.q}</div>`;
+  renderCuriosities();
+  views('curiosities');
+}
+
+function renderCuriosities(){
+  const term = ($('#curiositySearch')?.value || '').toLowerCase();
+  const cat = $('#curiosityCategory')?.value || 'Todas';
+  let list = curiosities.map((x, i) => ({...x, i})).filter(x => (cat === 'Todas' || x.c === cat) && (!term || (x.t+' '+x.f+' '+x.q).toLowerCase().includes(term)) && (!favOnly || state.favorites.includes(x.i)));
+  $('#curiosityGrid').innerHTML = list.length ? list.map(x => `
+    <article class="card curiosity" onclick="markCuriosity(${x.i})">
+      <button type="button" class="favorite ${state.favorites.includes(x.i)?'on':''}" onclick="event.stopPropagation();favoriteCuriosity(${x.i})">${state.favorites.includes(x.i)?'★':'☆'}</button>
+      <span class="tag">${x.c}</span>
+      <h3>${x.t}</h3>
+      <p class="fact">${x.f}</p>
+      <div class="talk"><b>Pregunta de aplicación:</b> ${x.q}</div>
+    </article>
+  `).join('') : '<div class="card"><h3>Sin resultados</h3><p>Modifica el filtro de búsqueda.</p></div>';
+  $('#curiosityProgress').textContent = `${state.curiousSeen.length} de ${curiosities.length} exploradas`;
+}
+
+function markCuriosity(i){
+  if(!state.curiousSeen.includes(i)){
+    state.curiousSeen.push(i);
+    state.xp += 5;
+    save();
+    renderCuriosities();
+    toast('Curiosidad registrada: +5 XP');
+  }
+}
+
+function favoriteCuriosity(i){
+  const k = state.favorites.indexOf(i);
+  k < 0 ? state.favorites.push(i) : state.favorites.splice(k, 1);
+  save();
+  renderCuriosities();
+}
+
+function toggleFavorites(){
+  favOnly = !favOnly;
+  $('#favFilter').textContent = favOnly ? '★ Favoritas activadas' : '☆ Favoritas';
+  renderCuriosities();
+}
+
+function randomCuriosity(){
+  const i = Math.floor(Math.random() * curiosities.length);
+  $('#curiositySearch').value = curiosities[i].t.split(' ')[0];
+  renderCuriosities();
+}
+
+let miniLevel = 1, miniGameType = 'match';
+const MINI_MAX = 20;
+
+function miniName(){
+  if(miniLevel <= 4) return 'Aprendiz';
+  if(miniLevel <= 8) return 'Operario';
+  if(miniLevel <= 12) return 'Técnico';
+  if(miniLevel <= 16) return 'Experto';
+  return 'Maestro';
+}
+
+function renderMiniLevels(){
+  const box = $('#miniLevelPicker');
+  if(!box) return;
+  box.innerHTML = Array.from({length:MINI_MAX}, (_, i) => {
+    let n = i + 1, locked = n > (state.miniUnlocked || 1), done = state.miniBest && state.miniBest[n];
+    return `<button class="mini-stage ${n===miniLevel?'active':''} ${done?'done':''}" ${locked?'disabled':''} onclick="setMiniLevel(${n})">${locked?'🔒':n}</button>`;
+  }).join('');
+  $('#miniCampaignStatus').textContent = `Nivel ${miniLevel} de ${MINI_MAX} · ${miniName()}`;
+  $('#miniCampaignBar').style.width = (miniLevel / MINI_MAX * 100) + '%';
+}
+
+function setMiniLevel(n){
+  if(n > (state.miniUnlocked || 1)) return;
+  miniLevel = n;
+  renderMiniLevels();
+}
+
+function gameHud(title, goal){
+  return `<div class="game-hud"><div><span class="badge">NIVEL ${miniLevel}/${MINI_MAX}</span><h2>${title}</h2></div><span class="game-chip">🎯 ${goal}</span></div>`;
+}
+
+function openMinis(){
+  renderMiniLevels();
+  views('minis');
+}
+
+function completeMini(type, score, max){
+  state.miniBest = state.miniBest || {};
+  state.miniBest[miniLevel] = Math.max(state.miniBest[miniLevel] || 0, score);
+  if(miniLevel < MINI_MAX) state.miniUnlocked = Math.max(state.miniUnlocked || 1, miniLevel + 1);
+  let xp = 20 + score * 2;
+  state.xp += xp;
+  save();
+  return xp;
+}
+
+function startOrderGame(){
+  miniGameType = 'order';
+  const all = ['Recepción del alambrón','Preparación / Trefilado','Corte y estampado de cabeza','Laminado de rosca','Tratamiento térmico','Acabado superficial (Zincado)','Inspección y empaque'];
+  const count = Math.min(all.length, 3 + Math.ceil(miniLevel/3));
+  const order = all.slice(0, count);
+  const mix = seeded(order, Date.now() % 999 + miniLevel);
+  const chosen = [];
+  
+  $('#gameBox').innerHTML = `
+    ${gameHud('🔩 Secuencia de Fabricación', `${count} etapas`)}
+    <p class="game-instruction">Selecciona los procesos en orden cronológico correcto:</p>
+    <div class="order-list">${mix.map(x => `<button class="order-item" data-v="${x}">${x}</button>`).join('')}</div>
+    <div class="row" style="margin-top:14px"><button class="btn ghost" onclick="openMinis()">Volver</button></div>
+  `;
+  views('game');
+  
+  $$('.order-item').forEach(b => b.addEventListener('click', () => {
+    if(b.classList.contains('chosen')) return;
+    let expected = order[chosen.length];
+    if(b.dataset.v === expected){
+      chosen.push(expected);
+      b.classList.add('chosen');
+      if(chosen.length === count){
+        let xp = completeMini('order', count, count);
+        $('#gameBox').insertAdjacentHTML('beforeend', `<div class="game-success" style="margin-top:14px"><h3>¡Secuencia correcta!</h3><p>Ganaste ${xp} XP.</p></div>`);
+      }
+    }else{
+      toast('Etapa incorrecta. Analiza el flujo de conformado en frío.');
+    }
+  }));
+}
+
+const matchBank = [['PH','Phillips'],['BP','Punta roma'],['TEK','Punta broca'],['ZN','Zincado blanco'],['TPI','Hilos por pulgada'],['FH','Cabeza avellanada'],['HV','Dureza Vickers'],['UNC','Rosca gruesa'],['UNF','Rosca fina']];
+
+function startMatchGame(){
+  miniGameType = 'match';
+  const number = 4;
+  const pairs = matchBank.slice(0, number);
+  const cards = shuffleReal(pairs.flatMap((p, i) => [{t:p[0], id:i}, {t:p[1], id:i}]));
+  let open = [], found = 0;
+  
+  $('#gameBox').innerHTML = `
+    ${gameHud('🧩 Parejas Técnicas', `${number} pares`)}
+    <p class="game-instruction">Empareja cada sigla con su significado:</p>
+    <div class="match-grid">${cards.map(c => `<button class="match-card" data-id="${c.id}">${c.t}</button>`).join('')}</div>
+    <div class="row" style="margin-top:14px"><button class="btn ghost" onclick="openMinis()">Volver</button></div>
+  `;
+  views('game');
+  
+  $$('.match-card').forEach(b => b.addEventListener('click', () => {
+    if(b.classList.contains('matched') || open.includes(b) || open.length === 2) return;
+    b.classList.add('open');
+    open.push(b);
+    if(open.length === 2){
+      if(open[0].dataset.id === open[1].dataset.id){
+        open.forEach(x => { x.classList.remove('open'); x.classList.add('matched'); });
+        found++;
+        if(found === number){
+          let xp = completeMini('match', found, number);
+          $('#gameBox').insertAdjacentHTML('beforeend', `<div class="game-success" style="margin-top:14px"><h3>¡Todas las parejas encontradas!</h3><p>+${xp} XP.</p></div>`);
+        }
+      }else{
+        setTimeout(() => { open.forEach(x => x.classList.remove('open')); open = []; }, 600);
+        return;
+      }
+      open = [];
+    }
+  }));
+}
+
+function startSpeed(){
+  miniGameType = 'speed';
+  mode = 'speed';
+  timeLeft = 60;
+  quiz = shuffleReal(raw).slice(0, 30);
+  qi = 0;
+  correct = 0;
+  views('quiz');
+  showQ();
+  timerId = setInterval(() => {
+    timeLeft--;
+    $('#timer').textContent = timeLeft + ' s';
+    if(timeLeft <= 0){
+      clearInterval(timerId);
+      finish();
+    }
+  }, 1000);
+}
+
+/* Simulador de Metrología */
+let measureInstrument = 'caliper', measureTarget = 12.35, measureNominal = 12.30, measureTol = 0.1, measureAttempts = 0;
+
+function openMetrologySimulator(){
+  views('metrology');
+  newMeasureChallenge();
+}
+
+function setInstrument(type, b){
+  measureInstrument = type;
+  $$('.instrument-tabs .btn').forEach(x => { x.classList.remove('primary'); x.classList.add('secondary'); });
+  b.classList.remove('secondary');
+  b.classList.add('primary');
+  newMeasureChallenge();
+}
+
+function newMeasureChallenge(){
+  measureAttempts = 0;
+  measureNominal = Math.round((5 + Math.random() * 20) * 10) / 10;
+  measureTarget = Math.round((measureNominal + (Math.random() * 0.2 - 0.1)) * 100) / 100;
+  renderManualMeasure();
+}
+
+function renderManualMeasure(){
+  $('#measureGame').innerHTML = `
+    <div class="card">
+      <div class="game-hud">
+        <div><h3>${measureInstrument === 'caliper' ? 'Calibrador Pie de Rey (0.05 mm)' : 'Micrómetro de Exteriores (0.01 mm)'}</h3></div>
+        <span class="game-chip">Nominal: ${measureNominal.toFixed(2)} ± ${measureTol} mm</span>
+      </div>
+      <div class="manual-instrument" style="padding:40px 20px;text-align:center">
+        <div style="font-size:1.8rem;font-weight:900;color:var(--amber);margin-bottom:12px">
+          [ Lectura fija: ${Math.floor(measureTarget)} mm | Coincidencia: +${(measureTarget % 1).toFixed(2)} mm ]
+        </div>
+        <p style="color:#2c260f">En taller real debes observar la línea del nonio que coincida exactamente con la escala principal.</p>
+      </div>
+      <div class="sim-actions">
+        <input id="readingAnswer" class="sim-input" type="number" step="0.01" placeholder="Tu lectura en mm">
+        <select id="complianceAnswer" class="sim-input">
+          <option value="">¿Cumple?</option>
+          <option value="yes">Cumple</option>
+          <option value="no">No cumple</option>
+        </select>
+        <button class="btn primary" onclick="checkManualAnswer()">Validar medición</button>
+      </div>
+      <div id="measureFeedback" class="feedback"></div>
+    </div>
+  `;
+}
+
+function checkManualAnswer(){
+  let ans = parseFloat($('#readingAnswer').value);
+  let dec = $('#complianceAnswer').value;
+  let f = $('#measureFeedback');
+  if(!Number.isFinite(ans) || !dec){ toast('Ingresa la medida y tu dictamen'); return; }
+  
+  let okRead = Math.abs(ans - measureTarget) <= 0.05;
+  let actualComplies = Math.abs(measureTarget - measureNominal) <= measureTol;
+  let okDec = dec === (actualComplies ? 'yes' : 'no');
+  
+  f.className = 'feedback show ' + (okRead && okDec ? 'good' : 'bad');
+  if(okRead && okDec){
+    f.innerHTML = `✅ ¡Inspección metrológica correcta! La lectura real es <b>${measureTarget.toFixed(2)} mm</b> y el dictamen fue acertado.<br><button class="btn primary" style="margin-top:10px" onclick="newMeasureChallenge()">Medir siguiente pieza →</button>`;
+    state.xp += 15;
+    save();
+  }else{
+    f.innerHTML = `❌ Error en el reporte. Valor exacto: ${measureTarget.toFixed(2)} mm. Revisa la suma del nonio y la tolerancia bilateral.`;
+  }
+}
+
+function resetProgress(){
+  if(confirm('¿Deseas reiniciar todo el progreso acumulado en este dispositivo?')){
+    state = {...DEFAULT_STATE};
+    save();
+    toast('Progreso reiniciado correctamente');
+  }
+}
+
+function toast(t){
+  let x = $('#toast');
+  x.textContent = t;
+  x.classList.add('show');
+  setTimeout(() => x.classList.remove('show'), 2600);
+}
+
+window.addEventListener('error', function(ev){
+  const box = document.getElementById('startupError');
+  if(box){
+    box.style.display = 'block';
+    box.textContent = 'Detalle de depuración: ' + (ev.message || 'error no especificado');
+  }
+});
+
+/* Inicialización segura */
+try{
+  renderStats();
+  renderLevels();
+}catch(err){
+  console.error("Error al cargar estado de Academia CATO:", err);
+}
+</script>
+</body>
+</html>
