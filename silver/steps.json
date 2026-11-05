@@ -1,0 +1,56 @@
+[
+ {
+  "id": "materia-prima",
+  "order": 1,
+  "name": "Materia prima",
+  "desc": "Alambre de acero SAE 1018/1015 calidad cold heading, importado. Control dimensional, aspecto superficial y dureza; cada rollo se pesa y se rotula (número, calibre, material, peso)."
+ },
+ {
+  "id": "trefilado",
+  "order": 2,
+  "name": "Trefilado",
+  "desc": "Decapado, estirado en trefiladoras al diámetro necesario y recocido en horno para dar la dureza adecuada."
+ },
+ {
+  "id": "remache-formado-en-frio",
+  "order": 3,
+  "name": "Remache (formado en frío)",
+  "desc": "La remachadora corta el alambre en trozos y, con golpes de estampadores en la matriz, forma cabeza y cuerpo. Sin arranque de viruta."
+ },
+ {
+  "id": "ranura",
+  "order": 4,
+  "name": "Ranura",
+  "desc": "Fresado en la cabeza de la ranura donde actúa el destornillador (estampa Phillips se forma en el golpe)."
+ },
+ {
+  "id": "rosca",
+  "order": 5,
+  "name": "Rosca",
+  "desc": "Laminación: un par de peines con el perfil grabado aplica presión y movimiento al remache. Queda formado el tornillo."
+ },
+ {
+  "id": "tuerca",
+  "order": 6,
+  "name": "Tuerca",
+  "desc": "Troquel: corta y perfora flejes (cuadradas); las hexagonales se forman en 5 pasos en la formadora. Luego roscado interior con machuelo."
+ },
+ {
+  "id": "cementado",
+  "order": 7,
+  "name": "Cementado",
+  "desc": "Calentar en horno en medio carbonoso para elevar el carbono superficial y templar (enfriar bruscamente en aceite): superficie dura, núcleo tenaz."
+ },
+ {
+  "id": "galvano",
+  "order": 8,
+  "name": "Galvano",
+  "desc": "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo, níquel; también cobrizado, latonado, fosfatado. Baños ecológicos."
+ },
+ {
+  "id": "empaque-y-despacho",
+  "order": 9,
+  "name": "Empaque y despacho",
+  "desc": "Madera hierro: cajas de 144 (1 gruesa). Estufa, lámina, bronce: cajas de 100. Industrial: bolsas selladas de 100 a 2.000 u. Cartones ≤ 30 kg. Control de calidad en todo el proceso."
+ }
+]

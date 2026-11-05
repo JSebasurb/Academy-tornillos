@@ -1,0 +1,156 @@
+[
+ {
+  "id": "q1",
+  "q": "¿Qué alambre usa CATO como materia prima principal?",
+  "options": [
+   "SAE 1018/1015 cold heading",
+   "Acero inoxidable 316",
+   "Aluminio 6061"
+  ],
+  "answer": 0,
+  "explanation": "Importado, calidad cold heading; se trefila al diámetro requerido."
+ },
+ {
+  "id": "q2",
+  "q": "¿Cómo se forma la rosca del tornillo?",
+  "options": [
+   "Fresado",
+   "Laminación con peines",
+   "Fundición"
+  ],
+  "answer": 1,
+  "explanation": "Un par de peines con perfil grabado presiona el remache."
+ },
+ {
+  "id": "q3",
+  "q": "¿En qué consiste el cementado?",
+  "options": [
+   "Recubrir con zinc",
+   "Calentar en medio carbonoso y templar",
+   "Pulir la cabeza"
+  ],
+  "answer": 1,
+  "explanation": "Aumenta el carbono superficial y la dureza."
+ },
+ {
+  "id": "q4",
+  "q": "Tipo autorroscante que CATO recomienda en vez de A, B y BP:",
+  "options": [
+   "AB",
+   "C",
+   "F"
+  ],
+  "answer": 0,
+  "explanation": "Une paso fino del B y punta del A."
+ },
+ {
+  "id": "q5",
+  "q": "Hueco piloto en madera blanda respecto al diámetro menor:",
+  "options": [
+   "Igual",
+   "15 % menor",
+   "30 % mayor"
+  ],
+  "answer": 1,
+  "explanation": "En maderas duras se usa el diámetro menor."
+ },
+ {
+  "id": "q6",
+  "q": "Longitud de rosca de un tornillo para madera ≈",
+  "options": [
+   "1/3",
+   "2/3",
+   "Total siempre"
+  ],
+  "answer": 1,
+  "explanation": "Menores de 3/4″ se roscan totalmente."
+ },
+ {
+  "id": "q7",
+  "q": "Una rosca 5/32″ Whitworth vs 8-32 americana:",
+  "options": [
+   "Idéntica",
+   "Diámetro un poco menor",
+   "Mucho mayor"
+  ],
+  "answer": 1,
+  "explanation": "Recomendación: tuercas y tornillos del mismo proveedor."
+ },
+ {
+  "id": "q8",
+  "q": "Si el agujero es muy pequeño y el torque excesivo, el tornillo…",
+  "options": [
+   "Se afloja",
+   "Se parte bajo la cabeza",
+   "Se dilata"
+  ],
+  "answer": 1,
+  "explanation": "Se descabeza: verificar agujero y calibrar el atornillador."
+ },
+ {
+  "id": "q9",
+  "q": "El tornillo representa en el costo de una unión roscada:",
+  "options": [
+   "5–20 %",
+   "50–60 %",
+   "80–90 %"
+  ],
+  "answer": 0,
+  "explanation": "El resto es preparación, mano de obra y administración."
+ },
+ {
+  "id": "q10",
+  "q": "Cabeza que CATO recomienda para sustituir Redonda, Lenteja y Binding:",
+  "options": [
+   "Hexagonal",
+   "Cilíndrica",
+   "Oval"
+  ],
+  "answer": 1,
+  "explanation": "Menos ítems, compras mayores y menos inspección."
+ },
+ {
+  "id": "q11",
+  "q": "¿Cuántos tornillos de hierro para madera trae la cajita?",
+  "options": [
+   "100",
+   "144",
+   "200"
+  ],
+  "answer": 1,
+  "explanation": "Una gruesa. Estufa/lámina: 100."
+ },
+ {
+  "id": "q12",
+  "q": "Peso máximo de cada cartón de despacho:",
+  "options": [
+   "10 kg",
+   "30 kg",
+   "50 kg"
+  ],
+  "answer": 1,
+  "explanation": "Tanto cajitas como bolsas industriales."
+ },
+ {
+  "id": "q13",
+  "q": "Paso en mm de una rosca de 20 TPI:",
+  "options": [
+   "1,27",
+   "0,79",
+   "2,54"
+  ],
+  "answer": 0,
+  "explanation": "25,4 ÷ 20 = 1,27 mm."
+ },
+ {
+  "id": "q14",
+  "q": "¿Año de fundación de Industrias Cato Ltda.?",
+  "options": [
+   "1970",
+   "1981",
+   "1989"
+  ],
+  "answer": 0,
+  "explanation": "En Cali, con 19 trabajadores."
+ }
+]

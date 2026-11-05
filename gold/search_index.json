@@ -1,0 +1,248 @@
+[
+ {
+  "type": "tabla",
+  "id": "cal",
+  "title": "Calibres americanos → diámetro nominal",
+  "text": "d = 0,060 + 0,013·N pulgadas. Columna catálogo en mm (ANSI)."
+ },
+ {
+  "type": "tabla",
+  "id": "unc",
+  "title": "Rosca UNC clase 2A (ordinaria)",
+  "text": "ANSI B1.1 · mm. En galvanizados/niquelados el diámetro máximo aumenta por la capa."
+ },
+ {
+  "type": "tabla",
+  "id": "unf",
+  "title": "Rosca UNF clase 2A (fina)",
+  "text": "ANSI B1.1 · mm."
+ },
+ {
+  "type": "tabla",
+  "id": "met",
+  "title": "Rosca métrica DIN 13 · externa 6g",
+  "text": "Dimensiones en mm. Paso: M7 = 1,0."
+ },
+ {
+  "type": "tabla",
+  "id": "ta",
+  "title": "Autorroscante tipo A (calibres 0–10)",
+  "text": "ANSI B18.6.4 · TPI ±10 %. Descontinuado en normas internacionales; use AB."
+ },
+ {
+  "type": "tabla",
+  "id": "tab",
+  "title": "Autorroscante tipo AB / B (calibres 0–10)",
+  "text": "ANSI B18.6.4 · paso fino. CATO recomienda AB."
+ },
+ {
+  "type": "tabla",
+  "id": "dry",
+  "title": "Drywall · cabeza y rosca",
+  "text": "Especificación de ingeniería Industrias CATO. Cementado; perfora láminas calibre 22–23."
+ },
+ {
+  "type": "tabla",
+  "id": "drl",
+  "title": "Drywall · tolerancia en longitud",
+  "text": "Longitud nominal (pulg) → mm máx / mín."
+ },
+ {
+  "type": "tabla",
+  "id": "agl",
+  "title": "Aglomerado · cabeza plana",
+  "text": "Tamaño de rosca en mm. K = altura de cabeza (ref.). Aplicación en metales/plásticos: revisar caso a caso."
+ },
+ {
+  "type": "tabla",
+  "id": "tlm",
+  "title": "Tolerancia de longitud · tornillo madera",
+  "text": "Norma ANSI B18.6.1. Tornillos menores de 3/4″ (19,05 mm) se roscan totalmente."
+ },
+ {
+  "type": "tabla",
+  "id": "tlx",
+  "title": "Tolerancia de longitud · milimétrico",
+  "text": "Según catálogo CATO."
+ },
+ {
+  "type": "tabla",
+  "id": "rem",
+  "title": "Remache cabeza plana · vástago",
+  "text": "ANSI B18.1 · mm."
+ },
+ {
+  "type": "cabeza",
+  "id": "plana-avellana",
+  "title": "Plana / Avellana",
+  "text": "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4."
+ },
+ {
+  "type": "cabeza",
+  "id": "oval",
+  "title": "Oval",
+  "text": "Avellana con cúpula: queda levemente saliente; presentación decorativa."
+ },
+ {
+  "type": "cabeza",
+  "id": "cilindrica",
+  "title": "Cilíndrica",
+  "text": "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias)."
+ },
+ {
+  "type": "cabeza",
+  "id": "redonda",
+  "title": "Redonda",
+  "text": "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera."
+ },
+ {
+  "type": "cabeza",
+  "id": "lenteja-pan",
+  "title": "Lenteja (Pan)",
+  "text": "Cabeza baja y ancha, radio R de cabeza."
+ },
+ {
+  "type": "cabeza",
+  "id": "fillister",
+  "title": "Fillister",
+  "text": "Cabeza cilíndrica abombada con lados rectos."
+ },
+ {
+  "type": "cabeza",
+  "id": "binding",
+  "title": "Binding",
+  "text": "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada."
+ },
+ {
+  "type": "cabeza",
+  "id": "hexagonal-con-arandela",
+  "title": "Hexagonal con arandela",
+  "text": "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente."
+ },
+ {
+  "type": "proceso",
+  "id": "materia-prima",
+  "title": "Materia prima",
+  "text": "Alambre de acero SAE 1018/1015 calidad cold heading, importado. Control dimensional, aspecto superficial y dureza; cada rollo se pesa y se rotula (número, calibre, material, peso)."
+ },
+ {
+  "type": "proceso",
+  "id": "trefilado",
+  "title": "Trefilado",
+  "text": "Decapado, estirado en trefiladoras al diámetro necesario y recocido en horno para dar la dureza adecuada."
+ },
+ {
+  "type": "proceso",
+  "id": "remache-formado-en-frio",
+  "title": "Remache (formado en frío)",
+  "text": "La remachadora corta el alambre en trozos y, con golpes de estampadores en la matriz, forma cabeza y cuerpo. Sin arranque de viruta."
+ },
+ {
+  "type": "proceso",
+  "id": "ranura",
+  "title": "Ranura",
+  "text": "Fresado en la cabeza de la ranura donde actúa el destornillador (estampa Phillips se forma en el golpe)."
+ },
+ {
+  "type": "proceso",
+  "id": "rosca",
+  "title": "Rosca",
+  "text": "Laminación: un par de peines con el perfil grabado aplica presión y movimiento al remache. Queda formado el tornillo."
+ },
+ {
+  "type": "proceso",
+  "id": "tuerca",
+  "title": "Tuerca",
+  "text": "Troquel: corta y perfora flejes (cuadradas); las hexagonales se forman en 5 pasos en la formadora. Luego roscado interior con machuelo."
+ },
+ {
+  "type": "proceso",
+  "id": "cementado",
+  "title": "Cementado",
+  "text": "Calentar en horno en medio carbonoso para elevar el carbono superficial y templar (enfriar bruscamente en aceite): superficie dura, núcleo tenaz."
+ },
+ {
+  "type": "proceso",
+  "id": "galvano",
+  "title": "Galvano",
+  "text": "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo, níquel; también cobrizado, latonado, fosfatado. Baños ecológicos."
+ },
+ {
+  "type": "proceso",
+  "id": "empaque-y-despacho",
+  "title": "Empaque y despacho",
+  "text": "Madera hierro: cajas de 144 (1 gruesa). Estufa, lámina, bronce: cajas de 100. Industrial: bolsas selladas de 100 a 2.000 u. Cartones ≤ 30 kg. Control de calidad en todo el proceso."
+ },
+ {
+  "type": "selector",
+  "id": "madera-maciza",
+  "title": "Madera maciza",
+  "text": "Tornillo para madera (hierro 144/caja; bronce 100/caja). Hueco piloto = diámetro menor en maderas duras; 15 % menor en blandas. Rosca ≈ 2/3 de la longitud."
+ },
+ {
+  "type": "selector",
+  "id": "aglomerado-mdf",
+  "title": "Aglomerado / MDF",
+  "text": "Tornillo para aglomerado cabeza plana, punta y rosca especiales; estría Z o H; tamaños 2,5–6 mm."
+ },
+ {
+  "type": "selector",
+  "id": "lamina-delgada-madera-prensada",
+  "title": "Lámina delgada / madera prensada",
+  "text": "Autorroscante tipo AB (recomendado). Perfora previamente según espesor; no sobrepasar el torque."
+ },
+ {
+  "type": "selector",
+  "id": "aluminio-zinc-bronce-plasticos",
+  "title": "Aluminio, zinc, bronce, plásticos",
+  "text": "Tipo F o BF (machuelo) o tipo B/C según espesor; consultar tabla de perforaciones."
+ },
+ {
+  "type": "selector",
+  "id": "drywall",
+  "title": "Drywall",
+  "text": "Tornillo drywall cementado, perfora láminas calibre 22–23; rosca fina u ordinaria, calibres 6–10."
+ },
+ {
+  "type": "selector",
+  "id": "agujero-ya-roscado",
+  "title": "Agujero ya roscado",
+  "text": "Tornillo estufa (UNC/UNF) o milimétrico DIN 13 (clase 6g)."
+ },
+ {
+  "type": "punta",
+  "id": "A",
+  "title": "Tipo A",
+  "text": "Rosca gruesa, punta aguda. Lámina delgada, prensados. Descontinuada en normas internacionales."
+ },
+ {
+  "type": "punta",
+  "id": "AB",
+  "title": "Tipo AB",
+  "text": "Paso fino del B + punta del A. El recomendado por CATO: mejor penetración y menos referencias en inventario."
+ },
+ {
+  "type": "punta",
+  "id": "B",
+  "title": "Tipo B",
+  "text": "Paso fino, sin punta. Lámina delgada y gruesa, fundiciones no ferrosas, plásticos."
+ },
+ {
+  "type": "punta",
+  "id": "C",
+  "title": "Tipo C",
+  "text": "Rosca de estufa con punta cónica ciega. Láminas gruesas; cuidado con el torque."
+ },
+ {
+  "type": "punta",
+  "id": "F",
+  "title": "Tipo F",
+  "text": "Tipo machuelo: aluminio, fundición de plomo/zinc, gris, bronce, plásticos. Rosca estufa con filos de corte."
+ },
+ {
+  "type": "punta",
+  "id": "BF",
+  "title": "Tipo BF",
+  "text": "Tipo B con filos de corte. Plásticos y asbesto."
+ }
+]

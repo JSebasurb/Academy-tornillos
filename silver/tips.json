@@ -1,0 +1,32 @@
+[
+ {
+  "id": "A",
+  "desc": "Rosca gruesa, punta aguda. Lámina delgada, prensados. Descontinuada en normas internacionales.",
+  "path": "M0 10L40 10L40 22L0 16Z"
+ },
+ {
+  "id": "AB",
+  "desc": "Paso fino del B + punta del A. El recomendado por CATO: mejor penetración y menos referencias en inventario.",
+  "path": "M0 10L40 10L40 22L0 16Z"
+ },
+ {
+  "id": "B",
+  "desc": "Paso fino, sin punta. Lámina delgada y gruesa, fundiciones no ferrosas, plásticos.",
+  "path": "M4 10L40 10L40 22L4 22Z"
+ },
+ {
+  "id": "C",
+  "desc": "Rosca de estufa con punta cónica ciega. Láminas gruesas; cuidado con el torque.",
+  "path": "M2 11L40 10L40 22L2 21Z"
+ },
+ {
+  "id": "F",
+  "desc": "Tipo machuelo: aluminio, fundición de plomo/zinc, gris, bronce, plásticos. Rosca estufa con filos de corte.",
+  "path": "M2 11L40 10L40 22L2 21ZM8 12V20"
+ },
+ {
+  "id": "BF",
+  "desc": "Tipo B con filos de corte. Plásticos y asbesto.",
+  "path": "M4 10L40 10L40 22L4 22ZM10 12V20"
+ }
+]

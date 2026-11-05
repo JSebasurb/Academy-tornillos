@@ -1,0 +1,312 @@
+{
+ "heads": {
+  "Plana / Avellana": [
+   "M12 16H68L48 34H32Z",
+   "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4."
+  ],
+  "Oval": [
+   "M12 22Q40 4 68 22L48 34H32Z",
+   "Avellana con cúpula: queda levemente saliente; presentación decorativa."
+  ],
+  "Cilíndrica": [
+   "M22 32V14Q22 10 26 10H54Q58 10 58 14V32Z",
+   "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias)."
+  ],
+  "Redonda": [
+   "M20 32Q20 8 40 8Q60 8 60 32Z",
+   "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera."
+  ],
+  "Lenteja (Pan)": [
+   "M14 32Q18 14 40 12Q62 14 66 32Z",
+   "Cabeza baja y ancha, radio R de cabeza."
+  ],
+  "Fillister": [
+   "M22 32V18Q40 6 58 18V32Z",
+   "Cabeza cilíndrica abombada con lados rectos."
+  ],
+  "Binding": [
+   "M16 32L22 28V20Q40 8 58 20V28L64 32Z",
+   "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada."
+  ],
+  "Hexagonal con arandela": [
+   "M14 28H66V32H14ZM24 28V12H56V28Z",
+   "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente."
+  ]
+ },
+ "tips": [
+  [
+   "A",
+   "Rosca gruesa, punta aguda. Lámina delgada, prensados. Descontinuada en normas internacionales.",
+   "M0 10L40 10L40 22L0 16Z"
+  ],
+  [
+   "AB",
+   "Paso fino del B + punta del A. El recomendado por CATO: mejor penetración y menos referencias en inventario.",
+   "M0 10L40 10L40 22L0 16Z"
+  ],
+  [
+   "B",
+   "Paso fino, sin punta. Lámina delgada y gruesa, fundiciones no ferrosas, plásticos.",
+   "M4 10L40 10L40 22L4 22Z"
+  ],
+  [
+   "C",
+   "Rosca de estufa con punta cónica ciega. Láminas gruesas; cuidado con el torque.",
+   "M2 11L40 10L40 22L2 21Z"
+  ],
+  [
+   "F",
+   "Tipo machuelo: aluminio, fundición de plomo/zinc, gris, bronce, plásticos. Rosca estufa con filos de corte.",
+   "M2 11L40 10L40 22L2 21ZM8 12V20"
+  ],
+  [
+   "BF",
+   "Tipo B con filos de corte. Plásticos y asbesto.",
+   "M4 10L40 10L40 22L4 22ZM10 12V20"
+  ]
+ ],
+ "steps": [
+  [
+   "Materia prima",
+   "Alambre de acero SAE 1018/1015 calidad cold heading, importado. Control dimensional, aspecto superficial y dureza; cada rollo se pesa y se rotula (número, calibre, material, peso)."
+  ],
+  [
+   "Trefilado",
+   "Decapado, estirado en trefiladoras al diámetro necesario y recocido en horno para dar la dureza adecuada."
+  ],
+  [
+   "Remache (formado en frío)",
+   "La remachadora corta el alambre en trozos y, con golpes de estampadores en la matriz, forma cabeza y cuerpo. Sin arranque de viruta."
+  ],
+  [
+   "Ranura",
+   "Fresado en la cabeza de la ranura donde actúa el destornillador (estampa Phillips se forma en el golpe)."
+  ],
+  [
+   "Rosca",
+   "Laminación: un par de peines con el perfil grabado aplica presión y movimiento al remache. Queda formado el tornillo."
+  ],
+  [
+   "Tuerca",
+   "Troquel: corta y perfora flejes (cuadradas); las hexagonales se forman en 5 pasos en la formadora. Luego roscado interior con machuelo."
+  ],
+  [
+   "Cementado",
+   "Calentar en horno en medio carbonoso para elevar el carbono superficial y templar (enfriar bruscamente en aceite): superficie dura, núcleo tenaz."
+  ],
+  [
+   "Galvano",
+   "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo, níquel; también cobrizado, latonado, fosfatado. Baños ecológicos."
+  ],
+  [
+   "Empaque y despacho",
+   "Madera hierro: cajas de 144 (1 gruesa). Estufa, lámina, bronce: cajas de 100. Industrial: bolsas selladas de 100 a 2.000 u. Cartones ≤ 30 kg. Control de calidad en todo el proceso."
+  ]
+ ],
+ "timeline": [
+  [
+   1970,
+   "Se funda Industrias Cato Ltda. en Cali con 19 trabajadores."
+  ],
+  [
+   1972,
+   "Intercambio tecnológico con empresas de EE. UU. y Alemania."
+  ],
+  [
+   1974,
+   "Primera maquinaria moderna; tornillos para lámina; liderazgo en tornillos pequeños."
+  ],
+  [
+   1976,
+   "Nueva sede en la carrera 5a Norte: 3.000 m² construidos."
+  ],
+  [
+   1978,
+   "Maquinaria de alta velocidad para tornillería eléctrica."
+  ],
+  [
+   1981,
+   "Se renueva más del 50 % de la planta; línea Phillips para lámina."
+  ],
+  [
+   1983,
+   "Pasa a Industrias Cato S.A.; especiales = 50 % de la producción."
+  ],
+  [
+   1988,
+   "+30 % de capacidad instalada; telemercadeo."
+  ],
+  [
+   1989,
+   "Se construye la moderna sede."
+  ]
+ ],
+ "selector": [
+  [
+   "Madera maciza",
+   "Tornillo para madera (hierro 144/caja; bronce 100/caja). Hueco piloto = diámetro menor en maderas duras; 15 % menor en blandas. Rosca ≈ 2/3 de la longitud."
+  ],
+  [
+   "Aglomerado / MDF",
+   "Tornillo para aglomerado cabeza plana, punta y rosca especiales; estría Z o H; tamaños 2,5–6 mm."
+  ],
+  [
+   "Lámina delgada / madera prensada",
+   "Autorroscante tipo AB (recomendado). Perfora previamente según espesor; no sobrepasar el torque."
+  ],
+  [
+   "Aluminio, zinc, bronce, plásticos",
+   "Tipo F o BF (machuelo) o tipo B/C según espesor; consultar tabla de perforaciones."
+  ],
+  [
+   "Drywall",
+   "Tornillo drywall cementado, perfora láminas calibre 22–23; rosca fina u ordinaria, calibres 6–10."
+  ],
+  [
+   "Agujero ya roscado",
+   "Tornillo estufa (UNC/UNF) o milimétrico DIN 13 (clase 6g)."
+  ]
+ ],
+ "quiz": [
+  [
+   "¿Qué alambre usa CATO como materia prima principal?",
+   [
+    "SAE 1018/1015 cold heading",
+    "Acero inoxidable 316",
+    "Aluminio 6061"
+   ],
+   0,
+   "Importado, calidad cold heading; se trefila al diámetro requerido."
+  ],
+  [
+   "¿Cómo se forma la rosca del tornillo?",
+   [
+    "Fresado",
+    "Laminación con peines",
+    "Fundición"
+   ],
+   1,
+   "Un par de peines con perfil grabado presiona el remache."
+  ],
+  [
+   "¿En qué consiste el cementado?",
+   [
+    "Recubrir con zinc",
+    "Calentar en medio carbonoso y templar",
+    "Pulir la cabeza"
+   ],
+   1,
+   "Aumenta el carbono superficial y la dureza."
+  ],
+  [
+   "Tipo autorroscante que CATO recomienda en vez de A, B y BP:",
+   [
+    "AB",
+    "C",
+    "F"
+   ],
+   0,
+   "Une paso fino del B y punta del A."
+  ],
+  [
+   "Hueco piloto en madera blanda respecto al diámetro menor:",
+   [
+    "Igual",
+    "15 % menor",
+    "30 % mayor"
+   ],
+   1,
+   "En maderas duras se usa el diámetro menor."
+  ],
+  [
+   "Longitud de rosca de un tornillo para madera ≈",
+   [
+    "1/3",
+    "2/3",
+    "Total siempre"
+   ],
+   1,
+   "Menores de 3/4″ se roscan totalmente."
+  ],
+  [
+   "Una rosca 5/32″ Whitworth vs 8-32 americana:",
+   [
+    "Idéntica",
+    "Diámetro un poco menor",
+    "Mucho mayor"
+   ],
+   1,
+   "Recomendación: tuercas y tornillos del mismo proveedor."
+  ],
+  [
+   "Si el agujero es muy pequeño y el torque excesivo, el tornillo…",
+   [
+    "Se afloja",
+    "Se parte bajo la cabeza",
+    "Se dilata"
+   ],
+   1,
+   "Se descabeza: verificar agujero y calibrar el atornillador."
+  ],
+  [
+   "El tornillo representa en el costo de una unión roscada:",
+   [
+    "5–20 %",
+    "50–60 %",
+    "80–90 %"
+   ],
+   0,
+   "El resto es preparación, mano de obra y administración."
+  ],
+  [
+   "Cabeza que CATO recomienda para sustituir Redonda, Lenteja y Binding:",
+   [
+    "Hexagonal",
+    "Cilíndrica",
+    "Oval"
+   ],
+   1,
+   "Menos ítems, compras mayores y menos inspección."
+  ],
+  [
+   "¿Cuántos tornillos de hierro para madera trae la cajita?",
+   [
+    "100",
+    "144",
+    "200"
+   ],
+   1,
+   "Una gruesa. Estufa/lámina: 100."
+  ],
+  [
+   "Peso máximo de cada cartón de despacho:",
+   [
+    "10 kg",
+    "30 kg",
+    "50 kg"
+   ],
+   1,
+   "Tanto cajitas como bolsas industriales."
+  ],
+  [
+   "Paso en mm de una rosca de 20 TPI:",
+   [
+    "1,27",
+    "0,79",
+    "2,54"
+   ],
+   0,
+   "25,4 ÷ 20 = 1,27 mm."
+  ],
+  [
+   "¿Año de fundación de Industrias Cato Ltda.?",
+   [
+    "1970",
+    "1981",
+    "1989"
+   ],
+   0,
+   "En Cali, con 19 trabajadores."
+  ]
+ ]
+}

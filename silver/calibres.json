@@ -1,0 +1,82 @@
+[
+ {
+  "n": 0,
+  "mm_catalogo": 1.52,
+  "pulgadas": 0.06
+ },
+ {
+  "n": 1,
+  "mm_catalogo": 1.85,
+  "pulgadas": 0.073
+ },
+ {
+  "n": 2,
+  "mm_catalogo": 2.18,
+  "pulgadas": 0.086
+ },
+ {
+  "n": 3,
+  "mm_catalogo": 2.51,
+  "pulgadas": 0.099
+ },
+ {
+  "n": 4,
+  "mm_catalogo": 2.84,
+  "pulgadas": 0.112
+ },
+ {
+  "n": 5,
+  "mm_catalogo": 3.18,
+  "pulgadas": 0.125
+ },
+ {
+  "n": 6,
+  "mm_catalogo": 3.51,
+  "pulgadas": 0.138
+ },
+ {
+  "n": 7,
+  "mm_catalogo": 3.84,
+  "pulgadas": 0.151
+ },
+ {
+  "n": 8,
+  "mm_catalogo": 4.17,
+  "pulgadas": 0.164
+ },
+ {
+  "n": 9,
+  "mm_catalogo": 4.5,
+  "pulgadas": 0.177
+ },
+ {
+  "n": 10,
+  "mm_catalogo": 4.83,
+  "pulgadas": 0.19
+ },
+ {
+  "n": 12,
+  "mm_catalogo": 5.49,
+  "pulgadas": 0.216
+ },
+ {
+  "n": 14,
+  "mm_catalogo": 6.15,
+  "pulgadas": 0.242
+ },
+ {
+  "n": 16,
+  "mm_catalogo": 6.81,
+  "pulgadas": 0.268
+ },
+ {
+  "n": 18,
+  "mm_catalogo": 7.47,
+  "pulgadas": 0.294
+ },
+ {
+  "n": 20,
+  "mm_catalogo": 8.13,
+  "pulgadas": 0.32
+ }
+]

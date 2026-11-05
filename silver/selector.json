@@ -1,0 +1,32 @@
+[
+ {
+  "id": "madera-maciza",
+  "name": "Madera maciza",
+  "text": "Tornillo para madera (hierro 144/caja; bronce 100/caja). Hueco piloto = diámetro menor en maderas duras; 15 % menor en blandas. Rosca ≈ 2/3 de la longitud."
+ },
+ {
+  "id": "aglomerado-mdf",
+  "name": "Aglomerado / MDF",
+  "text": "Tornillo para aglomerado cabeza plana, punta y rosca especiales; estría Z o H; tamaños 2,5–6 mm."
+ },
+ {
+  "id": "lamina-delgada-madera-prensada",
+  "name": "Lámina delgada / madera prensada",
+  "text": "Autorroscante tipo AB (recomendado). Perfora previamente según espesor; no sobrepasar el torque."
+ },
+ {
+  "id": "aluminio-zinc-bronce-plasticos",
+  "name": "Aluminio, zinc, bronce, plásticos",
+  "text": "Tipo F o BF (machuelo) o tipo B/C según espesor; consultar tabla de perforaciones."
+ },
+ {
+  "id": "drywall",
+  "name": "Drywall",
+  "text": "Tornillo drywall cementado, perfora láminas calibre 22–23; rosca fina u ordinaria, calibres 6–10."
+ },
+ {
+  "id": "agujero-ya-roscado",
+  "name": "Agujero ya roscado",
+  "text": "Tornillo estufa (UNC/UNF) o milimétrico DIN 13 (clase 6g)."
+ }
+]
