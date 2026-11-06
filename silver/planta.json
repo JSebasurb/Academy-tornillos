@@ -1,0 +1,56 @@
+[
+ {
+  "id": "trefiladora",
+  "name": "Trefiladora",
+  "source": "Catálogo",
+  "desc": "El alambrón se decapa y se estira en máquinas trefiladoras hasta el diámetro de alambre de cada calibre; el recocido en horno le da la dureza necesaria."
+ },
+ {
+  "id": "remachadora-formado-en-frio",
+  "name": "Remachadora (formado en frío)",
+  "source": "Catálogo",
+  "desc": "Corta el alambre en trozos y los introduce en una matriz donde golpes de estampadores forman cabeza y cuerpo del remache, sin arranque de viruta."
+ },
+ {
+  "id": "matrices-y-estampadores",
+  "name": "Matrices y estampadores",
+  "source": "General",
+  "desc": "La matriz aloja la pieza y los estampadores dan la forma (y la estampa Phillips) de la cabeza. Su desgaste cambia dimensiones de cabeza y estría, por eso se controlan por muestreo. CATO desarrolla sus propias herramientas."
+ },
+ {
+  "id": "fresadora-de-ranura",
+  "name": "Fresadora de ranura",
+  "source": "Catálogo",
+  "desc": "Fresa en la parte superior de la cabeza la ranura donde actúa el destornillador de pala."
+ },
+ {
+  "id": "laminadora-de-rosca-peines",
+  "name": "Laminadora de rosca (peines)",
+  "source": "Catálogo",
+  "desc": "Un par de peines con el perfil grabado aplica presión y movimiento al remache. En general, la rosca se forma por deformación del material, no por arranque de viruta."
+ },
+ {
+  "id": "formadora-de-tuercas-y-roscado-con-machuelo",
+  "name": "Formadora de tuercas y roscado con machuelo",
+  "source": "Catálogo",
+  "desc": "Troquel para cortar y perforar flejes (tuercas cuadradas); las hexagonales se forman en cinco pasos consecutivos. La rosca interior se corta con machuelo."
+ },
+ {
+  "id": "horno-de-cementado-y-temple-en-aceite",
+  "name": "Horno de cementado y temple en aceite",
+  "source": "Catálogo",
+  "desc": "Los tornillos se calientan en medio carbonoso para aumentar el carbono superficial y se enfrían bruscamente en aceite: superficie dura y mejor resistencia mecánica."
+ },
+ {
+  "id": "lineas-de-galvano",
+  "name": "Líneas de galvano",
+  "source": "Catálogo",
+  "desc": "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo y niquelado; también cobrizado, latonado y fosfatado. Baños ecológicos."
+ },
+ {
+  "id": "sistematizacion-y-telemercadeo",
+  "name": "Sistematización y telemercadeo",
+  "source": "Catálogo",
+  "desc": "Desde 1983 la compañía se sistematiza por computador en todas sus áreas; en 1988 se instala el telemercadeo para atención de clientes."
+ }
+]

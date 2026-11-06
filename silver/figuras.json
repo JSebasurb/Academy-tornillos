@@ -1,0 +1,44 @@
+[
+ {
+  "id": "estampas-phillips",
+  "section": "estampas",
+  "title": "Ranura y estampa Phillips (cabeza cilíndrica)",
+  "caption": "Vista lateral y de planta del catálogo. Ranura: J ancho, T profundidad. Estampa (estría) Phillips: M diámetro, S profundidad, N ancho, y número de destornillador (0–4).",
+  "image": "cab_cilindrica_phillips"
+ },
+ {
+  "id": "estampas-especiales",
+  "section": "estampas",
+  "title": "Estampas especiales (foto del catálogo)",
+  "caption": "Tornillos especiales fabricados por CATO con estampas de seis lóbulos (hexalobulares), una de ellas con pin central. CATO desarrolla productos y herramientas para necesidades de la industria.",
+  "image": "foto_estampas_especiales"
+ },
+ {
+  "id": "perfil-rosca",
+  "section": "roscas",
+  "title": "Perfil de rosca (60°)",
+  "caption": "Detalle de forma de rosca: ancho de arista ≤ 0,10 mm hasta calibre 8 inclusive y ≤ 0,15 mm en mayores; leve radio permisible.",
+  "image": "perfil_rosca"
+ },
+ {
+  "id": "rosca-unc-unf",
+  "section": "roscas",
+  "title": "Rosca UNC / UNF clase 2A",
+  "caption": "Rosca externa americana: diámetro mayor, medio y menor. En galvanizados o niquelados el diámetro máximo aumenta por la capa.",
+  "image": "rosca_unc_unf"
+ },
+ {
+  "id": "rosca-metrica",
+  "section": "roscas",
+  "title": "Rosca métrica DIN 13 · clase 6g",
+  "caption": "Rosca externa métrica: diámetro mayor, medio y menor; el paso se expresa en mm (M6 × 1,0).",
+  "image": "rosca_metrica"
+ },
+ {
+  "id": "medir-tornillo",
+  "section": "medicion",
+  "title": "Cómo medir un tornillo",
+  "caption": "Calibrador sobre diámetro de rosca, longitud (planas/avellán, ovales y otras cabezas), diámetro y altura de cabeza (H = L − L1 en oval y otras), ancho y profundidad de ranura. La longitud se mide paralela al eje, desde el diámetro mayor de la superficie de apoyo de la cabeza hasta la punta.",
+  "image": "medir_tornillo"
+ }
+]

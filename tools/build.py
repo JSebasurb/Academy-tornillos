@@ -18,12 +18,24 @@ def silver():
         cols = [{'name': n, 'numeric': all(num(r[i]) for r in rows)} for i, n in enumerate(t['columns'])]
         tables.append({'id': tid, 'title': t['title'], 'note': t['note'], 'columns': cols, 'rows': [[x.strip() for x in r] for r in rows]})
     W(S/'tables.json', tables)
-    W(S/'heads.json', [{'id': slug(k), 'name': k, 'path': v[0], 'desc': v[1]} for k, v in c['heads'].items()])
+    W(S/'heads.json', [{'id': slug(k), 'name': k, 'path': v[0], 'desc': v[1], 'figura': v[2]} for k, v in c['heads'].items()])
     W(S/'tips.json', [{'id': x[0], 'desc': x[1], 'path': x[2]} for x in c['tips']])
     W(S/'steps.json', [{'id': slug(x[0]), 'order': i+1, 'name': x[0], 'desc': x[1]} for i, x in enumerate(c['steps'])])
     W(S/'timeline.json', [{'year': x[0], 'text': x[1]} for x in c['timeline']])
     W(S/'selector.json', [{'id': slug(x[0]), 'name': x[0], 'text': x[1]} for x in c['selector']])
-    W(S/'quiz.json', [{'id': f'q{i+1}', 'q': x[0], 'options': x[1], 'answer': x[2], 'explanation': x[3]} for i, x in enumerate(c['quiz'])])
+    CATS = {'mat': 'Materiales y fabricación', 'cab': 'Cabezas y estampas', 'ros': 'Roscas y calibres', 'aut': 'Autorroscantes', 'apl': 'Aplicaciones y empaque', 'cal': 'Medición, torque y calidad', 'rem': 'Remaches y espárragos', 'ope': 'Operación: registros y muestreo', 'emp': 'Historia de CATO'}
+    qs = []
+    for i, l in enumerate(x for x in (B/'quiz_banco.txt').read_text('utf8').splitlines() if x.strip() and not x.startswith('#')):
+        cat, lvl, q, ok, *rest = [p.strip() for p in l.split('|')]; wr, exp = rest[:3], rest[3]
+        pos = i % 4  # posición de la correcta repartida de forma pareja
+        opts = wr[:pos] + [ok] + wr[pos:]
+        qs.append({'id': f'q{i+1}', 'cat': cat, 'level': int(lvl), 'q': q, 'options': opts, 'answer': pos, 'explanation': exp})
+    W(S/'quiz.json', qs); W(S/'quizcats.json', CATS)
+    W(S/'planta.json', [{'id': slug(x[0]), 'name': x[0], 'source': x[1], 'desc': x[2]} for x in c['planta']])
+    W(S/'terminos.json', [{'id': slug(x[0]), 'name': x[0], 'source': x[1], 'desc': x[2]} for x in c['terminos']])
+    W(S/'instrumentos.json', [{'id': slug(x[0]), 'name': x[0], 'source': x[1], 'desc': x[2]} for x in c['instrumentos']])
+    W(S/'diagnostico.json', [{'id': f'd{i+1}', 'case': x[0], 'options': x[1], 'answer': x[2], 'explanation': x[3]} for i, x in enumerate(c['diagnostico'])])
+    W(S/'figuras.json', [{'id': x[0], 'section': x[1], 'title': x[2], 'caption': x[3], 'image': x[4]} for x in c['figuras']])
     W(S/'calibres.json', [{'n': int(r[0]), 'mm_catalogo': float(r[1]), 'pulgadas': round(0.06+0.013*int(r[0]), 4)} for r in next(t for t in tables if t['id'] == 'cal')['rows']])
 
 # ---------- VALIDACIÓN (calidad de datos) ----------
@@ -40,14 +52,39 @@ def validate():
                 k = names.index(nm[:-3]+'mín')
                 for r in t['rows']:
                     if num(r[j]) and num(r[k]) and float(r[j]) < float(r[k]): err.append(f"{t['id']} {r[0]}: {nm} < mín")
+    for r in T['mst']['rows']:
+        if int(r[1]) != int(r[2]) * int(r[3]): err.append(f"mst {r[0]}: registros ≠ idas × registros por ida")
+    for r in T['par']['rows']:  # el torque crece con el calibre
+        v = [float(x) for x in r[1:] if num(x)]
+        if v != sorted(v): warn.append(f"par {r[0]}: el catálogo muestra un torque no creciente (calibre 7 = 40 > calibre 8 = 39); transcrito tal cual, verificar con CATO")
+    for r in T['pls']['rows']:
+        if float(r[2]) < float(r[3]): err.append(f"pls {r[0]}: perforación fenólica menor que la de celulosa")
     for r in T['cal']['rows']:
         if abs(float(r[1]) - 25.4*(0.06+0.013*int(r[0]))) > 0.03: err.append(f"calibre {r[0]} se aparta de la fórmula ANSI")
     for tid in ('unc', 'unf'):
         for r in T[tid]['rows']:
             if not (float(r[1]) > float(r[3]) > float(r[5])): err.append(f"{tid} {r[0]}: jerarquía mayor>medio>menor")
-    for q in json.loads((S/'quiz.json').read_text('utf8')):
+    Q = json.loads((S/'quiz.json').read_text('utf8')); CT = json.loads((S/'quizcats.json').read_text('utf8'))
+    for q in Q:
         if not 0 <= q['answer'] < len(q['options']): err.append(f"{q['id']}: respuesta fuera de rango")
-    ids = [x['id'] for f in ('heads', 'steps', 'selector', 'quiz') for x in json.loads((S/f'{f}.json').read_text('utf8'))]
+        if len(q['options']) != 4 or len(set(q['options'])) != 4: err.append(f"{q['id']}: debe tener 4 opciones distintas")
+        if q['cat'] not in CT or q['level'] not in (1, 2, 3): err.append(f"{q['id']}: categoría o nivel inválido")
+    if len({q['q'] for q in Q}) != len(Q): err.append('preguntas duplicadas')
+    longer = sum(len(q['options'][q['answer']]) > max(len(o) for i, o in enumerate(q['options']) if i != q['answer']) for q in Q)
+    if longer / len(Q) > .45: warn.append(f'sesgo de longitud: la correcta es la más larga en {longer}/{len(Q)} preguntas')
+    for c in CT:
+        if sum(q['cat'] == c for q in Q) < 5: warn.append(f'categoría {c} con menos de 5 preguntas')
+    for x in json.loads((S/'figuras.json').read_text('utf8')) + json.loads((S/'heads.json').read_text('utf8')):
+        im = x.get('image') or x.get('figura')
+        if not (S/'images'/f'{im}.png').exists(): err.append(f"falta imagen {im}")
+    for x in json.loads((S/'tips.json').read_text('utf8')):
+        if not (S/'images'/f"punta_{x['id']}.png").exists(): err.append(f"falta imagen de la punta {x['id']}")
+    for d in json.loads((S/'diagnostico.json').read_text('utf8')):
+        if not 0 <= d['answer'] < len(d['options']): err.append(f"{d['id']}: respuesta fuera de rango")
+    for f in ('planta', 'instrumentos'):
+        for x in json.loads((S/f'{f}.json').read_text('utf8')):
+            if not x['source'].startswith(('Catálogo', 'General')): err.append(f"{f}/{x['id']}: fuente inválida")
+    ids = [x['id'] for f in ('heads', 'steps', 'selector', 'quiz', 'planta', 'instrumentos', 'diagnostico') for x in json.loads((S/f'{f}.json').read_text('utf8'))]
     if len(ids) != len(set(ids)): err.append('ids duplicados')
     W(S/'validation_report.json', {'ok': not err, 'errors': err, 'warnings': warn, 'tables': len(T)})
     return err
@@ -57,11 +94,16 @@ def gold():
     L = lambda f: json.loads((S/f'{f}.json').read_text('utf8'))
     tabs = {t['id']: {'t': t['title'], 'n': t['note'], 'c': [c['name'] for c in t['columns']], 'r': t['rows']} for t in L('tables')}
     cato = {'version': 1, 'heads': L('heads'), 'tips': L('tips'), 'steps': L('steps'), 'timeline': L('timeline'),
-            'selector': L('selector'), 'quiz': L('quiz'), 'tables': tabs, 'calibres': L('calibres')}
+            'selector': L('selector'), 'quiz': L('quiz'), 'quizcats': json.loads((S/'quizcats.json').read_text('utf8')), 'planta': L('planta'), 'instrumentos': L('instrumentos'), 'terminos': L('terminos'), 'diagnostico': L('diagnostico'), 'tables': tabs, 'calibres': L('calibres')}
     idx = [{'type': 'tabla', 'id': k, 'title': v['t'], 'text': v['n']} for k, v in tabs.items()]
-    for k, f in (('cabeza', 'heads'), ('proceso', 'steps'), ('selector', 'selector')):
+    for k, f in (('cabeza', 'heads'), ('proceso', 'steps'), ('selector', 'selector'), ('planta', 'planta'), ('instrumento', 'instrumentos')):
         idx += [{'type': k, 'id': x['id'], 'title': x['name'], 'text': x.get('desc') or x.get('text')} for x in L(f)]
     idx += [{'type': 'punta', 'id': x['id'], 'title': 'Tipo ' + x['id'], 'text': x['desc']} for x in L('tips')]
+    import base64
+    img = lambda n: ('data:image/png;base64,' + base64.b64encode((S/'images'/f'{n}.png').read_bytes()).decode()) if (S/'images'/f'{n}.png').exists() else None
+    for x in cato['tips']: x['img'] = img('punta_' + x['id'])
+    cato['figuras'] = [dict(f, img=img(f['image'])) for f in L('figuras')]
+    for x in cato['heads']: x['img'] = img(x['figura'])
     G.mkdir(exist_ok=True); W(G/'cato.json', cato); W(G/'search_index.json', idx)
     for k, v in tabs.items():
         p = G/'csv'/f'{k}.csv'; p.parent.mkdir(exist_ok=True)
@@ -82,7 +124,7 @@ def site(cato):
     (OUT/'sw.js').write_text((SRC/'pwa'/'sw.js').read_text('utf8').replace('@@VERSION@@', ver).replace('@@FILES@@', json.dumps(files)), 'utf8')
     (OUT/'.nojekyll').write_text('')
     (R/'dist').mkdir(exist_ok=True)  # versión de un solo archivo (sin servidor)
-    (R/'dist'/'Academia_CATO_standalone.html').write_text(html.replace('<script src="data/gold.js"></script>', '<script>' + gjs + '</script>'), 'utf8')
+    (R/'dist'/'Academia_Tornillo_standalone.html').write_text(html.replace('<script src="data/gold.js"></script>', '<script>' + gjs + '</script>'), 'utf8')
     print('build', ver, '·', len(html)//1024, 'KB')
 
 if __name__ == '__main__':

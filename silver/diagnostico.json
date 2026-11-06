@@ -1,0 +1,79 @@
+[
+ {
+  "id": "d1",
+  "case": "El tornillo para lámina se parte justo bajo la cabeza al apretar.",
+  "options": [
+   "Agujero muy pequeño y torque superior al especificado",
+   "Rosca de paso fino",
+   "Exceso de zinc"
+  ],
+  "answer": 0,
+  "explanation": "Verifica agujero según calibre y espesor y gradúa el atornillador al torque máximo."
+ },
+ {
+  "id": "d2",
+  "case": "Con un destornillador de pala más ancho que la ranura se revienta la cabeza.",
+  "options": [
+   "Falta de cementado",
+   "Se excede el torque por herramienta de tamaño inadecuado",
+   "Rosca clase 3A"
+  ],
+  "answer": 1,
+  "explanation": "El destornillador debe tocar toda la ranura; un tamaño apropiado alarga la vida de la herramienta y evita deformar la estampa."
+ },
+ {
+  "id": "d3",
+  "case": "La tuerca 8-32 de un proveedor no ajusta en el tornillo 5/32″ de otro.",
+  "options": [
+   "La rosca 5/32″ Whitworth tiene diámetro algo menor",
+   "El tornillo está sin cementar",
+   "Es un problema de zincado"
+  ],
+  "answer": 0,
+  "explanation": "Obtén tuercas y tornillos del mismo proveedor o confirma el ajuste funcional."
+ },
+ {
+  "id": "d4",
+  "case": "Se parte el tornillo al entrar en roble. ¿Qué hueco piloto usar?",
+  "options": [
+   "Broca 15 % menor que el diámetro menor",
+   "Broca igual al diámetro menor del tornillo",
+   "Sin hueco piloto"
+  ],
+  "answer": 1,
+  "explanation": "Maderas duras: igual al diámetro menor; blandas (pino): 15 % menos. Considera también la humedad."
+ },
+ {
+  "id": "d5",
+  "case": "Debes atornillar aluminio fundido sin roscar previamente. ¿Qué tipo?",
+  "options": [
+   "Tipo A",
+   "Tipo F (machuelo)",
+   "Drywall"
+  ],
+  "answer": 1,
+  "explanation": "F y BF llevan filos de corte para aluminio, fundiciones, bronce y plásticos."
+ },
+ {
+  "id": "d6",
+  "case": "En lámina muy gruesa, el tipo C rompe por torque elevado. ¿Alternativa?",
+  "options": [
+   "Aumentar el torque",
+   "Roscar previamente y usar tornillo estufa",
+   "Cambiar a tipo A"
+  ],
+  "answer": 1,
+  "explanation": "Con piezas demasiado gruesas se requiere torque que el tornillo no soporta."
+ },
+ {
+  "id": "d7",
+  "case": "El inventario tiene tipos A, B y BP. ¿Cómo simplificar?",
+  "options": [
+   "Unificar en tipo AB",
+   "Eliminar el AB",
+   "Comprar solo tipo A"
+  ],
+  "answer": 0,
+  "explanation": "AB incorpora paso fino y punta del A; menor costo de control y manejo."
+ }
+]

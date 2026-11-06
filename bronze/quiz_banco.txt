@@ -1,0 +1,131 @@
+# cat|nivel|pregunta|correcta|mala1|mala2|mala3|explicación   (nivel 1 básico · 2 intermedio · 3 avanzado)
+mat|1|¿Qué alambre usa CATO principalmente como materia prima?|Acero SAE 1018/1015 calidad cold heading|Acero inoxidable AISI 304 en barra|Aluminio 6061 en rollo|Latón 60/40 trefilado|Es alambrón de acero importado, trefilado al diámetro de cada referencia.
+mat|1|¿Cómo se forman la cabeza y el cuerpo del remache?|Con estampadores que golpean el alambre dentro de una matriz|Torneando la barra en un torno automático|Fundiendo el acero en un molde|Doblando el alambre con rodillos calientes|Es formado en frío: la remachadora corta el alambre y lo golpea en la matriz, sin arranque de viruta.
+mat|1|¿Cómo se fabrica la rosca de un tornillo en CATO?|Por laminación con un par de peines grabados|Cortándola con machuelo|Fresándola con una fresa madre|Fundiéndola en la matriz|Los peines aplican presión y movimiento al remache. El machuelo se usa en la rosca interior de tuercas.
+mat|2|¿Para qué sirve el recocido del alambre después del trefilado?|Darle la dureza necesaria para el formado|Aumentar el carbono superficial|Protegerlo contra la corrosión|Estampar la ranura|El recocido en horno ajusta la dureza del alambre; el carbono superficial lo aumenta el cementado.
+mat|2|¿Qué se busca con el cementado?|Aumentar el carbono superficial y endurecer la superficie|Reducir el diámetro de rosca|Dar color negro al tornillo|Eliminar la necesidad de recubrimiento|Se calienta en medio carbonoso y se templa: superficie dura y mejor resistencia mecánica.
+mat|2|¿En qué medio se enfría bruscamente el tornillo tras el cementado?|Aceite|Agua con sal|Aire forzado|Nitrógeno líquido|Se enfría bruscamente en aceite para endurecer la superficie.
+mat|2|¿Cuál de estos acabados aparece en la oferta de CATO?|Fosfatado|Anodizado azul|Galvanizado en caliente por inmersión|Cromado decorativo espejo|Ofrece zincado, zincromatizado, zincro-negro, zincro-cromo, niquelado, cobrizado, latonado y fosfatado.
+mat|2|El zincromatizado también se conoce como…|Tropicalizado o iridizado|Fosfatado|Latonado|Niquelado|El catálogo lo llama zincromatizado (tropicalizado o iridizado).
+mat|2|¿Cuántos pasos consecutivos forman una tuerca hexagonal?|Cinco|Uno|Tres|Nueve|Las hexagonales se forman en cinco pasos en la formadora; las cuadradas se troquelan de fleje.
+mat|3|Ordena el proceso del tornillo: ¿cuál secuencia es correcta?|Trefilado → remache → ranura → rosca → cementado → galvano|Remache → cementado → trefilado → rosca → galvano|Rosca → remache → ranura → galvano → cementado|Galvano → rosca → remache → trefilado → cementado|El galvano va al final porque protege la pieza ya endurecida; la rosca se lamina antes del cementado.
+mat|3|Al recibir un rollo de alambre, el tiquete de identificación indica…|Número de rollo, calibre, material y peso|Cliente, pedido, fecha y destino|Dureza, recubrimiento, torque y lote|Proveedor, precio, color y turno|Cada rollo se pesa y rotula para su control en bodega de materia prima.
+mat|3|¿Qué controles se hacen a la materia prima al recibirla?|Dimensional, aspecto superficial y dureza|Solo composición química|Solo peso y longitud|Rugosidad y conductividad|Son los tres controles de recepción descritos en el proceso de fabricación.
+cab|1|En las tablas de cabezas, la letra J indica…|Ancho de ranura|Profundidad de ranura|Altura de cabeza|Diámetro de cabeza|J = ancho de ranura y T = profundidad de ranura.
+cab|1|En las tablas de cabezas, la letra T indica…|Profundidad de ranura|Ancho de ranura|Diámetro del vástago|Radio de cabeza|T es la profundidad de ranura (en Phillips, la penetración medida con galga).
+cab|1|¿Qué cabeza recomienda CATO en lugar de redonda, lenteja y binding?|Cilíndrica|Hexagonal|Oval|Avellanada|Las diferencias dimensionales son insignificantes y la cilíndrica rinde mejor.
+cab|2|¿Qué ventaja trae unificar en cabeza cilíndrica?|Menos referencias, compras mayores por ítem y menos inspección|Mayor resistencia al torque|Menor consumo de zinc|Es la única con estampa Phillips|El beneficio es de economía y simplificación de inventario, respaldado por comités ANSI.
+cab|2|En la estampa Phillips, M representa…|Diámetro de la estría|Ancho de la estría|Profundidad de la estría|Número de destornillador|M = diámetro, S = profundidad y N = ancho de estría.
+cab|2|En la estampa Phillips, N representa…|Ancho de la estría|Diámetro de la estría|Altura de cabeza|Profundidad de ranura|N es el ancho de estría; se indica además el número de destornillador.
+cab|2|¿Cómo se suministran las cabezas hexagonales con arandela?|Sin ranura, salvo que el cliente la solicite|Siempre con ranura cruzada|Siempre con ranura de pala|Con estampa Torx|Posición y existencia de ranura son opcionales según el pedido.
+cab|2|¿Qué ángulo de avellanado muestran los dibujos de cabeza plana y oval?|80°–82°|45°|60°|120°|Los dibujos indican 80/82°. Aglomerado usa 90°.
+cab|2|La letra O en cabezas oval, cilíndrica o fillister indica…|Altura total de cabeza|Ancho de ranura|Diámetro de arandela|Longitud de rosca|O = altura total de cabeza; H es la altura de cabeza ranurada o avellán.
+cab|3|¿Qué distingue la cabeza binding de las demás?|Un anillo inferior con diámetro U y profundidad X|Una ranura cruzada obligatoria|Un cuello cuadrado|Un borde dentado|El anillo bajo cabeza apoya sobre la pieza.
+cab|3|¿Qué punta Phillips corresponde a los calibres 5 a 10 (M3.5–M5)?|N° 2|N° 0|N° 1|N° 4|N°0: 0–1; N°1: 2–4; N°2: 5–10; N°3: 12–16 y 1/4″; N°4: 5/16″ y 3/8″.
+cab|3|¿Qué punta Phillips corresponde a calibres 5/16″ y 3/8″ (M8, M10)?|N° 4|N° 2|N° 3|N° 1|Es la punta de mayor tamaño de la tabla del catálogo.
+cab|3|¿Qué punta de destornillador de pala sugiere el catálogo para calibre 8?|1,05 mm de espesor × 8,3 mm de ancho|0,95 × 6,7 mm|1,25 × 9,9 mm|0,75 × 4,9 mm|Calibres 8 y 9 usan 1,05 × 8,3 mm; el 10 y 11, 1,25 × 9,9 mm.
+cab|2|Si la pala del destornillador es más ancha que la ranura…|Se excede el torque y puede reventarse la cabeza|Mejora el agarre|No afecta el tornillo|Reduce el torque transmitido|El destornillador debe tocar toda la ranura sin sobrepasarla.
+cab|3|En la cabeza cilíndrica DIN 84, la letra t indica…|Profundidad de ranura|Ancho de ranura|Altura de cabeza|Diámetro de cabeza|En DIN 84: D diámetro, K altura, n ancho y t profundidad de ranura.
+ros|1|¿Cuántos mm mide el calibre #10?|4,83|4,17|5,49|3,84|Se obtiene con 0,060 + 0,013·10 = 0,190″ = 4,83 mm.
+ros|1|¿Qué fórmula da el diámetro nominal en pulgadas de un calibre N?|0,060 + 0,013·N|0,013 + 0,060·N|N ÷ 16|0,25·N|Es la relación ANSI usada en las tablas del catálogo.
+ros|2|¿Cuántos mm mide el calibre #12?|5,49|4,83|6,15|6,35|0,060 + 0,013·12 = 0,216″ = 5,49 mm.
+ros|2|¿Cuál es el paso, en mm, de una rosca de 20 hilos por pulgada?|1,27|0,79|2,54|0,50|Paso = 25,4 ÷ 20 = 1,27 mm.
+ros|2|Un paso de 1,0 mm equivale aproximadamente a…|25,4 hilos por pulgada|20 hilos por pulgada|32 hilos por pulgada|40 hilos por pulgada|25,4 ÷ 1,0 = 25,4 hilos por pulgada.
+ros|2|¿Qué significa UNC?|Rosca unificada nacional ordinaria|Rosca unificada nacional fina|Rosca unificada cilíndrica|Rosca universal normalizada de calibre|UNC es la serie ordinaria (coarse); UNF es la fina.
+ros|2|¿Cuántos hilos por pulgada tiene la rosca ordinaria 1/4″ UNC?|20|28|18|24|1/4-20 UNC y 1/4-28 UNF.
+ros|2|¿Cuál es el paso de una rosca métrica M6 según DIN 13?|1,0 mm|0,8 mm|1,25 mm|1,5 mm|M5 = 0,8; M6 = 1,0; M8 = 1,25; M10 = 1,5.
+ros|2|¿Cuál es el paso de una rosca M8?|1,25 mm|1,0 mm|1,5 mm|0,8 mm|Tabla DIN 13 del catálogo.
+ros|2|¿Qué clase de tolerancia tienen las roscas métricas externas del catálogo?|6g|2A|6H|3B|Las UNC/UNF externas son clase 2A.
+ros|3|¿Cuál de estas roscas es UNF (fina)?|10-32|10-24|8-32|1/4-20|10-24 y 8-32 son UNC; 10-32 es UNF.
+ros|3|¿Cuál es el paso de una rosca #10-24 (UNC)?|1,058 mm|0,794 mm|1,270 mm|1,411 mm|25,4 ÷ 24 = 1,058 mm.
+ros|3|¿Cuál es el paso de una rosca #8-32?|0,794 mm|1,058 mm|1,270 mm|0,500 mm|25,4 ÷ 32 = 0,794 mm.
+ros|3|Una rosca M5 de paso 0,8 mm equivale a unos…|31,75 hilos por pulgada|25,4 hilos por pulgada|20 hilos por pulgada|40 hilos por pulgada|25,4 ÷ 0,8 = 31,75.
+ros|3|¿Cuál es el diámetro mayor máximo de una rosca 1/4-20 UNC clase 2A?|6,32 mm|6,35 mm|6,12 mm|7,91 mm|6,32 es el máximo y 6,12 el mínimo; 6,35 es el nominal.
+ros|3|¿Cuál es el diámetro mayor mínimo de una rosca 8-32 UNC clase 2A?|3,99 mm|4,14 mm|4,17 mm|3,63 mm|4,14 es el máximo; 4,17 es el diámetro nominal del calibre 8.
+ros|2|En un tornillo galvanizado o niquelado, el diámetro máximo de rosca…|Se incrementa por el espesor de la capa|Se reduce por el recubrimiento|No cambia|Depende solo del torque|El catálogo advierte que el diámetro máximo aumenta por la capa.
+ros|3|¿Cuál es el ancho máximo de la arista de rosca hasta el calibre 8?|0,10 mm|0,15 mm|0,25 mm|0,50 mm|Para diámetros mayores el límite sube a 0,15 mm.
+ros|3|¿Qué diferencia hay entre una rosca 8-32 americana y una 5/32″ Whitworth?|La 5/32″ tiene un diámetro algo menor y no siempre son intercambiables|Son idénticas|La 8-32 es métrica|La 5/32″ es más gruesa|Conviene comprar tuercas y tornillos del mismo proveedor.
+aut|1|¿Qué tipo de tornillo autorroscante recomienda CATO?|AB|A|B|C|El AB combina el paso fino del B con la punta del A.
+aut|1|¿Qué caracteriza al tipo B?|Paso fino y ausencia de punta|Rosca gruesa y punta aguda|Filos de corte en la punta|Punta cónica ciega|Se usa en lámina delgada y gruesa, fundiciones no ferrosas y plásticos.
+aut|2|¿Qué tipos son de tipo machuelo (filos de corte)?|F y BF|A y AB|B y C|A y B|F tiene rosca de estufa con filos; BF es un tipo B con filos de corte.
+aut|2|¿Qué tipo tiene rosca de estufa con punta cónica ciega?|C|A|AB|BF|Se emplea en láminas más gruesas que las del AB.
+aut|2|Para aluminio, fundición de plomo o zinc y bronce se usa…|Tipo F|Tipo A|Tipo AB|Tipo B|El tipo F es de tipo machuelo.
+aut|2|¿Cuándo se prefiere un tornillo tipo machuelo?|Cuando no se aceptan tensiones internas altas|Cuando se quiere la máxima tensión interna|Solo en madera|Solo en lámina delgada|Los que forman rosca generan grandes tensiones internas.
+aut|3|Con lámina muy gruesa, el tipo C se rompe por torque. ¿Qué hacer?|Roscar previamente y usar tornillo estufa|Aumentar el torque|Cambiar a tipo A|Usar un agujero más pequeño|Un agujero muy pequeño o torque excesivo descabeza el tornillo.
+aut|3|¿Cuántos hilos por pulgada tiene un tipo AB de calibre 8?|18|15|24|32|El tipo A de calibre 8 tiene 15.
+aut|3|¿Cuántos hilos por pulgada tiene un tipo AB de calibre 10?|16|12|20|24|El tipo A de calibre 10 tiene 12.
+aut|3|¿Cuántos hilos por pulgada tiene un tipo A de calibre 8?|15|18|20|24|Es rosca gruesa, de paso ampliamente espaciado.
+aut|3|¿Cuántos hilos por pulgada tiene un tipo AB de calibre 6?|20|18|24|32|El tipo A de calibre 6 tiene 18.
+aut|3|¿Qué beneficio tiene unificar el inventario en tipo AB?|Menos costos de control, manejo e inspección|Menor diámetro de rosca|Mayor torque admisible|Menos protección contra corrosión|También su penetración y resistencia superan a las del tipo A.
+aut|2|¿Qué ángulo de punta se dibuja en los tipos A y AB?|45° ± 5°|30° ± 5°|60° ± 5°|90°|El dibujo del catálogo indica 45° ± 5°.
+aut|3|Perforación en fenol-formaldehído para un tornillo lámina calibre 8 (DIN 7970)|3,8 mm|3,7 mm|4,2 mm|4,5 mm|Para celulosa, poliacrilatos y poliestirol el calibre 8 usa 3,7 mm.
+aut|3|Perforación en celulosa/poliacrilatos para un calibre 10 (DIN 7970)|4,3 mm|4,5 mm|4,8 mm|4,0 mm|El valor fenólico del calibre 10 es 4,5 mm.
+aut|2|En plásticos, ¿cuántos ensayos recomienda el catálogo?|Unos 50 ensayos de atornillado|Uno solo|Cinco|Ninguno|Es especialmente importante en perforaciones no redondas.
+apl|1|¿Qué diámetro de hueco piloto se usa en maderas duras?|El del diámetro menor del tornillo|El 15 % mayor|La mitad del diámetro mayor|Ninguno|En maderas blandas se usa 15 % menos.
+apl|1|¿Y en maderas blandas como el pino?|15 % menor que el diámetro menor|El doble|Igual al diámetro mayor|Sin hueco|Se debe considerar también la humedad de la madera.
+apl|2|¿Qué parte de la longitud nominal está roscada en un tornillo para madera?|Aproximadamente dos tercios|Aproximadamente un tercio|Toda siempre|Solo la punta|Los menores de 3/4″ se roscan totalmente.
+apl|3|¿Cuánta rosca tiene aproximadamente un tornillo para madera de 1 1/2″ (38,1 mm)?|25,4 mm|19,05 mm|38,1 mm|12,7 mm|38,1 × 2/3 = 25,4 mm.
+apl|3|Diámetro menor 3,12 mm en madera blanda: ¿qué broca piloto sale con −15 %?|2,65 mm|2,31 mm|3,12 mm|2,96 mm|3,12 × 0,85 = 2,65 mm.
+apl|3|¿Qué tolerancia de longitud tiene un tornillo para madera de 2″?|0 / −1,52 mm|0 / −0,76 mm|0 / −1,27 mm|0 / −2,29 mm|Entre 1 1/2″ y 2 3/4″ la tolerancia es 0/−1,52 mm.
+apl|3|¿Qué tolerancia tiene un tornillo para madera de 4″?|0 / −2,29 mm|0 / −1,52 mm|0 / −1,27 mm|0 / −0,76 mm|De 2 3/4″ hasta 5″ es 0/−2,29 mm.
+apl|2|¿Qué láminas perfora el tornillo drywall gracias a su punta y dureza?|Calibres 22 y 23|Calibres 10 y 12|Calibres 30 a 32|Cualquier calibre|Se debe al cementado y a la punta aguda.
+apl|2|Diámetro máximo de cabeza de un drywall calibre 10|9,30 mm|8,50 mm|8,80 mm|10,0 mm|Los calibres 6, 7 y 8 tienen 8,50 mm máximo.
+apl|3|Drywall de 2″ (50,80 mm): ¿cuál es la longitud máxima admitida?|52,32 mm|50,80 mm|51,00 mm|49,28 mm|49,28 mm es la mínima: ±1,27 mm.
+apl|2|En aglomerado, ¿cuál es el dk máximo del tamaño 6?|12,0 mm|10,0 mm|9,0 mm|8,0 mm|El tamaño 4 tiene 8,0 mm y el 5, 10,0 mm.
+apl|3|¿Qué forma de estría Z tiene el aglomerado de tamaño 6?|3|1|2|4|Tamaños 2,5–3 usan 1; 3,5–5 usan 2; el 6 usa 3.
+apl|2|¿Qué ángulo de avellanado tiene el tornillo para aglomerado?|90°|80°|60°|45°|Su aplicación en metales y plásticos debe revisarse caso por caso.
+apl|2|¿Cuántos tornillos de hierro para madera trae la cajita?|144|100|200|50|Estufa, lámina y bronce para madera vienen en cajitas de 100.
+apl|2|¿En qué cantidades se empacan los tornillos industriales en bolsa?|De 100 a 2.000 unidades según tamaño|De 10 a 50|Siempre 500|Solo a granel|Las bolsas selladas van en cartones de máximo 30 kg.
+cal|1|¿Cómo se mide la longitud de un tornillo?|Paralela al eje, desde el diámetro mayor del apoyo de la cabeza hasta la punta|Perpendicular al eje|Solo la parte roscada|Desde la parte superior de la cabeza|Es la regla general del catálogo.
+cal|2|¿Cómo se calcula la altura de cabeza en un tornillo oval?|H = L − L1|H = L + L1|H = L ÷ L1|H = L1 − 2|L es la longitud total y L1 la medida bajo cabeza.
+cal|2|¿Por qué se descabeza un tornillo autorroscante?|Agujero muy pequeño y torque superior al especificado|Exceso de zinc|Rosca fina|Falta de ranura|Verifique el agujero según calibre y espesor y gradúe el atornillador.
+cal|3|Torque máximo de la tabla para AB, B y BF calibre 10|56|48|39|83|El tipo A calibre 10 admite 48.
+cal|3|Torque máximo de la tabla para tipos C y F calibre 8|42|39|56|93|El tipo A y el AB calibre 8 muestran 39.
+cal|3|Torque máximo de la tabla para el tipo A calibre 12|83|93|125|56|C y F admiten 93 en el calibre 12.
+cal|2|¿Qué porcentaje del costo de una unión roscada representa el tornillo?|Entre 5 % y 20 %|Entre 50 % y 60 %|Entre 80 % y 90 %|Más del 95 %|El resto es preparación de las partes, mano de obra y administración.
+cal|2|¿Qué garantiza CATO para los tornillos lámina y machuelo?|Resistir los torques máximos de su tabla|Una vida útil de 20 años|Resistencia a cualquier agujero|Cero rebabas|Hay que verificar tornillo y perforaciones antes del ensamble.
+cal|2|Antes de comenzar un ensamble automático, ¿qué recomienda el catálogo?|Hacer ensayos y graduar el atornillador al torque indicado|Subir el torque al máximo|Cambiar de proveedor|Quitar el recubrimiento|Reduce pérdidas de producción y montaje.
+cal|3|¿Qué ventaja trae usar un destornillador del tamaño apropiado?|Más vida útil de la herramienta y menos deformación de la ranura|Mayor torque admisible|Menos hilos por pulgada|Mayor dureza del tornillo|También baja el riesgo de accidentes y de daños al colocar el tornillo.
+rem|2|¿Qué ángulo de inclinación de paso debe tener un remache tipo U drive?|45° a 60°|10° a 20°|75° a 90°|0°|Es la nota 1 del catálogo para este remache de lámina.
+rem|3|¿Cuál es la longitud de rosca N en cada punta de un espárrago hasta 4″?|2D + 1/4″|D + 1/2″|3D|D ÷ 2|D es el diámetro nominal del espárrago.
+rem|3|¿Cuál es el diámetro máximo de espárrago del catálogo?|3/8″ (9,5 mm)|1/2″|1/4″|5/8″|La longitud total es L; S es el cuerpo no roscado.
+rem|2|¿Cuál espárrago es de rosca continua?|Tipo B|Tipo A|Doble punta|Tipo U|El tipo A es de doble punta.
+rem|3|¿Cuántos mm tiene el diámetro nominal de un remache plano de 1/8″?|3,18|2,39|3,96|4,78|3/32″ = 2,39 mm; 5/32″ = 3,96 mm.
+emp|1|¿En qué ciudad nace Industrias Cato Ltda.?|Cali|Bogotá|Medellín|Barranquilla|Se funda en 1970, cuando se liquida en Barranquilla la Compañía Colombo-Americana de Tornillos.
+emp|1|¿Con cuántos trabajadores comenzó la empresa?|19|50|120|170|Hoy cuenta con 170 colaboradores capacitados.
+emp|2|¿En qué año Industrias Cato Ltda. se convirtió en S.A.?|1983|1970|1981|1989|En 1983 también empezó la sistematización por computador.
+emp|2|¿Qué lema usa CATO?|Con corazón de acero|Fuerza en cada rosca|Calidad sin límites|Unidos por el acero|Temple, tenacidad y fortaleza son propiedades del acero.
+emp|2|¿Cuál es la misión de CATO?|Fabricación y venta de elementos de fijación|Importar maquinaria|Fabricar autopartes|Vender acero en barras|La visión apunta al norte de Suramérica, Centroamérica y el Caribe.
+emp|3|¿Cuántos m² construidos tenía la sede de 1976?|3.000 m²|1.000 m²|10.000 m²|500 m²|Estaba en la carrera 5a Norte de Cali.
+emp|3|¿Qué ocurrió con la capacidad instalada en 1988?|Aumentó 30 %|Se duplicó|Disminuyó 10 %|Aumentó 80 %|Se instaló además el telemercadeo.
+emp|3|¿Qué línea se lanzó en 1981, en época de recesión?|Tornillos para lámina Phillips (estría)|Remaches U drive|Tornillos para drywall|Espárragos|Se renovó más del 50 % de la capacidad de la planta.
+emp|3|¿Qué porcentaje de la producción alcanzó los tornillos especiales en 1983?|50 %|10 %|25 %|90 %|Es dato de la cronología del catálogo.
+ope|1|Un lote de 30 millares: ¿cuántos registros se toman?|15 registros|25 registros|35 registros|50 registros|De 0 a 50 millares se toman 15 registros en 3 idas.
+ope|1|Un lote de 30 millares: ¿en cuántas idas se toman los registros?|3 idas|5 idas|7 idas|10 idas|De 0 a 50 millares: 15 registros en 3 idas.
+ope|1|Un lote de 80 millares: ¿cuántos registros se toman?|25 registros|15 registros|35 registros|50 registros|De 51 a 100 millares son 25 registros en 5 idas.
+ope|1|Un lote de 80 millares: ¿en cuántas idas?|5 idas|3 idas|7 idas|10 idas|De 51 a 100 millares: 25 registros en 5 idas.
+ope|2|Un lote de 120 millares: ¿cuántos registros y en cuántas idas?|35 registros en 7 idas|25 registros en 5 idas|50 registros en 10 idas|15 registros en 3 idas|De 101 a 150 millares son 35 registros en 7 idas.
+ope|2|Un lote de 180 millares: ¿cuántos registros y en cuántas idas?|50 registros en 10 idas|35 registros en 7 idas|25 registros en 5 idas|15 registros en 3 idas|De 151 a 200 millares son 50 registros en 10 idas.
+ope|2|¿Cuántos registros se toman en cada ida?|5|3|7|10|Todas las filas cumplen 5 por ida: 15/3, 25/5, 35/7 y 50/10.
+ope|2|Un lote de 100 millares exactos: ¿qué corresponde?|25 registros en 5 idas|15 registros en 3 idas|35 registros en 7 idas|50 registros en 10 idas|El rango 51 a 100 millares incluye el 100.
+ope|2|Un lote de 150 millares exactos: ¿qué corresponde?|35 registros en 7 idas|25 registros en 5 idas|50 registros en 10 idas|15 registros en 3 idas|El rango 101 a 150 millares incluye el 150.
+ope|3|Un lote de 151 millares: ¿qué corresponde?|50 registros en 10 idas|35 registros en 7 idas|25 registros en 5 idas|15 registros en 3 idas|Desde 151 hasta 200 millares se pasa al plan de 50 registros.
+ope|3|Un lote de 101 millares: ¿qué corresponde?|35 registros en 7 idas|25 registros en 5 idas|50 registros en 10 idas|15 registros en 3 idas|El rango 101 a 150 es el de 35 registros.
+ope|3|Al pasar de un lote de 100 a uno de 101 millares, ¿cuántas idas más hay que hacer?|2 idas más|1 ida más|3 idas más|5 idas más|Se pasa de 5 idas (25 registros) a 7 idas (35 registros).
+ope|3|¿Cuántos registros más se toman en un lote de 200 millares que en uno de 50?|35 registros más|25 registros más|15 registros más|50 registros más|50 − 15 = 35 registros.
+ope|3|Se completaron 4 idas de un lote de 90 millares. ¿Cuántos registros faltan?|5 registros|10 registros|15 registros|20 registros|Plan: 25 registros en 5 idas; 4 idas = 20 registros tomados, falta 1 ida de 5.
+ope|3|Un lote de 140 millares ya lleva 20 registros. ¿Cuántas idas faltan?|3 idas|2 idas|4 idas|5 idas|Plan: 35 registros en 7 idas; 20 registros son 4 idas, faltan 3.
+ope|2|¿Por qué conviene repartir los registros en varias idas durante el lote?|Para vigilar el proceso a lo largo de toda la producción (criterio general de muestreo)|Para consumir menos instrumentos de medición|Para cambiar el calibre del lote|Para evitar pesar el producto|Es criterio general de control de proceso; confirma el procedimiento con calidad.
+cab|1|¿Qué es una cabeza "combinada"?|La que lleva ranura de pala y estampa Phillips|La que mezcla dos diámetros de cabeza|La hexagonal con arandela|La avellanada de 90°|El catálogo la lista junto a ranurada y Phillips en cilíndrica y binding.
+cab|1|¿Qué forma tiene la estampa Phillips?|De cruz|De estrella de seis lóbulos|De ranura recta|De hexágono|La ranura de pala es recta y las estampas de seis lóbulos son especiales.
+cab|1|¿Cómo queda una cabeza plana (avellanada) al atornillar?|A ras de la superficie|Muy saliente|Apoyada sobre arandela|Con cúpula alta|Su avellanado es de 80°–82° y se usa donde la cabeza no debe sobresalir.
+cab|2|¿En qué se diferencia la cabeza oval de la plana?|Tiene cúpula: su altura total O es mayor que la altura de avellán H|Es hexagonal|Lleva arandela|No admite ranura|La oval define H (avellán) y O (altura total).
+cab|2|En cabezas redonda y lenteja, la letra R indica…|El radio de la cabeza|La profundidad de estría|El espesor de arandela|El ancho de ranura|R es radio de cabeza en las tablas.
+cab|2|En la cabeza hexagonal con arandela, la letra B indica…|El diámetro de la arandela|La distancia entre caras|El espesor de la arandela|La altura de cabeza|A = entre caras, W = entre aristas, U = espesor de arandela y H = altura.
+cab|2|En la cabeza hexagonal con arandela, la letra W indica…|La distancia entre aristas|La distancia entre caras|El diámetro de arandela|La profundidad de ranura|A es la distancia entre caras y W entre aristas.
+cab|2|Una cabeza hexagonal "con impresión" es la que…|Lleva ranura o estampa marcada en la cabeza|Está impresa con logotipo|No tiene rosca|Es avellanada|El catálogo indica que sin pedido especial se suministra sin ranura y la posición de la ranura es variable.
+cab|2|La cabeza cilíndrica Phillips milimétrica (M2 a M10) del catálogo se identifica con…|Norma CATO EIP 247051|ANSI B18.6.1|DIN 84|DIN 7970|La variante JIS tiene su propio plano, EIP 247052.
+cab|3|La cabeza cilíndrica Phillips JIS (EIP 247052) cubre los calibres…|M2 a M8|M1 a M2|M10 a M16|M12 a M20|Las dimensiones A, H, T, M y N se dan para M2, M2.5–M2.6, M3, M4, M5, M6 y M8.
+cab|3|La cabeza cilíndrica DIN 84 es una cabeza…|Ranurada (de pala) métrica|Phillips métrica|Hexagonal|Avellanada|Su tabla da ancho de ranura n y profundidad t.
+cab|3|En las cabezas cilíndricas, ¿qué letra marca la altura con Phillips o combinada?|O|H|R1|T|H es la altura de cabeza ranurada y O la altura de cabeza Phillips y combinado.
+cab|3|En el tornillo para aglomerado, ¿qué formas de estampa define el catálogo?|Estría Z y estría H|Estría A y estría B|Estría M y estría S|Estría T y estría J|Se indica la forma Z y la H con sus profundidades.

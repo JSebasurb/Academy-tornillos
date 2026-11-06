@@ -1,0 +1,86 @@
+[
+ {
+  "id": "ranurada",
+  "name": "Ranurada",
+  "source": "Catálogo",
+  "desc": "Ranura recta para destornillador de pala: J = ancho y T = profundidad."
+ },
+ {
+  "id": "phillips",
+  "name": "Phillips",
+  "source": "Catálogo",
+  "desc": "Estampa en cruz: M diámetro, S profundidad, N ancho y destornillador N° 0 a 4 según el calibre."
+ },
+ {
+  "id": "combinada",
+  "name": "Combinada",
+  "source": "Catálogo",
+  "desc": "Cabeza con ranura de pala y estampa Phillips en la misma cabeza (cilíndrica y binding). Su altura se indica como O."
+ },
+ {
+  "id": "cilindrica",
+  "name": "Cilíndrica",
+  "source": "Catálogo",
+  "desc": "Cabeza recomendada por CATO para sustituir redonda, lenteja y binding; en ranurada, Phillips y combinada, métrica (EIP 247051, JIS 247052, DIN 84) y ANSI."
+ },
+ {
+  "id": "plana-avellan",
+  "name": "Plana / avellán",
+  "source": "Catálogo",
+  "desc": "Avellanado de 80°–82° (90° en aglomerado): queda a ras. Ranurada o Phillips."
+ },
+ {
+  "id": "oval",
+  "name": "Oval",
+  "source": "Catálogo",
+  "desc": "Avellanada con cúpula: H altura de avellán y O altura total."
+ },
+ {
+  "id": "redonda",
+  "name": "Redonda",
+  "source": "Catálogo",
+  "desc": "Cúpula alta con radio R; en tornillos para madera su diámetro es 5–10 % menor que el de la plana."
+ },
+ {
+  "id": "lenteja",
+  "name": "Lenteja",
+  "source": "Catálogo",
+  "desc": "Cabeza baja y ancha con radio R; ranurada y Phillips."
+ },
+ {
+  "id": "fillister",
+  "name": "Fillister",
+  "source": "Catálogo",
+  "desc": "Cabeza abombada de lados rectos; ranurada y Phillips, con altura lateral H y total O."
+ },
+ {
+  "id": "binding",
+  "name": "Binding",
+  "source": "Catálogo",
+  "desc": "Con anillo inferior (diámetro U, profundidad X); ranurada, Phillips y combinada."
+ },
+ {
+  "id": "hexagonal-con-arandela",
+  "name": "Hexagonal con arandela",
+  "source": "Catálogo",
+  "desc": "A = entre caras, W = entre aristas, B = diámetro y U = espesor de arandela. Sin ranura salvo pedido del cliente."
+ },
+ {
+  "id": "con-impresion",
+  "name": "Con impresión",
+  "source": "Catálogo",
+  "desc": "Cabeza hexagonal con ranura (J, T); su posición en la cabeza es variable."
+ },
+ {
+  "id": "autosoldable",
+  "name": "Autosoldable",
+  "source": "General · por confirmar",
+  "desc": "Término de planta: tornillo con resaltes bajo la cabeza para soldarlo por resistencia a la lámina. Falta confirmar la definición y referencias CATO."
+ },
+ {
+  "id": "desbarbada",
+  "name": "Desbarbada",
+  "source": "General · por confirmar",
+  "desc": "Término de planta: pieza a la que se retira la rebaba del formado o estampado. Falta confirmar el alcance en CATO."
+ }
+]

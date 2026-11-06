@@ -817,8 +817,8 @@
  },
  {
   "id": "agl",
-  "title": "Aglomerado · cabeza plana",
-  "note": "Tamaño de rosca en mm. K = altura de cabeza (ref.). Aplicación en metales/plásticos: revisar caso a caso.",
+  "title": "Aglomerado · cabeza plana (completa)",
+  "note": "Dimensiones en mm. Estría Z/H. K = altura de cabeza (ref.), a1 y r máximos. Aplicación en metales/plásticos: revisar caso a caso.",
   "columns": [
    {
     "name": "Rosca",
@@ -835,6 +835,30 @@
    {
     "name": "K ref.",
     "numeric": true
+   },
+   {
+    "name": "a1 máx",
+    "numeric": true
+   },
+   {
+    "name": "r máx",
+    "numeric": true
+   },
+   {
+    "name": "Estría Z forma",
+    "numeric": true
+   },
+   {
+    "name": "m ref.",
+    "numeric": true
+   },
+   {
+    "name": "Prof. máx",
+    "numeric": true
+   },
+   {
+    "name": "Prof. mín",
+    "numeric": true
    }
   ],
   "rows": [
@@ -842,43 +866,85 @@
     "2.5",
     "5.0",
     "4.52",
-    "2.1"
+    "1.4",
+    "2.1",
+    "1.5",
+    "1",
+    "4.50",
+    "1.47",
+    "1.22"
    ],
    [
     "3",
     "6.0",
     "5.52",
-    "2.35"
+    "1.8",
+    "2.35",
+    "1.5",
+    "1",
+    "4.50",
+    "2.01",
+    "1.6"
    ],
    [
     "3.5",
     "7.0",
     "6.42",
-    "2.6"
+    "2.0",
+    "2.6",
+    "1.8",
+    "2",
+    "4.50",
+    "2.06",
+    "1.76"
    ],
    [
     "4",
     "8.0",
     "7.42",
-    "2.8"
+    "2.35",
+    "2.8",
+    "2.0",
+    "2",
+    "4.50",
+    "2.51",
+    "2.05"
    ],
    [
     "4.5",
     "9.0",
     "8.42",
-    "3.0"
+    "2.55",
+    "3.0",
+    "2.2",
+    "2",
+    "4.50",
+    "2.92",
+    "2.46"
    ],
    [
     "5",
     "10.0",
     "9.42",
-    "3.2"
+    "2.85",
+    "3.2",
+    "2.5",
+    "2",
+    "4.50",
+    "3.45",
+    "2.99"
    ],
    [
     "6",
     "12.0",
     "11.3",
-    "3.6"
+    "3.35",
+    "3.6",
+    "2.5",
+    "3",
+    "4.50",
+    "3.45",
+    "2.99"
    ]
   ]
  },
@@ -1044,6 +1110,382 @@
     "9.53",
     "9.65",
     "9.27"
+   ]
+  ]
+ },
+ {
+  "id": "par",
+  "title": "Torques máximos · tornillos lámina y machuelo",
+  "note": "Garantía CATO según normas internacionales. El catálogo no indica la unidad: confirmar con CATO antes de graduar el atornillador. '--' = no aplica. Ojo: en AB/B/BF el catálogo imprime 40 (calibre 7) y 39 (calibre 8); se transcribe tal cual.",
+  "columns": [
+   {
+    "name": "Tipo",
+    "numeric": false
+   },
+   {
+    "name": "4",
+    "numeric": true
+   },
+   {
+    "name": "5",
+    "numeric": true
+   },
+   {
+    "name": "6",
+    "numeric": true
+   },
+   {
+    "name": "7",
+    "numeric": false
+   },
+   {
+    "name": "8",
+    "numeric": true
+   },
+   {
+    "name": "10",
+    "numeric": true
+   },
+   {
+    "name": "12",
+    "numeric": true
+   },
+   {
+    "name": "14",
+    "numeric": false
+   },
+   {
+    "name": "1/4″",
+    "numeric": false
+   },
+   {
+    "name": "16",
+    "numeric": false
+   },
+   {
+    "name": "5/16″",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "A",
+    "12",
+    "18",
+    "24",
+    "30",
+    "39",
+    "48",
+    "83",
+    "125",
+    "--",
+    "152",
+    "--"
+   ],
+   [
+    "AB, B, BF",
+    "13",
+    "18",
+    "24",
+    "40",
+    "39",
+    "56",
+    "83",
+    "--",
+    "142",
+    "--",
+    "290"
+   ],
+   [
+    "C, F",
+    "13",
+    "18",
+    "23",
+    "--",
+    "42",
+    "56",
+    "93",
+    "--",
+    "140",
+    "--",
+    "306"
+   ]
+  ]
+ },
+ {
+  "id": "dst",
+  "title": "Destornillador de pala · punta recomendada",
+  "note": "Medidas en mm. Espesor ±0,1 · ancho ±0,4. Usar punta que cubra la ranura sin excederla.",
+  "columns": [
+   {
+    "name": "Calibre ISO",
+    "numeric": false
+   },
+   {
+    "name": "Calibre americano",
+    "numeric": false
+   },
+   {
+    "name": "Espesor punta",
+    "numeric": true
+   },
+   {
+    "name": "Ancho punta",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "M2, M2.5",
+    "2",
+    "0.5",
+    "3.1"
+   ],
+   [
+    "M3",
+    "3",
+    "0.75",
+    "4.9"
+   ],
+   [
+    "M3.5",
+    "4",
+    "0.75",
+    "4.9"
+   ],
+   [
+    "M4",
+    "5",
+    "0.95",
+    "6.7"
+   ],
+   [
+    "-",
+    "6",
+    "0.95",
+    "6.7"
+   ],
+   [
+    "-",
+    "7",
+    "0.95",
+    "6.7"
+   ],
+   [
+    "M5",
+    "8",
+    "1.05",
+    "8.3"
+   ],
+   [
+    "-",
+    "9",
+    "1.05",
+    "8.3"
+   ],
+   [
+    "-",
+    "10",
+    "1.25",
+    "9.9"
+   ],
+   [
+    "-",
+    "11",
+    "1.25",
+    "9.9"
+   ],
+   [
+    "M6",
+    "12",
+    "1.5",
+    "10.5"
+   ],
+   [
+    "M8",
+    "14 - 1/4″",
+    "1.75",
+    "11"
+   ],
+   [
+    "-",
+    "16",
+    "1.75",
+    "11"
+   ],
+   [
+    "M10",
+    "5/16″ - 3/8″",
+    "2",
+    "12"
+   ]
+  ]
+ },
+ {
+  "id": "phi",
+  "title": "Destornillador Phillips · punta recomendada",
+  "note": "Punta Phillips según el calibre del tornillo.",
+  "columns": [
+   {
+    "name": "Punta N°",
+    "numeric": true
+   },
+   {
+    "name": "Calibres americanos",
+    "numeric": false
+   },
+   {
+    "name": "Calibres ISO",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "0",
+    "0, 1",
+    "-"
+   ],
+   [
+    "1",
+    "2, 3, 4",
+    "M2.5, M3"
+   ],
+   [
+    "2",
+    "5, 6, 7, 8, 9, 10",
+    "M3.5, M4, M5"
+   ],
+   [
+    "3",
+    "12, 14, 16, 1/4″",
+    "M6"
+   ],
+   [
+    "4",
+    "5/16″, 3/8″",
+    "M8, M10"
+   ]
+  ]
+ },
+ {
+  "id": "pls",
+  "title": "Perforación para tornillo lámina en plásticos (DIN 7970)",
+  "note": "Diámetro de perforación en mm. Solo orientativo para agujeros redondos; en plásticos se recomiendan ensayos (≈50 atornillados) por caso.",
+  "columns": [
+   {
+    "name": "Diámetro nominal",
+    "numeric": true
+   },
+   {
+    "name": "N° americano / ISO",
+    "numeric": true
+   },
+   {
+    "name": "Fenol-formaldehído",
+    "numeric": true
+   },
+   {
+    "name": "Acetato/nitrato de celulosa, poliacrilatos, poliestirol",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "2.2",
+    "2",
+    "2",
+    "2"
+   ],
+   [
+    "2.9",
+    "4",
+    "2.55",
+    "2.4"
+   ],
+   [
+    "3.5",
+    "6",
+    "3.2",
+    "3"
+   ],
+   [
+    "3.9",
+    "7",
+    "3.5",
+    "3.2"
+   ],
+   [
+    "4.2",
+    "8",
+    "3.8",
+    "3.7"
+   ],
+   [
+    "4.8",
+    "10",
+    "4.5",
+    "4.3"
+   ],
+   [
+    "5.5",
+    "12",
+    "5",
+    "4.8"
+   ],
+   [
+    "6.3",
+    "14",
+    "6",
+    "5.6"
+   ]
+  ]
+ },
+ {
+  "id": "mst",
+  "title": "Muestreo por lote · registros e idas",
+  "note": "Procedimiento operativo: millares del lote → registros a tomar y número de idas (5 registros por ida). Confirmar con calidad.",
+  "columns": [
+   {
+    "name": "Millares del lote",
+    "numeric": false
+   },
+   {
+    "name": "Registros",
+    "numeric": true
+   },
+   {
+    "name": "Idas",
+    "numeric": true
+   },
+   {
+    "name": "Registros por ida",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "0 – 50",
+    "15",
+    "3",
+    "5"
+   ],
+   [
+    "51 – 100",
+    "25",
+    "5",
+    "5"
+   ],
+   [
+    "101 – 150",
+    "35",
+    "7",
+    "5"
+   ],
+   [
+    "151 – 200",
+    "50",
+    "10",
+    "5"
    ]
   ]
  }

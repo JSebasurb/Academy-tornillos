@@ -2,35 +2,43 @@
  "heads": {
   "Plana / Avellana": [
    "M12 16H68L48 34H32Z",
-   "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4."
+   "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4.",
+   "cab_plana"
   ],
   "Oval": [
    "M12 22Q40 4 68 22L48 34H32Z",
-   "Avellana con cúpula: queda levemente saliente; presentación decorativa."
+   "Avellana con cúpula: queda levemente saliente; presentación decorativa.",
+   "cab_oval"
   ],
   "Cilíndrica": [
    "M22 32V14Q22 10 26 10H54Q58 10 58 14V32Z",
-   "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias)."
+   "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias).",
+   "cab_cilindrica"
   ],
   "Redonda": [
    "M20 32Q20 8 40 8Q60 8 60 32Z",
-   "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera."
+   "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera.",
+   "cab_redonda"
   ],
   "Lenteja (Pan)": [
    "M14 32Q18 14 40 12Q62 14 66 32Z",
-   "Cabeza baja y ancha, radio R de cabeza."
+   "Cabeza baja y ancha, radio R de cabeza.",
+   "cab_lenteja"
   ],
   "Fillister": [
    "M22 32V18Q40 6 58 18V32Z",
-   "Cabeza cilíndrica abombada con lados rectos."
+   "Cabeza cilíndrica abombada con lados rectos.",
+   "cab_fillister"
   ],
   "Binding": [
    "M16 32L22 28V20Q40 8 58 20V28L64 32Z",
-   "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada."
+   "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada.",
+   "cab_binding"
   ],
   "Hexagonal con arandela": [
    "M14 28H66V32H14ZM24 28V12H56V28Z",
-   "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente."
+   "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente.",
+   "cab_hexagonal"
   ]
  },
  "tips": [
@@ -167,146 +175,271 @@
    "Tornillo estufa (UNC/UNF) o milimétrico DIN 13 (clase 6g)."
   ]
  ],
- "quiz": [
+ "planta": [
   [
-   "¿Qué alambre usa CATO como materia prima principal?",
+   "Trefiladora",
+   "Catálogo",
+   "El alambrón se decapa y se estira en máquinas trefiladoras hasta el diámetro de alambre de cada calibre; el recocido en horno le da la dureza necesaria."
+  ],
+  [
+   "Remachadora (formado en frío)",
+   "Catálogo",
+   "Corta el alambre en trozos y los introduce en una matriz donde golpes de estampadores forman cabeza y cuerpo del remache, sin arranque de viruta."
+  ],
+  [
+   "Matrices y estampadores",
+   "General",
+   "La matriz aloja la pieza y los estampadores dan la forma (y la estampa Phillips) de la cabeza. Su desgaste cambia dimensiones de cabeza y estría, por eso se controlan por muestreo. CATO desarrolla sus propias herramientas."
+  ],
+  [
+   "Fresadora de ranura",
+   "Catálogo",
+   "Fresa en la parte superior de la cabeza la ranura donde actúa el destornillador de pala."
+  ],
+  [
+   "Laminadora de rosca (peines)",
+   "Catálogo",
+   "Un par de peines con el perfil grabado aplica presión y movimiento al remache. En general, la rosca se forma por deformación del material, no por arranque de viruta."
+  ],
+  [
+   "Formadora de tuercas y roscado con machuelo",
+   "Catálogo",
+   "Troquel para cortar y perforar flejes (tuercas cuadradas); las hexagonales se forman en cinco pasos consecutivos. La rosca interior se corta con machuelo."
+  ],
+  [
+   "Horno de cementado y temple en aceite",
+   "Catálogo",
+   "Los tornillos se calientan en medio carbonoso para aumentar el carbono superficial y se enfrían bruscamente en aceite: superficie dura y mejor resistencia mecánica."
+  ],
+  [
+   "Líneas de galvano",
+   "Catálogo",
+   "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo y niquelado; también cobrizado, latonado y fosfatado. Baños ecológicos."
+  ],
+  [
+   "Sistematización y telemercadeo",
+   "Catálogo",
+   "Desde 1983 la compañía se sistematiza por computador en todas sus áreas; en 1988 se instala el telemercadeo para atención de clientes."
+  ]
+ ],
+ "instrumentos": [
+  [
+   "Calibrador (pie de rey)",
+   "Catálogo",
+   "Diámetro de rosca, diámetro y altura de cabeza, ancho y profundidad de ranura y longitud. La longitud se mide paralela al eje, desde el diámetro mayor de la superficie de apoyo de la cabeza hasta la punta. En cabeza oval y otras, la altura es H = L − L1."
+  ],
+  [
+   "Galga de penetración de estría",
+   "Catálogo",
+   "Mide T, la profundidad de penetración de la estría Phillips (p. ej. en cabeza cilíndrica milimétrica)."
+  ],
+  [
+   "Galgas de rosca pasa / no pasa",
+   "General",
+   "Verifican que la rosca cumpla la clase de tolerancia (2A en UNC/UNF, 6g en métrica DIN 13). Complementan la medición de diámetros mayor, medio y menor."
+  ],
+  [
+   "Control de dureza",
+   "Catálogo",
+   "La materia prima se controla en dimensión, aspecto superficial y dureza al recibirla. Tras el cementado, la dureza superficial es una característica clave (general)."
+  ],
+  [
+   "Atornillador automático / torque",
+   "Catálogo",
+   "Se gradúa al torque máximo del calibre; superarlo descabeza el tornillo. CATO garantiza sus tornillos lámina y machuelo para los torques máximos de su tabla."
+  ],
+  [
+   "Báscula y rotulado de rollos",
+   "Catálogo",
+   "Cada rollo de alambre se pesa y se rotula con número de rollo, calibre, material y peso para su control en bodega."
+  ]
+ ],
+ "diagnostico": [
+  [
+   "El tornillo para lámina se parte justo bajo la cabeza al apretar.",
    [
-    "SAE 1018/1015 cold heading",
-    "Acero inoxidable 316",
-    "Aluminio 6061"
+    "Agujero muy pequeño y torque superior al especificado",
+    "Rosca de paso fino",
+    "Exceso de zinc"
    ],
    0,
-   "Importado, calidad cold heading; se trefila al diámetro requerido."
+   "Verifica agujero según calibre y espesor y gradúa el atornillador al torque máximo."
   ],
   [
-   "¿Cómo se forma la rosca del tornillo?",
+   "Con un destornillador de pala más ancho que la ranura se revienta la cabeza.",
    [
-    "Fresado",
-    "Laminación con peines",
-    "Fundición"
+    "Falta de cementado",
+    "Se excede el torque por herramienta de tamaño inadecuado",
+    "Rosca clase 3A"
    ],
    1,
-   "Un par de peines con perfil grabado presiona el remache."
+   "El destornillador debe tocar toda la ranura; un tamaño apropiado alarga la vida de la herramienta y evita deformar la estampa."
   ],
   [
-   "¿En qué consiste el cementado?",
+   "La tuerca 8-32 de un proveedor no ajusta en el tornillo 5/32″ de otro.",
    [
-    "Recubrir con zinc",
-    "Calentar en medio carbonoso y templar",
-    "Pulir la cabeza"
-   ],
-   1,
-   "Aumenta el carbono superficial y la dureza."
-  ],
-  [
-   "Tipo autorroscante que CATO recomienda en vez de A, B y BP:",
-   [
-    "AB",
-    "C",
-    "F"
+    "La rosca 5/32″ Whitworth tiene diámetro algo menor",
+    "El tornillo está sin cementar",
+    "Es un problema de zincado"
    ],
    0,
-   "Une paso fino del B y punta del A."
+   "Obtén tuercas y tornillos del mismo proveedor o confirma el ajuste funcional."
   ],
   [
-   "Hueco piloto en madera blanda respecto al diámetro menor:",
+   "Se parte el tornillo al entrar en roble. ¿Qué hueco piloto usar?",
    [
-    "Igual",
-    "15 % menor",
-    "30 % mayor"
+    "Broca 15 % menor que el diámetro menor",
+    "Broca igual al diámetro menor del tornillo",
+    "Sin hueco piloto"
    ],
    1,
-   "En maderas duras se usa el diámetro menor."
+   "Maderas duras: igual al diámetro menor; blandas (pino): 15 % menos. Considera también la humedad."
   ],
   [
-   "Longitud de rosca de un tornillo para madera ≈",
+   "Debes atornillar aluminio fundido sin roscar previamente. ¿Qué tipo?",
    [
-    "1/3",
-    "2/3",
-    "Total siempre"
+    "Tipo A",
+    "Tipo F (machuelo)",
+    "Drywall"
    ],
    1,
-   "Menores de 3/4″ se roscan totalmente."
+   "F y BF llevan filos de corte para aluminio, fundiciones, bronce y plásticos."
   ],
   [
-   "Una rosca 5/32″ Whitworth vs 8-32 americana:",
+   "En lámina muy gruesa, el tipo C rompe por torque elevado. ¿Alternativa?",
    [
-    "Idéntica",
-    "Diámetro un poco menor",
-    "Mucho mayor"
+    "Aumentar el torque",
+    "Roscar previamente y usar tornillo estufa",
+    "Cambiar a tipo A"
    ],
    1,
-   "Recomendación: tuercas y tornillos del mismo proveedor."
+   "Con piezas demasiado gruesas se requiere torque que el tornillo no soporta."
   ],
   [
-   "Si el agujero es muy pequeño y el torque excesivo, el tornillo…",
+   "El inventario tiene tipos A, B y BP. ¿Cómo simplificar?",
    [
-    "Se afloja",
-    "Se parte bajo la cabeza",
-    "Se dilata"
-   ],
-   1,
-   "Se descabeza: verificar agujero y calibrar el atornillador."
-  ],
-  [
-   "El tornillo representa en el costo de una unión roscada:",
-   [
-    "5–20 %",
-    "50–60 %",
-    "80–90 %"
+    "Unificar en tipo AB",
+    "Eliminar el AB",
+    "Comprar solo tipo A"
    ],
    0,
-   "El resto es preparación, mano de obra y administración."
+   "AB incorpora paso fino y punta del A; menor costo de control y manejo."
+  ]
+ ],
+ "figuras": [
+  [
+   "estampas-phillips",
+   "estampas",
+   "Ranura y estampa Phillips (cabeza cilíndrica)",
+   "Vista lateral y de planta del catálogo. Ranura: J ancho, T profundidad. Estampa (estría) Phillips: M diámetro, S profundidad, N ancho, y número de destornillador (0–4).",
+   "cab_cilindrica_phillips"
   ],
   [
-   "Cabeza que CATO recomienda para sustituir Redonda, Lenteja y Binding:",
-   [
-    "Hexagonal",
-    "Cilíndrica",
-    "Oval"
-   ],
-   1,
-   "Menos ítems, compras mayores y menos inspección."
+   "estampas-especiales",
+   "estampas",
+   "Estampas especiales (foto del catálogo)",
+   "Tornillos especiales fabricados por CATO con estampas de seis lóbulos (hexalobulares), una de ellas con pin central. CATO desarrolla productos y herramientas para necesidades de la industria.",
+   "foto_estampas_especiales"
   ],
   [
-   "¿Cuántos tornillos de hierro para madera trae la cajita?",
-   [
-    "100",
-    "144",
-    "200"
-   ],
-   1,
-   "Una gruesa. Estufa/lámina: 100."
+   "perfil-rosca",
+   "roscas",
+   "Perfil de rosca (60°)",
+   "Detalle de forma de rosca: ancho de arista ≤ 0,10 mm hasta calibre 8 inclusive y ≤ 0,15 mm en mayores; leve radio permisible.",
+   "perfil_rosca"
   ],
   [
-   "Peso máximo de cada cartón de despacho:",
-   [
-    "10 kg",
-    "30 kg",
-    "50 kg"
-   ],
-   1,
-   "Tanto cajitas como bolsas industriales."
+   "rosca-unc-unf",
+   "roscas",
+   "Rosca UNC / UNF clase 2A",
+   "Rosca externa americana: diámetro mayor, medio y menor. En galvanizados o niquelados el diámetro máximo aumenta por la capa.",
+   "rosca_unc_unf"
   ],
   [
-   "Paso en mm de una rosca de 20 TPI:",
-   [
-    "1,27",
-    "0,79",
-    "2,54"
-   ],
-   0,
-   "25,4 ÷ 20 = 1,27 mm."
+   "rosca-metrica",
+   "roscas",
+   "Rosca métrica DIN 13 · clase 6g",
+   "Rosca externa métrica: diámetro mayor, medio y menor; el paso se expresa en mm (M6 × 1,0).",
+   "rosca_metrica"
   ],
   [
-   "¿Año de fundación de Industrias Cato Ltda.?",
-   [
-    "1970",
-    "1981",
-    "1989"
-   ],
-   0,
-   "En Cali, con 19 trabajadores."
+   "medir-tornillo",
+   "medicion",
+   "Cómo medir un tornillo",
+   "Calibrador sobre diámetro de rosca, longitud (planas/avellán, ovales y otras cabezas), diámetro y altura de cabeza (H = L − L1 en oval y otras), ancho y profundidad de ranura. La longitud se mide paralela al eje, desde el diámetro mayor de la superficie de apoyo de la cabeza hasta la punta.",
+   "medir_tornillo"
+  ]
+ ],
+ "terminos": [
+  [
+   "Ranurada",
+   "Catálogo",
+   "Ranura recta para destornillador de pala: J = ancho y T = profundidad."
+  ],
+  [
+   "Phillips",
+   "Catálogo",
+   "Estampa en cruz: M diámetro, S profundidad, N ancho y destornillador N° 0 a 4 según el calibre."
+  ],
+  [
+   "Combinada",
+   "Catálogo",
+   "Cabeza con ranura de pala y estampa Phillips en la misma cabeza (cilíndrica y binding). Su altura se indica como O."
+  ],
+  [
+   "Cilíndrica",
+   "Catálogo",
+   "Cabeza recomendada por CATO para sustituir redonda, lenteja y binding; en ranurada, Phillips y combinada, métrica (EIP 247051, JIS 247052, DIN 84) y ANSI."
+  ],
+  [
+   "Plana / avellán",
+   "Catálogo",
+   "Avellanado de 80°–82° (90° en aglomerado): queda a ras. Ranurada o Phillips."
+  ],
+  [
+   "Oval",
+   "Catálogo",
+   "Avellanada con cúpula: H altura de avellán y O altura total."
+  ],
+  [
+   "Redonda",
+   "Catálogo",
+   "Cúpula alta con radio R; en tornillos para madera su diámetro es 5–10 % menor que el de la plana."
+  ],
+  [
+   "Lenteja",
+   "Catálogo",
+   "Cabeza baja y ancha con radio R; ranurada y Phillips."
+  ],
+  [
+   "Fillister",
+   "Catálogo",
+   "Cabeza abombada de lados rectos; ranurada y Phillips, con altura lateral H y total O."
+  ],
+  [
+   "Binding",
+   "Catálogo",
+   "Con anillo inferior (diámetro U, profundidad X); ranurada, Phillips y combinada."
+  ],
+  [
+   "Hexagonal con arandela",
+   "Catálogo",
+   "A = entre caras, W = entre aristas, B = diámetro y U = espesor de arandela. Sin ranura salvo pedido del cliente."
+  ],
+  [
+   "Con impresión",
+   "Catálogo",
+   "Cabeza hexagonal con ranura (J, T); su posición en la cabeza es variable."
+  ],
+  [
+   "Autosoldable",
+   "General · por confirmar",
+   "Término de planta: tornillo con resaltes bajo la cabeza para soldarlo por resistencia a la lámina. Falta confirmar la definición y referencias CATO."
+  ],
+  [
+   "Desbarbada",
+   "General · por confirmar",
+   "Término de planta: pieza a la que se retira la rebaba del formado o estampado. Falta confirmar el alcance en CATO."
   ]
  ]
 }

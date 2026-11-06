@@ -1,6 +1,8 @@
 {
  "ok": true,
  "errors": [],
- "warnings": [],
- "tables": 12
+ "warnings": [
+  "par AB, B, BF: el catálogo muestra un torque no creciente (calibre 7 = 40 > calibre 8 = 39); transcrito tal cual, verificar con CATO"
+ ],
+ "tables": 17
 }

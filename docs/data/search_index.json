@@ -50,8 +50,8 @@
  {
   "type": "tabla",
   "id": "agl",
-  "title": "Aglomerado · cabeza plana",
-  "text": "Tamaño de rosca en mm. K = altura de cabeza (ref.). Aplicación en metales/plásticos: revisar caso a caso."
+  "title": "Aglomerado · cabeza plana (completa)",
+  "text": "Dimensiones en mm. Estría Z/H. K = altura de cabeza (ref.), a1 y r máximos. Aplicación en metales/plásticos: revisar caso a caso."
  },
  {
   "type": "tabla",
@@ -70,6 +70,36 @@
   "id": "rem",
   "title": "Remache cabeza plana · vástago",
   "text": "ANSI B18.1 · mm."
+ },
+ {
+  "type": "tabla",
+  "id": "par",
+  "title": "Torques máximos · tornillos lámina y machuelo",
+  "text": "Garantía CATO según normas internacionales. El catálogo no indica la unidad: confirmar con CATO antes de graduar el atornillador. '--' = no aplica. Ojo: en AB/B/BF el catálogo imprime 40 (calibre 7) y 39 (calibre 8); se transcribe tal cual."
+ },
+ {
+  "type": "tabla",
+  "id": "dst",
+  "title": "Destornillador de pala · punta recomendada",
+  "text": "Medidas en mm. Espesor ±0,1 · ancho ±0,4. Usar punta que cubra la ranura sin excederla."
+ },
+ {
+  "type": "tabla",
+  "id": "phi",
+  "title": "Destornillador Phillips · punta recomendada",
+  "text": "Punta Phillips según el calibre del tornillo."
+ },
+ {
+  "type": "tabla",
+  "id": "pls",
+  "title": "Perforación para tornillo lámina en plásticos (DIN 7970)",
+  "text": "Diámetro de perforación en mm. Solo orientativo para agujeros redondos; en plásticos se recomiendan ensayos (≈50 atornillados) por caso."
+ },
+ {
+  "type": "tabla",
+  "id": "mst",
+  "title": "Muestreo por lote · registros e idas",
+  "text": "Procedimiento operativo: millares del lote → registros a tomar y número de idas (5 registros por ida). Confirmar con calidad."
  },
  {
   "type": "cabeza",
@@ -208,6 +238,96 @@
   "id": "agujero-ya-roscado",
   "title": "Agujero ya roscado",
   "text": "Tornillo estufa (UNC/UNF) o milimétrico DIN 13 (clase 6g)."
+ },
+ {
+  "type": "planta",
+  "id": "trefiladora",
+  "title": "Trefiladora",
+  "text": "El alambrón se decapa y se estira en máquinas trefiladoras hasta el diámetro de alambre de cada calibre; el recocido en horno le da la dureza necesaria."
+ },
+ {
+  "type": "planta",
+  "id": "remachadora-formado-en-frio",
+  "title": "Remachadora (formado en frío)",
+  "text": "Corta el alambre en trozos y los introduce en una matriz donde golpes de estampadores forman cabeza y cuerpo del remache, sin arranque de viruta."
+ },
+ {
+  "type": "planta",
+  "id": "matrices-y-estampadores",
+  "title": "Matrices y estampadores",
+  "text": "La matriz aloja la pieza y los estampadores dan la forma (y la estampa Phillips) de la cabeza. Su desgaste cambia dimensiones de cabeza y estría, por eso se controlan por muestreo. CATO desarrolla sus propias herramientas."
+ },
+ {
+  "type": "planta",
+  "id": "fresadora-de-ranura",
+  "title": "Fresadora de ranura",
+  "text": "Fresa en la parte superior de la cabeza la ranura donde actúa el destornillador de pala."
+ },
+ {
+  "type": "planta",
+  "id": "laminadora-de-rosca-peines",
+  "title": "Laminadora de rosca (peines)",
+  "text": "Un par de peines con el perfil grabado aplica presión y movimiento al remache. En general, la rosca se forma por deformación del material, no por arranque de viruta."
+ },
+ {
+  "type": "planta",
+  "id": "formadora-de-tuercas-y-roscado-con-machuelo",
+  "title": "Formadora de tuercas y roscado con machuelo",
+  "text": "Troquel para cortar y perforar flejes (tuercas cuadradas); las hexagonales se forman en cinco pasos consecutivos. La rosca interior se corta con machuelo."
+ },
+ {
+  "type": "planta",
+  "id": "horno-de-cementado-y-temple-en-aceite",
+  "title": "Horno de cementado y temple en aceite",
+  "text": "Los tornillos se calientan en medio carbonoso para aumentar el carbono superficial y se enfrían bruscamente en aceite: superficie dura y mejor resistencia mecánica."
+ },
+ {
+  "type": "planta",
+  "id": "lineas-de-galvano",
+  "title": "Líneas de galvano",
+  "text": "Zincado, zincromatizado (tropicalizado/iridizado), zincro-negro, zincro-cromo y niquelado; también cobrizado, latonado y fosfatado. Baños ecológicos."
+ },
+ {
+  "type": "planta",
+  "id": "sistematizacion-y-telemercadeo",
+  "title": "Sistematización y telemercadeo",
+  "text": "Desde 1983 la compañía se sistematiza por computador en todas sus áreas; en 1988 se instala el telemercadeo para atención de clientes."
+ },
+ {
+  "type": "instrumento",
+  "id": "calibrador-pie-de-rey",
+  "title": "Calibrador (pie de rey)",
+  "text": "Diámetro de rosca, diámetro y altura de cabeza, ancho y profundidad de ranura y longitud. La longitud se mide paralela al eje, desde el diámetro mayor de la superficie de apoyo de la cabeza hasta la punta. En cabeza oval y otras, la altura es H = L − L1."
+ },
+ {
+  "type": "instrumento",
+  "id": "galga-de-penetracion-de-estria",
+  "title": "Galga de penetración de estría",
+  "text": "Mide T, la profundidad de penetración de la estría Phillips (p. ej. en cabeza cilíndrica milimétrica)."
+ },
+ {
+  "type": "instrumento",
+  "id": "galgas-de-rosca-pasa-no-pasa",
+  "title": "Galgas de rosca pasa / no pasa",
+  "text": "Verifican que la rosca cumpla la clase de tolerancia (2A en UNC/UNF, 6g en métrica DIN 13). Complementan la medición de diámetros mayor, medio y menor."
+ },
+ {
+  "type": "instrumento",
+  "id": "control-de-dureza",
+  "title": "Control de dureza",
+  "text": "La materia prima se controla en dimensión, aspecto superficial y dureza al recibirla. Tras el cementado, la dureza superficial es una característica clave (general)."
+ },
+ {
+  "type": "instrumento",
+  "id": "atornillador-automatico-torque",
+  "title": "Atornillador automático / torque",
+  "text": "Se gradúa al torque máximo del calibre; superarlo descabeza el tornillo. CATO garantiza sus tornillos lámina y machuelo para los torques máximos de su tabla."
+ },
+ {
+  "type": "instrumento",
+  "id": "bascula-y-rotulado-de-rollos",
+  "title": "Báscula y rotulado de rollos",
+  "text": "Cada rollo de alambre se pesa y se rotula con número de rollo, calibre, material y peso para su control en bodega."
  },
  {
   "type": "punta",

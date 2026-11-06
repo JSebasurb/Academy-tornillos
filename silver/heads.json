@@ -3,48 +3,56 @@
   "id": "plana-avellana",
   "name": "Plana / Avellana",
   "path": "M12 16H68L48 34H32Z",
-  "desc": "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4."
+  "desc": "Cabeza que queda a ras de la superficie (ángulo 80–82°). Ranurada o Phillips. ANSI B18.6.1/6.3/6.4.",
+  "figura": "cab_plana"
  },
  {
   "id": "oval",
   "name": "Oval",
   "path": "M12 22Q40 4 68 22L48 34H32Z",
-  "desc": "Avellana con cúpula: queda levemente saliente; presentación decorativa."
+  "desc": "Avellana con cúpula: queda levemente saliente; presentación decorativa.",
+  "figura": "cab_oval"
  },
  {
   "id": "cilindrica",
   "name": "Cilíndrica",
   "path": "M22 32V14Q22 10 26 10H54Q58 10 58 14V32Z",
-  "desc": "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias)."
+  "desc": "Cabeza recomendada por CATO para sustituir Redonda, Lenteja y Binding (misma función, menos referencias).",
+  "figura": "cab_cilindrica"
  },
  {
   "id": "redonda",
   "name": "Redonda",
   "path": "M20 32Q20 8 40 8Q60 8 60 32Z",
-  "desc": "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera."
+  "desc": "Cúpula alta. Diámetro 5–10 % menor que la plana/oval en tornillos de madera.",
+  "figura": "cab_redonda"
  },
  {
   "id": "lenteja-pan",
   "name": "Lenteja (Pan)",
   "path": "M14 32Q18 14 40 12Q62 14 66 32Z",
-  "desc": "Cabeza baja y ancha, radio R de cabeza."
+  "desc": "Cabeza baja y ancha, radio R de cabeza.",
+  "figura": "cab_lenteja"
  },
  {
   "id": "fillister",
   "name": "Fillister",
   "path": "M22 32V18Q40 6 58 18V32Z",
-  "desc": "Cabeza cilíndrica abombada con lados rectos."
+  "desc": "Cabeza cilíndrica abombada con lados rectos.",
+  "figura": "cab_fillister"
  },
  {
   "id": "binding",
   "name": "Binding",
   "path": "M16 32L22 28V20Q40 8 58 20V28L64 32Z",
-  "desc": "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada."
+  "desc": "Con anillo inferior (U, X) que apoya sobre la pieza; ranurada, Phillips o combinada.",
+  "figura": "cab_binding"
  },
  {
   "id": "hexagonal-con-arandela",
   "name": "Hexagonal con arandela",
   "path": "M14 28H66V32H14ZM24 28V12H56V28Z",
-  "desc": "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente."
+  "desc": "Distancia entre caras A, arandela B y espesor U. Se suministra sin ranura salvo pedido del cliente.",
+  "figura": "cab_hexagonal"
  }
 ]

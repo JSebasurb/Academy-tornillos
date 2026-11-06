@@ -1,0 +1,38 @@
+[
+ {
+  "id": "calibrador-pie-de-rey",
+  "name": "Calibrador (pie de rey)",
+  "source": "Catálogo",
+  "desc": "Diámetro de rosca, diámetro y altura de cabeza, ancho y profundidad de ranura y longitud. La longitud se mide paralela al eje, desde el diámetro mayor de la superficie de apoyo de la cabeza hasta la punta. En cabeza oval y otras, la altura es H = L − L1."
+ },
+ {
+  "id": "galga-de-penetracion-de-estria",
+  "name": "Galga de penetración de estría",
+  "source": "Catálogo",
+  "desc": "Mide T, la profundidad de penetración de la estría Phillips (p. ej. en cabeza cilíndrica milimétrica)."
+ },
+ {
+  "id": "galgas-de-rosca-pasa-no-pasa",
+  "name": "Galgas de rosca pasa / no pasa",
+  "source": "General",
+  "desc": "Verifican que la rosca cumpla la clase de tolerancia (2A en UNC/UNF, 6g en métrica DIN 13). Complementan la medición de diámetros mayor, medio y menor."
+ },
+ {
+  "id": "control-de-dureza",
+  "name": "Control de dureza",
+  "source": "Catálogo",
+  "desc": "La materia prima se controla en dimensión, aspecto superficial y dureza al recibirla. Tras el cementado, la dureza superficial es una característica clave (general)."
+ },
+ {
+  "id": "atornillador-automatico-torque",
+  "name": "Atornillador automático / torque",
+  "source": "Catálogo",
+  "desc": "Se gradúa al torque máximo del calibre; superarlo descabeza el tornillo. CATO garantiza sus tornillos lámina y machuelo para los torques máximos de su tabla."
+ },
+ {
+  "id": "bascula-y-rotulado-de-rollos",
+  "name": "Báscula y rotulado de rollos",
+  "source": "Catálogo",
+  "desc": "Cada rollo de alambre se pesa y se rotula con número de rollo, calibre, material y peso para su control en bodega."
+ }
+]

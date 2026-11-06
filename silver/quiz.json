@@ -1,156 +1,1822 @@
 [
  {
   "id": "q1",
-  "q": "¿Qué alambre usa CATO como materia prima principal?",
+  "cat": "mat",
+  "level": 1,
+  "q": "¿Qué alambre usa CATO principalmente como materia prima?",
   "options": [
-   "SAE 1018/1015 cold heading",
-   "Acero inoxidable 316",
-   "Aluminio 6061"
+   "Acero SAE 1018/1015 calidad cold heading",
+   "Acero inoxidable AISI 304 en barra",
+   "Aluminio 6061 en rollo",
+   "Latón 60/40 trefilado"
   ],
   "answer": 0,
-  "explanation": "Importado, calidad cold heading; se trefila al diámetro requerido."
+  "explanation": "Es alambrón de acero importado, trefilado al diámetro de cada referencia."
  },
  {
   "id": "q2",
-  "q": "¿Cómo se forma la rosca del tornillo?",
+  "cat": "mat",
+  "level": 1,
+  "q": "¿Cómo se forman la cabeza y el cuerpo del remache?",
   "options": [
-   "Fresado",
-   "Laminación con peines",
-   "Fundición"
+   "Torneando la barra en un torno automático",
+   "Con estampadores que golpean el alambre dentro de una matriz",
+   "Fundiendo el acero en un molde",
+   "Doblando el alambre con rodillos calientes"
   ],
   "answer": 1,
-  "explanation": "Un par de peines con perfil grabado presiona el remache."
+  "explanation": "Es formado en frío: la remachadora corta el alambre y lo golpea en la matriz, sin arranque de viruta."
  },
  {
   "id": "q3",
-  "q": "¿En qué consiste el cementado?",
+  "cat": "mat",
+  "level": 1,
+  "q": "¿Cómo se fabrica la rosca de un tornillo en CATO?",
   "options": [
-   "Recubrir con zinc",
-   "Calentar en medio carbonoso y templar",
-   "Pulir la cabeza"
+   "Cortándola con machuelo",
+   "Fresándola con una fresa madre",
+   "Por laminación con un par de peines grabados",
+   "Fundiéndola en la matriz"
   ],
-  "answer": 1,
-  "explanation": "Aumenta el carbono superficial y la dureza."
+  "answer": 2,
+  "explanation": "Los peines aplican presión y movimiento al remache. El machuelo se usa en la rosca interior de tuercas."
  },
  {
   "id": "q4",
-  "q": "Tipo autorroscante que CATO recomienda en vez de A, B y BP:",
+  "cat": "mat",
+  "level": 2,
+  "q": "¿Para qué sirve el recocido del alambre después del trefilado?",
   "options": [
-   "AB",
-   "C",
-   "F"
+   "Aumentar el carbono superficial",
+   "Protegerlo contra la corrosión",
+   "Estampar la ranura",
+   "Darle la dureza necesaria para el formado"
   ],
-  "answer": 0,
-  "explanation": "Une paso fino del B y punta del A."
+  "answer": 3,
+  "explanation": "El recocido en horno ajusta la dureza del alambre; el carbono superficial lo aumenta el cementado."
  },
  {
   "id": "q5",
-  "q": "Hueco piloto en madera blanda respecto al diámetro menor:",
+  "cat": "mat",
+  "level": 2,
+  "q": "¿Qué se busca con el cementado?",
   "options": [
-   "Igual",
-   "15 % menor",
-   "30 % mayor"
+   "Aumentar el carbono superficial y endurecer la superficie",
+   "Reducir el diámetro de rosca",
+   "Dar color negro al tornillo",
+   "Eliminar la necesidad de recubrimiento"
   ],
-  "answer": 1,
-  "explanation": "En maderas duras se usa el diámetro menor."
+  "answer": 0,
+  "explanation": "Se calienta en medio carbonoso y se templa: superficie dura y mejor resistencia mecánica."
  },
  {
   "id": "q6",
-  "q": "Longitud de rosca de un tornillo para madera ≈",
+  "cat": "mat",
+  "level": 2,
+  "q": "¿En qué medio se enfría bruscamente el tornillo tras el cementado?",
   "options": [
-   "1/3",
-   "2/3",
-   "Total siempre"
+   "Agua con sal",
+   "Aceite",
+   "Aire forzado",
+   "Nitrógeno líquido"
   ],
   "answer": 1,
-  "explanation": "Menores de 3/4″ se roscan totalmente."
+  "explanation": "Se enfría bruscamente en aceite para endurecer la superficie."
  },
  {
   "id": "q7",
-  "q": "Una rosca 5/32″ Whitworth vs 8-32 americana:",
+  "cat": "mat",
+  "level": 2,
+  "q": "¿Cuál de estos acabados aparece en la oferta de CATO?",
   "options": [
-   "Idéntica",
-   "Diámetro un poco menor",
-   "Mucho mayor"
+   "Anodizado azul",
+   "Galvanizado en caliente por inmersión",
+   "Fosfatado",
+   "Cromado decorativo espejo"
   ],
-  "answer": 1,
-  "explanation": "Recomendación: tuercas y tornillos del mismo proveedor."
+  "answer": 2,
+  "explanation": "Ofrece zincado, zincromatizado, zincro-negro, zincro-cromo, niquelado, cobrizado, latonado y fosfatado."
  },
  {
   "id": "q8",
-  "q": "Si el agujero es muy pequeño y el torque excesivo, el tornillo…",
+  "cat": "mat",
+  "level": 2,
+  "q": "El zincromatizado también se conoce como…",
   "options": [
-   "Se afloja",
-   "Se parte bajo la cabeza",
-   "Se dilata"
+   "Fosfatado",
+   "Latonado",
+   "Niquelado",
+   "Tropicalizado o iridizado"
   ],
-  "answer": 1,
-  "explanation": "Se descabeza: verificar agujero y calibrar el atornillador."
+  "answer": 3,
+  "explanation": "El catálogo lo llama zincromatizado (tropicalizado o iridizado)."
  },
  {
   "id": "q9",
-  "q": "El tornillo representa en el costo de una unión roscada:",
+  "cat": "mat",
+  "level": 2,
+  "q": "¿Cuántos pasos consecutivos forman una tuerca hexagonal?",
   "options": [
-   "5–20 %",
-   "50–60 %",
-   "80–90 %"
+   "Cinco",
+   "Uno",
+   "Tres",
+   "Nueve"
   ],
   "answer": 0,
-  "explanation": "El resto es preparación, mano de obra y administración."
+  "explanation": "Las hexagonales se forman en cinco pasos en la formadora; las cuadradas se troquelan de fleje."
  },
  {
   "id": "q10",
-  "q": "Cabeza que CATO recomienda para sustituir Redonda, Lenteja y Binding:",
+  "cat": "mat",
+  "level": 3,
+  "q": "Ordena el proceso del tornillo: ¿cuál secuencia es correcta?",
   "options": [
-   "Hexagonal",
-   "Cilíndrica",
-   "Oval"
+   "Remache → cementado → trefilado → rosca → galvano",
+   "Trefilado → remache → ranura → rosca → cementado → galvano",
+   "Rosca → remache → ranura → galvano → cementado",
+   "Galvano → rosca → remache → trefilado → cementado"
   ],
   "answer": 1,
-  "explanation": "Menos ítems, compras mayores y menos inspección."
+  "explanation": "El galvano va al final porque protege la pieza ya endurecida; la rosca se lamina antes del cementado."
  },
  {
   "id": "q11",
-  "q": "¿Cuántos tornillos de hierro para madera trae la cajita?",
+  "cat": "mat",
+  "level": 3,
+  "q": "Al recibir un rollo de alambre, el tiquete de identificación indica…",
   "options": [
-   "100",
-   "144",
-   "200"
+   "Cliente, pedido, fecha y destino",
+   "Dureza, recubrimiento, torque y lote",
+   "Número de rollo, calibre, material y peso",
+   "Proveedor, precio, color y turno"
   ],
-  "answer": 1,
-  "explanation": "Una gruesa. Estufa/lámina: 100."
+  "answer": 2,
+  "explanation": "Cada rollo se pesa y rotula para su control en bodega de materia prima."
  },
  {
   "id": "q12",
-  "q": "Peso máximo de cada cartón de despacho:",
+  "cat": "mat",
+  "level": 3,
+  "q": "¿Qué controles se hacen a la materia prima al recibirla?",
   "options": [
-   "10 kg",
-   "30 kg",
-   "50 kg"
+   "Solo composición química",
+   "Solo peso y longitud",
+   "Rugosidad y conductividad",
+   "Dimensional, aspecto superficial y dureza"
   ],
-  "answer": 1,
-  "explanation": "Tanto cajitas como bolsas industriales."
+  "answer": 3,
+  "explanation": "Son los tres controles de recepción descritos en el proceso de fabricación."
  },
  {
   "id": "q13",
-  "q": "Paso en mm de una rosca de 20 TPI:",
+  "cat": "cab",
+  "level": 1,
+  "q": "En las tablas de cabezas, la letra J indica…",
   "options": [
-   "1,27",
-   "0,79",
-   "2,54"
+   "Ancho de ranura",
+   "Profundidad de ranura",
+   "Altura de cabeza",
+   "Diámetro de cabeza"
   ],
   "answer": 0,
-  "explanation": "25,4 ÷ 20 = 1,27 mm."
+  "explanation": "J = ancho de ranura y T = profundidad de ranura."
  },
  {
   "id": "q14",
-  "q": "¿Año de fundación de Industrias Cato Ltda.?",
+  "cat": "cab",
+  "level": 1,
+  "q": "En las tablas de cabezas, la letra T indica…",
+  "options": [
+   "Ancho de ranura",
+   "Profundidad de ranura",
+   "Diámetro del vástago",
+   "Radio de cabeza"
+  ],
+  "answer": 1,
+  "explanation": "T es la profundidad de ranura (en Phillips, la penetración medida con galga)."
+ },
+ {
+  "id": "q15",
+  "cat": "cab",
+  "level": 1,
+  "q": "¿Qué cabeza recomienda CATO en lugar de redonda, lenteja y binding?",
+  "options": [
+   "Hexagonal",
+   "Oval",
+   "Cilíndrica",
+   "Avellanada"
+  ],
+  "answer": 2,
+  "explanation": "Las diferencias dimensionales son insignificantes y la cilíndrica rinde mejor."
+ },
+ {
+  "id": "q16",
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Qué ventaja trae unificar en cabeza cilíndrica?",
+  "options": [
+   "Mayor resistencia al torque",
+   "Menor consumo de zinc",
+   "Es la única con estampa Phillips",
+   "Menos referencias, compras mayores por ítem y menos inspección"
+  ],
+  "answer": 3,
+  "explanation": "El beneficio es de economía y simplificación de inventario, respaldado por comités ANSI."
+ },
+ {
+  "id": "q17",
+  "cat": "cab",
+  "level": 2,
+  "q": "En la estampa Phillips, M representa…",
+  "options": [
+   "Diámetro de la estría",
+   "Ancho de la estría",
+   "Profundidad de la estría",
+   "Número de destornillador"
+  ],
+  "answer": 0,
+  "explanation": "M = diámetro, S = profundidad y N = ancho de estría."
+ },
+ {
+  "id": "q18",
+  "cat": "cab",
+  "level": 2,
+  "q": "En la estampa Phillips, N representa…",
+  "options": [
+   "Diámetro de la estría",
+   "Ancho de la estría",
+   "Altura de cabeza",
+   "Profundidad de ranura"
+  ],
+  "answer": 1,
+  "explanation": "N es el ancho de estría; se indica además el número de destornillador."
+ },
+ {
+  "id": "q19",
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Cómo se suministran las cabezas hexagonales con arandela?",
+  "options": [
+   "Siempre con ranura cruzada",
+   "Siempre con ranura de pala",
+   "Sin ranura, salvo que el cliente la solicite",
+   "Con estampa Torx"
+  ],
+  "answer": 2,
+  "explanation": "Posición y existencia de ranura son opcionales según el pedido."
+ },
+ {
+  "id": "q20",
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Qué ángulo de avellanado muestran los dibujos de cabeza plana y oval?",
+  "options": [
+   "45°",
+   "60°",
+   "120°",
+   "80°–82°"
+  ],
+  "answer": 3,
+  "explanation": "Los dibujos indican 80/82°. Aglomerado usa 90°."
+ },
+ {
+  "id": "q21",
+  "cat": "cab",
+  "level": 2,
+  "q": "La letra O en cabezas oval, cilíndrica o fillister indica…",
+  "options": [
+   "Altura total de cabeza",
+   "Ancho de ranura",
+   "Diámetro de arandela",
+   "Longitud de rosca"
+  ],
+  "answer": 0,
+  "explanation": "O = altura total de cabeza; H es la altura de cabeza ranurada o avellán."
+ },
+ {
+  "id": "q22",
+  "cat": "cab",
+  "level": 3,
+  "q": "¿Qué distingue la cabeza binding de las demás?",
+  "options": [
+   "Una ranura cruzada obligatoria",
+   "Un anillo inferior con diámetro U y profundidad X",
+   "Un cuello cuadrado",
+   "Un borde dentado"
+  ],
+  "answer": 1,
+  "explanation": "El anillo bajo cabeza apoya sobre la pieza."
+ },
+ {
+  "id": "q23",
+  "cat": "cab",
+  "level": 3,
+  "q": "¿Qué punta Phillips corresponde a los calibres 5 a 10 (M3.5–M5)?",
+  "options": [
+   "N° 0",
+   "N° 1",
+   "N° 2",
+   "N° 4"
+  ],
+  "answer": 2,
+  "explanation": "N°0: 0–1; N°1: 2–4; N°2: 5–10; N°3: 12–16 y 1/4″; N°4: 5/16″ y 3/8″."
+ },
+ {
+  "id": "q24",
+  "cat": "cab",
+  "level": 3,
+  "q": "¿Qué punta Phillips corresponde a calibres 5/16″ y 3/8″ (M8, M10)?",
+  "options": [
+   "N° 2",
+   "N° 3",
+   "N° 1",
+   "N° 4"
+  ],
+  "answer": 3,
+  "explanation": "Es la punta de mayor tamaño de la tabla del catálogo."
+ },
+ {
+  "id": "q25",
+  "cat": "cab",
+  "level": 3,
+  "q": "¿Qué punta de destornillador de pala sugiere el catálogo para calibre 8?",
+  "options": [
+   "1,05 mm de espesor × 8,3 mm de ancho",
+   "0,95 × 6,7 mm",
+   "1,25 × 9,9 mm",
+   "0,75 × 4,9 mm"
+  ],
+  "answer": 0,
+  "explanation": "Calibres 8 y 9 usan 1,05 × 8,3 mm; el 10 y 11, 1,25 × 9,9 mm."
+ },
+ {
+  "id": "q26",
+  "cat": "cab",
+  "level": 2,
+  "q": "Si la pala del destornillador es más ancha que la ranura…",
+  "options": [
+   "Mejora el agarre",
+   "Se excede el torque y puede reventarse la cabeza",
+   "No afecta el tornillo",
+   "Reduce el torque transmitido"
+  ],
+  "answer": 1,
+  "explanation": "El destornillador debe tocar toda la ranura sin sobrepasarla."
+ },
+ {
+  "id": "q27",
+  "cat": "cab",
+  "level": 3,
+  "q": "En la cabeza cilíndrica DIN 84, la letra t indica…",
+  "options": [
+   "Ancho de ranura",
+   "Altura de cabeza",
+   "Profundidad de ranura",
+   "Diámetro de cabeza"
+  ],
+  "answer": 2,
+  "explanation": "En DIN 84: D diámetro, K altura, n ancho y t profundidad de ranura."
+ },
+ {
+  "id": "q28",
+  "cat": "ros",
+  "level": 1,
+  "q": "¿Cuántos mm mide el calibre #10?",
+  "options": [
+   "4,17",
+   "5,49",
+   "3,84",
+   "4,83"
+  ],
+  "answer": 3,
+  "explanation": "Se obtiene con 0,060 + 0,013·10 = 0,190″ = 4,83 mm."
+ },
+ {
+  "id": "q29",
+  "cat": "ros",
+  "level": 1,
+  "q": "¿Qué fórmula da el diámetro nominal en pulgadas de un calibre N?",
+  "options": [
+   "0,060 + 0,013·N",
+   "0,013 + 0,060·N",
+   "N ÷ 16",
+   "0,25·N"
+  ],
+  "answer": 0,
+  "explanation": "Es la relación ANSI usada en las tablas del catálogo."
+ },
+ {
+  "id": "q30",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Cuántos mm mide el calibre #12?",
+  "options": [
+   "4,83",
+   "5,49",
+   "6,15",
+   "6,35"
+  ],
+  "answer": 1,
+  "explanation": "0,060 + 0,013·12 = 0,216″ = 5,49 mm."
+ },
+ {
+  "id": "q31",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Cuál es el paso, en mm, de una rosca de 20 hilos por pulgada?",
+  "options": [
+   "0,79",
+   "2,54",
+   "1,27",
+   "0,50"
+  ],
+  "answer": 2,
+  "explanation": "Paso = 25,4 ÷ 20 = 1,27 mm."
+ },
+ {
+  "id": "q32",
+  "cat": "ros",
+  "level": 2,
+  "q": "Un paso de 1,0 mm equivale aproximadamente a…",
+  "options": [
+   "20 hilos por pulgada",
+   "32 hilos por pulgada",
+   "40 hilos por pulgada",
+   "25,4 hilos por pulgada"
+  ],
+  "answer": 3,
+  "explanation": "25,4 ÷ 1,0 = 25,4 hilos por pulgada."
+ },
+ {
+  "id": "q33",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Qué significa UNC?",
+  "options": [
+   "Rosca unificada nacional ordinaria",
+   "Rosca unificada nacional fina",
+   "Rosca unificada cilíndrica",
+   "Rosca universal normalizada de calibre"
+  ],
+  "answer": 0,
+  "explanation": "UNC es la serie ordinaria (coarse); UNF es la fina."
+ },
+ {
+  "id": "q34",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Cuántos hilos por pulgada tiene la rosca ordinaria 1/4″ UNC?",
+  "options": [
+   "28",
+   "20",
+   "18",
+   "24"
+  ],
+  "answer": 1,
+  "explanation": "1/4-20 UNC y 1/4-28 UNF."
+ },
+ {
+  "id": "q35",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Cuál es el paso de una rosca métrica M6 según DIN 13?",
+  "options": [
+   "0,8 mm",
+   "1,25 mm",
+   "1,0 mm",
+   "1,5 mm"
+  ],
+  "answer": 2,
+  "explanation": "M5 = 0,8; M6 = 1,0; M8 = 1,25; M10 = 1,5."
+ },
+ {
+  "id": "q36",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Cuál es el paso de una rosca M8?",
+  "options": [
+   "1,0 mm",
+   "1,5 mm",
+   "0,8 mm",
+   "1,25 mm"
+  ],
+  "answer": 3,
+  "explanation": "Tabla DIN 13 del catálogo."
+ },
+ {
+  "id": "q37",
+  "cat": "ros",
+  "level": 2,
+  "q": "¿Qué clase de tolerancia tienen las roscas métricas externas del catálogo?",
+  "options": [
+   "6g",
+   "2A",
+   "6H",
+   "3B"
+  ],
+  "answer": 0,
+  "explanation": "Las UNC/UNF externas son clase 2A."
+ },
+ {
+  "id": "q38",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál de estas roscas es UNF (fina)?",
+  "options": [
+   "10-24",
+   "10-32",
+   "8-32",
+   "1/4-20"
+  ],
+  "answer": 1,
+  "explanation": "10-24 y 8-32 son UNC; 10-32 es UNF."
+ },
+ {
+  "id": "q39",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál es el paso de una rosca #10-24 (UNC)?",
+  "options": [
+   "0,794 mm",
+   "1,270 mm",
+   "1,058 mm",
+   "1,411 mm"
+  ],
+  "answer": 2,
+  "explanation": "25,4 ÷ 24 = 1,058 mm."
+ },
+ {
+  "id": "q40",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál es el paso de una rosca #8-32?",
+  "options": [
+   "1,058 mm",
+   "1,270 mm",
+   "0,500 mm",
+   "0,794 mm"
+  ],
+  "answer": 3,
+  "explanation": "25,4 ÷ 32 = 0,794 mm."
+ },
+ {
+  "id": "q41",
+  "cat": "ros",
+  "level": 3,
+  "q": "Una rosca M5 de paso 0,8 mm equivale a unos…",
+  "options": [
+   "31,75 hilos por pulgada",
+   "25,4 hilos por pulgada",
+   "20 hilos por pulgada",
+   "40 hilos por pulgada"
+  ],
+  "answer": 0,
+  "explanation": "25,4 ÷ 0,8 = 31,75."
+ },
+ {
+  "id": "q42",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál es el diámetro mayor máximo de una rosca 1/4-20 UNC clase 2A?",
+  "options": [
+   "6,35 mm",
+   "6,32 mm",
+   "6,12 mm",
+   "7,91 mm"
+  ],
+  "answer": 1,
+  "explanation": "6,32 es el máximo y 6,12 el mínimo; 6,35 es el nominal."
+ },
+ {
+  "id": "q43",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál es el diámetro mayor mínimo de una rosca 8-32 UNC clase 2A?",
+  "options": [
+   "4,14 mm",
+   "4,17 mm",
+   "3,99 mm",
+   "3,63 mm"
+  ],
+  "answer": 2,
+  "explanation": "4,14 es el máximo; 4,17 es el diámetro nominal del calibre 8."
+ },
+ {
+  "id": "q44",
+  "cat": "ros",
+  "level": 2,
+  "q": "En un tornillo galvanizado o niquelado, el diámetro máximo de rosca…",
+  "options": [
+   "Se reduce por el recubrimiento",
+   "No cambia",
+   "Depende solo del torque",
+   "Se incrementa por el espesor de la capa"
+  ],
+  "answer": 3,
+  "explanation": "El catálogo advierte que el diámetro máximo aumenta por la capa."
+ },
+ {
+  "id": "q45",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Cuál es el ancho máximo de la arista de rosca hasta el calibre 8?",
+  "options": [
+   "0,10 mm",
+   "0,15 mm",
+   "0,25 mm",
+   "0,50 mm"
+  ],
+  "answer": 0,
+  "explanation": "Para diámetros mayores el límite sube a 0,15 mm."
+ },
+ {
+  "id": "q46",
+  "cat": "ros",
+  "level": 3,
+  "q": "¿Qué diferencia hay entre una rosca 8-32 americana y una 5/32″ Whitworth?",
+  "options": [
+   "Son idénticas",
+   "La 5/32″ tiene un diámetro algo menor y no siempre son intercambiables",
+   "La 8-32 es métrica",
+   "La 5/32″ es más gruesa"
+  ],
+  "answer": 1,
+  "explanation": "Conviene comprar tuercas y tornillos del mismo proveedor."
+ },
+ {
+  "id": "q47",
+  "cat": "aut",
+  "level": 1,
+  "q": "¿Qué tipo de tornillo autorroscante recomienda CATO?",
+  "options": [
+   "A",
+   "B",
+   "AB",
+   "C"
+  ],
+  "answer": 2,
+  "explanation": "El AB combina el paso fino del B con la punta del A."
+ },
+ {
+  "id": "q48",
+  "cat": "aut",
+  "level": 1,
+  "q": "¿Qué caracteriza al tipo B?",
+  "options": [
+   "Rosca gruesa y punta aguda",
+   "Filos de corte en la punta",
+   "Punta cónica ciega",
+   "Paso fino y ausencia de punta"
+  ],
+  "answer": 3,
+  "explanation": "Se usa en lámina delgada y gruesa, fundiciones no ferrosas y plásticos."
+ },
+ {
+  "id": "q49",
+  "cat": "aut",
+  "level": 2,
+  "q": "¿Qué tipos son de tipo machuelo (filos de corte)?",
+  "options": [
+   "F y BF",
+   "A y AB",
+   "B y C",
+   "A y B"
+  ],
+  "answer": 0,
+  "explanation": "F tiene rosca de estufa con filos; BF es un tipo B con filos de corte."
+ },
+ {
+  "id": "q50",
+  "cat": "aut",
+  "level": 2,
+  "q": "¿Qué tipo tiene rosca de estufa con punta cónica ciega?",
+  "options": [
+   "A",
+   "C",
+   "AB",
+   "BF"
+  ],
+  "answer": 1,
+  "explanation": "Se emplea en láminas más gruesas que las del AB."
+ },
+ {
+  "id": "q51",
+  "cat": "aut",
+  "level": 2,
+  "q": "Para aluminio, fundición de plomo o zinc y bronce se usa…",
+  "options": [
+   "Tipo A",
+   "Tipo AB",
+   "Tipo F",
+   "Tipo B"
+  ],
+  "answer": 2,
+  "explanation": "El tipo F es de tipo machuelo."
+ },
+ {
+  "id": "q52",
+  "cat": "aut",
+  "level": 2,
+  "q": "¿Cuándo se prefiere un tornillo tipo machuelo?",
+  "options": [
+   "Cuando se quiere la máxima tensión interna",
+   "Solo en madera",
+   "Solo en lámina delgada",
+   "Cuando no se aceptan tensiones internas altas"
+  ],
+  "answer": 3,
+  "explanation": "Los que forman rosca generan grandes tensiones internas."
+ },
+ {
+  "id": "q53",
+  "cat": "aut",
+  "level": 3,
+  "q": "Con lámina muy gruesa, el tipo C se rompe por torque. ¿Qué hacer?",
+  "options": [
+   "Roscar previamente y usar tornillo estufa",
+   "Aumentar el torque",
+   "Cambiar a tipo A",
+   "Usar un agujero más pequeño"
+  ],
+  "answer": 0,
+  "explanation": "Un agujero muy pequeño o torque excesivo descabeza el tornillo."
+ },
+ {
+  "id": "q54",
+  "cat": "aut",
+  "level": 3,
+  "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 8?",
+  "options": [
+   "15",
+   "18",
+   "24",
+   "32"
+  ],
+  "answer": 1,
+  "explanation": "El tipo A de calibre 8 tiene 15."
+ },
+ {
+  "id": "q55",
+  "cat": "aut",
+  "level": 3,
+  "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 10?",
+  "options": [
+   "12",
+   "20",
+   "16",
+   "24"
+  ],
+  "answer": 2,
+  "explanation": "El tipo A de calibre 10 tiene 12."
+ },
+ {
+  "id": "q56",
+  "cat": "aut",
+  "level": 3,
+  "q": "¿Cuántos hilos por pulgada tiene un tipo A de calibre 8?",
+  "options": [
+   "18",
+   "20",
+   "24",
+   "15"
+  ],
+  "answer": 3,
+  "explanation": "Es rosca gruesa, de paso ampliamente espaciado."
+ },
+ {
+  "id": "q57",
+  "cat": "aut",
+  "level": 3,
+  "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 6?",
+  "options": [
+   "20",
+   "18",
+   "24",
+   "32"
+  ],
+  "answer": 0,
+  "explanation": "El tipo A de calibre 6 tiene 18."
+ },
+ {
+  "id": "q58",
+  "cat": "aut",
+  "level": 3,
+  "q": "¿Qué beneficio tiene unificar el inventario en tipo AB?",
+  "options": [
+   "Menor diámetro de rosca",
+   "Menos costos de control, manejo e inspección",
+   "Mayor torque admisible",
+   "Menos protección contra corrosión"
+  ],
+  "answer": 1,
+  "explanation": "También su penetración y resistencia superan a las del tipo A."
+ },
+ {
+  "id": "q59",
+  "cat": "aut",
+  "level": 2,
+  "q": "¿Qué ángulo de punta se dibuja en los tipos A y AB?",
+  "options": [
+   "30° ± 5°",
+   "60° ± 5°",
+   "45° ± 5°",
+   "90°"
+  ],
+  "answer": 2,
+  "explanation": "El dibujo del catálogo indica 45° ± 5°."
+ },
+ {
+  "id": "q60",
+  "cat": "aut",
+  "level": 3,
+  "q": "Perforación en fenol-formaldehído para un tornillo lámina calibre 8 (DIN 7970)",
+  "options": [
+   "3,7 mm",
+   "4,2 mm",
+   "4,5 mm",
+   "3,8 mm"
+  ],
+  "answer": 3,
+  "explanation": "Para celulosa, poliacrilatos y poliestirol el calibre 8 usa 3,7 mm."
+ },
+ {
+  "id": "q61",
+  "cat": "aut",
+  "level": 3,
+  "q": "Perforación en celulosa/poliacrilatos para un calibre 10 (DIN 7970)",
+  "options": [
+   "4,3 mm",
+   "4,5 mm",
+   "4,8 mm",
+   "4,0 mm"
+  ],
+  "answer": 0,
+  "explanation": "El valor fenólico del calibre 10 es 4,5 mm."
+ },
+ {
+  "id": "q62",
+  "cat": "aut",
+  "level": 2,
+  "q": "En plásticos, ¿cuántos ensayos recomienda el catálogo?",
+  "options": [
+   "Uno solo",
+   "Unos 50 ensayos de atornillado",
+   "Cinco",
+   "Ninguno"
+  ],
+  "answer": 1,
+  "explanation": "Es especialmente importante en perforaciones no redondas."
+ },
+ {
+  "id": "q63",
+  "cat": "apl",
+  "level": 1,
+  "q": "¿Qué diámetro de hueco piloto se usa en maderas duras?",
+  "options": [
+   "El 15 % mayor",
+   "La mitad del diámetro mayor",
+   "El del diámetro menor del tornillo",
+   "Ninguno"
+  ],
+  "answer": 2,
+  "explanation": "En maderas blandas se usa 15 % menos."
+ },
+ {
+  "id": "q64",
+  "cat": "apl",
+  "level": 1,
+  "q": "¿Y en maderas blandas como el pino?",
+  "options": [
+   "El doble",
+   "Igual al diámetro mayor",
+   "Sin hueco",
+   "15 % menor que el diámetro menor"
+  ],
+  "answer": 3,
+  "explanation": "Se debe considerar también la humedad de la madera."
+ },
+ {
+  "id": "q65",
+  "cat": "apl",
+  "level": 2,
+  "q": "¿Qué parte de la longitud nominal está roscada en un tornillo para madera?",
+  "options": [
+   "Aproximadamente dos tercios",
+   "Aproximadamente un tercio",
+   "Toda siempre",
+   "Solo la punta"
+  ],
+  "answer": 0,
+  "explanation": "Los menores de 3/4″ se roscan totalmente."
+ },
+ {
+  "id": "q66",
+  "cat": "apl",
+  "level": 3,
+  "q": "¿Cuánta rosca tiene aproximadamente un tornillo para madera de 1 1/2″ (38,1 mm)?",
+  "options": [
+   "19,05 mm",
+   "25,4 mm",
+   "38,1 mm",
+   "12,7 mm"
+  ],
+  "answer": 1,
+  "explanation": "38,1 × 2/3 = 25,4 mm."
+ },
+ {
+  "id": "q67",
+  "cat": "apl",
+  "level": 3,
+  "q": "Diámetro menor 3,12 mm en madera blanda: ¿qué broca piloto sale con −15 %?",
+  "options": [
+   "2,31 mm",
+   "3,12 mm",
+   "2,65 mm",
+   "2,96 mm"
+  ],
+  "answer": 2,
+  "explanation": "3,12 × 0,85 = 2,65 mm."
+ },
+ {
+  "id": "q68",
+  "cat": "apl",
+  "level": 3,
+  "q": "¿Qué tolerancia de longitud tiene un tornillo para madera de 2″?",
+  "options": [
+   "0 / −0,76 mm",
+   "0 / −1,27 mm",
+   "0 / −2,29 mm",
+   "0 / −1,52 mm"
+  ],
+  "answer": 3,
+  "explanation": "Entre 1 1/2″ y 2 3/4″ la tolerancia es 0/−1,52 mm."
+ },
+ {
+  "id": "q69",
+  "cat": "apl",
+  "level": 3,
+  "q": "¿Qué tolerancia tiene un tornillo para madera de 4″?",
+  "options": [
+   "0 / −2,29 mm",
+   "0 / −1,52 mm",
+   "0 / −1,27 mm",
+   "0 / −0,76 mm"
+  ],
+  "answer": 0,
+  "explanation": "De 2 3/4″ hasta 5″ es 0/−2,29 mm."
+ },
+ {
+  "id": "q70",
+  "cat": "apl",
+  "level": 2,
+  "q": "¿Qué láminas perfora el tornillo drywall gracias a su punta y dureza?",
+  "options": [
+   "Calibres 10 y 12",
+   "Calibres 22 y 23",
+   "Calibres 30 a 32",
+   "Cualquier calibre"
+  ],
+  "answer": 1,
+  "explanation": "Se debe al cementado y a la punta aguda."
+ },
+ {
+  "id": "q71",
+  "cat": "apl",
+  "level": 2,
+  "q": "Diámetro máximo de cabeza de un drywall calibre 10",
+  "options": [
+   "8,50 mm",
+   "8,80 mm",
+   "9,30 mm",
+   "10,0 mm"
+  ],
+  "answer": 2,
+  "explanation": "Los calibres 6, 7 y 8 tienen 8,50 mm máximo."
+ },
+ {
+  "id": "q72",
+  "cat": "apl",
+  "level": 3,
+  "q": "Drywall de 2″ (50,80 mm): ¿cuál es la longitud máxima admitida?",
+  "options": [
+   "50,80 mm",
+   "51,00 mm",
+   "49,28 mm",
+   "52,32 mm"
+  ],
+  "answer": 3,
+  "explanation": "49,28 mm es la mínima: ±1,27 mm."
+ },
+ {
+  "id": "q73",
+  "cat": "apl",
+  "level": 2,
+  "q": "En aglomerado, ¿cuál es el dk máximo del tamaño 6?",
+  "options": [
+   "12,0 mm",
+   "10,0 mm",
+   "9,0 mm",
+   "8,0 mm"
+  ],
+  "answer": 0,
+  "explanation": "El tamaño 4 tiene 8,0 mm y el 5, 10,0 mm."
+ },
+ {
+  "id": "q74",
+  "cat": "apl",
+  "level": 3,
+  "q": "¿Qué forma de estría Z tiene el aglomerado de tamaño 6?",
+  "options": [
+   "1",
+   "3",
+   "2",
+   "4"
+  ],
+  "answer": 1,
+  "explanation": "Tamaños 2,5–3 usan 1; 3,5–5 usan 2; el 6 usa 3."
+ },
+ {
+  "id": "q75",
+  "cat": "apl",
+  "level": 2,
+  "q": "¿Qué ángulo de avellanado tiene el tornillo para aglomerado?",
+  "options": [
+   "80°",
+   "60°",
+   "90°",
+   "45°"
+  ],
+  "answer": 2,
+  "explanation": "Su aplicación en metales y plásticos debe revisarse caso por caso."
+ },
+ {
+  "id": "q76",
+  "cat": "apl",
+  "level": 2,
+  "q": "¿Cuántos tornillos de hierro para madera trae la cajita?",
+  "options": [
+   "100",
+   "200",
+   "50",
+   "144"
+  ],
+  "answer": 3,
+  "explanation": "Estufa, lámina y bronce para madera vienen en cajitas de 100."
+ },
+ {
+  "id": "q77",
+  "cat": "apl",
+  "level": 2,
+  "q": "¿En qué cantidades se empacan los tornillos industriales en bolsa?",
+  "options": [
+   "De 100 a 2.000 unidades según tamaño",
+   "De 10 a 50",
+   "Siempre 500",
+   "Solo a granel"
+  ],
+  "answer": 0,
+  "explanation": "Las bolsas selladas van en cartones de máximo 30 kg."
+ },
+ {
+  "id": "q78",
+  "cat": "cal",
+  "level": 1,
+  "q": "¿Cómo se mide la longitud de un tornillo?",
+  "options": [
+   "Perpendicular al eje",
+   "Paralela al eje, desde el diámetro mayor del apoyo de la cabeza hasta la punta",
+   "Solo la parte roscada",
+   "Desde la parte superior de la cabeza"
+  ],
+  "answer": 1,
+  "explanation": "Es la regla general del catálogo."
+ },
+ {
+  "id": "q79",
+  "cat": "cal",
+  "level": 2,
+  "q": "¿Cómo se calcula la altura de cabeza en un tornillo oval?",
+  "options": [
+   "H = L + L1",
+   "H = L ÷ L1",
+   "H = L − L1",
+   "H = L1 − 2"
+  ],
+  "answer": 2,
+  "explanation": "L es la longitud total y L1 la medida bajo cabeza."
+ },
+ {
+  "id": "q80",
+  "cat": "cal",
+  "level": 2,
+  "q": "¿Por qué se descabeza un tornillo autorroscante?",
+  "options": [
+   "Exceso de zinc",
+   "Rosca fina",
+   "Falta de ranura",
+   "Agujero muy pequeño y torque superior al especificado"
+  ],
+  "answer": 3,
+  "explanation": "Verifique el agujero según calibre y espesor y gradúe el atornillador."
+ },
+ {
+  "id": "q81",
+  "cat": "cal",
+  "level": 3,
+  "q": "Torque máximo de la tabla para AB, B y BF calibre 10",
+  "options": [
+   "56",
+   "48",
+   "39",
+   "83"
+  ],
+  "answer": 0,
+  "explanation": "El tipo A calibre 10 admite 48."
+ },
+ {
+  "id": "q82",
+  "cat": "cal",
+  "level": 3,
+  "q": "Torque máximo de la tabla para tipos C y F calibre 8",
+  "options": [
+   "39",
+   "42",
+   "56",
+   "93"
+  ],
+  "answer": 1,
+  "explanation": "El tipo A y el AB calibre 8 muestran 39."
+ },
+ {
+  "id": "q83",
+  "cat": "cal",
+  "level": 3,
+  "q": "Torque máximo de la tabla para el tipo A calibre 12",
+  "options": [
+   "93",
+   "125",
+   "83",
+   "56"
+  ],
+  "answer": 2,
+  "explanation": "C y F admiten 93 en el calibre 12."
+ },
+ {
+  "id": "q84",
+  "cat": "cal",
+  "level": 2,
+  "q": "¿Qué porcentaje del costo de una unión roscada representa el tornillo?",
+  "options": [
+   "Entre 50 % y 60 %",
+   "Entre 80 % y 90 %",
+   "Más del 95 %",
+   "Entre 5 % y 20 %"
+  ],
+  "answer": 3,
+  "explanation": "El resto es preparación de las partes, mano de obra y administración."
+ },
+ {
+  "id": "q85",
+  "cat": "cal",
+  "level": 2,
+  "q": "¿Qué garantiza CATO para los tornillos lámina y machuelo?",
+  "options": [
+   "Resistir los torques máximos de su tabla",
+   "Una vida útil de 20 años",
+   "Resistencia a cualquier agujero",
+   "Cero rebabas"
+  ],
+  "answer": 0,
+  "explanation": "Hay que verificar tornillo y perforaciones antes del ensamble."
+ },
+ {
+  "id": "q86",
+  "cat": "cal",
+  "level": 2,
+  "q": "Antes de comenzar un ensamble automático, ¿qué recomienda el catálogo?",
+  "options": [
+   "Subir el torque al máximo",
+   "Hacer ensayos y graduar el atornillador al torque indicado",
+   "Cambiar de proveedor",
+   "Quitar el recubrimiento"
+  ],
+  "answer": 1,
+  "explanation": "Reduce pérdidas de producción y montaje."
+ },
+ {
+  "id": "q87",
+  "cat": "cal",
+  "level": 3,
+  "q": "¿Qué ventaja trae usar un destornillador del tamaño apropiado?",
+  "options": [
+   "Mayor torque admisible",
+   "Menos hilos por pulgada",
+   "Más vida útil de la herramienta y menos deformación de la ranura",
+   "Mayor dureza del tornillo"
+  ],
+  "answer": 2,
+  "explanation": "También baja el riesgo de accidentes y de daños al colocar el tornillo."
+ },
+ {
+  "id": "q88",
+  "cat": "rem",
+  "level": 2,
+  "q": "¿Qué ángulo de inclinación de paso debe tener un remache tipo U drive?",
+  "options": [
+   "10° a 20°",
+   "75° a 90°",
+   "0°",
+   "45° a 60°"
+  ],
+  "answer": 3,
+  "explanation": "Es la nota 1 del catálogo para este remache de lámina."
+ },
+ {
+  "id": "q89",
+  "cat": "rem",
+  "level": 3,
+  "q": "¿Cuál es la longitud de rosca N en cada punta de un espárrago hasta 4″?",
+  "options": [
+   "2D + 1/4″",
+   "D + 1/2″",
+   "3D",
+   "D ÷ 2"
+  ],
+  "answer": 0,
+  "explanation": "D es el diámetro nominal del espárrago."
+ },
+ {
+  "id": "q90",
+  "cat": "rem",
+  "level": 3,
+  "q": "¿Cuál es el diámetro máximo de espárrago del catálogo?",
+  "options": [
+   "1/2″",
+   "3/8″ (9,5 mm)",
+   "1/4″",
+   "5/8″"
+  ],
+  "answer": 1,
+  "explanation": "La longitud total es L; S es el cuerpo no roscado."
+ },
+ {
+  "id": "q91",
+  "cat": "rem",
+  "level": 2,
+  "q": "¿Cuál espárrago es de rosca continua?",
+  "options": [
+   "Tipo A",
+   "Doble punta",
+   "Tipo B",
+   "Tipo U"
+  ],
+  "answer": 2,
+  "explanation": "El tipo A es de doble punta."
+ },
+ {
+  "id": "q92",
+  "cat": "rem",
+  "level": 3,
+  "q": "¿Cuántos mm tiene el diámetro nominal de un remache plano de 1/8″?",
+  "options": [
+   "2,39",
+   "3,96",
+   "4,78",
+   "3,18"
+  ],
+  "answer": 3,
+  "explanation": "3/32″ = 2,39 mm; 5/32″ = 3,96 mm."
+ },
+ {
+  "id": "q93",
+  "cat": "emp",
+  "level": 1,
+  "q": "¿En qué ciudad nace Industrias Cato Ltda.?",
+  "options": [
+   "Cali",
+   "Bogotá",
+   "Medellín",
+   "Barranquilla"
+  ],
+  "answer": 0,
+  "explanation": "Se funda en 1970, cuando se liquida en Barranquilla la Compañía Colombo-Americana de Tornillos."
+ },
+ {
+  "id": "q94",
+  "cat": "emp",
+  "level": 1,
+  "q": "¿Con cuántos trabajadores comenzó la empresa?",
+  "options": [
+   "50",
+   "19",
+   "120",
+   "170"
+  ],
+  "answer": 1,
+  "explanation": "Hoy cuenta con 170 colaboradores capacitados."
+ },
+ {
+  "id": "q95",
+  "cat": "emp",
+  "level": 2,
+  "q": "¿En qué año Industrias Cato Ltda. se convirtió en S.A.?",
   "options": [
    "1970",
    "1981",
+   "1983",
    "1989"
   ],
+  "answer": 2,
+  "explanation": "En 1983 también empezó la sistematización por computador."
+ },
+ {
+  "id": "q96",
+  "cat": "emp",
+  "level": 2,
+  "q": "¿Qué lema usa CATO?",
+  "options": [
+   "Fuerza en cada rosca",
+   "Calidad sin límites",
+   "Unidos por el acero",
+   "Con corazón de acero"
+  ],
+  "answer": 3,
+  "explanation": "Temple, tenacidad y fortaleza son propiedades del acero."
+ },
+ {
+  "id": "q97",
+  "cat": "emp",
+  "level": 2,
+  "q": "¿Cuál es la misión de CATO?",
+  "options": [
+   "Fabricación y venta de elementos de fijación",
+   "Importar maquinaria",
+   "Fabricar autopartes",
+   "Vender acero en barras"
+  ],
   "answer": 0,
-  "explanation": "En Cali, con 19 trabajadores."
+  "explanation": "La visión apunta al norte de Suramérica, Centroamérica y el Caribe."
+ },
+ {
+  "id": "q98",
+  "cat": "emp",
+  "level": 3,
+  "q": "¿Cuántos m² construidos tenía la sede de 1976?",
+  "options": [
+   "1.000 m²",
+   "3.000 m²",
+   "10.000 m²",
+   "500 m²"
+  ],
+  "answer": 1,
+  "explanation": "Estaba en la carrera 5a Norte de Cali."
+ },
+ {
+  "id": "q99",
+  "cat": "emp",
+  "level": 3,
+  "q": "¿Qué ocurrió con la capacidad instalada en 1988?",
+  "options": [
+   "Se duplicó",
+   "Disminuyó 10 %",
+   "Aumentó 30 %",
+   "Aumentó 80 %"
+  ],
+  "answer": 2,
+  "explanation": "Se instaló además el telemercadeo."
+ },
+ {
+  "id": "q100",
+  "cat": "emp",
+  "level": 3,
+  "q": "¿Qué línea se lanzó en 1981, en época de recesión?",
+  "options": [
+   "Remaches U drive",
+   "Tornillos para drywall",
+   "Espárragos",
+   "Tornillos para lámina Phillips (estría)"
+  ],
+  "answer": 3,
+  "explanation": "Se renovó más del 50 % de la capacidad de la planta."
+ },
+ {
+  "id": "q101",
+  "cat": "emp",
+  "level": 3,
+  "q": "¿Qué porcentaje de la producción alcanzó los tornillos especiales en 1983?",
+  "options": [
+   "50 %",
+   "10 %",
+   "25 %",
+   "90 %"
+  ],
+  "answer": 0,
+  "explanation": "Es dato de la cronología del catálogo."
+ },
+ {
+  "id": "q102",
+  "cat": "ope",
+  "level": 1,
+  "q": "Un lote de 30 millares: ¿cuántos registros se toman?",
+  "options": [
+   "25 registros",
+   "15 registros",
+   "35 registros",
+   "50 registros"
+  ],
+  "answer": 1,
+  "explanation": "De 0 a 50 millares se toman 15 registros en 3 idas."
+ },
+ {
+  "id": "q103",
+  "cat": "ope",
+  "level": 1,
+  "q": "Un lote de 30 millares: ¿en cuántas idas se toman los registros?",
+  "options": [
+   "5 idas",
+   "7 idas",
+   "3 idas",
+   "10 idas"
+  ],
+  "answer": 2,
+  "explanation": "De 0 a 50 millares: 15 registros en 3 idas."
+ },
+ {
+  "id": "q104",
+  "cat": "ope",
+  "level": 1,
+  "q": "Un lote de 80 millares: ¿cuántos registros se toman?",
+  "options": [
+   "15 registros",
+   "35 registros",
+   "50 registros",
+   "25 registros"
+  ],
+  "answer": 3,
+  "explanation": "De 51 a 100 millares son 25 registros en 5 idas."
+ },
+ {
+  "id": "q105",
+  "cat": "ope",
+  "level": 1,
+  "q": "Un lote de 80 millares: ¿en cuántas idas?",
+  "options": [
+   "5 idas",
+   "3 idas",
+   "7 idas",
+   "10 idas"
+  ],
+  "answer": 0,
+  "explanation": "De 51 a 100 millares: 25 registros en 5 idas."
+ },
+ {
+  "id": "q106",
+  "cat": "ope",
+  "level": 2,
+  "q": "Un lote de 120 millares: ¿cuántos registros y en cuántas idas?",
+  "options": [
+   "25 registros en 5 idas",
+   "35 registros en 7 idas",
+   "50 registros en 10 idas",
+   "15 registros en 3 idas"
+  ],
+  "answer": 1,
+  "explanation": "De 101 a 150 millares son 35 registros en 7 idas."
+ },
+ {
+  "id": "q107",
+  "cat": "ope",
+  "level": 2,
+  "q": "Un lote de 180 millares: ¿cuántos registros y en cuántas idas?",
+  "options": [
+   "35 registros en 7 idas",
+   "25 registros en 5 idas",
+   "50 registros en 10 idas",
+   "15 registros en 3 idas"
+  ],
+  "answer": 2,
+  "explanation": "De 151 a 200 millares son 50 registros en 10 idas."
+ },
+ {
+  "id": "q108",
+  "cat": "ope",
+  "level": 2,
+  "q": "¿Cuántos registros se toman en cada ida?",
+  "options": [
+   "3",
+   "7",
+   "10",
+   "5"
+  ],
+  "answer": 3,
+  "explanation": "Todas las filas cumplen 5 por ida: 15/3, 25/5, 35/7 y 50/10."
+ },
+ {
+  "id": "q109",
+  "cat": "ope",
+  "level": 2,
+  "q": "Un lote de 100 millares exactos: ¿qué corresponde?",
+  "options": [
+   "25 registros en 5 idas",
+   "15 registros en 3 idas",
+   "35 registros en 7 idas",
+   "50 registros en 10 idas"
+  ],
+  "answer": 0,
+  "explanation": "El rango 51 a 100 millares incluye el 100."
+ },
+ {
+  "id": "q110",
+  "cat": "ope",
+  "level": 2,
+  "q": "Un lote de 150 millares exactos: ¿qué corresponde?",
+  "options": [
+   "25 registros en 5 idas",
+   "35 registros en 7 idas",
+   "50 registros en 10 idas",
+   "15 registros en 3 idas"
+  ],
+  "answer": 1,
+  "explanation": "El rango 101 a 150 millares incluye el 150."
+ },
+ {
+  "id": "q111",
+  "cat": "ope",
+  "level": 3,
+  "q": "Un lote de 151 millares: ¿qué corresponde?",
+  "options": [
+   "35 registros en 7 idas",
+   "25 registros en 5 idas",
+   "50 registros en 10 idas",
+   "15 registros en 3 idas"
+  ],
+  "answer": 2,
+  "explanation": "Desde 151 hasta 200 millares se pasa al plan de 50 registros."
+ },
+ {
+  "id": "q112",
+  "cat": "ope",
+  "level": 3,
+  "q": "Un lote de 101 millares: ¿qué corresponde?",
+  "options": [
+   "25 registros en 5 idas",
+   "50 registros en 10 idas",
+   "15 registros en 3 idas",
+   "35 registros en 7 idas"
+  ],
+  "answer": 3,
+  "explanation": "El rango 101 a 150 es el de 35 registros."
+ },
+ {
+  "id": "q113",
+  "cat": "ope",
+  "level": 3,
+  "q": "Al pasar de un lote de 100 a uno de 101 millares, ¿cuántas idas más hay que hacer?",
+  "options": [
+   "2 idas más",
+   "1 ida más",
+   "3 idas más",
+   "5 idas más"
+  ],
+  "answer": 0,
+  "explanation": "Se pasa de 5 idas (25 registros) a 7 idas (35 registros)."
+ },
+ {
+  "id": "q114",
+  "cat": "ope",
+  "level": 3,
+  "q": "¿Cuántos registros más se toman en un lote de 200 millares que en uno de 50?",
+  "options": [
+   "25 registros más",
+   "35 registros más",
+   "15 registros más",
+   "50 registros más"
+  ],
+  "answer": 1,
+  "explanation": "50 − 15 = 35 registros."
+ },
+ {
+  "id": "q115",
+  "cat": "ope",
+  "level": 3,
+  "q": "Se completaron 4 idas de un lote de 90 millares. ¿Cuántos registros faltan?",
+  "options": [
+   "10 registros",
+   "15 registros",
+   "5 registros",
+   "20 registros"
+  ],
+  "answer": 2,
+  "explanation": "Plan: 25 registros en 5 idas; 4 idas = 20 registros tomados, falta 1 ida de 5."
+ },
+ {
+  "id": "q116",
+  "cat": "ope",
+  "level": 3,
+  "q": "Un lote de 140 millares ya lleva 20 registros. ¿Cuántas idas faltan?",
+  "options": [
+   "2 idas",
+   "4 idas",
+   "5 idas",
+   "3 idas"
+  ],
+  "answer": 3,
+  "explanation": "Plan: 35 registros en 7 idas; 20 registros son 4 idas, faltan 3."
+ },
+ {
+  "id": "q117",
+  "cat": "ope",
+  "level": 2,
+  "q": "¿Por qué conviene repartir los registros en varias idas durante el lote?",
+  "options": [
+   "Para vigilar el proceso a lo largo de toda la producción (criterio general de muestreo)",
+   "Para consumir menos instrumentos de medición",
+   "Para cambiar el calibre del lote",
+   "Para evitar pesar el producto"
+  ],
+  "answer": 0,
+  "explanation": "Es criterio general de control de proceso; confirma el procedimiento con calidad."
+ },
+ {
+  "id": "q118",
+  "cat": "cab",
+  "level": 1,
+  "q": "¿Qué es una cabeza \"combinada\"?",
+  "options": [
+   "La que mezcla dos diámetros de cabeza",
+   "La que lleva ranura de pala y estampa Phillips",
+   "La hexagonal con arandela",
+   "La avellanada de 90°"
+  ],
+  "answer": 1,
+  "explanation": "El catálogo la lista junto a ranurada y Phillips en cilíndrica y binding."
+ },
+ {
+  "id": "q119",
+  "cat": "cab",
+  "level": 1,
+  "q": "¿Qué forma tiene la estampa Phillips?",
+  "options": [
+   "De estrella de seis lóbulos",
+   "De ranura recta",
+   "De cruz",
+   "De hexágono"
+  ],
+  "answer": 2,
+  "explanation": "La ranura de pala es recta y las estampas de seis lóbulos son especiales."
+ },
+ {
+  "id": "q120",
+  "cat": "cab",
+  "level": 1,
+  "q": "¿Cómo queda una cabeza plana (avellanada) al atornillar?",
+  "options": [
+   "Muy saliente",
+   "Apoyada sobre arandela",
+   "Con cúpula alta",
+   "A ras de la superficie"
+  ],
+  "answer": 3,
+  "explanation": "Su avellanado es de 80°–82° y se usa donde la cabeza no debe sobresalir."
+ },
+ {
+  "id": "q121",
+  "cat": "cab",
+  "level": 2,
+  "q": "¿En qué se diferencia la cabeza oval de la plana?",
+  "options": [
+   "Tiene cúpula: su altura total O es mayor que la altura de avellán H",
+   "Es hexagonal",
+   "Lleva arandela",
+   "No admite ranura"
+  ],
+  "answer": 0,
+  "explanation": "La oval define H (avellán) y O (altura total)."
+ },
+ {
+  "id": "q122",
+  "cat": "cab",
+  "level": 2,
+  "q": "En cabezas redonda y lenteja, la letra R indica…",
+  "options": [
+   "La profundidad de estría",
+   "El radio de la cabeza",
+   "El espesor de arandela",
+   "El ancho de ranura"
+  ],
+  "answer": 1,
+  "explanation": "R es radio de cabeza en las tablas."
+ },
+ {
+  "id": "q123",
+  "cat": "cab",
+  "level": 2,
+  "q": "En la cabeza hexagonal con arandela, la letra B indica…",
+  "options": [
+   "La distancia entre caras",
+   "El espesor de la arandela",
+   "El diámetro de la arandela",
+   "La altura de cabeza"
+  ],
+  "answer": 2,
+  "explanation": "A = entre caras, W = entre aristas, U = espesor de arandela y H = altura."
+ },
+ {
+  "id": "q124",
+  "cat": "cab",
+  "level": 2,
+  "q": "En la cabeza hexagonal con arandela, la letra W indica…",
+  "options": [
+   "La distancia entre caras",
+   "El diámetro de arandela",
+   "La profundidad de ranura",
+   "La distancia entre aristas"
+  ],
+  "answer": 3,
+  "explanation": "A es la distancia entre caras y W entre aristas."
+ },
+ {
+  "id": "q125",
+  "cat": "cab",
+  "level": 2,
+  "q": "Una cabeza hexagonal \"con impresión\" es la que…",
+  "options": [
+   "Lleva ranura o estampa marcada en la cabeza",
+   "Está impresa con logotipo",
+   "No tiene rosca",
+   "Es avellanada"
+  ],
+  "answer": 0,
+  "explanation": "El catálogo indica que sin pedido especial se suministra sin ranura y la posición de la ranura es variable."
+ },
+ {
+  "id": "q126",
+  "cat": "cab",
+  "level": 2,
+  "q": "La cabeza cilíndrica Phillips milimétrica (M2 a M10) del catálogo se identifica con…",
+  "options": [
+   "ANSI B18.6.1",
+   "Norma CATO EIP 247051",
+   "DIN 84",
+   "DIN 7970"
+  ],
+  "answer": 1,
+  "explanation": "La variante JIS tiene su propio plano, EIP 247052."
+ },
+ {
+  "id": "q127",
+  "cat": "cab",
+  "level": 3,
+  "q": "La cabeza cilíndrica Phillips JIS (EIP 247052) cubre los calibres…",
+  "options": [
+   "M1 a M2",
+   "M10 a M16",
+   "M2 a M8",
+   "M12 a M20"
+  ],
+  "answer": 2,
+  "explanation": "Las dimensiones A, H, T, M y N se dan para M2, M2.5–M2.6, M3, M4, M5, M6 y M8."
+ },
+ {
+  "id": "q128",
+  "cat": "cab",
+  "level": 3,
+  "q": "La cabeza cilíndrica DIN 84 es una cabeza…",
+  "options": [
+   "Phillips métrica",
+   "Hexagonal",
+   "Avellanada",
+   "Ranurada (de pala) métrica"
+  ],
+  "answer": 3,
+  "explanation": "Su tabla da ancho de ranura n y profundidad t."
+ },
+ {
+  "id": "q129",
+  "cat": "cab",
+  "level": 3,
+  "q": "En las cabezas cilíndricas, ¿qué letra marca la altura con Phillips o combinada?",
+  "options": [
+   "O",
+   "H",
+   "R1",
+   "T"
+  ],
+  "answer": 0,
+  "explanation": "H es la altura de cabeza ranurada y O la altura de cabeza Phillips y combinado."
+ },
+ {
+  "id": "q130",
+  "cat": "cab",
+  "level": 3,
+  "q": "En el tornillo para aglomerado, ¿qué formas de estampa define el catálogo?",
+  "options": [
+   "Estría A y estría B",
+   "Estría Z y estría H",
+   "Estría M y estría S",
+   "Estría T y estría J"
+  ],
+  "answer": 1,
+  "explanation": "Se indica la forma Z y la H con sus profundidades."
  }
 ]
