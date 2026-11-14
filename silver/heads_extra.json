@@ -1,0 +1,74 @@
+[
+ {
+  "id": "cilindrica-con-hexagono-interior-allen",
+  "name": "Cilíndrica con hexágono interior (Allen)",
+  "path": "M22 32V10H58V32ZM32 10V18H48V10",
+  "desc": "Cabeza cilíndrica alta con alojamiento hexagonal, accionada con llave Allen. Resiste torques altos y puede quedar empotrada en un avellanado cilíndrico.",
+  "uso": "Maquinaria, moldes y uniones de alta resistencia.",
+  "norma": "DIN 912 / ISO 4762",
+  "estampa": "hexagono-interior"
+ },
+ {
+  "id": "boton-iso-7380",
+  "name": "Botón (ISO 7380)",
+  "path": "M14 32Q16 14 40 12Q64 14 66 32ZM33 18H47",
+  "desc": "Cabeza abombada y baja con hexágono interior. Buena presentación y poca altura; transmite menos torque que la cilíndrica Allen.",
+  "uso": "Carcasas, equipos y piezas visibles.",
+  "norma": "ISO 7380",
+  "estampa": "hexagono-interior"
+ },
+ {
+  "id": "trompeta-bugle",
+  "name": "Trompeta (bugle)",
+  "path": "M12 12Q36 14 34 32H46Q44 14 68 12Z",
+  "desc": "Cabeza de perfil curvo en forma de trompeta que reparte la carga y se hunde sin romper la superficie. Típica del tornillo para drywall.",
+  "uso": "Placa de yeso (drywall) sobre perfil metálico o madera.",
+  "norma": "Referencia general",
+  "estampa": "phillips"
+ },
+ {
+  "id": "truss-hongo",
+  "name": "Truss / hongo",
+  "path": "M8 32Q10 18 40 17Q70 18 72 32Z",
+  "desc": "Cabeza muy ancha y de perfil bajo que da gran superficie de apoyo.",
+  "uso": "Lámina delgada, ensambles ligeros y plásticos.",
+  "norma": "Referencia general",
+  "estampa": "phillips"
+ },
+ {
+  "id": "hexagonal",
+  "name": "Hexagonal",
+  "path": "M24 32V12H56V32Z",
+  "desc": "Cabeza de seis caras que se aprieta con llave de boca o de copa y transmite torques altos.",
+  "uso": "Estructuras, maquinaria y uniones con tuerca.",
+  "norma": "DIN 931 / 933 (referencia)",
+  "estampa": "llave"
+ },
+ {
+  "id": "hexagonal-con-brida-flange",
+  "name": "Hexagonal con brida (flange)",
+  "path": "M24 26V10H56V26ZM12 26H68L64 32H16Z",
+  "desc": "Cabeza hexagonal con base ensanchada integrada que reparte la carga y evita usar arandela aparte. (En el catálogo CATO la hexagonal lleva arandela, con dimensiones A, W, B y U.)",
+  "uso": "Automotriz, electrodomésticos y ensambles en serie.",
+  "norma": "Referencia general",
+  "estampa": "llave"
+ },
+ {
+  "id": "coche-carriage",
+  "name": "Coche (carriage)",
+  "path": "M20 30Q20 8 40 8Q60 8 60 30ZM34 30V38H46V30",
+  "desc": "Cabeza de cúpula sin estampa con cuello cuadrado que impide el giro al apretar la tuerca.",
+  "uso": "Madera y estructuras donde solo se accede por un lado.",
+  "norma": "DIN 603 (referencia)",
+  "estampa": "ninguna"
+ },
+ {
+  "id": "wafer-plana-ancha",
+  "name": "Wafer (plana ancha)",
+  "path": "M10 32V25H70V32Z",
+  "desc": "Cabeza extremadamente baja y ancha, con estampa Phillips o similar, para no sobresalir.",
+  "uso": "Láminas finas y soportes.",
+  "norma": "Referencia general",
+  "estampa": "phillips"
+ }
+]

@@ -1,0 +1,172 @@
+[
+ {
+  "id": "l1",
+  "level": 1,
+  "title": "Cómo leer una clase de resistencia (8.8, 10.9, 12.9)",
+  "bullets": [
+   "En ISO 898-1 el primer número × 100 es la resistencia a tracción nominal en MPa: 8.8 → 800 MPa, 10.9 → 1000 MPa, 12.9 → 1200 MPa.",
+   "El segundo número indica la relación entre límite elástico y resistencia: 8.8 → 0,8 (≈ 640 MPa), 10.9 → 0,9, 12.9 → 0,9.",
+   "La carga de prueba (Sp) es la tensión que debe resistir sin deformación permanente: 580–600 MPa en 8.8, 830 en 10.9 y 970 en 12.9.",
+   "La cabeza lleva la clase y la marca del fabricante, lo que da trazabilidad."
+  ],
+  "formula": "",
+  "checkpoint": "Si un plano pide 10.9, ¿puedes cambiarlo por 8.8 sin recalcular? ¿Por qué no?"
+ },
+ {
+  "id": "l2",
+  "level": 1,
+  "title": "Tornillo y tuerca: emparejar clases",
+  "bullets": [
+   "La tuerca debe tener carga de prueba igual o mayor que la resistencia del tornillo; si no, se barre la rosca antes de lograr la precarga.",
+   "Un tornillo 10.9 se empareja con tuerca clase 10 y uno 12.9 con tuerca clase 12.",
+   "Las clases altas son más resistentes pero menos dúctiles: bajo choque conviene vigilar la fragilidad.",
+   "ISO 898-1 cubre servicio entre −50 °C y +150 °C."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué falla primero si usas una tuerca de menor clase que el tornillo?"
+ },
+ {
+  "id": "l3",
+  "level": 1,
+  "title": "El torque no es tensión: T = K·D·F",
+  "bullets": [
+   "El torque es solo un indicador indirecto de la tensión (precarga) que realmente asegura la unión.",
+   "T = K·D·F: T torque, K factor de fricción, D diámetro nominal y F precarga.",
+   "Si K sube (seco, rugoso), el mismo torque da menos precarga; si baja (lubricado), da más.",
+   "Controla K antes de subir el torque."
+  ],
+  "formula": "T = K · D · F",
+  "checkpoint": "Si lubricas las roscas pero mantienes el mismo torque, ¿la precarga sube o baja?"
+ },
+ {
+  "id": "l4",
+  "level": 2,
+  "title": "Precarga y área de esfuerzo (As)",
+  "bullets": [
+   "As = π/4·(d − 0,9382·P)². Para M10×1,5 resulta ≈ 58 mm².",
+   "Carga de prueba Fp = Sp × As. M10 en 10.9: 830 × 58 ≈ 48,1 kN.",
+   "La precarga de montaje suele ser el 75 % de la carga de prueba: ≈ 36,1 kN en ese M10.",
+   "Con K = 0,20: T ≈ 0,20 × 0,010 m × 36 105 N ≈ 72 N·m (K = 0,15 → ≈ 54 N·m)."
+  ],
+  "formula": "As = π/4 · (d − 0,9382·P)²",
+  "checkpoint": "Calcula el torque de un M8 10.9 con K = 0,20 (resultado ≈ 36,5 N·m)."
+ },
+ {
+  "id": "l5",
+  "level": 2,
+  "title": "Factor K y fricción: a dónde va el torque",
+  "bullets": [
+   "Aproximadamente 50 % del torque se pierde en fricción bajo la cabeza, 40 % en la rosca y solo 10 % estira el tornillo.",
+   "Valores típicos: PTFE o cera 0,12; lubricado 0,15; cincado seco 0,17–0,20; acero seco 0,20–0,25.",
+   "Con arandelas, recubrimientos y lubricantes distintos, K cambia: no mezcles especificaciones de torque lubricado y seco.",
+   "Al pasar de K = 0,20 a 0,15 manteniendo la misma precarga, el torque baja ≈ 25 %."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué dos fricciones domina la pérdida de torque?"
+ },
+ {
+  "id": "l6",
+  "level": 2,
+  "title": "Fragilización por hidrógeno",
+  "bullets": [
+   "El hidrógeno atómico que entra al acero (por ejemplo, en el baño electrolítico) con esfuerzo de tracción produce fractura frágil retardada.",
+   "Son susceptibles los tornillos de dureza alta: ASTM F1941 fija el umbral en 39 HRC (390 HV); ISO 4042 pide precaución desde 320 HV, o sea clases 10.9 y 12.9.",
+   "El horneado de desfragilización (≈ 190–220 °C, empezando lo antes posible y máximo 4 h tras el baño) reduce el riesgo pero no lo elimina por completo.",
+   "ISO 4042 pide ensayos (p. ej. ISO 15330, precarga cerca del límite elástico 48 h) en piezas sobre 320 HV, y acuerdo escrito sobre 365 HV.",
+   "Alternativas sin hidrógeno: zinc laminar y zinc mecánico."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué un 12.9 electrocincado es una combinación de alto riesgo?"
+ },
+ {
+  "id": "l7",
+  "level": 2,
+  "title": "Corrosión: recubrimientos y niebla salina",
+  "bullets": [
+   "El zinc protege por sacrificio; la pasivación (clara, amarilla, negra) retrasa el óxido blanco.",
+   "El zinc-níquel y el zinc laminar logran mucha más resistencia que el cincado simple, con rangos de cientos de horas a más de mil, según espesor y proceso.",
+   "Los resultados de niebla salina (ISO 9227) comparan sistemas bajo condiciones aceleradas; no predicen la vida real en servicio.",
+   "Hoy se usa pasivación trivalente; el cromo hexavalente está restringido."
+  ],
+  "formula": "",
+  "checkpoint": "Si un cliente pide 240 h a óxido rojo, ¿qué tipo de recubrimiento y espesor considerarías?"
+ },
+ {
+  "id": "l8",
+  "level": 2,
+  "title": "Acero inoxidable A2/A4 y galling",
+  "bullets": [
+   "A2 equivale aprox. a 304 y A4 a 316 (con molibdeno, mejor ante cloruros).",
+   "La clase indica la resistencia: A2-70 y A4-70 → 700 MPa mín.; A2-80 y A4-80 → 800 MPa mín. La resistencia depende de la clase, no de A2/A4.",
+   "El galling es una soldadura en frío por fricción entre roscas de inoxidable (también titanio y aluminio).",
+   "Prevención: antigripante, velocidad de apriete baja y evitar pares inoxidable-inoxidable sin lubricante."
+  ],
+  "formula": "",
+  "checkpoint": "¿Un A4-70 es más resistente que un A2-80? ¿Por qué?"
+ },
+ {
+  "id": "l9",
+  "level": 2,
+  "title": "Tornillos autoperforantes: puntos 1 a 5",
+  "bullets": [
+   "Combinan punta de broca y rosca: perforan y roscan en una sola operación, sin pre-taladro.",
+   "El número de punta (1–5) indica la capacidad de perforación: a mayor número, punta más larga y mayor espesor de acero.",
+   "La capacidad debe cubrir el espesor total de todas las láminas, incluidos los espacios entre capas.",
+   "Las puntas #4 y #5 no son pernos estructurales. Normas de referencia: SAE J78 y ASTM C1513."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué punta elegirías para unir dos láminas con una holgura de 1 mm entre ellas?"
+ },
+ {
+  "id": "l10",
+  "level": 2,
+  "title": "Rosca formada y rosca cortada",
+  "bullets": [
+   "Los tornillos que forman rosca (tipo Taptite y similares) compactan el material sin generar viruta.",
+   "Los de corte tienen ranura y filos que retiran material, con menor torque de instalación y menos tensiones.",
+   "En materiales frágiles (algunos plásticos y composites) se prefiere el corte para evitar grietas.",
+   "Tu catálogo CATO ya trae AB, B, C, F y BF; esta lección los conecta con el criterio de selección."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué un plástico quebradizo agradece una rosca cortada?"
+ },
+ {
+  "id": "l11",
+  "level": 3,
+  "title": "Longitud de enganche de rosca",
+  "bullets": [
+   "En acero, 1 × d es la regla general para que falle el tornillo antes que la rosca.",
+   "Fundición 1,5 × d; aluminio y zinc 2 × d; plásticos 2–2,5 × d.",
+   "Si el material hembra es más débil que el tornillo, hay que aumentar el enganche.",
+   "La rosca fina da más área de corte por unidad de longitud que la gruesa."
+  ],
+  "formula": "Enganche mín. = factor × d",
+  "checkpoint": "Un M8 en aluminio, ¿cuántos mm de enganche mínimos usarías?"
+ },
+ {
+  "id": "l12",
+  "level": 3,
+  "title": "Aflojamiento por vibración y antiaflojantes",
+  "bullets": [
+   "La causa principal es la pérdida de precarga; hay aflojamiento rotacional (el tornillo gira) y no rotacional (asentamiento, relajación y fluencia).",
+   "El ensayo Junker (DIN 65151 / ISO 16130) aplica vibración transversal y mide la pérdida de precarga.",
+   "Las arandelas planas y las de presión (split) protegen poco o nada; las de cuña (ángulo de leva mayor que el paso), las tuercas de torque predominante y los adhesivos funcionan mejor.",
+   "Ningún antiaflojante compensa un tornillo mal apretado."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué una arandela de presión simple no basta en una máquina con vibración?"
+ },
+ {
+  "id": "l13",
+  "level": 3,
+  "title": "Casos de selección integral",
+  "bullets": [
+   "Caso 1 · Tornillo 12.9 en ambiente corrosivo: evita el electrocincado por hidrógeno; usa zinc laminar o zinc mecánico.",
+   "Caso 2 · Ensamble inoxidable con inoxidable en intemperie: el riesgo principal es el galling; antigripante y apriete lento.",
+   "Caso 3 · Tornillo de acero en rosca de aluminio: aumenta el enganche a ≥ 2 × d y valida el torque con ensayos.",
+   "Caso 4 · Unión con vibración: calcula la precarga, controla K y añade un dispositivo antiaflojante probado."
+  ],
+  "formula": "",
+  "checkpoint": "Elige un caso de tu planta y justifica la clase, el recubrimiento y el torque."
+ }
+]

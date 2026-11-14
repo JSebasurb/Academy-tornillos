@@ -7,5 +7,21 @@
  "cal": "Medición, torque y calidad",
  "rem": "Remaches y espárragos",
  "ope": "Operación: registros y muestreo",
- "emp": "Historia de CATO"
+ "est": "Estampas y accionamientos",
+ "emp": "Historia de CATO",
+ "r2a": "Resistencia y materiales",
+ "r2b": "Torque y precarga",
+ "r2c": "Recubrimientos y corrosión",
+ "r2d": "Autoperforantes y rosca",
+ "r2e": "Diseño de la unión y aflojamiento",
+ "r3a": "Roscas y especificación",
+ "r3b": "Cabezas y accionamientos",
+ "r3c": "Arandelas, tuercas y acabados",
+ "r3d": "Resistencia, ajuste y medición",
+ "r4a": "Materiales y temperatura",
+ "r4b": "Recubrimientos y lubricantes",
+ "r4c": "Corrosión e hidrógeno",
+ "r4d": "Retención, roscas y fatiga",
+ "r4e": "Torque, cargas y remaches",
+ "r4f": "Falsificaciones y calidad"
 }

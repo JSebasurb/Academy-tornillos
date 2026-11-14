@@ -1,0 +1,75 @@
+# Ruta 3 · Identificación y especificación (SENA)  cat|nivel|pregunta|correcta|3 incorrectas|explicación
+r3a|1|¿Qué perfil de rosca es el más empleado en uniones mecánicas?|Triangular|Trapezoidal|Redonda|Cuadrada|La rosca triangular se fabrica en diversos sistemas normalizados.
+r3a|1|¿Para qué se usan las roscas trapezoidales?|Transmitir potencia y transformar movimiento|Sellar tapas de envases sin esfuerzo|Fijar tornillos de lámina delgada|Sujetar piezas de madera en carpintería|Aparecen en husillos de torno, columnas elevadoras y compuertas.
+r3a|1|¿Dónde son útiles las roscas redondas?|Ambientes con polvo o desgaste y enroscado fácil|Transmisión de grandes esfuerzos|Pernos estructurales|Tornillos de lámina|Pitones de manguera, tapas de envases y bombillos.
+r3a|1|¿Qué rosca se usa en prensas y mecanismos de potencia con filete de sección cuadrada?|Cuadrada|Triangular|Redonda|Autorroscante|Su filete tiene sección cuadrada.
+r3a|1|M10 × 1 significa…|Métrico de 10 mm de diámetro y paso 1 mm|Diez hilos por pulgada con paso de 1 mm|Rosca de 1 mm de diámetro y paso 10|Tornillo de 10 mm de largo y 1 mm de rosca|M + diámetro nominal + paso en mm.
+r3a|1|5/16″ × 18 UNC significa…|5/16″ con rosca ordinaria de 18 hilos por pulgada|5/16″ con rosca fina de 18 hilos por pulgada|Rosca métrica de 5 mm y paso de 18 mm|Tornillo de 18 mm de largo y rosca 5/16″|Diámetro nominal + hilos por pulgada + serie.
+r3a|1|En el sistema unificado, el paso se expresa como…|Número de crestas por pulgada|Distancia entre crestas en mm|Diámetro menor|Ángulo del filete|También es el número de vueltas para avanzar una pulgada.
+r3a|1|En el sistema métrico, el paso es…|La distancia entre dos crestas consecutivas|El número de hilos por pulgada|El diámetro mayor|La longitud roscada|Es lo que avanza el tornillo en una vuelta.
+r3a|2|El diámetro de un tornillo medido con calibrador resulta…|Ligeramente inferior al nominal|Idéntico al nominal|1 mm mayor|Igual al diámetro menor|Por la tolerancia de fabricación.
+r3a|2|¿Con qué herramienta se determina el paso de una rosca?|Galga de roscas|Micrómetro de profundidad|Balanza|Durómetro|Medidor de paso. Existen galgas unificadas, métricas o combinadas.
+r3a|2|Paso y broca de un M12 de rosca gruesa:|1,75 mm y broca de 10,2 mm|1,5 mm y 10,5 mm|2 mm y 10 mm|1,25 mm y 10,75 mm|Tabla del manual SENA.
+r3a|2|Broca para roscar un M8 de paso grueso:|6,8 mm|7,0 mm|6,5 mm|7,5 mm|M8 × 1,25 → 6,8 mm.
+r3a|2|Broca para roscar un M10 de paso grueso:|8,5 mm|9,0 mm|8,0 mm|9,5 mm|M10 × 1,5 → 8,5 mm.
+r3a|3|Regla práctica para la broca de una rosca métrica gruesa:|Diámetro nominal − paso|Diámetro nominal + paso|Diámetro ÷ paso|Paso × 4|Ej.: M6 × 1 → 5 mm.
+r3a|3|Broca para una rosca 1/4″ UNC (20 hilos):|5,1 mm|5,5 mm|4,5 mm|6,0 mm|La 1/4″ UNF de 28 hilos usa 5,5 mm.
+r3a|3|Broca para un Nº10 UNC (24 hilos):|3,8 mm|4,1 mm|3,4 mm|4,5 mm|El Nº10 UNF de 32 hilos usa 4,1 mm.
+r3a|3|Broca para 3/8″ UNF (24 hilos):|8,5 mm|8,0 mm|9,0 mm|7,5 mm|En UNC 3/8″ × 16 la broca es 8,0 mm.
+r3a|3|Hilos por pulgada del Nº8 en UNC y UNF:|32 y 36|40 y 48|24 y 32|20 y 28|Nº8: 32 (ordinaria) y 36 (fina).
+r3a|3|Hilos por pulgada de 1/2″ en UNC y UNF:|13 y 20|12 y 18|16 y 24|10 y 16|Brocas de 10,75 y 11,5 mm.
+r3a|3|Broca para un M16 de paso fino 1,5:|14,5 mm|14,0 mm|15,0 mm|13,5 mm|El M16 de paso grueso (2 mm) usa 14 mm.
+r3a|3|Broca para un M10 de paso fino 1,25:|8,75 mm|8,5 mm|9,25 mm|9,0 mm|La de paso 1,5 usa 8,5 mm.
+r3b|1|¿Qué aloja la cabeza del tornillo?|El accionamiento, o lo determina con su forma|La rosca y el paso del tornillo|El recubrimiento y el acabado final|El tipo de extremo y el vástago|Es la parte visible del tornillo.
+r3b|1|Un accionamiento tipo Philips es un…|Hueco cruciforme|Ranura recta|Hexágono|Hueco de seis canales|Pozidriv es otro hueco cruciforme.
+r3b|1|El accionamiento Torx es un hueco de…|Seis canales|Cuatro puntas|Una ranura|Un cuadrado|También se describe como hueco de seis lóbulos.
+r3b|1|Los accionamientos de mariposa y muletilla se aprietan…|A mano|Con llave de impacto|Con soldadura|Con martillo|El manual los agrupa con los moleteados.
+r3b|2|Un accionamiento "combinado o mixto" admite…|Destornillador de pala y de cruz|Solo llave Allen hexagonal interior|Únicamente punta Torx de seis lóbulos|Ninguna herramienta de uso manual|Ranura y cruz en la misma cabeza.
+r3b|2|¿Qué se sabe de Philips y Pozidriv?|Son dos huecos cruciformes distintos|Son idénticos|Ambos son hexagonales|Ambos son de ranura recta|No deben intercambiarse.
+r3b|2|¿Para qué sirve el vástago o cuello sin rosca?|Para que el tornillo no rosque en parte de las piezas|Para dar más resistencia a la corrosión|Para reducir el peso|Para cambiar el paso|Una polea gira libre. Ejemplo del manual: la polea.
+r3b|2|¿Qué función puede cumplir el extremo de un tornillo?|Sostener, pinar, anclar, desplazar o sellar|Solo guiar la broca durante el taladrado|Solo decorar la superficie de la pieza|Únicamente cambiar el paso de la rosca|Su forma define su función.
+r3b|2|¿Cuál es una forma de vástago del manual?|Caña calibrada|Cabeza de martillo|Moleteado cruzado|Collar biselado|También: normal, rosca laminada, caña de apoyo y cuello cuadrado.
+r3b|2|¿Cuál es un tipo de extremo?|Troncocónico|Hexagonal|Torx|Mariposa|También: plano, abombado, biselado, cónico y pivote.
+r3b|3|Una cabeza hexagonal con collarín o collar tiene…|Una base ensanchada tipo collar|Doce puntas para llaves de espacio reducido|Un cuello cuadrado bajo la cabeza|Una ranura cruzada con marcas a 45°|Existe también con collar biselado.
+r3b|3|¿Qué cabeza del manual es de doce puntas (nombre bi-hexagonal)?|Bi-hexagonal|Hexagonal|Cuadrada|De martillo|Descripción de referencia general.
+r3b|3|¿Qué accionamientos del manual tienen doce puntas o seis canales?|Bi-hexagonal y Torx|Philips y Pozidriv|Ranura y combinada|Mariposa y muletilla|Son accionamientos para mayor torque.
+r3b|3|¿Qué extremo corresponde al que forma su propia rosca?|Autorroscante|Plano|Pivote largo|Biselado hueco|También aparece el de sección tritubular.
+r3c|1|La arandela plana sirve para…|Facilitar el giro de la cabeza o tuerca y evitar el encastre|Bloquear la tuerca con pestañas laterales|Sellar líquidos y polvo en la unión|Absorber golpes y mantener la tensión|Es la más común.
+r3c|1|La arandela cónica (Belleville) sirve para…|Absorber golpes y mantener la tensión en cargas dinámicas|Sellar agua y vapores a alta presión|Espaciar las piezas y proteger la superficie|Facilitar el giro de la tuerca sin encastre|Es una arandela de presión tronco-cónica.
+r3c|1|La arandela Grower (guasa) tiene forma de…|Hélice|Cono|Onda|Estrella|Ejerce presión extra y aumenta la fricción.
+r3c|1|¿Qué combina una arandela autosellante?|Caucho con arandela|Nailon con tuerca|Pasador con tuerca|Resorte con tornillo|Sella agua, polvo, aire y vapores.
+r3c|2|Las arandelas dentadas se usan para…|Mejorar la fricción y evitar desaprietes por vibración|Sellar el paso de agua y vapores|Absorber golpes en cargas dinámicas|Indicar la carga aplicada al apretar|También existen las de tipo K en tuercas.
+r3c|2|La arandela ondulada se aplica en…|Cargas axiales con pequeñas deflexiones y poco espacio radial|Sellado de líquidos a alta presión|Bloqueo de tuercas en ejes de transmisión|Uniones estructurales con grandes cargas|Ejemplo: carga axial en rodamientos de bolas.
+r3c|2|La arandela de seguridad tipo araña…|Tiene pestañas que se doblan contra la tuerca|Es de caucho y sella contra el agua|Es cónica y absorbe golpes elásticos|Es plana y reparte la carga de apriete|Bloquea la tuerca.
+r3c|2|La tuerca autoblocante de nailon…|Tiene un aro de nailon|Lleva pasador|Es decorativa|Se clava con martillo|Bloquea el tornillo. Evita el aflojamiento por vibración.
+r3c|2|La tuerca keps es…|Una tuerca hexagonal con arandela dentada|Una tuerca con orificio único y ciega|Una tuerca cuadrada de fabricación simple|Una tuerca que se clava con martillo|El conjunto sube la fricción.
+r3c|2|La tuerca almenada (de castillo) permite…|Colocar un pasador de bloqueo|Girar con la mano|Sellar|Clavarse con martillo|Muy común en ejes de transmisión.
+r3c|2|¿Con qué se bloquea una tuerca ranurada?|Con una arandela tipo araña|Con un aro de nailon interior|Con pegamento de alta resistencia|Con un cordón de soldadura|Evita el giro de la tuerca.
+r3c|2|La tuerca ciega es…|De un solo orificio y normalmente decorativa|Con pasador de bloqueo en ejes|Con alas para apretar a mano|Que se clava con un martillo|Tiene un único orificio de entrada.
+r3c|2|El fosfatado se logra…|Sumergiendo en una solución de ácido fosfórico|Con un baño electrolítico de cobre|Sumergiendo en aceite soluble caliente|Con un baño de zinc fundido|Protege el acero contra la corrosión.
+r3c|3|¿Cómo se coloca una tuerca de uña?|Con martillo, y exige un agujero para el tronco|Con llave de copa de gran tamaño|Con un pegamento estructural|Con un cordón de soldadura previo|El tronco del tornillo. También se llama tuerca para clavar.
+r3c|3|La tuerca-arandela o de flanche…|Lleva una arandela fija estriada|Lleva un aro de nailon en el interior|Es solo decorativa y cerrada|Tiene alas para apretar a mano|Impide el afloje. Evolución de la hexagonal.
+r3c|3|El cincado por inmersión en caliente se caracteriza por…|Baño de zinc fundido, blanquecino y buena protección a la intemperie|Aplicación electrolítica azulada de capa muy delgada|Inmersión en aceite soluble caliente sin zinc|Cromato de potasio sobre cobre electrolítico|Es una protección no electrolítica.
+r3c|3|¿Qué ventaja tiene el cincado electrolítico frente al de inmersión?|Capa más uniforme y mejor control del espesor|Siempre un espesor mayor que el de inmersión|Menor adherencia pero color más oscuro|Aplicación en caliente con baño de zinc fundido|También mayor durabilidad y adherencia.
+r3c|3|El tropicalizado se obtiene…|Cincando y sumergiendo en una solución diluida de cromato de potasio|Sumergiendo la pieza caliente en aceite soluble|Con un baño de ácido fosfórico diluido|Con cobre electrolítico y luego níquel|Mejora la resistencia a la corrosión.
+r3c|3|¿Por qué sirve el cadminizado en tolerancias cerradas?|Al oxidarse no genera productos de corrosión voluminosos|Su capa es siempre más gruesa que la del zinc|Es el acabado más barato del mercado|Forma óxidos expansivos que sellan la rosca|Es plateado.
+r3c|3|El pavonado consiste en…|Sumergir la pieza caliente en aceite soluble|Cubrir la pieza con cromato de potasio|Sumergirla en una solución de ácido fosfórico|Depositar cadmio por vía electrolítica|O proceso químico. Da esencialmente buena apariencia.
+r3c|3|El Xylan es un revestimiento de…|Poliuretanos modificados con alta resistencia a la corrosión y menor roce|Zinc fundido con cromatos de color verde|Cobre electrolítico con capa de níquel|Aceite soluble aplicado en caliente|Se formula para pernos y sujetadores.
+r3c|3|El cobrizado es un recubrimiento de…|Cobre por baño electrolítico|Zinc por inmersión en caliente|Cadmio con pasivado amarillo|Aceite soluble en caliente|Aumenta la resistencia al desgaste y la oxidación del metal base.
+r3d|1|¿Qué instrumentos miden diámetro y longitud de un tornillo?|Calibrador y reglas|Galga de roscas|Durómetro|Balanza|La galga de roscas mide el paso.
+r3d|1|Los tornillos métricos se llaman "tipo…" y los unificados "tipo…"|Clase y grado|Grado y clase|Paso y clase|Serie y paso|Métrico: clase 8.8; unificado: grado 5.
+r3d|2|Resistencia de prueba mínima de un grado SAE 5 (1/4″–1″):|85 ksi|55 ksi|105 ksi|120 ksi|Su tracción mínima es 120 ksi.
+r3d|2|Tracción mínima de un grado SAE 8:|150 ksi|120 ksi|133 ksi|115 ksi|Grado 7: 133 ksi.
+r3d|2|Tracción mínima de un grado SAE 2 (hasta 3/4″):|74 ksi|60 ksi|120 ksi|150 ksi|El grado 1 tiene 60 ksi.
+r3d|2|Tracción mínima de un grado SAE 5 (1/4″–1″):|120 ksi|74 ksi|105 ksi|150 ksi|De 1 1/8″ a 1 1/2″ baja a 105 ksi.
+r3d|2|El ajuste medio de una rosca unificada es…|2A y 2B (tuerca)|1A y 1B|3A y 3B|6g y 6H|Tornillo. A es exterior y B interior.
+r3d|2|El ajuste medio métrico es…|6g y 6H (tuerca)|8g y 7H|4g y 5H|2A y 2B|Tornillo. Es el de uso general.
+r3d|2|El ajuste holgado unificado es…|1A y 1B|2A y 2B|3A y 3B|8g y 7H|El holgado métrico es 8g/7H.
+r3d|3|Los grados SAE 5.2 y 8.2 son…|De acero martensítico de bajo carbono templado y revenido|De acero inoxidable austenítico sin tratamiento|De latón estirado en frío|De acero de bajo carbono sin templar|Con mínimos iguales al 5 y al 8.
+r3d|3|Tracción mínima de la clase 4.6:|400 MPa|420 MPa|520 MPa|900 MPa|Prueba 225 y elástica 240 MPa.
+r3d|3|Tracción mínima de la clase 12.9:|1220 MPa|1200 MPa|1100 MPa|970 MPa|1100 MPa es la resistencia elástica.
+r3d|3|Tracción mínima de la clase 5.8:|520 MPa|400 MPa|420 MPa|380 MPa|380 MPa es la de prueba.
+r3d|3|Resistencia de prueba de la clase 10.9:|830 MPa|940 MPa|1040 MPa|970 MPa|Elástica 940 y tracción 1040 MPa.
+r3d|3|Tracción mínima de la clase 9.8:|900 MPa|650 MPa|720 MPa|1040 MPa|Prueba 650 y elástica 720 MPa.
+r3d|3|El ajuste cerrado métrico es…|4g y 5H (tuerca)|8g y 7H|6g y 6H|3A y 3B|Tornillo. El cerrado unificado es 3A/3B.
+r3d|3|Un tornillo de grado 8 (150 ksi) equivale a unos…|1034 MPa|830 MPa|1220 MPa|600 MPa|150 × 6,895 ≈ 1034 MPa.

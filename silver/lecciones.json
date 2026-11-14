@@ -1,0 +1,508 @@
+[
+ {
+  "ruta": 2,
+  "id": "l1",
+  "level": 1,
+  "title": "Cómo leer una clase de resistencia (8.8, 10.9, 12.9)",
+  "bullets": [
+   "En ISO 898-1 el primer número × 100 es la resistencia a tracción nominal en MPa: 8.8 → 800 MPa, 10.9 → 1000 MPa, 12.9 → 1200 MPa.",
+   "El segundo número indica la relación entre límite elástico y resistencia: 8.8 → 0,8 (≈ 640 MPa), 10.9 → 0,9, 12.9 → 0,9.",
+   "La carga de prueba (Sp) es la tensión que debe resistir sin deformación permanente: 580–600 MPa en 8.8, 830 en 10.9 y 970 en 12.9.",
+   "La cabeza lleva la clase y la marca del fabricante, lo que da trazabilidad."
+  ],
+  "formula": "",
+  "checkpoint": "Si un plano pide 10.9, ¿puedes cambiarlo por 8.8 sin recalcular? ¿Por qué no?"
+ },
+ {
+  "ruta": 2,
+  "id": "l2",
+  "level": 1,
+  "title": "Tornillo y tuerca: emparejar clases",
+  "bullets": [
+   "La tuerca debe tener carga de prueba igual o mayor que la resistencia del tornillo; si no, se barre la rosca antes de lograr la precarga.",
+   "Un tornillo 10.9 se empareja con tuerca clase 10 y uno 12.9 con tuerca clase 12.",
+   "Las clases altas son más resistentes pero menos dúctiles: bajo choque conviene vigilar la fragilidad.",
+   "ISO 898-1 cubre servicio entre −50 °C y +150 °C."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué falla primero si usas una tuerca de menor clase que el tornillo?"
+ },
+ {
+  "ruta": 2,
+  "id": "l3",
+  "level": 1,
+  "title": "El torque no es tensión: T = K·D·F",
+  "bullets": [
+   "El torque es solo un indicador indirecto de la tensión (precarga) que realmente asegura la unión.",
+   "T = K·D·F: T torque, K factor de fricción, D diámetro nominal y F precarga.",
+   "Si K sube (seco, rugoso), el mismo torque da menos precarga; si baja (lubricado), da más.",
+   "Controla K antes de subir el torque."
+  ],
+  "formula": "T = K · D · F",
+  "checkpoint": "Si lubricas las roscas pero mantienes el mismo torque, ¿la precarga sube o baja?"
+ },
+ {
+  "ruta": 2,
+  "id": "l4",
+  "level": 2,
+  "title": "Precarga y área de esfuerzo (As)",
+  "bullets": [
+   "As = π/4·(d − 0,9382·P)². Para M10×1,5 resulta ≈ 58 mm².",
+   "Carga de prueba Fp = Sp × As. M10 en 10.9: 830 × 58 ≈ 48,1 kN.",
+   "La precarga de montaje suele ser el 75 % de la carga de prueba: ≈ 36,1 kN en ese M10.",
+   "Con K = 0,20: T ≈ 0,20 × 0,010 m × 36 105 N ≈ 72 N·m (K = 0,15 → ≈ 54 N·m)."
+  ],
+  "formula": "As = π/4 · (d − 0,9382·P)²",
+  "checkpoint": "Calcula el torque de un M8 10.9 con K = 0,20 (resultado ≈ 36,5 N·m)."
+ },
+ {
+  "ruta": 2,
+  "id": "l5",
+  "level": 2,
+  "title": "Factor K y fricción: a dónde va el torque",
+  "bullets": [
+   "Aproximadamente 50 % del torque se pierde en fricción bajo la cabeza, 40 % en la rosca y solo 10 % estira el tornillo.",
+   "Valores típicos: PTFE o cera 0,12; lubricado 0,15; cincado seco 0,17–0,20; acero seco 0,20–0,25.",
+   "Con arandelas, recubrimientos y lubricantes distintos, K cambia: no mezcles especificaciones de torque lubricado y seco.",
+   "Al pasar de K = 0,20 a 0,15 manteniendo la misma precarga, el torque baja ≈ 25 %."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué dos fricciones domina la pérdida de torque?"
+ },
+ {
+  "ruta": 2,
+  "id": "l6",
+  "level": 2,
+  "title": "Fragilización por hidrógeno",
+  "bullets": [
+   "El hidrógeno atómico que entra al acero (por ejemplo, en el baño electrolítico) con esfuerzo de tracción produce fractura frágil retardada.",
+   "Son susceptibles los tornillos de dureza alta: ASTM F1941 fija el umbral en 39 HRC (390 HV); ISO 4042 pide precaución desde 320 HV, o sea clases 10.9 y 12.9.",
+   "El horneado de desfragilización (≈ 190–220 °C, empezando lo antes posible y máximo 4 h tras el baño) reduce el riesgo pero no lo elimina por completo.",
+   "ISO 4042 pide ensayos (p. ej. ISO 15330, precarga cerca del límite elástico 48 h) en piezas sobre 320 HV, y acuerdo escrito sobre 365 HV.",
+   "Alternativas sin hidrógeno: zinc laminar y zinc mecánico."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué un 12.9 electrocincado es una combinación de alto riesgo?"
+ },
+ {
+  "ruta": 2,
+  "id": "l7",
+  "level": 2,
+  "title": "Corrosión: recubrimientos y niebla salina",
+  "bullets": [
+   "El zinc protege por sacrificio; la pasivación (clara, amarilla, negra) retrasa el óxido blanco.",
+   "El zinc-níquel y el zinc laminar logran mucha más resistencia que el cincado simple, con rangos de cientos de horas a más de mil, según espesor y proceso.",
+   "Los resultados de niebla salina (ISO 9227) comparan sistemas bajo condiciones aceleradas; no predicen la vida real en servicio.",
+   "Hoy se usa pasivación trivalente; el cromo hexavalente está restringido."
+  ],
+  "formula": "",
+  "checkpoint": "Si un cliente pide 240 h a óxido rojo, ¿qué tipo de recubrimiento y espesor considerarías?"
+ },
+ {
+  "ruta": 2,
+  "id": "l8",
+  "level": 2,
+  "title": "Acero inoxidable A2/A4 y galling",
+  "bullets": [
+   "A2 equivale aprox. a 304 y A4 a 316 (con molibdeno, mejor ante cloruros).",
+   "La clase indica la resistencia: A2-70 y A4-70 → 700 MPa mín.; A2-80 y A4-80 → 800 MPa mín. La resistencia depende de la clase, no de A2/A4.",
+   "El galling es una soldadura en frío por fricción entre roscas de inoxidable (también titanio y aluminio).",
+   "Prevención: antigripante, velocidad de apriete baja y evitar pares inoxidable-inoxidable sin lubricante."
+  ],
+  "formula": "",
+  "checkpoint": "¿Un A4-70 es más resistente que un A2-80? ¿Por qué?"
+ },
+ {
+  "ruta": 2,
+  "id": "l9",
+  "level": 2,
+  "title": "Tornillos autoperforantes: puntos 1 a 5",
+  "bullets": [
+   "Combinan punta de broca y rosca: perforan y roscan en una sola operación, sin pre-taladro.",
+   "El número de punta (1–5) indica la capacidad de perforación: a mayor número, punta más larga y mayor espesor de acero.",
+   "La capacidad debe cubrir el espesor total de todas las láminas, incluidos los espacios entre capas.",
+   "Las puntas #4 y #5 no son pernos estructurales. Normas de referencia: SAE J78 y ASTM C1513."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué punta elegirías para unir dos láminas con una holgura de 1 mm entre ellas?"
+ },
+ {
+  "ruta": 2,
+  "id": "l10",
+  "level": 2,
+  "title": "Rosca formada y rosca cortada",
+  "bullets": [
+   "Los tornillos que forman rosca (tipo Taptite y similares) compactan el material sin generar viruta.",
+   "Los de corte tienen ranura y filos que retiran material, con menor torque de instalación y menos tensiones.",
+   "En materiales frágiles (algunos plásticos y composites) se prefiere el corte para evitar grietas.",
+   "Tu catálogo CATO ya trae AB, B, C, F y BF; esta lección los conecta con el criterio de selección."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué un plástico quebradizo agradece una rosca cortada?"
+ },
+ {
+  "ruta": 2,
+  "id": "l11",
+  "level": 3,
+  "title": "Longitud de enganche de rosca",
+  "bullets": [
+   "En acero, 1 × d es la regla general para que falle el tornillo antes que la rosca.",
+   "Fundición 1,5 × d; aluminio y zinc 2 × d; plásticos 2–2,5 × d.",
+   "Si el material hembra es más débil que el tornillo, hay que aumentar el enganche.",
+   "La rosca fina da más área de corte por unidad de longitud que la gruesa."
+  ],
+  "formula": "Enganche mín. = factor × d",
+  "checkpoint": "Un M8 en aluminio, ¿cuántos mm de enganche mínimos usarías?"
+ },
+ {
+  "ruta": 2,
+  "id": "l12",
+  "level": 3,
+  "title": "Aflojamiento por vibración y antiaflojantes",
+  "bullets": [
+   "La causa principal es la pérdida de precarga; hay aflojamiento rotacional (el tornillo gira) y no rotacional (asentamiento, relajación y fluencia).",
+   "El ensayo Junker (DIN 65151 / ISO 16130) aplica vibración transversal y mide la pérdida de precarga.",
+   "Las arandelas planas y las de presión (split) protegen poco o nada; las de cuña (ángulo de leva mayor que el paso), las tuercas de torque predominante y los adhesivos funcionan mejor.",
+   "Ningún antiaflojante compensa un tornillo mal apretado."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué una arandela de presión simple no basta en una máquina con vibración?"
+ },
+ {
+  "ruta": 2,
+  "id": "l13",
+  "level": 3,
+  "title": "Casos de selección integral",
+  "bullets": [
+   "Caso 1 · Tornillo 12.9 en ambiente corrosivo: evita el electrocincado por hidrógeno; usa zinc laminar o zinc mecánico.",
+   "Caso 2 · Ensamble inoxidable con inoxidable en intemperie: el riesgo principal es el galling; antigripante y apriete lento.",
+   "Caso 3 · Tornillo de acero en rosca de aluminio: aumenta el enganche a ≥ 2 × d y valida el torque con ensayos.",
+   "Caso 4 · Unión con vibración: calcula la precarga, controla K y añade un dispositivo antiaflojante probado."
+  ],
+  "formula": "",
+  "checkpoint": "Elige un caso de tu planta y justifica la clase, el recubrimiento y el torque."
+ },
+ {
+  "ruta": 3,
+  "id": "l1",
+  "level": 1,
+  "title": "Tipos de rosca por su perfil",
+  "bullets": [
+   "Triangular: la más usada en uniones mecánicas, en varios sistemas normalizados.",
+   "Trapezoidal: transmisión de potencia y movimiento (husillos de torno, columnas elevadoras, compuertas).",
+   "Redonda: ambientes con desgaste o polvo y enroscado fácil (pitones de manguera, tapas, bombillos).",
+   "Cuadrada: mecanismos de potencia, usual en prensas."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué perfil elegirías para un husillo de una prensa y cuál para una tapa de envase?"
+ },
+ {
+  "ruta": 3,
+  "id": "l2",
+  "level": 1,
+  "title": "Especificar un tornillo: métrico y unificado",
+  "bullets": [
+   "Métrico (SI): M + diámetro nominal + paso en mm. M10 × 1 = 10 mm de diámetro y 1 mm entre crestas.",
+   "Unificado (UN): diámetro nominal + hilos por pulgada + serie. 5/16″ × 18 UNC = rosca ordinaria de 18 hilos.",
+   "En pulgadas el paso es el número de crestas por pulgada; en mm, la distancia entre crestas consecutivas.",
+   "El diámetro medido con calibrador suele salir algo menor que el nominal."
+  ],
+  "formula": "Paso (mm) = 25,4 ÷ hilos por pulgada",
+  "checkpoint": "Traduce 3/8″ × 16 UNC a milímetros de diámetro y de paso (≈ 9,53 mm y 1,59 mm)."
+ },
+ {
+  "ruta": 3,
+  "id": "l3",
+  "level": 1,
+  "title": "Cabezas y accionamientos: el lenguaje común",
+  "bullets": [
+   "La cabeza aloja el accionamiento o lo determina con su forma.",
+   "Cabezas del manual: hexagonal (con collarín, collar o collar biselado), bi-hexagonal, de martillo, cuadrada, cilíndrica (y abombada), avellanada, redonda y abombada.",
+   "Accionamientos: ranura, Philips, Pozidriv, combinada, hexagonal, hueco hexagonal, bi-hexagonal, seis canales (Torx), mariposa, muletilla y moleteado.",
+   "Philips y Pozidriv son dos huecos cruciformes distintos."
+  ],
+  "formula": "",
+  "checkpoint": "Describe un tornillo por su cabeza y accionamiento sin ver su rosca."
+ },
+ {
+  "ruta": 3,
+  "id": "l4",
+  "level": 2,
+  "title": "Vástago, cuello y extremo",
+  "bullets": [
+   "El vástago o cuello sin rosca evita que el tornillo rosque en una parte de las piezas (por ejemplo, permite que una polea gire libre).",
+   "Formas de vástago: normal, rosca laminada, caña calibrada, caña de apoyo y cuello cuadrado.",
+   "El extremo puede sostener, pinar, anclar, desplazar o sellar según su forma.",
+   "Extremos: plano, abombado, biselado, cónico, troncocónico, pivote y autorroscante."
+  ],
+  "formula": "",
+  "checkpoint": "¿Cómo escogerías el extremo de un tornillo que debe sostener una pieza sin marcarla?"
+ },
+ {
+  "ruta": 3,
+  "id": "l5",
+  "level": 2,
+  "title": "Grados SAE y clases métricas",
+  "bullets": [
+   "Los métricos se llaman \"tipo clase\" y los unificados \"tipo grado\".",
+   "Grado 1: 60 ksi mín. de tracción; grado 2: 74; grado 5: 120; grado 7: 133; grado 8: 150.",
+   "Los grados 5.2 y 8.2 son de acero martensítico de bajo carbono templado y revenido, con iguales mínimos que el 5 y el 8.",
+   "Clases métricas (tracción mín. en MPa): 4.6 → 400, 4.8 → 420, 5.8 → 520, 9.8 → 900, 10.9 → 1040, 12.9 → 1220."
+  ],
+  "formula": "1 ksi ≈ 6,895 MPa",
+  "checkpoint": "Convierte la tracción mínima del grado 8 (150 ksi) a MPa."
+ },
+ {
+  "ruta": 3,
+  "id": "l6",
+  "level": 2,
+  "title": "Ajuste de rosca: 1A–3A y 8g–4g",
+  "bullets": [
+   "A = rosca exterior (tornillo) y B = rosca interior (tuerca).",
+   "Holgado: 1A/1B (UN) y 8g/7H (métrico). Medio: 2A/2B y 6g/6H. Cerrado: 3A/3B y 4g/5H.",
+   "El ajuste medio es el de uso general.",
+   "Cuanto más cerrado el ajuste, menor holgura entre tornillo y tuerca."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué ajuste usarías para ensamblar a mano en un ambiente sucio?"
+ },
+ {
+  "ruta": 3,
+  "id": "l7",
+  "level": 2,
+  "title": "Pasos gruesos, finos y brocas para roscar",
+  "bullets": [
+   "La tabla métrica gruesa da paso y broca: M6 → 1 mm / 5; M8 → 1,25 / 6,8; M10 → 1,5 / 8,5; M12 → 1,75 / 10,2.",
+   "Regla práctica de la broca: diámetro nominal − paso.",
+   "UNC (gruesa): 1/4″ → 20 hilos y broca 5,1 mm; UNF (fina): 1/4″ → 28 hilos y 5,5 mm.",
+   "Un mismo diámetro tiene paso grueso y fino: la medición del paso con galga es obligatoria."
+  ],
+  "formula": "Broca ≈ d − paso",
+  "checkpoint": "Calcula la broca de un M14 × 1,5 fino (resultado ≈ 12,5 mm)."
+ },
+ {
+  "ruta": 3,
+  "id": "l8",
+  "level": 3,
+  "title": "Arandelas: función y selección",
+  "bullets": [
+   "Funciones: espaciar, indicar carga o asegurar, repartir la fuerza, reducir el riesgo de aflojamiento, reforzar la unión, cubrir agujeros grandes y proteger superficies.",
+   "Planas, dentadas, Grower (hélice), onduladas, cónicas Belleville, autosellantes y de seguridad tipo araña.",
+   "Belleville: absorbe golpes y mantiene la tensión bajo carga dinámica.",
+   "Autosellante: sella líquidos, polvo, aire y vapores."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué arandela usarías en una unión con vibración y poco espacio radial?"
+ },
+ {
+  "ruta": 3,
+  "id": "l9",
+  "level": 3,
+  "title": "Tuercas y bloqueo",
+  "bullets": [
+   "Hexagonal, autoblocante de nailon, keps, almenada, flanche, ranurada, ciega, cuadrada, de uña, mariposa y moleteada.",
+   "La almenada usa pasador de bloqueo (ejes de transmisión); la ranurada se asegura con arandela tipo araña.",
+   "La de nailon y la de flanche resisten el aflojamiento por vibración.",
+   "La de uña se clava con martillo y exige un agujero para el tronco del tornillo."
+  ],
+  "formula": "",
+  "checkpoint": "Elige una tuerca para un eje de transmisión con vibración."
+ },
+ {
+  "ruta": 3,
+  "id": "l10",
+  "level": 3,
+  "title": "Acabados: del zincado al Xylan",
+  "bullets": [
+   "Cincado en caliente (baño de zinc fundido) para intemperie; electrolítico, más uniforme y de espesor controlado.",
+   "Tropicalizado, azul, negro y verde oliva: cromatos sobre el zinc para más resistencia a la corrosión.",
+   "Cadminizado: no forma productos de corrosión voluminosos, apto para tolerancia cerrada.",
+   "Pavonado, latonado, niquelado, cobrizado, fosfatado y Xylan (poliuretanos modificados con menos roce)."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué acabado elegirías para una tolerancia cerrada y por qué?"
+ },
+ {
+  "ruta": 3,
+  "id": "l11",
+  "level": 3,
+  "title": "Método de identificación paso a paso",
+  "bullets": [
+   "1) Mide el diámetro con calibrador (recuerda que da algo menos que el nominal).",
+   "2) Mide el paso con galga de roscas y decide si es métrico o unificado, grueso o fino.",
+   "3) Identifica cabeza, accionamiento, vástago y extremo.",
+   "4) Lee las marcas de la cabeza: grado SAE o clase métrica.",
+   "5) Revisa el acabado. Usa el identificador de la calculadora para confirmar."
+  ],
+  "formula": "",
+  "checkpoint": "Identifica un tornillo real de tu planta con estos cinco pasos."
+ },
+ {
+  "ruta": 4,
+  "id": "l1",
+  "level": 1,
+  "title": "Materiales de sujeción",
+  "bullets": [
+   "Acero al carbono: el más común y económico, normalmente zincado; resistencia típica ≥ 55 ksi (≈ 379 MPa).",
+   "Acero aleado: hasta 300 ksi (≈ 2068 MPa); no resiste la corrosión y requiere recubrimiento (en aeronáutica, cadmio).",
+   "Inoxidable (CRES): 70 a 220 ksi; normalmente sin recubrimiento y con rango de temperatura más amplio.",
+   "Precauciones: el recubrimiento limita la temperatura máxima; el carbono y el aleado se fragilizan bajo −65 °F (−54 °C); la serie 400 tiene solo 12 % de cromo; el contacto de metales distintos produce corrosión galvánica."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué material elegirías para un entorno de −200 °F y por qué?"
+ },
+ {
+  "ruta": 4,
+  "id": "l2",
+  "level": 1,
+  "title": "Recubrimientos y su límite de temperatura",
+  "bullets": [
+   "Cadmio: el más común en aeroespacial; límite útil 450 °F (232 °C); hornear a 375 °F (190 °C) durante 23 h dentro de las 2 h posteriores al baño.",
+   "Zinc: de sacrificio; límite 250 °F (121 °C) y protección que se degrada sobre 140 °F (60 °C).",
+   "Fosfatos: 225–400 °F; níquel: hasta 1100 °F pero costoso; IVD de aluminio: sin hidrógeno, hasta 925 °F.",
+   "Sermatel W y SermaGard: aluminio con cromatos curado a 650 °F; sin hidrógeno; hasta 15 desensambles."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué recubrimiento usarías cerca de 600 °F?"
+ },
+ {
+  "ruta": 4,
+  "id": "l3",
+  "level": 1,
+  "title": "Lubricantes de rosca",
+  "bullets": [
+   "Aceite y grasa: hasta 250 °F y no sirven en vacío.",
+   "Grafito: necesita humedad (el \"seco\" no es seco); no sirve en vacío.",
+   "Disulfuro de molibdeno: hasta ≈ 750 °F y válido en vacío; sobre esa temperatura pasa a trisulfuro abrasivo.",
+   "Neverseez 2200 °F; Silver Goop 1500 °F (no en aluminio ni magnesio); compuestos de retención 275 °F."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué lubricante usarías en una cámara de vacío a 400 °F?"
+ },
+ {
+  "ruta": 4,
+  "id": "l4",
+  "level": 2,
+  "title": "Corrosión galvánica",
+  "bullets": [
+   "Se produce con dos metales distintos y un electrolito: el más activo (ánodo) se erosiona.",
+   "Cuanto más separados en la serie galvánica, mayor la acción: de magnesio (más activo) a oro (menos activo), pasando por zinc, aluminio, cadmio, acero dulce, inoxidables, cobre, titanio y plata.",
+   "El ánodo debe tener la mayor masa: sujetador de acero al carbono en ensamble de cobre o inoxidable es mala práctica; el inoxidable en acero al carbono sí es aceptable.",
+   "El magnesio debe aislarse con un recubrimiento inerte; cadmio o zinc son los más compatibles si el aislante se daña."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué conviene que el ánodo sea la pieza grande y no el sujetador?"
+ },
+ {
+  "ruta": 4,
+  "id": "l5",
+  "level": 2,
+  "title": "Corrosión por esfuerzo e hidrógeno",
+  "bullets": [
+   "Corrosión por esfuerzo: una pieza en tracción en ambiente corrosivo falla muy por debajo de su límite elástico; mayor temperatura de tratamiento (menor ductilidad), más susceptibilidad. El A-286 no es susceptible.",
+   "Hidrógeno: la mayoría de los baños electrolíticos lo generan y exigen horneado posterior.",
+   "Tres tipos: reacción química (metano con el carbono del acero), fragilización interna (fallas retardadas) y por entorno de hidrógeno a alta presión.",
+   "Calentar un recubrimiento hasta su temperatura de descomposición puede volver a generar hidrógeno."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué las fallas por hidrógeno pueden aparecer después de las pruebas de validación?"
+ },
+ {
+  "ruta": 4,
+  "id": "l6",
+  "level": 2,
+  "title": "Métodos de retención y bloqueo",
+  "bullets": [
+   "Spiralock: rampa de cuña de 30° en la raíz de la rosca interna que impide el movimiento lateral.",
+   "Contratuerca de haz partido y de rosca deformada (reutilizable ≈ 10 veces; común en aeroespacial).",
+   "Nylon (≈ 250 °F máximo; se daña al reensamblar); almenada con pasador de chaveta (bajo torque).",
+   "Tuercas de unión (jam nuts): demasiado impredecibles; no recomendadas para tracción estructural."
+  ],
+  "formula": "",
+  "checkpoint": "¿Cuándo descartarías una contratuerca de nylon?"
+ },
+ {
+  "ruta": 4,
+  "id": "l7",
+  "level": 2,
+  "title": "Roscas UNC, UNF, UNEF y UNJ",
+  "bullets": [
+   "UNC: propósito general; más fácil de ensamblar sin trasroscar y de remover si se corroe.",
+   "UNF: diámetro menor mayor, algo más de capacidad de carga y retención de torque; la más usada en aeroespacial.",
+   "UNEF: aún más fina; para agujeros roscados en materiales duros o paredes delgadas.",
+   "UNJ: radio de raíz mayor y obligatorio de inspeccionar; baja la concentración de esfuerzos y se usa en pernos de más de 180 ksi. Clases 1A–3A y 1B–3B; la 3 es la más estrecha."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué un perno de 200 ksi llevaría rosca J?"
+ },
+ {
+  "ruta": 4,
+  "id": "l8",
+  "level": 3,
+  "title": "Fatiga: pernos y uniones",
+  "bullets": [
+   "Un perno en tracción cíclica suele romperse cerca del final de la rosca (máxima concentración de esfuerzos).",
+   "Perno resistente a la fatiga: cuerpo mecanizado hasta el diámetro de raíz.",
+   "Si las bridas son mucho más rígidas que el perno, la carga en el perno apenas sube hasta superar la precarga inicial Fi; solo la parte de la carga cíclica sobre Fi cuenta para la vida a fatiga.",
+   "Precarga cercana al límite elástico y más sujetadores pequeños mejoran la vida; con materiales distintos, usar arandelas Belleville."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué conviene usar varios sujetadores pequeños en vez de pocos grandes?"
+ },
+ {
+  "ruta": 4,
+  "id": "l9",
+  "level": 3,
+  "title": "Torque y precisión de la precarga",
+  "bullets": [
+   "T = K·F·d. K asumido 0,2 pero el valor típico de acero sobre acero es 0,15; la fricción real varía de 0,04 a 1,10.",
+   "El torque exacto de fluencia no puede determinarse sin instrumentación extensa: se usa la carga de prueba (según este manual, ≈ 75 % del límite elástico teórico).",
+   "Precisión de la precarga: tacto ±35 %, llave dinamométrica ±25 %, giro de la tuerca ±15 %, arandelas indicadoras ±10 %, elongación ±3–5 %, galgas ±1 %.",
+   "Hay que ajustar las tablas de torque si cambia la fricción."
+  ],
+  "formula": "T = K · F · d",
+  "checkpoint": "Con llave dinamométrica ±25 %, ¿qué rango de precarga espero si busco 36 kN? (27 a 45 kN)"
+ },
+ {
+  "ruta": 4,
+  "id": "l10",
+  "level": 3,
+  "title": "Cargas combinadas, grupos y arrancamiento",
+  "bullets": [
+   "Grupo con carga excéntrica: halla el centroide, suma la carga directa (carga ÷ n) y la del momento (M·r ÷ Σr²) vectorialmente.",
+   "Corte + tracción simultáneos: se compara con curvas de interacción; el documento traducido da R₁³ + R₂³ = 1 y un valor menor que 1 indica margen positivo (verificar con la fuente original).",
+   "Arrancamiento en agujero roscado de material débil: P = π·dm·L·Fs ÷ 3, con Fs el esfuerzo cortante último del material más débil y el factor 1/3 como previsión por desalineación.",
+   "No apliques torque alto cuando la carga predominante es de corte."
+  ],
+  "formula": "P = π · dm · L · Fs ÷ 3",
+  "checkpoint": "¿Qué longitud de enganche aumentaría la carga de arrancamiento en aluminio?"
+ },
+ {
+  "ruta": 4,
+  "id": "l11",
+  "level": 3,
+  "title": "Remaches, lockbolts y normas NAS",
+  "bullets": [
+   "Remaches: permanentes, baratos y livianos, muy usados en aeronaves; no sirven para tracción ni materiales gruesos y están prohibidos en compuestos (delaminación).",
+   "Ciegos: instalación desde un lado (Pop, Cherry Buck, Huck).",
+   "Lockbolts (Hi-Lok, Jo-Bolt, Huckbolt): collar deformado sobre ranuras; difíciles de inspeccionar; úsalos cuando no cabe perno y tuerca equivalentes. Rivnut: tuerca remachable para lámina delgada.",
+   "Normas NAS 1003–1020: los dos últimos dígitos dan el diámetro en dieciseisavos de pulgada y el primer número tras el guion, la longitud de agarre. Cabezas y tuercas de corte tienen la mitad del espesor: nunca en tracción y con la mitad del torque."
+  ],
+  "formula": "",
+  "checkpoint": "¿Por qué no usarías un remache sólido en un panel de fibra de carbono?"
+ },
+ {
+  "ruta": 4,
+  "id": "l12",
+  "level": 3,
+  "title": "Falsificaciones: el caso del grado 8.2",
+  "bullets": [
+   "Se vendió acero aleado al boro de bajo carbono (0,22 % C) de grado 8.2 marcado como grado 8 (0,37 % C).",
+   "A temperatura ambiente su resistencia es idéntica, pero sobre 500 °F cae drásticamente; el grado 8 real se mantiene hasta 800 °F.",
+   "Otro fraude: zinc teñido para imitar el cadmio; solo se detecta con pruebas químicas de laboratorio.",
+   "El grado 8.2 es legítimo cuando está marcado como 8.2: el fraude es la marca falsa. Exige certificados y verificación."
+  ],
+  "formula": "",
+  "checkpoint": "¿Qué controles exigirías en la recepción para detectar un grado 8.2 marcado como 8?"
+ }
+]

@@ -1,6 +1,7 @@
 [
  {
   "id": "q1",
+  "ruta": 1,
   "cat": "mat",
   "level": 1,
   "q": "¿Qué alambre usa CATO principalmente como materia prima?",
@@ -15,6 +16,7 @@
  },
  {
   "id": "q2",
+  "ruta": 1,
   "cat": "mat",
   "level": 1,
   "q": "¿Cómo se forman la cabeza y el cuerpo del remache?",
@@ -29,6 +31,7 @@
  },
  {
   "id": "q3",
+  "ruta": 1,
   "cat": "mat",
   "level": 1,
   "q": "¿Cómo se fabrica la rosca de un tornillo en CATO?",
@@ -43,6 +46,7 @@
  },
  {
   "id": "q4",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "¿Para qué sirve el recocido del alambre después del trefilado?",
@@ -50,13 +54,14 @@
    "Aumentar el carbono superficial",
    "Protegerlo contra la corrosión",
    "Estampar la ranura",
-   "Darle la dureza necesaria para el formado"
+   "Darle la dureza necesaria"
   ],
   "answer": 3,
-  "explanation": "El recocido en horno ajusta la dureza del alambre; el carbono superficial lo aumenta el cementado."
+  "explanation": "El formado. El recocido en horno ajusta la dureza del alambre; el carbono superficial lo aumenta el cementado."
  },
  {
   "id": "q5",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "¿Qué se busca con el cementado?",
@@ -71,6 +76,7 @@
  },
  {
   "id": "q6",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "¿En qué medio se enfría bruscamente el tornillo tras el cementado?",
@@ -85,6 +91,7 @@
  },
  {
   "id": "q7",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "¿Cuál de estos acabados aparece en la oferta de CATO?",
@@ -99,6 +106,7 @@
  },
  {
   "id": "q8",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "El zincromatizado también se conoce como…",
@@ -113,6 +121,7 @@
  },
  {
   "id": "q9",
+  "ruta": 1,
   "cat": "mat",
   "level": 2,
   "q": "¿Cuántos pasos consecutivos forman una tuerca hexagonal?",
@@ -127,6 +136,7 @@
  },
  {
   "id": "q10",
+  "ruta": 1,
   "cat": "mat",
   "level": 3,
   "q": "Ordena el proceso del tornillo: ¿cuál secuencia es correcta?",
@@ -141,6 +151,7 @@
  },
  {
   "id": "q11",
+  "ruta": 1,
   "cat": "mat",
   "level": 3,
   "q": "Al recibir un rollo de alambre, el tiquete de identificación indica…",
@@ -155,6 +166,7 @@
  },
  {
   "id": "q12",
+  "ruta": 1,
   "cat": "mat",
   "level": 3,
   "q": "¿Qué controles se hacen a la materia prima al recibirla?",
@@ -169,6 +181,7 @@
  },
  {
   "id": "q13",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "En las tablas de cabezas, la letra J indica…",
@@ -183,6 +196,7 @@
  },
  {
   "id": "q14",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "En las tablas de cabezas, la letra T indica…",
@@ -197,6 +211,7 @@
  },
  {
   "id": "q15",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "¿Qué cabeza recomienda CATO en lugar de redonda, lenteja y binding?",
@@ -211,6 +226,7 @@
  },
  {
   "id": "q16",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "¿Qué ventaja trae unificar en cabeza cilíndrica?",
@@ -225,6 +241,7 @@
  },
  {
   "id": "q17",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "En la estampa Phillips, M representa…",
@@ -239,6 +256,7 @@
  },
  {
   "id": "q18",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "En la estampa Phillips, N representa…",
@@ -253,6 +271,7 @@
  },
  {
   "id": "q19",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "¿Cómo se suministran las cabezas hexagonales con arandela?",
@@ -267,6 +286,7 @@
  },
  {
   "id": "q20",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "¿Qué ángulo de avellanado muestran los dibujos de cabeza plana y oval?",
@@ -281,6 +301,7 @@
  },
  {
   "id": "q21",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "La letra O en cabezas oval, cilíndrica o fillister indica…",
@@ -295,6 +316,7 @@
  },
  {
   "id": "q22",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "¿Qué distingue la cabeza binding de las demás?",
@@ -309,6 +331,7 @@
  },
  {
   "id": "q23",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "¿Qué punta Phillips corresponde a los calibres 5 a 10 (M3.5–M5)?",
@@ -323,6 +346,7 @@
  },
  {
   "id": "q24",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "¿Qué punta Phillips corresponde a calibres 5/16″ y 3/8″ (M8, M10)?",
@@ -337,6 +361,7 @@
  },
  {
   "id": "q25",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "¿Qué punta de destornillador de pala sugiere el catálogo para calibre 8?",
@@ -351,6 +376,7 @@
  },
  {
   "id": "q26",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "Si la pala del destornillador es más ancha que la ranura…",
@@ -365,6 +391,7 @@
  },
  {
   "id": "q27",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "En la cabeza cilíndrica DIN 84, la letra t indica…",
@@ -379,6 +406,7 @@
  },
  {
   "id": "q28",
+  "ruta": 1,
   "cat": "ros",
   "level": 1,
   "q": "¿Cuántos mm mide el calibre #10?",
@@ -393,6 +421,7 @@
  },
  {
   "id": "q29",
+  "ruta": 1,
   "cat": "ros",
   "level": 1,
   "q": "¿Qué fórmula da el diámetro nominal en pulgadas de un calibre N?",
@@ -407,6 +436,7 @@
  },
  {
   "id": "q30",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Cuántos mm mide el calibre #12?",
@@ -421,6 +451,7 @@
  },
  {
   "id": "q31",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Cuál es el paso, en mm, de una rosca de 20 hilos por pulgada?",
@@ -435,6 +466,7 @@
  },
  {
   "id": "q32",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "Un paso de 1,0 mm equivale aproximadamente a…",
@@ -449,6 +481,7 @@
  },
  {
   "id": "q33",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Qué significa UNC?",
@@ -463,6 +496,7 @@
  },
  {
   "id": "q34",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Cuántos hilos por pulgada tiene la rosca ordinaria 1/4″ UNC?",
@@ -477,6 +511,7 @@
  },
  {
   "id": "q35",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Cuál es el paso de una rosca métrica M6 según DIN 13?",
@@ -491,6 +526,7 @@
  },
  {
   "id": "q36",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Cuál es el paso de una rosca M8?",
@@ -505,6 +541,7 @@
  },
  {
   "id": "q37",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "¿Qué clase de tolerancia tienen las roscas métricas externas del catálogo?",
@@ -519,6 +556,7 @@
  },
  {
   "id": "q38",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál de estas roscas es UNF (fina)?",
@@ -533,6 +571,7 @@
  },
  {
   "id": "q39",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál es el paso de una rosca #10-24 (UNC)?",
@@ -547,6 +586,7 @@
  },
  {
   "id": "q40",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál es el paso de una rosca #8-32?",
@@ -561,6 +601,7 @@
  },
  {
   "id": "q41",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "Una rosca M5 de paso 0,8 mm equivale a unos…",
@@ -575,6 +616,7 @@
  },
  {
   "id": "q42",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál es el diámetro mayor máximo de una rosca 1/4-20 UNC clase 2A?",
@@ -589,6 +631,7 @@
  },
  {
   "id": "q43",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál es el diámetro mayor mínimo de una rosca 8-32 UNC clase 2A?",
@@ -603,6 +646,7 @@
  },
  {
   "id": "q44",
+  "ruta": 1,
   "cat": "ros",
   "level": 2,
   "q": "En un tornillo galvanizado o niquelado, el diámetro máximo de rosca…",
@@ -617,6 +661,7 @@
  },
  {
   "id": "q45",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Cuál es el ancho máximo de la arista de rosca hasta el calibre 8?",
@@ -631,6 +676,7 @@
  },
  {
   "id": "q46",
+  "ruta": 1,
   "cat": "ros",
   "level": 3,
   "q": "¿Qué diferencia hay entre una rosca 8-32 americana y una 5/32″ Whitworth?",
@@ -645,6 +691,7 @@
  },
  {
   "id": "q47",
+  "ruta": 1,
   "cat": "aut",
   "level": 1,
   "q": "¿Qué tipo de tornillo autorroscante recomienda CATO?",
@@ -659,6 +706,7 @@
  },
  {
   "id": "q48",
+  "ruta": 1,
   "cat": "aut",
   "level": 1,
   "q": "¿Qué caracteriza al tipo B?",
@@ -673,6 +721,7 @@
  },
  {
   "id": "q49",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "¿Qué tipos son de tipo machuelo (filos de corte)?",
@@ -687,6 +736,7 @@
  },
  {
   "id": "q50",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "¿Qué tipo tiene rosca de estufa con punta cónica ciega?",
@@ -701,6 +751,7 @@
  },
  {
   "id": "q51",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "Para aluminio, fundición de plomo o zinc y bronce se usa…",
@@ -715,6 +766,7 @@
  },
  {
   "id": "q52",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "¿Cuándo se prefiere un tornillo tipo machuelo?",
@@ -729,6 +781,7 @@
  },
  {
   "id": "q53",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "Con lámina muy gruesa, el tipo C se rompe por torque. ¿Qué hacer?",
@@ -743,6 +796,7 @@
  },
  {
   "id": "q54",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 8?",
@@ -757,6 +811,7 @@
  },
  {
   "id": "q55",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 10?",
@@ -771,6 +826,7 @@
  },
  {
   "id": "q56",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "¿Cuántos hilos por pulgada tiene un tipo A de calibre 8?",
@@ -785,6 +841,7 @@
  },
  {
   "id": "q57",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "¿Cuántos hilos por pulgada tiene un tipo AB de calibre 6?",
@@ -799,20 +856,22 @@
  },
  {
   "id": "q58",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "¿Qué beneficio tiene unificar el inventario en tipo AB?",
   "options": [
    "Menor diámetro de rosca",
-   "Menos costos de control, manejo e inspección",
+   "Menos costos de control",
    "Mayor torque admisible",
    "Menos protección contra corrosión"
   ],
   "answer": 1,
-  "explanation": "También su penetración y resistencia superan a las del tipo A."
+  "explanation": "Manejo e inspección. También su penetración y resistencia superan a las del tipo A."
  },
  {
   "id": "q59",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "¿Qué ángulo de punta se dibuja en los tipos A y AB?",
@@ -827,6 +886,7 @@
  },
  {
   "id": "q60",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "Perforación en fenol-formaldehído para un tornillo lámina calibre 8 (DIN 7970)",
@@ -841,6 +901,7 @@
  },
  {
   "id": "q61",
+  "ruta": 1,
   "cat": "aut",
   "level": 3,
   "q": "Perforación en celulosa/poliacrilatos para un calibre 10 (DIN 7970)",
@@ -855,6 +916,7 @@
  },
  {
   "id": "q62",
+  "ruta": 1,
   "cat": "aut",
   "level": 2,
   "q": "En plásticos, ¿cuántos ensayos recomienda el catálogo?",
@@ -869,6 +931,7 @@
  },
  {
   "id": "q63",
+  "ruta": 1,
   "cat": "apl",
   "level": 1,
   "q": "¿Qué diámetro de hueco piloto se usa en maderas duras?",
@@ -883,6 +946,7 @@
  },
  {
   "id": "q64",
+  "ruta": 1,
   "cat": "apl",
   "level": 1,
   "q": "¿Y en maderas blandas como el pino?",
@@ -897,6 +961,7 @@
  },
  {
   "id": "q65",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "¿Qué parte de la longitud nominal está roscada en un tornillo para madera?",
@@ -911,6 +976,7 @@
  },
  {
   "id": "q66",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "¿Cuánta rosca tiene aproximadamente un tornillo para madera de 1 1/2″ (38,1 mm)?",
@@ -925,6 +991,7 @@
  },
  {
   "id": "q67",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "Diámetro menor 3,12 mm en madera blanda: ¿qué broca piloto sale con −15 %?",
@@ -939,6 +1006,7 @@
  },
  {
   "id": "q68",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "¿Qué tolerancia de longitud tiene un tornillo para madera de 2″?",
@@ -953,6 +1021,7 @@
  },
  {
   "id": "q69",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "¿Qué tolerancia tiene un tornillo para madera de 4″?",
@@ -967,6 +1036,7 @@
  },
  {
   "id": "q70",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "¿Qué láminas perfora el tornillo drywall gracias a su punta y dureza?",
@@ -981,6 +1051,7 @@
  },
  {
   "id": "q71",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "Diámetro máximo de cabeza de un drywall calibre 10",
@@ -995,6 +1066,7 @@
  },
  {
   "id": "q72",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "Drywall de 2″ (50,80 mm): ¿cuál es la longitud máxima admitida?",
@@ -1009,6 +1081,7 @@
  },
  {
   "id": "q73",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "En aglomerado, ¿cuál es el dk máximo del tamaño 6?",
@@ -1023,6 +1096,7 @@
  },
  {
   "id": "q74",
+  "ruta": 1,
   "cat": "apl",
   "level": 3,
   "q": "¿Qué forma de estría Z tiene el aglomerado de tamaño 6?",
@@ -1037,6 +1111,7 @@
  },
  {
   "id": "q75",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "¿Qué ángulo de avellanado tiene el tornillo para aglomerado?",
@@ -1051,6 +1126,7 @@
  },
  {
   "id": "q76",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "¿Cuántos tornillos de hierro para madera trae la cajita?",
@@ -1065,6 +1141,7 @@
  },
  {
   "id": "q77",
+  "ruta": 1,
   "cat": "apl",
   "level": 2,
   "q": "¿En qué cantidades se empacan los tornillos industriales en bolsa?",
@@ -1079,6 +1156,7 @@
  },
  {
   "id": "q78",
+  "ruta": 1,
   "cat": "cal",
   "level": 1,
   "q": "¿Cómo se mide la longitud de un tornillo?",
@@ -1093,6 +1171,7 @@
  },
  {
   "id": "q79",
+  "ruta": 1,
   "cat": "cal",
   "level": 2,
   "q": "¿Cómo se calcula la altura de cabeza en un tornillo oval?",
@@ -1107,6 +1186,7 @@
  },
  {
   "id": "q80",
+  "ruta": 1,
   "cat": "cal",
   "level": 2,
   "q": "¿Por qué se descabeza un tornillo autorroscante?",
@@ -1121,6 +1201,7 @@
  },
  {
   "id": "q81",
+  "ruta": 1,
   "cat": "cal",
   "level": 3,
   "q": "Torque máximo de la tabla para AB, B y BF calibre 10",
@@ -1135,6 +1216,7 @@
  },
  {
   "id": "q82",
+  "ruta": 1,
   "cat": "cal",
   "level": 3,
   "q": "Torque máximo de la tabla para tipos C y F calibre 8",
@@ -1149,6 +1231,7 @@
  },
  {
   "id": "q83",
+  "ruta": 1,
   "cat": "cal",
   "level": 3,
   "q": "Torque máximo de la tabla para el tipo A calibre 12",
@@ -1163,6 +1246,7 @@
  },
  {
   "id": "q84",
+  "ruta": 1,
   "cat": "cal",
   "level": 2,
   "q": "¿Qué porcentaje del costo de una unión roscada representa el tornillo?",
@@ -1177,6 +1261,7 @@
  },
  {
   "id": "q85",
+  "ruta": 1,
   "cat": "cal",
   "level": 2,
   "q": "¿Qué garantiza CATO para los tornillos lámina y machuelo?",
@@ -1191,6 +1276,7 @@
  },
  {
   "id": "q86",
+  "ruta": 1,
   "cat": "cal",
   "level": 2,
   "q": "Antes de comenzar un ensamble automático, ¿qué recomienda el catálogo?",
@@ -1205,6 +1291,7 @@
  },
  {
   "id": "q87",
+  "ruta": 1,
   "cat": "cal",
   "level": 3,
   "q": "¿Qué ventaja trae usar un destornillador del tamaño apropiado?",
@@ -1219,6 +1306,7 @@
  },
  {
   "id": "q88",
+  "ruta": 1,
   "cat": "rem",
   "level": 2,
   "q": "¿Qué ángulo de inclinación de paso debe tener un remache tipo U drive?",
@@ -1233,6 +1321,7 @@
  },
  {
   "id": "q89",
+  "ruta": 1,
   "cat": "rem",
   "level": 3,
   "q": "¿Cuál es la longitud de rosca N en cada punta de un espárrago hasta 4″?",
@@ -1247,20 +1336,22 @@
  },
  {
   "id": "q90",
+  "ruta": 1,
   "cat": "rem",
   "level": 3,
   "q": "¿Cuál es el diámetro máximo de espárrago del catálogo?",
   "options": [
    "1/2″",
-   "3/8″ (9,5 mm)",
+   "3/8″",
    "1/4″",
    "5/8″"
   ],
   "answer": 1,
-  "explanation": "La longitud total es L; S es el cuerpo no roscado."
+  "explanation": "9,5 mm. La longitud total es L; S es el cuerpo no roscado."
  },
  {
   "id": "q91",
+  "ruta": 1,
   "cat": "rem",
   "level": 2,
   "q": "¿Cuál espárrago es de rosca continua?",
@@ -1275,6 +1366,7 @@
  },
  {
   "id": "q92",
+  "ruta": 1,
   "cat": "rem",
   "level": 3,
   "q": "¿Cuántos mm tiene el diámetro nominal de un remache plano de 1/8″?",
@@ -1289,6 +1381,7 @@
  },
  {
   "id": "q93",
+  "ruta": 1,
   "cat": "emp",
   "level": 1,
   "q": "¿En qué ciudad nace Industrias Cato Ltda.?",
@@ -1303,6 +1396,7 @@
  },
  {
   "id": "q94",
+  "ruta": 1,
   "cat": "emp",
   "level": 1,
   "q": "¿Con cuántos trabajadores comenzó la empresa?",
@@ -1317,6 +1411,7 @@
  },
  {
   "id": "q95",
+  "ruta": 1,
   "cat": "emp",
   "level": 2,
   "q": "¿En qué año Industrias Cato Ltda. se convirtió en S.A.?",
@@ -1331,6 +1426,7 @@
  },
  {
   "id": "q96",
+  "ruta": 1,
   "cat": "emp",
   "level": 2,
   "q": "¿Qué lema usa CATO?",
@@ -1345,6 +1441,7 @@
  },
  {
   "id": "q97",
+  "ruta": 1,
   "cat": "emp",
   "level": 2,
   "q": "¿Cuál es la misión de CATO?",
@@ -1359,6 +1456,7 @@
  },
  {
   "id": "q98",
+  "ruta": 1,
   "cat": "emp",
   "level": 3,
   "q": "¿Cuántos m² construidos tenía la sede de 1976?",
@@ -1373,6 +1471,7 @@
  },
  {
   "id": "q99",
+  "ruta": 1,
   "cat": "emp",
   "level": 3,
   "q": "¿Qué ocurrió con la capacidad instalada en 1988?",
@@ -1387,6 +1486,7 @@
  },
  {
   "id": "q100",
+  "ruta": 1,
   "cat": "emp",
   "level": 3,
   "q": "¿Qué línea se lanzó en 1981, en época de recesión?",
@@ -1394,13 +1494,14 @@
    "Remaches U drive",
    "Tornillos para drywall",
    "Espárragos",
-   "Tornillos para lámina Phillips (estría)"
+   "Tornillos para lámina Phillips"
   ],
   "answer": 3,
-  "explanation": "Se renovó más del 50 % de la capacidad de la planta."
+  "explanation": "Estría. Se renovó más del 50 % de la capacidad de la planta."
  },
  {
   "id": "q101",
+  "ruta": 1,
   "cat": "emp",
   "level": 3,
   "q": "¿Qué porcentaje de la producción alcanzó los tornillos especiales en 1983?",
@@ -1415,6 +1516,7 @@
  },
  {
   "id": "q102",
+  "ruta": 1,
   "cat": "ope",
   "level": 1,
   "q": "Un lote de 30 millares: ¿cuántos registros se toman?",
@@ -1429,6 +1531,7 @@
  },
  {
   "id": "q103",
+  "ruta": 1,
   "cat": "ope",
   "level": 1,
   "q": "Un lote de 30 millares: ¿en cuántas idas se toman los registros?",
@@ -1443,6 +1546,7 @@
  },
  {
   "id": "q104",
+  "ruta": 1,
   "cat": "ope",
   "level": 1,
   "q": "Un lote de 80 millares: ¿cuántos registros se toman?",
@@ -1457,6 +1561,7 @@
  },
  {
   "id": "q105",
+  "ruta": 1,
   "cat": "ope",
   "level": 1,
   "q": "Un lote de 80 millares: ¿en cuántas idas?",
@@ -1471,6 +1576,7 @@
  },
  {
   "id": "q106",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "Un lote de 120 millares: ¿cuántos registros y en cuántas idas?",
@@ -1485,6 +1591,7 @@
  },
  {
   "id": "q107",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "Un lote de 180 millares: ¿cuántos registros y en cuántas idas?",
@@ -1499,6 +1606,7 @@
  },
  {
   "id": "q108",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "¿Cuántos registros se toman en cada ida?",
@@ -1513,6 +1621,7 @@
  },
  {
   "id": "q109",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "Un lote de 100 millares exactos: ¿qué corresponde?",
@@ -1527,6 +1636,7 @@
  },
  {
   "id": "q110",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "Un lote de 150 millares exactos: ¿qué corresponde?",
@@ -1541,6 +1651,7 @@
  },
  {
   "id": "q111",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "Un lote de 151 millares: ¿qué corresponde?",
@@ -1555,6 +1666,7 @@
  },
  {
   "id": "q112",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "Un lote de 101 millares: ¿qué corresponde?",
@@ -1569,6 +1681,7 @@
  },
  {
   "id": "q113",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "Al pasar de un lote de 100 a uno de 101 millares, ¿cuántas idas más hay que hacer?",
@@ -1583,6 +1696,7 @@
  },
  {
   "id": "q114",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "¿Cuántos registros más se toman en un lote de 200 millares que en uno de 50?",
@@ -1597,6 +1711,7 @@
  },
  {
   "id": "q115",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "Se completaron 4 idas de un lote de 90 millares. ¿Cuántos registros faltan?",
@@ -1611,6 +1726,7 @@
  },
  {
   "id": "q116",
+  "ruta": 1,
   "cat": "ope",
   "level": 3,
   "q": "Un lote de 140 millares ya lleva 20 registros. ¿Cuántas idas faltan?",
@@ -1625,20 +1741,22 @@
  },
  {
   "id": "q117",
+  "ruta": 1,
   "cat": "ope",
   "level": 2,
   "q": "¿Por qué conviene repartir los registros en varias idas durante el lote?",
   "options": [
-   "Para vigilar el proceso a lo largo de toda la producción (criterio general de muestreo)",
+   "Para vigilar el proceso a lo largo de toda la producción",
    "Para consumir menos instrumentos de medición",
    "Para cambiar el calibre del lote",
    "Para evitar pesar el producto"
   ],
   "answer": 0,
-  "explanation": "Es criterio general de control de proceso; confirma el procedimiento con calidad."
+  "explanation": "Criterio general de muestreo. Es criterio general de control de proceso; confirma el procedimiento con calidad."
  },
  {
   "id": "q118",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "¿Qué es una cabeza \"combinada\"?",
@@ -1653,6 +1771,7 @@
  },
  {
   "id": "q119",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "¿Qué forma tiene la estampa Phillips?",
@@ -1667,6 +1786,7 @@
  },
  {
   "id": "q120",
+  "ruta": 1,
   "cat": "cab",
   "level": 1,
   "q": "¿Cómo queda una cabeza plana (avellanada) al atornillar?",
@@ -1681,20 +1801,22 @@
  },
  {
   "id": "q121",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "¿En qué se diferencia la cabeza oval de la plana?",
   "options": [
-   "Tiene cúpula: su altura total O es mayor que la altura de avellán H",
+   "Tiene cúpula: su altura total O es mayor",
    "Es hexagonal",
    "Lleva arandela",
    "No admite ranura"
   ],
   "answer": 0,
-  "explanation": "La oval define H (avellán) y O (altura total)."
+  "explanation": "La altura de avellán H. La oval define H (avellán) y O (altura total)."
  },
  {
   "id": "q122",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "En cabezas redonda y lenteja, la letra R indica…",
@@ -1709,6 +1831,7 @@
  },
  {
   "id": "q123",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "En la cabeza hexagonal con arandela, la letra B indica…",
@@ -1723,6 +1846,7 @@
  },
  {
   "id": "q124",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "En la cabeza hexagonal con arandela, la letra W indica…",
@@ -1737,6 +1861,7 @@
  },
  {
   "id": "q125",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "Una cabeza hexagonal \"con impresión\" es la que…",
@@ -1751,6 +1876,7 @@
  },
  {
   "id": "q126",
+  "ruta": 1,
   "cat": "cab",
   "level": 2,
   "q": "La cabeza cilíndrica Phillips milimétrica (M2 a M10) del catálogo se identifica con…",
@@ -1765,6 +1891,7 @@
  },
  {
   "id": "q127",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "La cabeza cilíndrica Phillips JIS (EIP 247052) cubre los calibres…",
@@ -1779,6 +1906,7 @@
  },
  {
   "id": "q128",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "La cabeza cilíndrica DIN 84 es una cabeza…",
@@ -1786,13 +1914,14 @@
    "Phillips métrica",
    "Hexagonal",
    "Avellanada",
-   "Ranurada (de pala) métrica"
+   "Ranurada métrica"
   ],
   "answer": 3,
-  "explanation": "Su tabla da ancho de ranura n y profundidad t."
+  "explanation": "De pala. Su tabla da ancho de ranura n y profundidad t."
  },
  {
   "id": "q129",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "En las cabezas cilíndricas, ¿qué letra marca la altura con Phillips o combinada?",
@@ -1807,6 +1936,7 @@
  },
  {
   "id": "q130",
+  "ruta": 1,
   "cat": "cab",
   "level": 3,
   "q": "En el tornillo para aglomerado, ¿qué formas de estampa define el catálogo?",
@@ -1818,5 +1948,3875 @@
   ],
   "answer": 1,
   "explanation": "Se indica la forma Z y la H con sus profundidades."
+ },
+ {
+  "id": "q131",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Qué cabeza lleva hexágono interior y se acciona con llave Allen?",
+  "options": [
+   "Plana ranurada",
+   "Oval Phillips",
+   "Cilíndrica con hexágono interior",
+   "Lenteja ranurada"
+  ],
+  "answer": 2,
+  "explanation": "Din 912. Es la cabeza \"socket\" para torques altos; es referencia general, no del catálogo."
+ },
+ {
+  "id": "q132",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Cómo es la cabeza botón ISO 7380?",
+  "options": [
+   "Cilíndrica alta con ranura",
+   "Plana avellanada",
+   "Hexagonal con arandela",
+   "Abombada y baja con hexágono interior"
+  ],
+  "answer": 3,
+  "explanation": "Da buena presentación y poca altura (referencia general)."
+ },
+ {
+  "id": "q133",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 2,
+  "q": "La cabeza trompeta (bugle) es típica del tornillo para…",
+  "options": [
+   "Drywall",
+   "Remache tubular",
+   "Espárrago",
+   "Tuerca ciega"
+  ],
+  "answer": 0,
+  "explanation": "Su perfil curvo reparte la carga y se hunde sin romper la superficie (referencia general)."
+ },
+ {
+  "id": "q134",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Qué ofrece una cabeza truss (hongo)?",
+  "options": [
+   "Cuello cuadrado",
+   "Gran superficie de apoyo con perfil bajo",
+   "Anillo inferior de apoyo",
+   "Avellanado de 90°"
+  ],
+  "answer": 1,
+  "explanation": "Se usa en lámina delgada y ensambles ligeros (referencia general)."
+ },
+ {
+  "id": "q135",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 2,
+  "q": "¿Para qué sirve el cuello cuadrado de la cabeza coche (carriage)?",
+  "options": [
+   "Aumentar la longitud de rosca",
+   "Guiar la broca",
+   "Impedir que el tornillo gire al apretar la tuerca",
+   "Reducir el torque"
+  ],
+  "answer": 2,
+  "explanation": "Es típica en madera y estructuras (DIN 603, referencia general)."
+ },
+ {
+  "id": "q136",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 1,
+  "q": "¿Con qué herramienta se aprieta una cabeza hexagonal sin ranura?",
+  "options": [
+   "Destornillador de pala",
+   "Llave Allen",
+   "Destornillador Phillips",
+   "Llave de boca o de copa"
+  ],
+  "answer": 3,
+  "explanation": "Las seis caras permiten transmitir torques altos."
+ },
+ {
+  "id": "q137",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 3,
+  "q": "¿Qué función cumple la brida de una cabeza hexagonal con brida?",
+  "options": [
+   "Repartir la carga y evitar usar arandela aparte",
+   "Aumentar la altura de la cabeza",
+   "Impedir el uso de llave",
+   "Reducir el diámetro mayor"
+  ],
+  "answer": 0,
+  "explanation": "En el catálogo CATO, la hexagonal lleva arandela con dimensiones B y U."
+ },
+ {
+  "id": "q138",
+  "ruta": 1,
+  "cat": "cab",
+  "level": 3,
+  "q": "Una cabeza wafer se reconoce por ser…",
+  "options": [
+   "Alta y estrecha",
+   "Muy baja y ancha",
+   "Con cuello cuadrado",
+   "De seis caras"
+  ],
+  "answer": 1,
+  "explanation": "Se usa para no sobresalir en láminas finas."
+ },
+ {
+  "id": "q139",
+  "ruta": 1,
+  "cat": "est",
+  "level": 1,
+  "q": "¿Qué forma tiene la estampa Torx?",
+  "options": [
+   "De cruz",
+   "De ranura recta",
+   "De seis lóbulos redondeados",
+   "De cuadrado"
+  ],
+  "answer": 2,
+  "explanation": "Se designa T10, T15, T20, T25, T30… (referencia general)."
+ },
+ {
+  "id": "q140",
+  "ruta": 1,
+  "cat": "est",
+  "level": 2,
+  "q": "¿Qué caracteriza a la estampa Pozidriv (Z)?",
+  "options": [
+   "Seis lóbulos",
+   "Ranura recta",
+   "Hexágono",
+   "Cruz con marcas adicionales a 45°"
+  ],
+  "answer": 3,
+  "explanation": "No debe accionarse con un destornillador Phillips."
+ },
+ {
+  "id": "q141",
+  "ruta": 1,
+  "cat": "est",
+  "level": 2,
+  "q": "¿Qué ventaja suele tener Torx frente a Phillips?",
+  "options": [
+   "Transmite más torque con menos riesgo de",
+   "Es la única que admite recubrimiento",
+   "Es más barata de fabricar",
+   "Solo funciona en madera"
+  ],
+  "answer": 0,
+  "explanation": "La punta se salga. Es referencia general sobre accionamientos."
+ },
+ {
+  "id": "q142",
+  "ruta": 1,
+  "cat": "est",
+  "level": 2,
+  "q": "La estampa de cabezas \"combinadas\" admite…",
+  "options": [
+   "Solo llave Allen",
+   "Destornillador de pala o Phillips",
+   "Solo punta Torx",
+   "Ninguna herramienta"
+  ],
+  "answer": 1,
+  "explanation": "Combina ranura recta y cruz en la misma cabeza."
+ },
+ {
+  "id": "q143",
+  "ruta": 1,
+  "cat": "est",
+  "level": 2,
+  "q": "¿Qué indica un pin central en una estampa de seis lóbulos?",
+  "options": [
+   "Que el tornillo es autorroscante",
+   "Que es de rosca fina",
+   "Es una estampa de seguridad",
+   "Que lleva arandela"
+  ],
+  "answer": 2,
+  "explanation": "Dificulta la manipulación. La foto de tornillos especiales del catálogo muestra una con pin central."
+ },
+ {
+  "id": "q144",
+  "ruta": 1,
+  "cat": "est",
+  "level": 3,
+  "q": "¿Qué llave Allen corresponde a un tornillo M6 de cabeza cilíndrica ISO 4762?",
+  "options": [
+   "4 mm",
+   "6 mm",
+   "8 mm",
+   "5 mm"
+  ],
+  "answer": 3,
+  "explanation": "En M8 se usa 6 mm (referencia general)."
+ },
+ {
+  "id": "q145",
+  "ruta": 1,
+  "cat": "est",
+  "level": 3,
+  "q": "¿Qué punta Phillips se usa en un tornillo de calibre 6?",
+  "options": [
+   "N° 2",
+   "N° 0",
+   "N° 1",
+   "N° 4"
+  ],
+  "answer": 0,
+  "explanation": "Los calibres 5 a 10 usan Phillips N° 2 según el catálogo."
+ },
+ {
+  "id": "q146",
+  "ruta": 1,
+  "cat": "est",
+  "level": 3,
+  "q": "Aplicar un Phillips en un tornillo Pozidriv provoca…",
+  "options": [
+   "Mayor torque admisible",
+   "Daño de la estampa y menor transmisión de torque",
+   "Ningún efecto",
+   "Que el tornillo se autorrosque"
+  ],
+  "answer": 1,
+  "explanation": "Las dos estampas no son intercambiables."
+ },
+ {
+  "id": "q147",
+  "ruta": 1,
+  "cat": "est",
+  "level": 1,
+  "q": "¿Qué estampa tiene alojamiento cuadrado y buen agarre?",
+  "options": [
+   "Pozidriv",
+   "Torx",
+   "Cuadrada",
+   "Phillips"
+  ],
+  "answer": 2,
+  "explanation": "Robertson. Es común en construcción y carpintería (referencia general)."
+ },
+ {
+  "id": "r2q1",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "En una clase 8.8, el primer número indica…",
+  "options": [
+   "La resistencia a tracción nominal ÷ 100",
+   "El límite elástico en MPa",
+   "La dureza Rockwell",
+   "El diámetro en mm"
+  ],
+  "answer": 0,
+  "explanation": "800 mpa. ISO 898-1: primer número × 100 = Rm nominal en MPa."
+ },
+ {
+  "id": "r2q2",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "En una clase 8.8, el segundo número indica…",
+  "options": [
+   "La longitud del tornillo",
+   "La relación entre límite elástico y resistencia",
+   "El paso de rosca",
+   "El espesor del recubrimiento"
+  ],
+  "answer": 1,
+  "explanation": "0,8. Límite elástico nominal = 8 × 8 × 10 = 640 MPa."
+ },
+ {
+  "id": "r2q3",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "¿Cuál es la resistencia a tracción nominal de un tornillo 10.9?",
+  "options": [
+   "900 MPa",
+   "1090 MPa",
+   "1000 MPa",
+   "1200 MPa"
+  ],
+  "answer": 2,
+  "explanation": "10 × 100 = 1000 MPa."
+ },
+ {
+  "id": "r2q4",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "¿Cuál es la resistencia nominal de un 12.9?",
+  "options": [
+   "1290 MPa",
+   "900 MPa",
+   "1000 MPa",
+   "1200 MPa"
+  ],
+  "answer": 3,
+  "explanation": "12 × 100 = 1200 MPa."
+ },
+ {
+  "id": "r2q5",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "¿Cuál de estas clases es la más resistente?",
+  "options": [
+   "12.9",
+   "8.8",
+   "5.8",
+   "4.6"
+  ],
+  "answer": 0,
+  "explanation": "Mayor primer número, mayor resistencia nominal."
+ },
+ {
+  "id": "r2q6",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "¿Qué suele ir marcado en la cabeza de un tornillo métrico de alta resistencia?",
+  "options": [
+   "Solo el diámetro",
+   "La clase y la marca del fabricante",
+   "El número de lote del cliente",
+   "La fecha de fabricación"
+  ],
+  "answer": 1,
+  "explanation": "P. ej. 8.8. Da trazabilidad y permite verificar la clase en obra."
+ },
+ {
+  "id": "r2q7",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 1,
+  "q": "La tuerca de un tornillo debe tener…",
+  "options": [
+   "Menor carga de prueba para no dañarlo",
+   "Cualquier clase",
+   "Carga de prueba igual o mayor",
+   "Solo mayor dureza superficial"
+  ],
+  "answer": 2,
+  "explanation": "La del tornillo. Si la tuerca es más débil, la rosca se barre antes de la precarga."
+ },
+ {
+  "id": "r2q8",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Qué límite elástico nominal tiene un tornillo 8.8?",
+  "options": [
+   "800 MPa",
+   "580 MPa",
+   "940 MPa",
+   "640 MPa"
+  ],
+  "answer": 3,
+  "explanation": "0,8 × 800 = 640 MPa."
+ },
+ {
+  "id": "r2q9",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Qué límite elástico nominal corresponde a un 10.9?",
+  "options": [
+   "900 MPa",
+   "1000 MPa",
+   "830 MPa",
+   "1100 MPa"
+  ],
+  "answer": 0,
+  "explanation": "0,9 × 1000 = 900 MPa; la norma exige mínimo 940 MPa."
+ },
+ {
+  "id": "r2q10",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Cuál es la tensión de carga de prueba de un 10.9?",
+  "options": [
+   "580 MPa",
+   "830 MPa",
+   "970 MPa",
+   "1040 MPa"
+  ],
+  "answer": 1,
+  "explanation": "En 12.9 es 970 MPa y en 8.8 (d ≤ 16 mm) 580 MPa."
+ },
+ {
+  "id": "r2q11",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Cuál es la tensión de carga de prueba de un 12.9?",
+  "options": [
+   "830 MPa",
+   "1100 MPa",
+   "970 MPa",
+   "1220 MPa"
+  ],
+  "answer": 2,
+  "explanation": "1100 MPa es el límite elástico mínimo del 12.9."
+ },
+ {
+  "id": "r2q12",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Cuál es la carga de prueba (Sp) de un 8.8 con d ≤ 16 mm?",
+  "options": [
+   "600 MPa",
+   "640 MPa",
+   "800 MPa",
+   "580 MPa"
+  ],
+  "answer": 3,
+  "explanation": "Para d > 16 mm sube a 600 MPa."
+ },
+ {
+  "id": "r2q13",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Cuál es la resistencia mínima a tracción de un 10.9?",
+  "options": [
+   "1040 MPa",
+   "1000 MPa",
+   "940 MPa",
+   "830 MPa"
+  ],
+  "answer": 0,
+  "explanation": "1000 MPa es el valor nominal."
+ },
+ {
+  "id": "r2q14",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Qué indica A4 en un tornillo inoxidable A4-80?",
+  "options": [
+   "Acero ≈ 304 sin níquel",
+   "Acero ≈ 316 con molibdeno",
+   "Acero al carbono cincado",
+   "Acero de herramientas"
+  ],
+  "answer": 1,
+  "explanation": "A2 ≈ 304 y A4 ≈ 316."
+ },
+ {
+  "id": "r2q15",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Qué resistencia mínima tiene un A2-70?",
+  "options": [
+   "450 MPa",
+   "800 MPa",
+   "700 MPa",
+   "500 MPa"
+  ],
+  "answer": 2,
+  "explanation": "450 MPa es su límite elástico mínimo."
+ },
+ {
+  "id": "r2q16",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 2,
+  "q": "¿Qué es el galling en tornillos inoxidables?",
+  "options": [
+   "Corrosión por picadura",
+   "Rotura por fatiga",
+   "Aflojamiento por vibración",
+   "Soldadura en frío por fricción entre roscas"
+  ],
+  "answer": 3,
+  "explanation": "Se previene con antigripante y apriete lento."
+ },
+ {
+  "id": "r2q17",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 3,
+  "q": "El 10.9 es aproximadamente cuánto más resistente a tracción que el 8.8?",
+  "options": [
+   "30 % más",
+   "5 % más",
+   "60 % más",
+   "El doble"
+  ],
+  "answer": 0,
+  "explanation": "1040 ÷ 800 = 1,30."
+ },
+ {
+  "id": "r2q18",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 3,
+  "q": "¿Cuál es más resistente: un A2-70 o un A4-80?",
+  "options": [
+   "A2-70, por contener menos níquel",
+   "A4-80, por su clase 80",
+   "Son iguales",
+   "A2-70, por ser 304"
+  ],
+  "answer": 1,
+  "explanation": "La resistencia depende de la clase, no de A2 o A4."
+ },
+ {
+  "id": "r2q19",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 3,
+  "q": "¿Qué es la carga de prueba de un tornillo?",
+  "options": [
+   "La carga de rotura",
+   "La carga de fatiga",
+   "La carga que resiste sin deformación permanente",
+   "La carga máxima de servicio"
+  ],
+  "answer": 2,
+  "explanation": "Es la base para calcular la precarga."
+ },
+ {
+  "id": "r2q20",
+  "ruta": 2,
+  "cat": "r2a",
+  "level": 3,
+  "q": "¿Por qué los 12.9 exigen más cuidado bajo choque?",
+  "options": [
+   "Se oxidan más rápido",
+   "Tienen menor resistencia",
+   "No admiten torque",
+   "Son menos dúctiles"
+  ],
+  "answer": 3,
+  "explanation": "Clases menores. La alta resistencia suele reducir la ductilidad."
+ },
+ {
+  "id": "r2q21",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 1,
+  "q": "¿Qué fórmula relaciona torque, fricción, diámetro y precarga?",
+  "options": [
+   "T = K · D · F",
+   "T = F ÷ (K · D)",
+   "T = K ÷ (D · F)",
+   "T = K + D + F"
+  ],
+  "answer": 0,
+  "explanation": "K es el factor de fricción (de tuerca)."
+ },
+ {
+  "id": "r2q22",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 1,
+  "q": "¿Qué es K en T = K · D · F?",
+  "options": [
+   "El diámetro del tornillo",
+   "El factor de fricción de rosca y bajo cabeza",
+   "La precarga",
+   "El paso de rosca"
+  ],
+  "answer": 1,
+  "explanation": "Depende de lubricación, recubrimiento y arandelas."
+ },
+ {
+  "id": "r2q23",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 1,
+  "q": "Si lubricas las roscas y mantienes el mismo torque, la precarga…",
+  "options": [
+   "Disminuye",
+   "Queda igual",
+   "Aumenta",
+   "Se anula"
+  ],
+  "answer": 2,
+  "explanation": "Al bajar K, el mismo torque produce más tensión."
+ },
+ {
+  "id": "r2q24",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 1,
+  "q": "¿Qué precarga se usa típicamente en el montaje?",
+  "options": [
+   "10 % de la carga de prueba",
+   "120 % de la carga de prueba",
+   "La resistencia de rotura",
+   "75 % de la carga de prueba"
+  ],
+  "answer": 3,
+  "explanation": "Es el criterio de las tablas de torque-tensión."
+ },
+ {
+  "id": "r2q25",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 1,
+  "q": "El torque es una medida…",
+  "options": [
+   "Indirecta de la tensión del tornillo",
+   "Directa de la precarga",
+   "De la dureza",
+   "De la longitud de rosca"
+  ],
+  "answer": 0,
+  "explanation": "Por eso se vigila K y se pueden hacer ensayos con celda de carga."
+ },
+ {
+  "id": "r2q26",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Cómo se reparte el torque de apriete aproximadamente?",
+  "options": [
+   "10 % bajo cabeza, 40 % en rosca, 50 % estira",
+   "50 % bajo cabeza, 40 % en rosca, 10 % estira el tornillo",
+   "33 % cada uno",
+   "90 % estira el tornillo"
+  ],
+  "answer": 1,
+  "explanation": "La mayor parte se pierde en fricción."
+ },
+ {
+  "id": "r2q27",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Qué valor típico de K tiene el acero sin recubrir y seco?",
+  "options": [
+   "0,05",
+   "0,50",
+   "0,20 – 0,25",
+   "0,90"
+  ],
+  "answer": 2,
+  "explanation": "El lubricado ronda 0,15."
+ },
+ {
+  "id": "r2q28",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Qué valor de K se toma en condiciones lubricadas en las tablas de torque?",
+  "options": [
+   "0,30",
+   "0,05",
+   "0,45",
+   "0,15"
+  ],
+  "answer": 3,
+  "explanation": "Con PTFE o cera baja a ≈ 0,12."
+ },
+ {
+  "id": "r2q29",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "Un acabado rugoso y seco, con el mismo torque, da…",
+  "options": [
+   "Menos precarga",
+   "Más precarga",
+   "La misma precarga",
+   "Precarga negativa"
+  ],
+  "answer": 0,
+  "explanation": "Sube K y la fricción consume más torque."
+ },
+ {
+  "id": "r2q30",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Cuál es el área de esfuerzo aproximada de un M10×1,5?",
+  "options": [
+   "78,5 mm²",
+   "58 mm²",
+   "36,6 mm²",
+   "84 mm²"
+  ],
+  "answer": 1,
+  "explanation": "As = π/4·(d − 0,9382·P)²."
+ },
+ {
+  "id": "r2q31",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Cuál es la carga de prueba aproximada de un M10 clase 10.9?",
+  "options": [
+   "34 kN",
+   "56 kN",
+   "48 kN",
+   "84 kN"
+  ],
+  "answer": 2,
+  "explanation": "830 MPa × 58 mm² ≈ 48,1 kN."
+ },
+ {
+  "id": "r2q32",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 2,
+  "q": "¿Y la precarga al 75 % de la prueba en ese M10 10.9?",
+  "options": [
+   "48 kN",
+   "25 kN",
+   "58 kN",
+   "36 kN"
+  ],
+  "answer": 3,
+  "explanation": "0,75 × 48,1 ≈ 36,1 kN."
+ },
+ {
+  "id": "r2q33",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Torque de un M10 10.9 con K = 0,20 y precarga del 75 %:",
+  "options": [
+   "72 N·m",
+   "54 N·m",
+   "36 N·m",
+   "120 N·m"
+  ],
+  "answer": 0,
+  "explanation": "0,20 × 0,010 m × 36 100 N ≈ 72 N·m."
+ },
+ {
+  "id": "r2q34",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Torque de ese mismo M10 10.9 con K = 0,15:",
+  "options": [
+   "72 N·m",
+   "54 N·m",
+   "38 N·m",
+   "90 N·m"
+  ],
+  "answer": 1,
+  "explanation": "0,15 × 0,010 × 36 100 ≈ 54 N·m."
+ },
+ {
+  "id": "r2q35",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Torque de un M8 10.9 con K = 0,20 al 75 %:",
+  "options": [
+   "25 N·m",
+   "54 N·m",
+   "36 N·m",
+   "72 N·m"
+  ],
+  "answer": 2,
+  "explanation": "En 8.8 con K = 0,20 son ≈ 25 N·m."
+ },
+ {
+  "id": "r2q36",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Torque de un M12 10.9 con K = 0,20 al 75 %:",
+  "options": [
+   "94 N·m",
+   "72 N·m",
+   "312 N·m",
+   "126 N·m"
+  ],
+  "answer": 3,
+  "explanation": "Con K = 0,15 serían ≈ 94 N·m."
+ },
+ {
+  "id": "r2q37",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "¿Cuál es el área de esfuerzo aproximada de un M8×1,25?",
+  "options": [
+   "36,6 mm²",
+   "58 mm²",
+   "20,1 mm²",
+   "50,3 mm²"
+  ],
+  "answer": 0,
+  "explanation": "π/4·(8 − 0,9382·1,25)² ≈ 36,6 mm²."
+ },
+ {
+  "id": "r2q38",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Si pasas de K = 0,20 a K = 0,15 sin cambiar el torque, la precarga sube aproximadamente…",
+  "options": [
+   "5 %",
+   "33 %",
+   "10 %",
+   "75 %"
+  ],
+  "answer": 1,
+  "explanation": "0,20 ÷ 0,15 = 1,33."
+ },
+ {
+  "id": "r2q39",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Para conservar la misma precarga al pasar de K = 0,20 a 0,15, el torque debe…",
+  "options": [
+   "Subir ≈ 25 %",
+   "Quedar igual",
+   "Bajar ≈ 25 %",
+   "Duplicarse"
+  ],
+  "answer": 2,
+  "explanation": "T es proporcional a K: 0,15 ÷ 0,20 = 0,75."
+ },
+ {
+  "id": "r2q40",
+  "ruta": 2,
+  "cat": "r2b",
+  "level": 3,
+  "q": "Las tablas de torque solo se cumplen si la tuerca o el agujero roscado…",
+  "options": [
+   "Son de mayor dureza superficial",
+   "Están lubricados con aceite",
+   "Tienen rosca fina",
+   "Tienen carga de prueba ≥ a la resistencia del tornillo"
+  ],
+  "answer": 3,
+  "explanation": "Si no, la rosca hembra se barre antes de alcanzar la precarga."
+ },
+ {
+  "id": "r2q41",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 1,
+  "q": "¿Cómo protege el zinc al acero?",
+  "options": [
+   "Por sacrificio, corroyéndose antes",
+   "Aislándolo con una capa de aceite",
+   "Elevando su dureza",
+   "Aumentando su conductividad"
+  ],
+  "answer": 0,
+  "explanation": "El acero. Actúa como ánodo de sacrificio."
+ },
+ {
+  "id": "r2q42",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Qué es la fragilización por hidrógeno?",
+  "options": [
+   "Corrosión por picadura",
+   "Pérdida de ductilidad por hidrógeno atómico bajo tracción",
+   "Fatiga por vibración",
+   "Fluencia a alta temperatura"
+  ],
+  "answer": 1,
+  "explanation": "Produce fractura frágil retardada."
+ },
+ {
+  "id": "r2q43",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Qué tornillos son más susceptibles a la fragilización por hidrógeno?",
+  "options": [
+   "Los de baja dureza",
+   "Los de acero inoxidable austenítico",
+   "Los de dureza alta",
+   "Los de latón"
+  ],
+  "answer": 2,
+  "explanation": "Clases 10.9 y 12.9. El riesgo crece con la resistencia."
+ },
+ {
+  "id": "r2q44",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Desde qué dureza considera susceptibles los tornillos ASTM F1941?",
+  "options": [
+   "20 HRC",
+   "60 HRC",
+   "10 HRC",
+   "39 HRC"
+  ],
+  "answer": 3,
+  "explanation": "Equivale a unos 390 HV."
+ },
+ {
+  "id": "r2q45",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿El horneado después del baño elimina por completo el riesgo?",
+  "options": [
+   "No, solo lo reduce",
+   "Sí, siempre",
+   "Solo en acero inoxidable",
+   "Solo en roscas finas"
+  ],
+  "answer": 0,
+  "explanation": "ISO 4042 indica que no se puede garantizar la eliminación completa."
+ },
+ {
+  "id": "r2q46",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Qué recubrimientos no generan hidrógeno?",
+  "options": [
+   "Zincado electrolítico y niquelado",
+   "Zinc laminar y zinc mecánico",
+   "Cobrizado y latonado",
+   "Fosfatado y zincado negro"
+  ],
+  "answer": 1,
+  "explanation": "Son alternativas para 10.9 y 12.9."
+ },
+ {
+  "id": "r2q47",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Qué sistema suele ofrecer más resistencia a la corrosión?",
+  "options": [
+   "Zincado claro",
+   "Fosfatado sin aceite",
+   "Zinc-níquel o zinc laminar",
+   "Cobrizado"
+  ],
+  "answer": 2,
+  "explanation": "Pueden superar cientos o más de mil horas en niebla salina."
+ },
+ {
+  "id": "r2q48",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 2,
+  "q": "¿Qué mide la niebla salina (ISO 9227)?",
+  "options": [
+   "La vida útil real en servicio",
+   "La dureza del tornillo",
+   "El espesor del recubrimiento",
+   "La resistencia relativa de un recubrimiento en condiciones aceleradas"
+  ],
+  "answer": 3,
+  "explanation": "No hay correlación directa con la vida real."
+ },
+ {
+  "id": "r2q49",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 3,
+  "q": "¿A qué temperatura se hornea un tornillo cincado de alta resistencia?",
+  "options": [
+   "Entre 190 y 220 °C",
+   "Entre 40 y 60 °C",
+   "Entre 400 y 500 °C",
+   "Entre 600 y 700 °C"
+  ],
+  "answer": 0,
+  "explanation": "Y debe comenzar lo antes posible, máximo 4 h después del baño."
+ },
+ {
+  "id": "r2q50",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 3,
+  "q": "Un 12.9 en ambiente corrosivo: ¿qué recubrimiento conviene?",
+  "options": [
+   "Electrocincado sin hornear",
+   "Zinc laminar o zinc mecánico",
+   "Cobrizado",
+   "Ninguno"
+  ],
+  "answer": 1,
+  "explanation": "Evitas el riesgo de hidrógeno."
+ },
+ {
+  "id": "r2q51",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 3,
+  "q": "Un cliente exige 240 h a óxido rojo. ¿Qué es correcto?",
+  "options": [
+   "Garantiza 10 años de vida",
+   "Solo importa el óxido blanco",
+   "Es una exigencia de laboratorio: debe definirse por escrito junto con el espesor",
+   "Se cumple con cualquier cincado"
+  ],
+  "answer": 2,
+  "explanation": "Las horas de niebla salina son comparativas, no predictivas."
+ },
+ {
+  "id": "r2q52",
+  "ruta": 2,
+  "cat": "r2c",
+  "level": 3,
+  "q": "¿Qué pasivación se usa hoy en lugar del cromo hexavalente?",
+  "options": [
+   "Pentavalente",
+   "Fosfato de hierro",
+   "Ninguna",
+   "Trivalente"
+  ],
+  "answer": 3,
+  "explanation": "Las pasivaciones hexavalentes están restringidas en la mayoría de aplicaciones."
+ },
+ {
+  "id": "r2q53",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 1,
+  "q": "¿Qué es un tornillo autoperforante?",
+  "options": [
+   "Uno con punta de broca que perfora y rosca sin pre-taladro",
+   "Uno sin rosca",
+   "Uno solo para madera",
+   "Uno que se suelda"
+  ],
+  "answer": 0,
+  "explanation": "Se usa en techos, ductos y perfilería metálica."
+ },
+ {
+  "id": "r2q54",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 1,
+  "q": "¿Qué indica el número de punta (1 a 5) en un autoperforante?",
+  "options": [
+   "El diámetro de la rosca",
+   "La capacidad de perforación: mayor número",
+   "El torque máximo",
+   "La clase de resistencia"
+  ],
+  "answer": 1,
+  "explanation": "Más espesor. La punta es más larga cuanto mayor es el número."
+ },
+ {
+  "id": "r2q55",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 2,
+  "q": "La capacidad de perforación debe cubrir…",
+  "options": [
+   "Solo la lámina superior",
+   "Solo el diámetro de la cabeza",
+   "El espesor total de las láminas",
+   "La longitud del tornillo"
+  ],
+  "answer": 2,
+  "explanation": "Incluidos los espacios. Si no, la rosca engancha antes de terminar de perforar."
+ },
+ {
+  "id": "r2q56",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 2,
+  "q": "¿Qué normas se citan para tornillos autoperforantes?",
+  "options": [
+   "ISO 898-1 solamente",
+   "DIN 7970 solamente",
+   "ANSI B18.6.1 solamente",
+   "SAE J78 y ASTM C1513"
+  ],
+  "answer": 3,
+  "explanation": "C1513 cubre tornillos de acero para perfilería conformada en frío."
+ },
+ {
+  "id": "r2q57",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 2,
+  "q": "¿Qué hace un tornillo que forma rosca?",
+  "options": [
+   "Compacta el material sin generar viruta",
+   "Corta y retira material",
+   "Solo perfora",
+   "Solo suelda"
+  ],
+  "answer": 0,
+  "explanation": "Los tornillos de corte tienen ranura y filos."
+ },
+ {
+  "id": "r2q58",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 3,
+  "q": "En materiales frágiles, ¿qué rosca se prefiere?",
+  "options": [
+   "Formada a alta presión",
+   "Cortada, para evitar grietas",
+   "Siempre formada",
+   "Ninguna"
+  ],
+  "answer": 1,
+  "explanation": "La rosca cortada genera menos tensiones internas."
+ },
+ {
+  "id": "r2q59",
+  "ruta": 2,
+  "cat": "r2d",
+  "level": 3,
+  "q": "Las puntas #4 y #5…",
+  "options": [
+   "Se usan como pernos de anclaje",
+   "Solo perforan madera",
+   "No sustituyen pernos estructurales",
+   "No tienen rosca"
+  ],
+  "answer": 2,
+  "explanation": "Son para mayores espesores, pero no son estructurales."
+ },
+ {
+  "id": "r2q60",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 1,
+  "q": "¿Qué enganche mínimo de rosca se recomienda en acero?",
+  "options": [
+   "0,25 × d",
+   "3 × d",
+   "5 × d",
+   "1 × d"
+  ],
+  "answer": 3,
+  "explanation": "Para que el tornillo falle antes que la rosca."
+ },
+ {
+  "id": "r2q61",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 1,
+  "q": "¿Y en aluminio?",
+  "options": [
+   "2 × d",
+   "0,5 × d",
+   "1 × d",
+   "0,25 × d"
+  ],
+  "answer": 0,
+  "explanation": "El aluminio tiene menor resistencia al corte."
+ },
+ {
+  "id": "r2q62",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 2,
+  "q": "¿Y en fundición?",
+  "options": [
+   "0,5 × d",
+   "1,5 × d",
+   "3 × d",
+   "0,25 × d"
+  ],
+  "answer": 1,
+  "explanation": "Plásticos: 2 a 2,5 × d."
+ },
+ {
+  "id": "r2q63",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 2,
+  "q": "¿Cuál es la causa principal del aflojamiento de una unión?",
+  "options": [
+   "El exceso de lubricante",
+   "El color del recubrimiento",
+   "La pérdida de precarga",
+   "La clase de la tuerca"
+  ],
+  "answer": 2,
+  "explanation": "Puede ser por giro (autoaflojamiento) o por asentamiento y relajación."
+ },
+ {
+  "id": "r2q64",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 2,
+  "q": "¿Qué mide el ensayo Junker?",
+  "options": [
+   "La dureza",
+   "La niebla salina",
+   "El torque de ruptura",
+   "El aflojamiento bajo vibración transversal"
+  ],
+  "answer": 3,
+  "explanation": "Se normaliza en DIN 65151 e ISO 16130."
+ },
+ {
+  "id": "r2q65",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 2,
+  "q": "¿Qué protección ofrecen las arandelas planas o de presión simples?",
+  "options": [
+   "Poca o ninguna frente a vibración",
+   "La mejor",
+   "Igual que un adhesivo",
+   "Más que una tuerca de torque"
+  ],
+  "answer": 0,
+  "explanation": "Las de cuña y las tuercas de torque predominante funcionan mejor."
+ },
+ {
+  "id": "r2q66",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 2,
+  "q": "¿Cómo evita el aflojamiento una arandela de cuña?",
+  "options": [
+   "Aumentando el diámetro",
+   "Con ángulo de leva mayor que el paso",
+   "Reduciendo el espesor",
+   "Con un recubrimiento negro"
+  ],
+  "answer": 1,
+  "explanation": "Que mantiene la tensión. Se usan en pares."
+ },
+ {
+  "id": "r2q67",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "Los causantes del aflojamiento no rotacional son…",
+  "options": [
+   "Solo el viento",
+   "El exceso de zinc",
+   "Asentamiento, relajación y fluencia",
+   "La clase de la tuerca"
+  ],
+  "answer": 2,
+  "explanation": "No hay giro relativo entre tuerca y tornillo."
+ },
+ {
+  "id": "r2q68",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "¿Qué ocurre con un torque insuficiente?",
+  "options": [
+   "Mayor resistencia a la fatiga",
+   "Menor fricción",
+   "Mayor dureza",
+   "Micromovimientos que dan asentamiento y pérdida de precarga"
+  ],
+  "answer": 3,
+  "explanation": "El efecto se propaga en cascada."
+ },
+ {
+  "id": "r2q69",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "¿Compensa un antiaflojante un tornillo mal apretado?",
+  "options": [
+   "No",
+   "Sí, siempre",
+   "Solo si es de acero inoxidable",
+   "Solo con arandela plana"
+  ],
+  "answer": 0,
+  "explanation": "Hay que torquear al 100 % de la precarga especificada."
+ },
+ {
+  "id": "r2q70",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "Si el material hembra es más débil que el tornillo, el enganche debe…",
+  "options": [
+   "Reducirse",
+   "Aumentarse",
+   "Mantenerse igual",
+   "Eliminarse"
+  ],
+  "answer": 1,
+  "explanation": "Así falla el tornillo antes que la rosca."
+ },
+ {
+  "id": "r2q71",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "¿Qué rosca da más área de corte por unidad de longitud?",
+  "options": [
+   "La gruesa",
+   "Ninguna",
+   "La fina",
+   "La cónica"
+  ],
+  "answer": 2,
+  "explanation": "Por eso puede equivaler a un enganche algo menor."
+ },
+ {
+  "id": "r2q72",
+  "ruta": 2,
+  "cat": "r2e",
+  "level": 3,
+  "q": "Un M8 en aluminio: ¿cuántos mm de enganche mínimos?",
+  "options": [
+   "8 mm",
+   "4 mm",
+   "24 mm",
+   "16 mm"
+  ],
+  "answer": 3,
+  "explanation": "2 × 8 mm."
+ },
+ {
+  "id": "r3q1",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "¿Qué perfil de rosca es el más empleado en uniones mecánicas?",
+  "options": [
+   "Triangular",
+   "Trapezoidal",
+   "Redonda",
+   "Cuadrada"
+  ],
+  "answer": 0,
+  "explanation": "La rosca triangular se fabrica en diversos sistemas normalizados."
+ },
+ {
+  "id": "r3q2",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "¿Para qué se usan las roscas trapezoidales?",
+  "options": [
+   "Sellar tapas de envases sin esfuerzo",
+   "Transmitir potencia y transformar movimiento",
+   "Fijar tornillos de lámina delgada",
+   "Sujetar piezas de madera en carpintería"
+  ],
+  "answer": 1,
+  "explanation": "Aparecen en husillos de torno, columnas elevadoras y compuertas."
+ },
+ {
+  "id": "r3q3",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "¿Dónde son útiles las roscas redondas?",
+  "options": [
+   "Transmisión de grandes esfuerzos",
+   "Pernos estructurales",
+   "Ambientes con polvo o desgaste y enroscado fácil",
+   "Tornillos de lámina"
+  ],
+  "answer": 2,
+  "explanation": "Pitones de manguera, tapas de envases y bombillos."
+ },
+ {
+  "id": "r3q4",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "¿Qué rosca se usa en prensas y mecanismos de potencia con filete de sección cuadrada?",
+  "options": [
+   "Triangular",
+   "Redonda",
+   "Autorroscante",
+   "Cuadrada"
+  ],
+  "answer": 3,
+  "explanation": "Su filete tiene sección cuadrada."
+ },
+ {
+  "id": "r3q5",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "M10 × 1 significa…",
+  "options": [
+   "Métrico de 10 mm de diámetro y paso 1 mm",
+   "Diez hilos por pulgada con paso de 1 mm",
+   "Rosca de 1 mm de diámetro y paso 10",
+   "Tornillo de 10 mm de largo y 1 mm de rosca"
+  ],
+  "answer": 0,
+  "explanation": "M + diámetro nominal + paso en mm."
+ },
+ {
+  "id": "r3q6",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "5/16″ × 18 UNC significa…",
+  "options": [
+   "5/16″ con rosca fina de 18 hilos por pulgada",
+   "5/16″ con rosca ordinaria de 18 hilos por pulgada",
+   "Rosca métrica de 5 mm y paso de 18 mm",
+   "Tornillo de 18 mm de largo y rosca 5/16″"
+  ],
+  "answer": 1,
+  "explanation": "Diámetro nominal + hilos por pulgada + serie."
+ },
+ {
+  "id": "r3q7",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "En el sistema unificado, el paso se expresa como…",
+  "options": [
+   "Distancia entre crestas en mm",
+   "Diámetro menor",
+   "Número de crestas por pulgada",
+   "Ángulo del filete"
+  ],
+  "answer": 2,
+  "explanation": "También es el número de vueltas para avanzar una pulgada."
+ },
+ {
+  "id": "r3q8",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 1,
+  "q": "En el sistema métrico, el paso es…",
+  "options": [
+   "El número de hilos por pulgada",
+   "El diámetro mayor",
+   "La longitud roscada",
+   "La distancia entre dos crestas consecutivas"
+  ],
+  "answer": 3,
+  "explanation": "Es lo que avanza el tornillo en una vuelta."
+ },
+ {
+  "id": "r3q9",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 2,
+  "q": "El diámetro de un tornillo medido con calibrador resulta…",
+  "options": [
+   "Ligeramente inferior al nominal",
+   "Idéntico al nominal",
+   "1 mm mayor",
+   "Igual al diámetro menor"
+  ],
+  "answer": 0,
+  "explanation": "Por la tolerancia de fabricación."
+ },
+ {
+  "id": "r3q10",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 2,
+  "q": "¿Con qué herramienta se determina el paso de una rosca?",
+  "options": [
+   "Micrómetro de profundidad",
+   "Galga de roscas",
+   "Balanza",
+   "Durómetro"
+  ],
+  "answer": 1,
+  "explanation": "Medidor de paso. Existen galgas unificadas, métricas o combinadas."
+ },
+ {
+  "id": "r3q11",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 2,
+  "q": "Paso y broca de un M12 de rosca gruesa:",
+  "options": [
+   "1,5 mm y 10,5 mm",
+   "2 mm y 10 mm",
+   "1,75 mm y broca de 10,2 mm",
+   "1,25 mm y 10,75 mm"
+  ],
+  "answer": 2,
+  "explanation": "Tabla del manual SENA."
+ },
+ {
+  "id": "r3q12",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 2,
+  "q": "Broca para roscar un M8 de paso grueso:",
+  "options": [
+   "7,0 mm",
+   "6,5 mm",
+   "7,5 mm",
+   "6,8 mm"
+  ],
+  "answer": 3,
+  "explanation": "M8 × 1,25 → 6,8 mm."
+ },
+ {
+  "id": "r3q13",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 2,
+  "q": "Broca para roscar un M10 de paso grueso:",
+  "options": [
+   "8,5 mm",
+   "9,0 mm",
+   "8,0 mm",
+   "9,5 mm"
+  ],
+  "answer": 0,
+  "explanation": "M10 × 1,5 → 8,5 mm."
+ },
+ {
+  "id": "r3q14",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Regla práctica para la broca de una rosca métrica gruesa:",
+  "options": [
+   "Diámetro nominal + paso",
+   "Diámetro nominal − paso",
+   "Diámetro ÷ paso",
+   "Paso × 4"
+  ],
+  "answer": 1,
+  "explanation": "Ej.: M6 × 1 → 5 mm."
+ },
+ {
+  "id": "r3q15",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Broca para una rosca 1/4″ UNC (20 hilos):",
+  "options": [
+   "5,5 mm",
+   "4,5 mm",
+   "5,1 mm",
+   "6,0 mm"
+  ],
+  "answer": 2,
+  "explanation": "La 1/4″ UNF de 28 hilos usa 5,5 mm."
+ },
+ {
+  "id": "r3q16",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Broca para un Nº10 UNC (24 hilos):",
+  "options": [
+   "4,1 mm",
+   "3,4 mm",
+   "4,5 mm",
+   "3,8 mm"
+  ],
+  "answer": 3,
+  "explanation": "El Nº10 UNF de 32 hilos usa 4,1 mm."
+ },
+ {
+  "id": "r3q17",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Broca para 3/8″ UNF (24 hilos):",
+  "options": [
+   "8,5 mm",
+   "8,0 mm",
+   "9,0 mm",
+   "7,5 mm"
+  ],
+  "answer": 0,
+  "explanation": "En UNC 3/8″ × 16 la broca es 8,0 mm."
+ },
+ {
+  "id": "r3q18",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Hilos por pulgada del Nº8 en UNC y UNF:",
+  "options": [
+   "40 y 48",
+   "32 y 36",
+   "24 y 32",
+   "20 y 28"
+  ],
+  "answer": 1,
+  "explanation": "Nº8: 32 (ordinaria) y 36 (fina)."
+ },
+ {
+  "id": "r3q19",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Hilos por pulgada de 1/2″ en UNC y UNF:",
+  "options": [
+   "12 y 18",
+   "16 y 24",
+   "13 y 20",
+   "10 y 16"
+  ],
+  "answer": 2,
+  "explanation": "Brocas de 10,75 y 11,5 mm."
+ },
+ {
+  "id": "r3q20",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Broca para un M16 de paso fino 1,5:",
+  "options": [
+   "14,0 mm",
+   "15,0 mm",
+   "13,5 mm",
+   "14,5 mm"
+  ],
+  "answer": 3,
+  "explanation": "El M16 de paso grueso (2 mm) usa 14 mm."
+ },
+ {
+  "id": "r3q21",
+  "ruta": 3,
+  "cat": "r3a",
+  "level": 3,
+  "q": "Broca para un M10 de paso fino 1,25:",
+  "options": [
+   "8,75 mm",
+   "8,5 mm",
+   "9,25 mm",
+   "9,0 mm"
+  ],
+  "answer": 0,
+  "explanation": "La de paso 1,5 usa 8,5 mm."
+ },
+ {
+  "id": "r3q22",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 1,
+  "q": "¿Qué aloja la cabeza del tornillo?",
+  "options": [
+   "La rosca y el paso del tornillo",
+   "El accionamiento, o lo determina con su forma",
+   "El recubrimiento y el acabado final",
+   "El tipo de extremo y el vástago"
+  ],
+  "answer": 1,
+  "explanation": "Es la parte visible del tornillo."
+ },
+ {
+  "id": "r3q23",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 1,
+  "q": "Un accionamiento tipo Philips es un…",
+  "options": [
+   "Ranura recta",
+   "Hexágono",
+   "Hueco cruciforme",
+   "Hueco de seis canales"
+  ],
+  "answer": 2,
+  "explanation": "Pozidriv es otro hueco cruciforme."
+ },
+ {
+  "id": "r3q24",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 1,
+  "q": "El accionamiento Torx es un hueco de…",
+  "options": [
+   "Cuatro puntas",
+   "Una ranura",
+   "Un cuadrado",
+   "Seis canales"
+  ],
+  "answer": 3,
+  "explanation": "También se describe como hueco de seis lóbulos."
+ },
+ {
+  "id": "r3q25",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 1,
+  "q": "Los accionamientos de mariposa y muletilla se aprietan…",
+  "options": [
+   "A mano",
+   "Con llave de impacto",
+   "Con soldadura",
+   "Con martillo"
+  ],
+  "answer": 0,
+  "explanation": "El manual los agrupa con los moleteados."
+ },
+ {
+  "id": "r3q26",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "Un accionamiento \"combinado o mixto\" admite…",
+  "options": [
+   "Solo llave Allen hexagonal interior",
+   "Destornillador de pala y de cruz",
+   "Únicamente punta Torx de seis lóbulos",
+   "Ninguna herramienta de uso manual"
+  ],
+  "answer": 1,
+  "explanation": "Ranura y cruz en la misma cabeza."
+ },
+ {
+  "id": "r3q27",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "¿Qué se sabe de Philips y Pozidriv?",
+  "options": [
+   "Son idénticos",
+   "Ambos son hexagonales",
+   "Son dos huecos cruciformes distintos",
+   "Ambos son de ranura recta"
+  ],
+  "answer": 2,
+  "explanation": "No deben intercambiarse."
+ },
+ {
+  "id": "r3q28",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "¿Para qué sirve el vástago o cuello sin rosca?",
+  "options": [
+   "Para dar más resistencia a la corrosión",
+   "Para reducir el peso",
+   "Para cambiar el paso",
+   "Para que el tornillo no rosque en parte de las piezas"
+  ],
+  "answer": 3,
+  "explanation": "Una polea gira libre. Ejemplo del manual: la polea."
+ },
+ {
+  "id": "r3q29",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "¿Qué función puede cumplir el extremo de un tornillo?",
+  "options": [
+   "Sostener, pinar, anclar, desplazar o sellar",
+   "Solo guiar la broca durante el taladrado",
+   "Solo decorar la superficie de la pieza",
+   "Únicamente cambiar el paso de la rosca"
+  ],
+  "answer": 0,
+  "explanation": "Su forma define su función."
+ },
+ {
+  "id": "r3q30",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "¿Cuál es una forma de vástago del manual?",
+  "options": [
+   "Cabeza de martillo",
+   "Caña calibrada",
+   "Moleteado cruzado",
+   "Collar biselado"
+  ],
+  "answer": 1,
+  "explanation": "También: normal, rosca laminada, caña de apoyo y cuello cuadrado."
+ },
+ {
+  "id": "r3q31",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 2,
+  "q": "¿Cuál es un tipo de extremo?",
+  "options": [
+   "Hexagonal",
+   "Torx",
+   "Troncocónico",
+   "Mariposa"
+  ],
+  "answer": 2,
+  "explanation": "También: plano, abombado, biselado, cónico y pivote."
+ },
+ {
+  "id": "r3q32",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 3,
+  "q": "Una cabeza hexagonal con collarín o collar tiene…",
+  "options": [
+   "Doce puntas para llaves de espacio reducido",
+   "Un cuello cuadrado bajo la cabeza",
+   "Una ranura cruzada con marcas a 45°",
+   "Una base ensanchada tipo collar"
+  ],
+  "answer": 3,
+  "explanation": "Existe también con collar biselado."
+ },
+ {
+  "id": "r3q33",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 3,
+  "q": "¿Qué cabeza del manual es de doce puntas (nombre bi-hexagonal)?",
+  "options": [
+   "Bi-hexagonal",
+   "Hexagonal",
+   "Cuadrada",
+   "De martillo"
+  ],
+  "answer": 0,
+  "explanation": "Descripción de referencia general."
+ },
+ {
+  "id": "r3q34",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 3,
+  "q": "¿Qué accionamientos del manual tienen doce puntas o seis canales?",
+  "options": [
+   "Philips y Pozidriv",
+   "Bi-hexagonal y Torx",
+   "Ranura y combinada",
+   "Mariposa y muletilla"
+  ],
+  "answer": 1,
+  "explanation": "Son accionamientos para mayor torque."
+ },
+ {
+  "id": "r3q35",
+  "ruta": 3,
+  "cat": "r3b",
+  "level": 3,
+  "q": "¿Qué extremo corresponde al que forma su propia rosca?",
+  "options": [
+   "Plano",
+   "Pivote largo",
+   "Autorroscante",
+   "Biselado hueco"
+  ],
+  "answer": 2,
+  "explanation": "También aparece el de sección tritubular."
+ },
+ {
+  "id": "r3q36",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 1,
+  "q": "La arandela plana sirve para…",
+  "options": [
+   "Bloquear la tuerca con pestañas laterales",
+   "Sellar líquidos y polvo en la unión",
+   "Absorber golpes y mantener la tensión",
+   "Facilitar el giro de la cabeza o tuerca y evitar el encastre"
+  ],
+  "answer": 3,
+  "explanation": "Es la más común."
+ },
+ {
+  "id": "r3q37",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 1,
+  "q": "La arandela cónica (Belleville) sirve para…",
+  "options": [
+   "Absorber golpes y mantener la tensión en cargas dinámicas",
+   "Sellar agua y vapores a alta presión",
+   "Espaciar las piezas y proteger la superficie",
+   "Facilitar el giro de la tuerca sin encastre"
+  ],
+  "answer": 0,
+  "explanation": "Es una arandela de presión tronco-cónica."
+ },
+ {
+  "id": "r3q38",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 1,
+  "q": "La arandela Grower (guasa) tiene forma de…",
+  "options": [
+   "Cono",
+   "Hélice",
+   "Onda",
+   "Estrella"
+  ],
+  "answer": 1,
+  "explanation": "Ejerce presión extra y aumenta la fricción."
+ },
+ {
+  "id": "r3q39",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 1,
+  "q": "¿Qué combina una arandela autosellante?",
+  "options": [
+   "Nailon con tuerca",
+   "Pasador con tuerca",
+   "Caucho con arandela",
+   "Resorte con tornillo"
+  ],
+  "answer": 2,
+  "explanation": "Sella agua, polvo, aire y vapores."
+ },
+ {
+  "id": "r3q40",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "Las arandelas dentadas se usan para…",
+  "options": [
+   "Sellar el paso de agua y vapores",
+   "Absorber golpes en cargas dinámicas",
+   "Indicar la carga aplicada al apretar",
+   "Mejorar la fricción y evitar desaprietes por vibración"
+  ],
+  "answer": 3,
+  "explanation": "También existen las de tipo K en tuercas."
+ },
+ {
+  "id": "r3q41",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La arandela ondulada se aplica en…",
+  "options": [
+   "Cargas axiales con pequeñas deflexiones y poco espacio radial",
+   "Sellado de líquidos a alta presión",
+   "Bloqueo de tuercas en ejes de transmisión",
+   "Uniones estructurales con grandes cargas"
+  ],
+  "answer": 0,
+  "explanation": "Ejemplo: carga axial en rodamientos de bolas."
+ },
+ {
+  "id": "r3q42",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La arandela de seguridad tipo araña…",
+  "options": [
+   "Es de caucho y sella contra el agua",
+   "Tiene pestañas que se doblan contra la tuerca",
+   "Es cónica y absorbe golpes elásticos",
+   "Es plana y reparte la carga de apriete"
+  ],
+  "answer": 1,
+  "explanation": "Bloquea la tuerca."
+ },
+ {
+  "id": "r3q43",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La tuerca autoblocante de nailon…",
+  "options": [
+   "Lleva pasador",
+   "Es decorativa",
+   "Tiene un aro de nailon",
+   "Se clava con martillo"
+  ],
+  "answer": 2,
+  "explanation": "Bloquea el tornillo. Evita el aflojamiento por vibración."
+ },
+ {
+  "id": "r3q44",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La tuerca keps es…",
+  "options": [
+   "Una tuerca con orificio único y ciega",
+   "Una tuerca cuadrada de fabricación simple",
+   "Una tuerca que se clava con martillo",
+   "Una tuerca hexagonal con arandela dentada"
+  ],
+  "answer": 3,
+  "explanation": "El conjunto sube la fricción."
+ },
+ {
+  "id": "r3q45",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La tuerca almenada (de castillo) permite…",
+  "options": [
+   "Colocar un pasador de bloqueo",
+   "Girar con la mano",
+   "Sellar",
+   "Clavarse con martillo"
+  ],
+  "answer": 0,
+  "explanation": "Muy común en ejes de transmisión."
+ },
+ {
+  "id": "r3q46",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "¿Con qué se bloquea una tuerca ranurada?",
+  "options": [
+   "Con un aro de nailon interior",
+   "Con una arandela tipo araña",
+   "Con pegamento de alta resistencia",
+   "Con un cordón de soldadura"
+  ],
+  "answer": 1,
+  "explanation": "Evita el giro de la tuerca."
+ },
+ {
+  "id": "r3q47",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "La tuerca ciega es…",
+  "options": [
+   "Con pasador de bloqueo en ejes",
+   "Con alas para apretar a mano",
+   "De un solo orificio y normalmente decorativa",
+   "Que se clava con un martillo"
+  ],
+  "answer": 2,
+  "explanation": "Tiene un único orificio de entrada."
+ },
+ {
+  "id": "r3q48",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 2,
+  "q": "El fosfatado se logra…",
+  "options": [
+   "Con un baño electrolítico de cobre",
+   "Sumergiendo en aceite soluble caliente",
+   "Con un baño de zinc fundido",
+   "Sumergiendo en una solución de ácido fosfórico"
+  ],
+  "answer": 3,
+  "explanation": "Protege el acero contra la corrosión."
+ },
+ {
+  "id": "r3q49",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "¿Cómo se coloca una tuerca de uña?",
+  "options": [
+   "Con martillo, y exige un agujero para el tronco",
+   "Con llave de copa de gran tamaño",
+   "Con un pegamento estructural",
+   "Con un cordón de soldadura previo"
+  ],
+  "answer": 0,
+  "explanation": "El tronco del tornillo. También se llama tuerca para clavar."
+ },
+ {
+  "id": "r3q50",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "La tuerca-arandela o de flanche…",
+  "options": [
+   "Lleva un aro de nailon en el interior",
+   "Lleva una arandela fija estriada",
+   "Es solo decorativa y cerrada",
+   "Tiene alas para apretar a mano"
+  ],
+  "answer": 1,
+  "explanation": "Impide el afloje. Evolución de la hexagonal."
+ },
+ {
+  "id": "r3q51",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "El cincado por inmersión en caliente se caracteriza por…",
+  "options": [
+   "Aplicación electrolítica azulada de capa muy delgada",
+   "Inmersión en aceite soluble caliente sin zinc",
+   "Baño de zinc fundido, blanquecino y buena protección a la intemperie",
+   "Cromato de potasio sobre cobre electrolítico"
+  ],
+  "answer": 2,
+  "explanation": "Es una protección no electrolítica."
+ },
+ {
+  "id": "r3q52",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "¿Qué ventaja tiene el cincado electrolítico frente al de inmersión?",
+  "options": [
+   "Siempre un espesor mayor que el de inmersión",
+   "Menor adherencia pero color más oscuro",
+   "Aplicación en caliente con baño de zinc fundido",
+   "Capa más uniforme y mejor control del espesor"
+  ],
+  "answer": 3,
+  "explanation": "También mayor durabilidad y adherencia."
+ },
+ {
+  "id": "r3q53",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "El tropicalizado se obtiene…",
+  "options": [
+   "Cincando y sumergiendo en una solución diluida de cromato de potasio",
+   "Sumergiendo la pieza caliente en aceite soluble",
+   "Con un baño de ácido fosfórico diluido",
+   "Con cobre electrolítico y luego níquel"
+  ],
+  "answer": 0,
+  "explanation": "Mejora la resistencia a la corrosión."
+ },
+ {
+  "id": "r3q54",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "¿Por qué sirve el cadminizado en tolerancias cerradas?",
+  "options": [
+   "Su capa es siempre más gruesa que la del zinc",
+   "Al oxidarse no genera productos de corrosión voluminosos",
+   "Es el acabado más barato del mercado",
+   "Forma óxidos expansivos que sellan la rosca"
+  ],
+  "answer": 1,
+  "explanation": "Es plateado."
+ },
+ {
+  "id": "r3q55",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "El pavonado consiste en…",
+  "options": [
+   "Cubrir la pieza con cromato de potasio",
+   "Sumergirla en una solución de ácido fosfórico",
+   "Sumergir la pieza caliente en aceite soluble",
+   "Depositar cadmio por vía electrolítica"
+  ],
+  "answer": 2,
+  "explanation": "O proceso químico. Da esencialmente buena apariencia."
+ },
+ {
+  "id": "r3q56",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "El Xylan es un revestimiento de…",
+  "options": [
+   "Zinc fundido con cromatos de color verde",
+   "Cobre electrolítico con capa de níquel",
+   "Aceite soluble aplicado en caliente",
+   "Poliuretanos modificados con alta resistencia a la corrosión y menor roce"
+  ],
+  "answer": 3,
+  "explanation": "Se formula para pernos y sujetadores."
+ },
+ {
+  "id": "r3q57",
+  "ruta": 3,
+  "cat": "r3c",
+  "level": 3,
+  "q": "El cobrizado es un recubrimiento de…",
+  "options": [
+   "Cobre por baño electrolítico",
+   "Zinc por inmersión en caliente",
+   "Cadmio con pasivado amarillo",
+   "Aceite soluble en caliente"
+  ],
+  "answer": 0,
+  "explanation": "Aumenta la resistencia al desgaste y la oxidación del metal base."
+ },
+ {
+  "id": "r3q58",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 1,
+  "q": "¿Qué instrumentos miden diámetro y longitud de un tornillo?",
+  "options": [
+   "Galga de roscas",
+   "Calibrador y reglas",
+   "Durómetro",
+   "Balanza"
+  ],
+  "answer": 1,
+  "explanation": "La galga de roscas mide el paso."
+ },
+ {
+  "id": "r3q59",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 1,
+  "q": "Los tornillos métricos se llaman \"tipo…\" y los unificados \"tipo…\"",
+  "options": [
+   "Grado y clase",
+   "Paso y clase",
+   "Clase y grado",
+   "Serie y paso"
+  ],
+  "answer": 2,
+  "explanation": "Métrico: clase 8.8; unificado: grado 5."
+ },
+ {
+  "id": "r3q60",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "Resistencia de prueba mínima de un grado SAE 5 (1/4″–1″):",
+  "options": [
+   "55 ksi",
+   "105 ksi",
+   "120 ksi",
+   "85 ksi"
+  ],
+  "answer": 3,
+  "explanation": "Su tracción mínima es 120 ksi."
+ },
+ {
+  "id": "r3q61",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "Tracción mínima de un grado SAE 8:",
+  "options": [
+   "150 ksi",
+   "120 ksi",
+   "133 ksi",
+   "115 ksi"
+  ],
+  "answer": 0,
+  "explanation": "Grado 7: 133 ksi."
+ },
+ {
+  "id": "r3q62",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "Tracción mínima de un grado SAE 2 (hasta 3/4″):",
+  "options": [
+   "60 ksi",
+   "74 ksi",
+   "120 ksi",
+   "150 ksi"
+  ],
+  "answer": 1,
+  "explanation": "El grado 1 tiene 60 ksi."
+ },
+ {
+  "id": "r3q63",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "Tracción mínima de un grado SAE 5 (1/4″–1″):",
+  "options": [
+   "74 ksi",
+   "105 ksi",
+   "120 ksi",
+   "150 ksi"
+  ],
+  "answer": 2,
+  "explanation": "De 1 1/8″ a 1 1/2″ baja a 105 ksi."
+ },
+ {
+  "id": "r3q64",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "El ajuste medio de una rosca unificada es…",
+  "options": [
+   "1A y 1B",
+   "3A y 3B",
+   "6g y 6H",
+   "2A y 2B (tuerca)"
+  ],
+  "answer": 3,
+  "explanation": "Tornillo. A es exterior y B interior."
+ },
+ {
+  "id": "r3q65",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "El ajuste medio métrico es…",
+  "options": [
+   "6g y 6H (tuerca)",
+   "8g y 7H",
+   "4g y 5H",
+   "2A y 2B"
+  ],
+  "answer": 0,
+  "explanation": "Tornillo. Es el de uso general."
+ },
+ {
+  "id": "r3q66",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 2,
+  "q": "El ajuste holgado unificado es…",
+  "options": [
+   "2A y 2B",
+   "1A y 1B",
+   "3A y 3B",
+   "8g y 7H"
+  ],
+  "answer": 1,
+  "explanation": "El holgado métrico es 8g/7H."
+ },
+ {
+  "id": "r3q67",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Los grados SAE 5.2 y 8.2 son…",
+  "options": [
+   "De acero inoxidable austenítico sin tratamiento",
+   "De latón estirado en frío",
+   "De acero martensítico de bajo carbono templado y revenido",
+   "De acero de bajo carbono sin templar"
+  ],
+  "answer": 2,
+  "explanation": "Con mínimos iguales al 5 y al 8."
+ },
+ {
+  "id": "r3q68",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Tracción mínima de la clase 4.6:",
+  "options": [
+   "420 MPa",
+   "520 MPa",
+   "900 MPa",
+   "400 MPa"
+  ],
+  "answer": 3,
+  "explanation": "Prueba 225 y elástica 240 MPa."
+ },
+ {
+  "id": "r3q69",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Tracción mínima de la clase 12.9:",
+  "options": [
+   "1220 MPa",
+   "1200 MPa",
+   "1100 MPa",
+   "970 MPa"
+  ],
+  "answer": 0,
+  "explanation": "1100 MPa es la resistencia elástica."
+ },
+ {
+  "id": "r3q70",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Tracción mínima de la clase 5.8:",
+  "options": [
+   "400 MPa",
+   "520 MPa",
+   "420 MPa",
+   "380 MPa"
+  ],
+  "answer": 1,
+  "explanation": "380 MPa es la de prueba."
+ },
+ {
+  "id": "r3q71",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Resistencia de prueba de la clase 10.9:",
+  "options": [
+   "940 MPa",
+   "1040 MPa",
+   "830 MPa",
+   "970 MPa"
+  ],
+  "answer": 2,
+  "explanation": "Elástica 940 y tracción 1040 MPa."
+ },
+ {
+  "id": "r3q72",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Tracción mínima de la clase 9.8:",
+  "options": [
+   "650 MPa",
+   "720 MPa",
+   "1040 MPa",
+   "900 MPa"
+  ],
+  "answer": 3,
+  "explanation": "Prueba 650 y elástica 720 MPa."
+ },
+ {
+  "id": "r3q73",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "El ajuste cerrado métrico es…",
+  "options": [
+   "4g y 5H (tuerca)",
+   "8g y 7H",
+   "6g y 6H",
+   "3A y 3B"
+  ],
+  "answer": 0,
+  "explanation": "Tornillo. El cerrado unificado es 3A/3B."
+ },
+ {
+  "id": "r3q74",
+  "ruta": 3,
+  "cat": "r3d",
+  "level": 3,
+  "q": "Un tornillo de grado 8 (150 ksi) equivale a unos…",
+  "options": [
+   "830 MPa",
+   "1034 MPa",
+   "1220 MPa",
+   "600 MPa"
+  ],
+  "answer": 1,
+  "explanation": "150 × 6,895 ≈ 1034 MPa."
+ },
+ {
+  "id": "r4q1",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "¿Cuál es el material de sujeción más económico y común?",
+  "options": [
+   "Acero al carbono",
+   "Titanio",
+   "Inconel",
+   "Acero A-286"
+  ],
+  "answer": 0,
+  "explanation": "Las ferreterías lo venden normalmente zincado."
+ },
+ {
+  "id": "r4q2",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "Resistencia última típica del acero al carbono de sujeción:",
+  "options": [
+   "300 ksi",
+   "55 ksi",
+   "220 ksi",
+   "140 ksi"
+  ],
+  "answer": 1,
+  "explanation": "≈ 379 mpa. El acero aleado llega a 300 ksi."
+ },
+ {
+  "id": "r4q3",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "El acero aleado puede tratarse térmicamente hasta aproximadamente…",
+  "options": [
+   "55 ksi",
+   "100 ksi",
+   "300 ksi",
+   "1000 ksi"
+  ],
+  "answer": 2,
+  "explanation": "≈ 2068 mpa. Pero no resiste la corrosión."
+ },
+ {
+  "id": "r4q4",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "¿Por qué el acero aleado necesita recubrimiento?",
+  "options": [
+   "Su resistencia es demasiado baja a −65 °F",
+   "Se vuelve blando con el tratamiento térmico",
+   "Pesa más que el acero al carbono",
+   "No es resistente a la corrosión"
+  ],
+  "answer": 3,
+  "explanation": "En aeronáutica suele cadmiarse."
+ },
+ {
+  "id": "r4q5",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 2,
+  "q": "Rango de resistencia de los inoxidables (CRES) de sujeción:",
+  "options": [
+   "70 a 220 ksi",
+   "10 a 30 ksi",
+   "300 a 500 ksi",
+   "55 ksi fijos"
+  ],
+  "answer": 0,
+  "explanation": "Un rango muy amplio según la aleación."
+ },
+ {
+  "id": "r4q6",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 2,
+  "q": "¿Cuál es la principal ventaja del CRES?",
+  "options": [
+   "Es el más económico y el más fácil de conseguir",
+   "Normalmente no requiere recubrimiento y tolera más temperatura",
+   "Siempre necesita cadmio para proteger la superficie",
+   "Su resistencia es menor que la del acero al carbono"
+  ],
+  "answer": 1,
+  "explanation": "Su rango de servicio es mayor que el del acero al carbono."
+ },
+ {
+  "id": "r4q7",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 2,
+  "q": "El acero al carbono y el aleado se fragilizan por debajo de…",
+  "options": [
+   "0 °F",
+   "100 °F",
+   "−65 °F",
+   "−10 °F"
+  ],
+  "answer": 2,
+  "explanation": "≈ −54 °c. Es una de las precauciones del manual."
+ },
+ {
+  "id": "r4q8",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 2,
+  "q": "Límite de servicio del acero al carbono zincado:",
+  "options": [
+   "450 °F",
+   "900 °F",
+   "1200 °F",
+   "Hasta 250 °F"
+  ],
+  "answer": 3,
+  "explanation": "≈ 121 °c. Lo limita el recubrimiento de zinc."
+ },
+ {
+  "id": "r4q9",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 2,
+  "q": "El inoxidable serie 400 se corroerá en ciertos ambientes porque…",
+  "options": [
+   "Contiene solo 12 % de cromo",
+   "Contiene plomo que facilita el maquinado",
+   "Tiene un 30 % de níquel y se vuelve frágil",
+   "Es demasiado blando para roscarse"
+  ],
+  "answer": 0,
+  "explanation": "Por eso se pasiva."
+ },
+ {
+  "id": "r4q10",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 3,
+  "q": "¿Qué suele limitar la temperatura máxima de servicio de un perno recubierto?",
+  "options": [
+   "El diámetro del cuerpo del perno",
+   "El material del recubrimiento",
+   "La clase de rosca elegida para el ajuste",
+   "El tipo de cabeza del sujetador"
+  ],
+  "answer": 1,
+  "explanation": "Aunque el acero base resista más."
+ },
+ {
+  "id": "r4q11",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 3,
+  "q": "¿Por qué se considera al A-286 el mejor inoxidable aeroespacial?",
+  "options": [
+   "Es el más económico y solo sirve hasta 250 °F",
+   "Es magnético y se fragiliza por debajo de −65 °F",
+   "No es susceptible a corrosión por esfuerzo y sirve de −423 a 1200 °F",
+   "Es de acero al carbono con cadmio y llega a 450 °F"
+  ],
+  "answer": 2,
+  "explanation": "Resistencias hasta 220 ksi."
+ },
+ {
+  "id": "r4q12",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 3,
+  "q": "En el inoxidable serie 300, el oxidado en horno…",
+  "options": [
+   "Aumenta la dureza",
+   "Lo vuelve magnético",
+   "Disminuye la corrosión",
+   "Reduce el engranamiento"
+  ],
+  "answer": 3,
+  "explanation": "Galling. Es un tratamiento de superficie de la tabla."
+ },
+ {
+  "id": "r4q13",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 3,
+  "q": "¿Qué material sirve de −350 a 500 °F con hasta 160 ksi?",
+  "options": [
+   "Titanio",
+   "Waspalloy",
+   "Acero al carbono",
+   "Inoxidable 416"
+  ],
+  "answer": 0,
+  "explanation": "Su uso es limitado, principalmente aeroespacial."
+ },
+ {
+  "id": "r4q14",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 1,
+  "q": "¿Cuál es el recubrimiento más común en sujetadores aeroespaciales?",
+  "options": [
+   "Zinc",
+   "Cadmio",
+   "Plata",
+   "Cromo"
+  ],
+  "answer": 1,
+  "explanation": "Se aplica por electrodeposición."
+ },
+ {
+  "id": "r4q15",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "¿Cómo se hornea una pieza cadmiada para evitar hidrógeno?",
+  "options": [
+   "190 °F durante 1 h, una semana después del baño",
+   "600 °F durante 2 h, justo después del baño",
+   "375 °F durante 23 h, dentro de 2 h tras el baño",
+   "No necesita horneado si se usa un secado al aire"
+  ],
+  "answer": 2,
+  "explanation": "El cadmio se funde a 600 °F."
+ },
+ {
+  "id": "r4q16",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "Límite útil de servicio del cadmio:",
+  "options": [
+   "250 °F",
+   "925 °F",
+   "1100 °F",
+   "450 °F"
+  ],
+  "answer": 3,
+  "explanation": "≈ 232 °c. Se funde a 600 °F."
+ },
+ {
+  "id": "r4q17",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "Límite útil del zinc y temperatura de degradación de su protección:",
+  "options": [
+   "250 °F; se degrada sobre 140 °F",
+   "450 °F; sobre 400 °F",
+   "600 °F; sobre 500 °F",
+   "785 °F; sobre 700 °F"
+  ],
+  "answer": 0,
+  "explanation": "El zinc se funde a 785 °F."
+ },
+ {
+  "id": "r4q18",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "¿Por qué el zinc se llama recubrimiento de sacrificio?",
+  "options": [
+   "No se corroe nunca porque es más noble que el acero",
+   "Migra a zonas rayadas y sigue protegiendo",
+   "Es más duro que el acero y no se raya",
+   "Se disuelve del todo al rayarse el recubrimiento"
+  ],
+  "answer": 1,
+  "explanation": "Es autorreparable y más económico que el cadmio."
+ },
+ {
+  "id": "r4q19",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "Los fosfatos comienzan a deteriorarse entre…",
+  "options": [
+   "50 y 100 °F",
+   "600 y 900 °F",
+   "225 °F y 400 °F",
+   "1000 y 1500 °F"
+  ],
+  "answer": 2,
+  "explanation": "Hierro). Zinc pesado. Raras veces dan problemas de hidrógeno."
+ },
+ {
+  "id": "r4q20",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "El niquelado se empaña si no se aplica…",
+  "options": [
+   "Un horneado a 1000 °F",
+   "Aceite mineral",
+   "Pintura",
+   "Un cromado posterior"
+  ],
+  "answer": 3,
+  "explanation": "También requiere horneado contra hidrógeno."
+ },
+ {
+  "id": "r4q21",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 2,
+  "q": "¿Hasta qué temperatura de aceite y grasa como lubricante?",
+  "options": [
+   "250 °F",
+   "750 °F",
+   "1500 °F",
+   "2200 °F"
+  ],
+  "answer": 0,
+  "explanation": "Tampoco sirven en vacío."
+ },
+ {
+  "id": "r4q22",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "El IVD de aluminio ofrece…",
+  "options": [
+   "Menor costo que el cadmio y servicio hasta 140 °F",
+   "Sin hidrógeno, aislamiento galvánico y servicio hasta 925 °F",
+   "Genera hidrógeno pero resiste 1500 °F",
+   "Es tóxico y se aplica con una cámara abierta"
+  ],
+  "answer": 1,
+  "explanation": "Su desventaja es la cámara de vacío costosa."
+ },
+ {
+  "id": "r4q23",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "Sermatel W y SermaGard se curan a…",
+  "options": [
+   "140 °F",
+   "1500 °F",
+   "650 °F",
+   "300 °F"
+  ],
+  "answer": 2,
+  "explanation": "Previenen hidrógeno y corrosión por esfuerzo y soportan hasta 15 desensambles."
+ },
+ {
+  "id": "r4q24",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "El óxido negro con aceite…",
+  "options": [
+   "Protege tanto como el cadmio hasta 1200 °F",
+   "Lubrica en vacío hasta 750 °F y evita el galling",
+   "Aísla contra la corrosión galvánica en aluminio",
+   "Solo mejora la apariencia; sin aceite no previene la corrosión"
+  ],
+  "answer": 3,
+  "explanation": "Su límite es el punto de ebullición del aceite (≈ 300 °F)."
+ },
+ {
+  "id": "r4q25",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "La plata como recubrimiento es…",
+  "options": [
+   "Ineficaz contra la corrosión pero excelente lubricante a alta temperatura",
+   "Muy eficaz contra la corrosión y barata",
+   "Mala lubricante pero buen recubrimiento anticorrosivo",
+   "Solo útil sobre aluminio y magnesio a baja temperatura"
+  ],
+  "answer": 0,
+  "explanation": "Límite útil: 1600 °F."
+ },
+ {
+  "id": "r4q26",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "El disulfuro de molibdeno como lubricante…",
+  "options": [
+   "No sirve en vacío y se evapora a 250 °F",
+   "Sirve en vacío y se vuelve abrasivo sobre ≈ 750 °F",
+   "Resiste 2200 °F sin degradarse",
+   "Solo funciona en aluminio y requiere humedad"
+  ],
+  "answer": 1,
+  "explanation": "Pasa a trisulfuro de molibdeno."
+ },
+ {
+  "id": "r4q27",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "El grafito \"seco\" realmente…",
+  "options": [
+   "Lubrica en vacío",
+   "Es magnético",
+   "Necesita humedad",
+   "Resiste 2200 °F"
+  ],
+  "answer": 2,
+  "explanation": "Lubricar. Aceite o agua. Su límite es el punto de ebullición del portador."
+ },
+ {
+  "id": "r4q28",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "¿Qué lubricante no debe usarse en aluminio ni magnesio?",
+  "options": [
+   "Neverseez",
+   "Disulfuro de molibdeno",
+   "Aceite",
+   "Silver Goop"
+  ],
+  "answer": 3,
+  "explanation": "Es extremadamente costoso (20–30 % de plata)."
+ },
+ {
+  "id": "r4q29",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 3,
+  "q": "La errata de 2008 advierte que zinc y cadmio…",
+  "options": [
+   "Pueden desgasificarse en vacío por su presión de vapor alta",
+   "Se vuelven magnéticos en ambientes de baja presión",
+   "Se funden a unos 100 °F en el espacio",
+   "Dejan de proteger porque no se oxidan"
+  ],
+  "answer": 0,
+  "explanation": "Outgassing. Importa en aplicaciones espaciales."
+ },
+ {
+  "id": "r4q30",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 1,
+  "q": "La corrosión galvánica requiere…",
+  "options": [
+   "Un solo metal en un ambiente completamente seco",
+   "Dos metales distintos y un electrolito",
+   "Vacío y temperaturas muy bajas",
+   "Calor extremo sin presencia de humedad"
+  ],
+  "answer": 1,
+  "explanation": "Como la humedad."
+ },
+ {
+  "id": "r4q31",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "En una celda galvánica se erosiona…",
+  "options": [
+   "El cátodo",
+   "Ambos por igual",
+   "El ánodo",
+   "Ninguno"
+  ],
+  "answer": 2,
+  "explanation": "El más activo. El material menos activo se protege."
+ },
+ {
+  "id": "r4q32",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "¿Por qué es mala práctica usar sujetadores de acero al carbono en un ensamble de cobre o inoxidable?",
+  "options": [
+   "Por su color y por su peso",
+   "Por su dureza superior a la del cobre",
+   "Porque su rosca no encaja en cobre",
+   "El sujetador sería el ánodo y de menor masa"
+  ],
+  "answer": 3,
+  "explanation": "El ánodo debe tener la mayor masa."
+ },
+ {
+  "id": "r4q33",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "Sujetadores inoxidables en un ensamble de acero al carbono:",
+  "options": [
+   "Es aceptable: el acero de la masa actúa de ánodo",
+   "Siempre falla porque el inoxidable se corroe primero",
+   "Está prohibido en cualquier entorno húmedo",
+   "Solo es posible si hay cobre en el ensamble"
+  ],
+  "answer": 0,
+  "explanation": "La masa de acero es mayor."
+ },
+ {
+  "id": "r4q34",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "¿Con qué debe aislarse el magnesio?",
+  "options": [
+   "Latón",
+   "Recubrimiento inerte",
+   "Cobre",
+   "Acero inoxidable"
+  ],
+  "answer": 1,
+  "explanation": "P. ej. imprimación de cromato de zinc. Si se daña, cadmiado y zincado son los más compatibles."
+ },
+ {
+  "id": "r4q35",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "Cuanto más separados están dos metales en la serie galvánica…",
+  "options": [
+   "Menor es la acción galvánica entre ellos",
+   "Es igual: solo importa la masa",
+   "Mayor es la acción galvánica",
+   "No hay relación con la corrosión"
+  ],
+  "answer": 2,
+  "explanation": "Es la base de la tabla de clasificación."
+ },
+ {
+  "id": "r4q36",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 2,
+  "q": "La mayoría de los procesos de platizado requieren horneado posterior porque…",
+  "options": [
+   "Se aplican en frío y no afectan al acero",
+   "Usan plomo que fragiliza la pieza",
+   "Cambian la rosca y exigen recalibrarla",
+   "Son electrolíticos y generan hidrógeno"
+  ],
+  "answer": 3,
+  "explanation": "Para evitar la fragilización."
+ },
+ {
+  "id": "r4q37",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "¿Cuál es el metal más activo de la serie galvánica del manual?",
+  "options": [
+   "Magnesio",
+   "Oro",
+   "Zinc",
+   "Plata"
+  ],
+  "answer": 0,
+  "explanation": "El menos activo es el oro."
+ },
+ {
+  "id": "r4q38",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "¿Cuál es más activo: el zinc o el acero inoxidable 316 activo?",
+  "options": [
+   "Inoxidable 316",
+   "Zinc",
+   "Son iguales",
+   "Depende del color"
+  ],
+  "answer": 1,
+  "explanation": "El zinc está mucho más arriba en la lista."
+ },
+ {
+  "id": "r4q39",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "La corrosión por esfuerzo ocurre cuando…",
+  "options": [
+   "Hay vacío y la pieza está sin carga",
+   "Hay compresión pura en un ambiente seco",
+   "Una pieza en tracción está en un ambiente corrosivo",
+   "Hay vibración sin carga aplicada"
+  ],
+  "answer": 2,
+  "explanation": "Falla muy por debajo del límite elástico."
+ },
+ {
+  "id": "r4q40",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "¿Qué agrava la susceptibilidad a la corrosión por esfuerzo?",
+  "options": [
+   "Menor dureza y mayor ductilidad",
+   "Mayor diámetro del perno",
+   "Menos hilos en la rosca",
+   "Mayor temperatura de tratamiento térmico"
+  ],
+  "answer": 3,
+  "explanation": "Menor ductilidad. Un material más dúctil es menos susceptible."
+ },
+ {
+  "id": "r4q41",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "La reacción química del hidrógeno con el acero produce…",
+  "options": [
+   "Metano",
+   "Oxígeno",
+   "Agua pura",
+   "Nitrógeno"
+  ],
+  "answer": 0,
+  "explanation": "Con el carbono del acero; puede provocar grietas."
+ },
+ {
+  "id": "r4q42",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "La fragilización por entorno de hidrógeno ocurre…",
+  "options": [
+   "En cualquier tornillo zincado que se hornee",
+   "Solo en entornos de hidrógeno a alta presión",
+   "Únicamente en vacío y a baja temperatura",
+   "Solo en piezas de titanio sin recubrir"
+  ],
+  "answer": 1,
+  "explanation": "Por ejemplo, un tanque de hidrógeno."
+ },
+ {
+  "id": "r4q43",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 3,
+  "q": "¿Qué riesgo tiene calentar un recubrimiento hasta su temperatura de descomposición?",
+  "options": [
+   "Reduce el peso de la pieza y mejora la dureza",
+   "Elimina por completo la corrosión posterior",
+   "Puede regenerar hidrógeno y perder protección",
+   "Aumenta la resistencia de la capa protectora"
+  ],
+  "answer": 2,
+  "explanation": "Por eso se respeta la temperatura segura."
+ },
+ {
+  "id": "r4q44",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 1,
+  "q": "¿Qué rampa tiene la rosca Spiralock en su raíz?",
+  "options": [
+   "Plana",
+   "De 90°",
+   "De 5°",
+   "De cuña de 30°"
+  ],
+  "answer": 3,
+  "explanation": "Las crestas se acuñan e impiden el movimiento lateral."
+ },
+ {
+  "id": "r4q45",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "¿Cómo funciona la contratuerca de haz partido?",
+  "options": [
+   "Las roscas son menores en la parte ranurada y generan fricción",
+   "Lleva un anillo de nailon que se aprieta en el perno",
+   "Usa un pasador que atraviesa el perno",
+   "Se suelda al perno al apretar"
+  ],
+  "answer": 0,
+  "explanation": "Los segmentos se desvían hacia afuera."
+ },
+ {
+  "id": "r4q46",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "¿Cuántas veces puede reutilizarse una contratuerca de rosca deformada?",
+  "options": [
+   "Una sola vez",
+   "Aproximadamente 10 veces",
+   "100 veces",
+   "Ninguna"
+  ],
+  "answer": 1,
+  "explanation": "Su límite lo marca el metal base o el platizado."
+ },
+ {
+  "id": "r4q47",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "Límite de temperatura de la tuerca con inserto de nylon:",
+  "options": [
+   "600 °F",
+   "900 °F",
+   "≈ 250 °F",
+   "1200 °F"
+  ],
+  "answer": 2,
+  "explanation": "Se daña al reensamblar."
+ },
+ {
+  "id": "r4q48",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "La tuerca almenada se usa con…",
+  "options": [
+   "Anillo de nylon y funciona en alto torque",
+   "Soldadura y solo se usa una vez",
+   "Epóxico y se reutiliza 10 veces",
+   "Pasador de chaveta y funciona bien en bajo torque"
+  ],
+  "answer": 3,
+  "explanation": "Tiene seis ranuras."
+ },
+ {
+  "id": "r4q49",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "Las tuercas de unión (jam nuts) son…",
+  "options": [
+   "Impredecibles y no recomendadas para tracción",
+   "La mejor opción para cargas estructurales",
+   "Las más seguras en vibración extrema",
+   "Un tipo de rosca Spiralock reutilizable"
+  ],
+  "answer": 0,
+  "explanation": "Tracción estructural. Los expertos no las recomiendan."
+ },
+ {
+  "id": "r4q50",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "¿Qué rosca es la más usada en sujetadores de propósito general?",
+  "options": [
+   "UNEF",
+   "UNC",
+   "UNJ",
+   "UNF"
+  ],
+  "answer": 1,
+  "explanation": "UNF es la más usada en aeroespacial."
+ },
+ {
+  "id": "r4q51",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "La rosca UNF frente a la UNC tiene…",
+  "options": [
+   "Menos hilos por pulgada y más holgura",
+   "Paso mayor y menor capacidad de carga",
+   "Diámetro menor mayor y algo más de carga y retención de torque",
+   "Radio de raíz mayor y clase de ajuste 1"
+  ],
+  "answer": 2,
+  "explanation": "Es la más usada en aeroespacial."
+ },
+ {
+  "id": "r4q52",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 2,
+  "q": "La rosca UNEF es común en…",
+  "options": [
+   "Pernos gruesos en estructuras blandas",
+   "Madera y plásticos de gran espesor",
+   "Tuercas ciegas de gran diámetro",
+   "Agujeros roscados de materiales duros o paredes delgadas"
+  ],
+  "answer": 3,
+  "explanation": "Es aún más fina que la UNF."
+ },
+ {
+  "id": "r4q53",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "Las roscas UNJ se distinguen por…",
+  "options": [
+   "Mayor radio de raíz de inspección obligatoria",
+   "Menor número de hilos y paso mayor",
+   "Perfil trapezoidal para transmisión de potencia",
+   "Ausencia de clase de tolerancia"
+  ],
+  "answer": 0,
+  "explanation": "Reducen la concentración de esfuerzos; para pernos de más de 180 ksi."
+ },
+ {
+  "id": "r4q54",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "En las clases de rosca, ¿cuál es la de tolerancia más estrecha?",
+  "options": [
+   "Clase 1",
+   "Clase 3",
+   "Clase 2",
+   "Clase 4"
+  ],
+  "answer": 1,
+  "explanation": "La clase 3 es el estándar aeroespacial."
+ },
+ {
+  "id": "r4q55",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "Un perno en fatiga suele romperse…",
+  "options": [
+   "En el centro del vástago liso",
+   "En la unión entre cabeza y vástago",
+   "Cerca del final de la sección roscada",
+   "En la punta de la rosca"
+  ],
+  "answer": 2,
+  "explanation": "Es la zona de máxima concentración de esfuerzos."
+ },
+ {
+  "id": "r4q56",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "¿Cómo es un perno resistente a la fatiga?",
+  "options": [
+   "Con el cuerpo más grueso que la rosca",
+   "Sin rosca y con cabeza doble",
+   "Con el cuerpo cementado en toda su longitud",
+   "Con el cuerpo mecanizado hasta el diámetro de raíz de la rosca"
+  ],
+  "answer": 3,
+  "explanation": "Baja el factor de concentración de esfuerzos."
+ },
+ {
+  "id": "r4q57",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "Si las bridas son mucho más rígidas que el perno, la carga del perno…",
+  "options": [
+   "No aumenta de forma significativa hasta que la carga externa supera la precarga",
+   "Aumenta de inmediato con cualquier carga externa",
+   "Disminuye siempre al aplicar la carga",
+   "Se duplica cuando la carga alcanza la mitad de la precarga"
+  ],
+  "answer": 0,
+  "explanation": "La carga externa supera la precarga. Por eso la precarga es clave."
+ },
+ {
+  "id": "r4q58",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "Para predecir la vida a fatiga se usa…",
+  "options": [
+   "La carga cíclica total aplicada",
+   "La parte de la carga cíclica sobre la precarga",
+   "La carga cíclica mínima registrada",
+   "La carga estática de montaje únicamente"
+  ],
+  "answer": 1,
+  "explanation": "Supera la precarga inicial. Se llama Fi a la precarga inicial."
+ },
+ {
+  "id": "r4q59",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "¿Qué mejora la resistencia a la fatiga de una unión?",
+  "options": [
+   "Menos sujetadores de mayor diámetro",
+   "Una precarga menor con más holgura",
+   "Más sujetadores de diámetro pequeño",
+   "Sujetadores de aluminio sin precarga"
+  ],
+  "answer": 2,
+  "explanation": "Pocos grandes. Una precarga cercana al límite elástico minimiza los efectos cíclicos."
+ },
+ {
+  "id": "r4q60",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 3,
+  "q": "Con perno y estructura de materiales distintos y cambios térmicos se usan…",
+  "options": [
+   "Arandelas planas de gran diámetro",
+   "Más pegamento anaeróbico en la rosca",
+   "Tuercas ciegas de acero endurecido",
+   "Arandelas cónicas Belleville"
+  ],
+  "answer": 3,
+  "explanation": "Dan flexibilidad adicional."
+ },
+ {
+  "id": "r4q61",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 1,
+  "q": "La fórmula rápida de torque del manual es…",
+  "options": [
+   "T = K · F · d",
+   "T = F ÷ (K · d)",
+   "T = K + F + d",
+   "T = d ÷ (K · F)"
+  ],
+  "answer": 0,
+  "explanation": "K es el coeficiente de torque."
+ },
+ {
+  "id": "r4q62",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Qué valor de K se asume comúnmente y cuál es más realista para acero sobre acero?",
+  "options": [
+   "0,05 y 0,5",
+   "0,2 y 0,15",
+   "1,0 y 0,9",
+   "0,4 y 0,6"
+  ],
+  "answer": 1,
+  "explanation": "No debe usarse a ciegas."
+ },
+ {
+  "id": "r4q63",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Entre qué valores varía el coeficiente de fricción?",
+  "options": [
+   "0,01 y 0,02",
+   "2 y 5",
+   "0,04 y 1,10",
+   "0,5 y 0,6"
+  ],
+  "answer": 2,
+  "explanation": "Hay que ajustar las tablas si cambia."
+ },
+ {
+  "id": "r4q64",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "Según el manual, la carga de prueba es aproximadamente…",
+  "options": [
+   "10 % del límite elástico",
+   "120 % de la rotura",
+   "Igual a la rotura",
+   "75 % del límite elástico teórico"
+  ],
+  "answer": 3,
+  "explanation": "Evita deformaciones por imprecisión de herramientas."
+ },
+ {
+  "id": "r4q65",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Qué método mide la precarga con mayor precisión?",
+  "options": [
+   "Galgas de deformación",
+   "Tacto",
+   "Llave dinamométrica",
+   "Giro de la tuerca"
+  ],
+  "answer": 0,
+  "explanation": "±1 %. Su costo relativo es 20."
+ },
+ {
+  "id": "r4q66",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "Precisión de una llave dinamométrica:",
+  "options": [
+   "±1 %",
+   "±25 %",
+   "±10 %",
+   "±3 %"
+  ],
+  "answer": 1,
+  "explanation": "Costo relativo 1,5."
+ },
+ {
+  "id": "r4q67",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "Precisión del método de giro de la tuerca:",
+  "options": [
+   "±35 %",
+   "±25 %",
+   "±15 %",
+   "±10 %"
+  ],
+  "answer": 2,
+  "explanation": "Costo relativo 3."
+ },
+ {
+  "id": "r4q68",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "Precisión del apriete \"a tacto\":",
+  "options": [
+   "±25 %",
+   "±15 %",
+   "±5 %",
+   "±35 %"
+  ],
+  "answer": 3,
+  "explanation": "Costo relativo 1."
+ },
+ {
+  "id": "r4q69",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "Precisión de las arandelas indicadoras de carga:",
+  "options": [
+   "±10 %",
+   "±3 %",
+   "±35 %",
+   "±1 %"
+  ],
+  "answer": 0,
+  "explanation": "Costo relativo 7."
+ },
+ {
+  "id": "r4q70",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Qué es un remache ciego?",
+  "options": [
+   "Uno de doble punta roscado en ambos extremos",
+   "Uno instalable con acceso por un solo lado",
+   "Uno soldado a la estructura por la cabeza",
+   "Uno sin cabeza que se instala por ambos lados"
+  ],
+  "answer": 1,
+  "explanation": "Por ejemplo, los tipos Pop."
+ },
+ {
+  "id": "r4q71",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Cómo funcionan los lockbolts?",
+  "options": [
+   "Se sueldan al agujero tras el apriete",
+   "Se expanden en el agujero para ajuste de interferencia",
+   "Un collar se deforma sobre las ranuras del perno",
+   "Se pegan con un compuesto epóxico"
+  ],
+  "answer": 2,
+  "explanation": "Swaged. No se expanden en el agujero (Hi-Lok, Jo-Bolt, Huckbolt)."
+ },
+ {
+  "id": "r4q72",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 2,
+  "q": "¿Qué es un Rivnut?",
+  "options": [
+   "Un remache sólido de expansión",
+   "Un lockbolt con collar deformable",
+   "Una arandela de seguridad con pestañas",
+   "Una tuerca remachable tubular"
+  ],
+  "answer": 3,
+  "explanation": "Lámina delgada. Se deforma con una herramienta de tracción."
+ },
+ {
+  "id": "r4q73",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "Objetivo 36 kN de precarga con llave dinamométrica (±25 %): ¿qué rango se espera?",
+  "options": [
+   "27 a 45 kN",
+   "34 a 38 kN",
+   "18 a 54 kN",
+   "35,6 a 36,4 kN"
+  ],
+  "answer": 0,
+  "explanation": "36 × 0,75 y 36 × 1,25."
+ },
+ {
+  "id": "r4q74",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "Objetivo 36 kN con galgas de deformación (±1 %):",
+  "options": [
+   "27 a 45 kN",
+   "35,6 a 36,4 kN",
+   "34 a 38 kN",
+   "18 a 54 kN"
+  ],
+  "answer": 1,
+  "explanation": "36 × 0,99 y 36 × 1,01."
+ },
+ {
+  "id": "r4q75",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "Primer paso para repartir una carga de corte excéntrica entre sujetadores:",
+  "options": [
+   "Duplicar el torque en todos los sujetadores",
+   "Cambiar el material del grupo completo",
+   "Hallar el centroide del grupo",
+   "Eliminar los sujetadores más cargados"
+  ],
+  "answer": 2,
+  "explanation": "Luego se suman vectorialmente la carga directa y la del momento."
+ },
+ {
+  "id": "r4q76",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "En corte y tracción simultáneos, se compara la carga con…",
+  "options": [
+   "Una sola carga",
+   "El peso del perno",
+   "La temperatura",
+   "Curvas de interacción"
+  ],
+  "answer": 3,
+  "explanation": "El texto traducido da R₁³ + R₂³ = 1 (verificar con la fuente)."
+ },
+ {
+  "id": "r4q77",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "Un resultado menor que 1 en la relación de interacción indica…",
+  "options": [
+   "Margen de seguridad positivo",
+   "Falla inmediata del sujetador",
+   "Error en la medición de las cargas",
+   "Fatiga por carga cíclica del perno"
+  ],
+  "answer": 0,
+  "explanation": "Según el documento traducido."
+ },
+ {
+  "id": "r4q78",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "¿Qué representa Fs en la fórmula de arrancamiento?",
+  "options": [
+   "El torque de instalación del perno",
+   "El esfuerzo cortante último del material más débil",
+   "La precarga inicial de la unión",
+   "El paso de la rosca del agujero"
+  ],
+  "answer": 1,
+  "explanation": "P = π·dm·L·Fs ÷ 3."
+ },
+ {
+  "id": "r4q79",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "¿Por qué no usar remaches en tracción?",
+  "options": [
+   "Son demasiado costosos en cargas de tracción",
+   "Pesan más que un perno equivalente",
+   "Su resistencia a la tracción es muy baja frente a su resistencia al corte",
+   "No existen en acero de alta resistencia"
+  ],
+  "answer": 2,
+  "explanation": "Tampoco en materiales gruesos."
+ },
+ {
+  "id": "r4q80",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "¿Por qué están prohibidos los remaches sólidos en compuestos?",
+  "options": [
+   "Pesan demasiado para la estructura",
+   "Se corroen en contacto con las fibras",
+   "No caben en agujeros de ese diámetro",
+   "Se expanden y pueden causar delaminación"
+  ],
+  "answer": 3,
+  "explanation": "Logran ajuste de interferencia."
+ },
+ {
+  "id": "r4q81",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "En la norma NAS 1003–1020, los dos últimos dígitos indican…",
+  "options": [
+   "El diámetro en dieciseisavos de pulgada",
+   "La longitud de agarre en milímetros",
+   "La clase de resistencia del perno",
+   "La temperatura máxima de servicio"
+  ],
+  "answer": 0,
+  "explanation": "El primer número tras el guion es la longitud de agarre."
+ },
+ {
+  "id": "r4q82",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 3,
+  "q": "Las cabezas y tuercas de corte (shear) tienen…",
+  "options": [
+   "El doble del espesor y más resistencia a tracción",
+   "La mitad del espesor y no deben usarse en tracción",
+   "Doble rosca y mayor torque de instalación",
+   "Solo ranura y torque de instalación duplicado"
+  ],
+  "answer": 1,
+  "explanation": "El torque de instalación debe reducirse a la mitad."
+ },
+ {
+  "id": "r4q83",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 2,
+  "q": "¿Qué fraude describe el manual con el grado 8.2?",
+  "options": [
+   "Pernos de grado 8 marcados como 8.2",
+   "Pernos de bronce",
+   "Pernos de grado 8.2 marcados como grado 8",
+   "Pernos sin marca"
+  ],
+  "answer": 2,
+  "explanation": "El 8.2 es un grado legítimo cuando se marca como 8.2."
+ },
+ {
+  "id": "r4q84",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿Qué acero es el del grado 8.2 falsificado?",
+  "options": [
+   "Medio carbono (0,37 % C)",
+   "Inoxidable",
+   "Bronce",
+   "Aleado al boro, bajo carbono"
+  ],
+  "answer": 3,
+  "explanation": "≈ 0,22 % c. El grado 8 real tiene 0,37 % de carbono."
+ },
+ {
+  "id": "r4q85",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿Qué distingue su comportamiento térmico?",
+  "options": [
+   "El 8.2 pierde resistencia sobre 500 °F",
+   "Son idénticos en todo el rango de temperatura",
+   "El 8 real falla a 300 °F",
+   "El 8.2 resiste más que el 8 sobre 500 °F"
+  ],
+  "answer": 0,
+  "explanation": "El 8 real llega a 800 °F. A temperatura ambiente ambos son idénticos."
+ },
+ {
+  "id": "r4q86",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿A temperatura ambiente cuál es la resistencia del 8.2 falsificado?",
+  "options": [
+   "La mitad de la del grado 8 real",
+   "Idéntica a la del grado 8 real",
+   "El doble de la del grado 8 real",
+   "Un tercio de la del grado 8 real"
+  ],
+  "answer": 1,
+  "explanation": "Por eso el fraude es difícil de notar."
+ },
+ {
+  "id": "r4q87",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿Cómo se detecta el cadmio imitado con zinc teñido?",
+  "options": [
+   "A simple vista por el color dorado",
+   "Con un imán de alta potencia",
+   "Con pruebas químicas de laboratorio",
+   "Pesando las piezas en una balanza"
+  ],
+  "answer": 2,
+  "explanation": "Es un riesgo crítico por la temperatura y la protección galvánica."
+ },
+ {
+  "id": "r4q88",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿Qué diferencia crítica hay entre el cadmio y el zinc teñido?",
+  "options": [
+   "Solo el color de la superficie",
+   "El peso total de cada sujetador",
+   "El diámetro nominal de la rosca",
+   "Temperatura de servicio y protección contra corrosión galvánica"
+  ],
+  "answer": 3,
+  "explanation": "Por eso el fraude es grave en aeroespacial."
+ },
+ {
+  "id": "r4q89",
+  "ruta": 4,
+  "cat": "r4f",
+  "level": 3,
+  "q": "¿Qué control reduce el riesgo de falsificación?",
+  "options": [
+   "Certificados de material y verificación en recepción",
+   "Mirar solo la marca de la cabeza",
+   "Aceptar cualquier lote con su factura",
+   "Medir únicamente el diámetro"
+  ],
+  "answer": 0,
+  "explanation": "Marcado y recubrimiento pueden imitarse."
+ },
+ {
+  "id": "r4q90",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "¿Qué factores exige considerar la selección de pernos, tuercas y remaches?",
+  "options": [
+   "Solo el precio y la disponibilidad",
+   "Temperatura, corrosión, vibración, fatiga y precarga inicial",
+   "Solo el color y el acabado",
+   "Solo el diámetro y la longitud"
+  ],
+  "answer": 1,
+  "explanation": "El manual advierte que es una labor compleja."
+ },
+ {
+  "id": "r4q91",
+  "ruta": 4,
+  "cat": "r4a",
+  "level": 1,
+  "q": "¿Para quién fue escrito el manual de diseño de la NASA?",
+  "options": [
+   "Para operarios de empaque",
+   "Para vendedores",
+   "Para ingenieros de diseño",
+   "Para pintores"
+  ],
+  "answer": 2,
+  "explanation": "Les permite elegir los sujetadores adecuados."
+ },
+ {
+  "id": "r4q92",
+  "ruta": 4,
+  "cat": "r4b",
+  "level": 1,
+  "q": "¿Cuál es un lubricante de rosca del manual?",
+  "options": [
+   "Agua con jabón neutro",
+   "Alcohol isopropílico",
+   "Arena fina de sílice",
+   "Disulfuro de molibdeno"
+  ],
+  "answer": 3,
+  "explanation": "También aceite, grasa, grafito y compuestos especiales."
+ },
+ {
+  "id": "r4q93",
+  "ruta": 4,
+  "cat": "r4c",
+  "level": 1,
+  "q": "¿Qué recubrimiento protege por sacrificio?",
+  "options": [
+   "Zinc",
+   "Plata",
+   "Óxido negro",
+   "Cromo"
+  ],
+  "answer": 0,
+  "explanation": "Migra a zonas descubiertas donde se rayó el recubrimiento."
+ },
+ {
+  "id": "r4q94",
+  "ruta": 4,
+  "cat": "r4d",
+  "level": 1,
+  "q": "Las clases de rosca externa van de…",
+  "options": [
+   "1B a 3B",
+   "1A a 3A",
+   "A a Z",
+   "1 a 10"
+  ],
+  "answer": 1,
+  "explanation": "Las internas van de 1B a 3B."
+ },
+ {
+  "id": "r4q95",
+  "ruta": 4,
+  "cat": "r4e",
+  "level": 1,
+  "q": "El remache es un sujetador…",
+  "options": [
+   "Reutilizable muchas veces sin cambio",
+   "Solo apto para cargas de tracción",
+   "Permanente, de bajo costo y más liviano",
+   "Fabricado en madera para aeronaves"
+  ],
+  "answer": 2,
+  "explanation": "Un perno. Muy usado en la industria aeronáutica."
  }
 ]

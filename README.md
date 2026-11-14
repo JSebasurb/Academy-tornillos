@@ -13,7 +13,11 @@ Organizada con **arquitectura medallón** y lista para **GitHub Pages**.
 
 `python tools/build.py` ejecuta bronze → silver → validación → gold → `docs/`.
 
-El banco de preguntas vive en `bronze/quiz_banco.txt` (formato `tema|nivel|pregunta|correcta|3 incorrectas|explicación`); silver reparte la posición de la correcta.
+La **Ruta 2 · Ingeniería de la unión roscada** (investigación externa) usa `bronze/quiz_ruta2.txt` y las claves `ruta2_*` de `content_raw.json`; sus tablas están en `tables_raw.json` (iso898, inox, kfac, eng, hid, tor).
+
+**Rutas 3 (SENA) y 4 (NASA)**: preguntas en `bronze/quiz_ruta3.txt` y `quiz_ruta4.txt`; lecciones y fichas en `content_raw.json` (`ruta3_*`, `ruta4_*`, `sena_items`); tablas nuevas en `tables_raw.json`. Ver `NOTICE.md` para licencias.
+
+El banco de preguntas de la Ruta 1 vive en `bronze/quiz_banco.txt` (formato `tema|nivel|pregunta|correcta|3 incorrectas|explicación`); silver reparte la posición de la correcta.
 
 Validaciones: filas con el mismo número de celdas que columnas; máx ≥ mín; calibres vs fórmula ANSI (d = 0,060 + 0,013·N″); jerarquía mayor > medio > menor en UNC/UNF; respuestas de retos dentro de rango; ids únicos. Si falla, el build termina con error y no se publica.
 
@@ -23,6 +27,12 @@ Validaciones: filas con el mismo número de celdas que columnas; máx ≥ mín; 
    (Alternativa sin Actions: Source = *Deploy from a branch*, carpeta `/docs`.)
 3. Rutas relativas: funciona en `usuario.github.io/repo/` sin cambios.
 
+Estilo visual: paleta CATO (rojo #D82518, negro, blanco), tarjetas de rutas con banner rojo, lecciones con cuadros numerados, pestañas subrayadas y cabecera con buscador (bloque `ui3` en `src/base.html`).
+
+Modo claro y oscuro: variables de tema en el bloque `theme` de `src/base.html` (`:root` oscuro y `html[data-theme="light"]`); el botón de la cabecera guarda la elección y, sin elección, sigue al sistema. `tools/theme_migrate.py` convirtió una sola vez los colores fijos heredados en variables.
+
+Íconos: `python tools/make_icons.py` regenera el SVG y los PNG (192, 512, 180, 32 y maskable) en `src/pwa/`.
+
 ## Estructura
 ```
 bronze/  silver/  gold/        capas medallón
@@ -31,7 +41,7 @@ src/js/taller.js               Taller CATO+: tablas, calculadoras, diagramas, re
 src/pwa/                       service worker, manifest, icono, 404
 tools/build.py                 pipeline
 docs/                          sitio generado (Pages)
-dist/Academia_Tornillo_standalone.html   un solo archivo, sin servidor
+
 ```
 ## Cómo añadir o corregir datos
 Edita `bronze/tables_raw.json` (o `content_raw.json`), ejecuta `python tools/build.py` y revisa `silver/validation_report.json`.

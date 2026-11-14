@@ -1,0 +1,338 @@
+[
+ {
+  "id": "rosca-trapezoidal",
+  "kind": "Rosca",
+  "name": "Trapezoidal",
+  "desc": "Transmisión de potencia y transformación de movimiento: husillo de torno, columnas elevadoras, compuertas y maquinaria de grandes esfuerzos.",
+  "source": "SENA"
+ },
+ {
+  "id": "rosca-triangular",
+  "kind": "Rosca",
+  "name": "Triangular",
+  "desc": "Filete triangular; es la más empleada en uniones mecánicas y se fabrica en diversos sistemas normalizados.",
+  "source": "SENA"
+ },
+ {
+  "id": "rosca-redonda",
+  "kind": "Rosca",
+  "name": "Redonda",
+  "desc": "Filete redondo para transmisión de potencia con fuerte desgaste o ambientes con polvo, y enroscado fácil (pitones de manguera, tapas, bombillos).",
+  "source": "SENA"
+ },
+ {
+  "id": "rosca-cuadrada",
+  "kind": "Rosca",
+  "name": "Cuadrada",
+  "desc": "Filete de sección cuadrada para mecanismos de potencia y transformación de movimiento, usual en prensas.",
+  "source": "SENA"
+ },
+ {
+  "id": "cabeza-hexagonal",
+  "kind": "Cabeza",
+  "name": "Hexagonal",
+  "desc": "Cabeza de seis caras, la más común en tornillos de apriete con llave.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-hexagonal-con-collarin-o-con-collar",
+  "kind": "Cabeza",
+  "name": "Hexagonal con collarín o con collar",
+  "desc": "Hexagonal con base ensanchada (collar) que reparte la carga; el collar puede ser biselado.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-bi-hexagonal",
+  "kind": "Cabeza",
+  "name": "Bi-hexagonal",
+  "desc": "Cabeza de doce puntas, apta para llaves de espacio reducido.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-de-martillo",
+  "kind": "Cabeza",
+  "name": "De martillo",
+  "desc": "Cabeza en forma de T que se aloja en una ranura de la pieza.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-cuadrada-y-cuadrada-con-collar",
+  "kind": "Cabeza",
+  "name": "Cuadrada y cuadrada con collar",
+  "desc": "Cabeza de cuatro caras, con o sin collar.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-cilindrica-cilindrica-abombada-y-abombada-baja",
+  "kind": "Cabeza",
+  "name": "Cilíndrica, cilíndrica abombada y abombada baja",
+  "desc": "Cabezas de lados rectos con tope plano, abombado o abombado bajo.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-avellanada-y-avellanada-abombada",
+  "kind": "Cabeza",
+  "name": "Avellanada y avellanada abombada",
+  "desc": "Cabezas cónicas que quedan a ras o con cúpula sobre la superficie.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "cabeza-redonda-y-abombada",
+  "kind": "Cabeza",
+  "name": "Redonda y abombada",
+  "desc": "Cabezas de cúpula.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "accionamiento-ranura",
+  "kind": "Accionamiento",
+  "name": "Ranura",
+  "desc": "Ranura recta para destornillador de pala.",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-hueco-cruciforme-tipo-philips",
+  "kind": "Accionamiento",
+  "name": "Hueco cruciforme tipo Philips",
+  "desc": "Hueco en cruz; se distingue del Pozidriv y no son intercambiables.",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-hueco-cruciforme-tipo-pozidriv",
+  "kind": "Accionamiento",
+  "name": "Hueco cruciforme tipo Pozidriv",
+  "desc": "Hueco en cruz con marcas adicionales a 45°.",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-combinada-o-mixta",
+  "kind": "Accionamiento",
+  "name": "Combinada o mixta",
+  "desc": "Ranura y cruz en la misma cabeza.",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-hexagonal-exterior-cuadrado-y-hueco-hexagonal",
+  "kind": "Accionamiento",
+  "name": "Hexagonal exterior, cuadrado y hueco hexagonal",
+  "desc": "Accionamientos para llave (exterior) o llave Allen (hueco).",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-bi-hexagonal-y-hueco-de-seis-canales-torx",
+  "kind": "Accionamiento",
+  "name": "Bi-hexagonal y hueco de seis canales (Torx)",
+  "desc": "Doce puntas y seis lóbulos para mayor torque.",
+  "source": "SENA"
+ },
+ {
+  "id": "accionamiento-mariposa-muletilla-y-moleteado-recto-o-cruzado",
+  "kind": "Accionamiento",
+  "name": "Mariposa, muletilla y moleteado (recto o cruzado)",
+  "desc": "Accionamientos para apretar con la mano.",
+  "source": "SENA"
+ },
+ {
+  "id": "vastago-normal-rosca-laminada-cana-calibrada-cana-de-apoyo-y-cuello-cuadrado",
+  "kind": "Vástago",
+  "name": "Normal, rosca laminada, caña calibrada, caña de apoyo y cuello cuadrado",
+  "desc": "El vástago sin rosca evita que el tornillo rosque en parte de las piezas; por ejemplo, permite que una polea gire libre.",
+  "source": "SENA"
+ },
+ {
+  "id": "extremo-plano-abombado-biselado-conico-troncoconico-y-biselado-hueco",
+  "kind": "Extremo",
+  "name": "Plano, abombado, biselado, cónico, troncocónico y biselado hueco",
+  "desc": "Según su forma el extremo sostiene, pina, ancla, desplaza o sella.",
+  "source": "SENA"
+ },
+ {
+  "id": "extremo-pivote-largo-abombado-troncoconico-autorroscante-y-seccion-tritubular",
+  "kind": "Extremo",
+  "name": "Pivote (largo, abombado, troncocónico), autorroscante y sección tritubular",
+  "desc": "Extremos funcionales del manual; el tritubular y el autorroscante forman su propia rosca.",
+  "source": "SENA (nombre) · General"
+ },
+ {
+  "id": "arandela-plana",
+  "kind": "Arandela",
+  "name": "Plana",
+  "desc": "La más común: facilita el giro de la cabeza o tuerca sobre la pieza y mejora el apriete evitando el encastre.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-dentada",
+  "kind": "Arandela",
+  "name": "Dentada",
+  "desc": "Mejora la fricción de la cabeza o tuerca y evita desaprietes por vibración.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-grower-o-guasa",
+  "kind": "Arandela",
+  "name": "Grower o guasa",
+  "desc": "Forma de hélice: ejerce presión extra entre las superficies y sube el coeficiente de fricción.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-ondulada",
+  "kind": "Arandela",
+  "name": "Ondulada",
+  "desc": "Para cargas axiales con pequeñas deflexiones y poco espacio radial, como rodamientos de bolas.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-conica-belleville",
+  "kind": "Arandela",
+  "name": "Cónica (Belleville)",
+  "desc": "Tronco-cónica y elástica: absorbe golpes y mantiene la tensión bajo cargas dinámicas.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-autosellante",
+  "kind": "Arandela",
+  "name": "Autosellante",
+  "desc": "Caucho unido a una arandela: sella agua, líquidos, polvo, aire y vapores a alta presión y amortigua ruido y vibración.",
+  "source": "SENA"
+ },
+ {
+  "id": "arandela-de-seguridad-tipo-arana",
+  "kind": "Arandela",
+  "name": "De seguridad tipo araña",
+  "desc": "Tiene pestañas laterales que se doblan contra la tuerca para bloquearla.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-hexagonal",
+  "kind": "Tuerca",
+  "name": "Hexagonal",
+  "desc": "Uso básico para apretar tornillos.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-autoblocante-de-nailon",
+  "kind": "Tuerca",
+  "name": "Autoblocante de nailon",
+  "desc": "Aro de nailon que bloquea el tornillo y evita el aflojamiento por vibración.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-con-arandela-de-seguridad-tipo-k-o-keps",
+  "kind": "Tuerca",
+  "name": "Con arandela de seguridad tipo K o keps",
+  "desc": "Tuerca hexagonal con arandela dentada que aumenta la fricción.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-almenada-de-castillo",
+  "kind": "Tuerca",
+  "name": "Almenada (de castillo)",
+  "desc": "Muescas radiales para un pasador de bloqueo; común en el anclaje de ejes de transmisión.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-tuerca-arandela-o-de-flanche",
+  "kind": "Tuerca",
+  "name": "Tuerca-arandela o de flanche",
+  "desc": "Evolución de la hexagonal con arandela fija estriada que impide el afloje.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-ranurada",
+  "kind": "Tuerca",
+  "name": "Ranurada",
+  "desc": "Se bloquea con una arandela tipo araña; solución de roscado muy segura.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-ciega",
+  "kind": "Tuerca",
+  "name": "Ciega",
+  "desc": "Un solo orificio de entrada; normalmente decorativa.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-cuadrada",
+  "kind": "Tuerca",
+  "name": "Cuadrada",
+  "desc": "De fabricación simple y económica.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-de-una",
+  "kind": "Tuerca",
+  "name": "De uña",
+  "desc": "Se clava con martillo; requiere un agujero para el tronco del tornillo.",
+  "source": "SENA"
+ },
+ {
+  "id": "tuerca-mariposa-y-moleteada",
+  "kind": "Tuerca",
+  "name": "Mariposa y moleteada",
+  "desc": "Para enroscar y aflojar a mano.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-cincado-en-caliente-galvanizado-por-inmersion",
+  "kind": "Acabado",
+  "name": "Cincado en caliente (galvanizado por inmersión)",
+  "desc": "Baño de zinc fundido, no electrolítico y blanquecino; mejor protección a la intemperie.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-cincado-electrolitico",
+  "kind": "Acabado",
+  "name": "Cincado electrolítico",
+  "desc": "Zinc blanco azulado con capa más uniforme, mejor control de espesor, durabilidad y adherencia.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-tropicalizado-galvanizado-azul-negro-y-verde-oliva",
+  "kind": "Acabado",
+  "name": "Tropicalizado, galvanizado azul, negro y verde oliva",
+  "desc": "Tras el cincado electrolítico, solución diluida de cromato (de potasio en el tropicalizado) para más resistencia a la corrosión; el cromato da el color.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-cadminizado-y-cadminizado-tropicalizado",
+  "kind": "Acabado",
+  "name": "Cadminizado y cadminizado tropicalizado",
+  "desc": "Plateado (amarillo si se tropicaliza). El cadmio al oxidarse no genera productos voluminosos, por lo que sirve en tolerancia cerrada.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-pavonado",
+  "kind": "Acabado",
+  "name": "Pavonado",
+  "desc": "Inmersión de la pieza caliente en aceite soluble, o pavonado químico; da buena apariencia.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-latonado-y-niquelado",
+  "kind": "Acabado",
+  "name": "Latonado y niquelado",
+  "desc": "Aspecto metálico brillante; decorativos, protegen de la corrosión y sirven de capa inicial para otros acabados.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-cobrizado",
+  "kind": "Acabado",
+  "name": "Cobrizado",
+  "desc": "Cobre electrolítico sobre acero, latón, cobre o zamak: más resistencia al desgaste y oxidación.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-fosfatado",
+  "kind": "Acabado",
+  "name": "Fosfatado",
+  "desc": "Capa protectora por inmersión en solución de ácido fosfórico.",
+  "source": "SENA"
+ },
+ {
+  "id": "acabado-xylan",
+  "kind": "Acabado",
+  "name": "Xylan",
+  "desc": "Revestimiento de poliuretanos modificados con alta resistencia a la corrosión, menor roce y mejor lubricación; formulado para pernos y sujetadores.",
+  "source": "SENA"
+ }
+]

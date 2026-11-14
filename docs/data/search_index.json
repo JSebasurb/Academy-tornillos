@@ -102,6 +102,102 @@
   "text": "Procedimiento operativo: millares del lote → registros a tomar y número de idas (5 registros por ida). Confirmar con calidad."
  },
  {
+  "type": "tabla",
+  "id": "iso898",
+  "title": "ISO 898-1 · Clases de resistencia métricas",
+  "text": "MPa. Rm nominal = primer número × 100; límite elástico nominal = primer × segundo × 10. Sp = tensión de carga de prueba. En 8.8 se muestran valores d ≤ 16 / d > 16 mm. Fuente externa (ISO 898-1 vía tablas técnicas); verificar con la norma vigente."
+ },
+ {
+  "type": "tabla",
+  "id": "inox",
+  "title": "ISO 3506-1 · Inoxidables A2 y A4",
+  "text": "Clase = resistencia mínima a tracción ÷ 100 (A4-80 → 800 MPa). A2 ≈ 304; A4 ≈ 316 (con molibdeno). Fuente externa."
+ },
+ {
+  "type": "tabla",
+  "id": "kfac",
+  "title": "Factor K (factor de tuerca) · orientativo",
+  "text": "T = K·D·F. K reúne fricción de rosca y bajo cabeza; varía con lubricación, recubrimiento y arandela. Fuente externa (tablas de torque-tensión)."
+ },
+ {
+  "type": "tabla",
+  "id": "eng",
+  "title": "Enganche mínimo de rosca (guía general)",
+  "text": "Longitud mínima para que falle el tornillo antes de barrerse la rosca hembra. Si el material hembra es más débil, aumentar. Fuente externa."
+ },
+ {
+  "type": "tabla",
+  "id": "hid",
+  "title": "Recubrimientos y fragilización por hidrógeno",
+  "text": "Riesgo en aceros de dureza alta (> 39 HRC según ASTM F1941; ISO 4042 exige precaución desde 320 HV). Fuente externa."
+ },
+ {
+  "type": "tabla",
+  "id": "tor",
+  "title": "Torque orientativo al 75 % de la carga de prueba",
+  "text": "N·m calculados con T = K·D·F, F = 0,75·Sp·As. Columnas: 8.8 y 10.9 con K = 0,15 y 0,20. Indicativo: no sustituye la especificación del cliente."
+ },
+ {
+  "type": "tabla",
+  "id": "sae",
+  "title": "Grados SAE · resistencia mínima (ksi)",
+  "text": "ksi (1 ksi ≈ 6,895 MPa). Grados 1 a 8.2 para tornillos pulgada. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "clsmet",
+  "title": "Clases métricas · resistencia mínima (MPa)",
+  "text": "Prueba, elástica y tracción mínimas. La clase 8.8 se encuentra en la tabla ISO 898-1. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "ajuste",
+  "title": "Clases de ajuste de rosca",
+  "text": "A = rosca exterior (tornillo), B = interior (tuerca). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "metpaso",
+  "title": "Rosca métrica gruesa · paso y broca de machuelo",
+  "text": "Paso y diámetro de broca en mm. Regla práctica: broca ≈ diámetro − paso. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "uncb",
+  "title": "Rosca UNC (ordinaria) · hilos y broca",
+  "text": "Hilos por pulgada, diámetro nominal y broca de machuelo (mm). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "unfb",
+  "title": "Rosca UNF (fina) · hilos y broca",
+  "text": "Hilos por pulgada, diámetro nominal y broca de machuelo (mm). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0)."
+ },
+ {
+  "type": "tabla",
+  "id": "nasamat",
+  "title": "NASA · Materiales de sujeción",
+  "text": "Temperatura de diseño y resistencia última a temperatura ambiente. °C y MPa convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada."
+ },
+ {
+  "type": "tabla",
+  "id": "nasarec",
+  "title": "NASA · Recubrimientos: límite útil de temperatura",
+  "text": "Límite útil de diseño. °C convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada."
+ },
+ {
+  "type": "tabla",
+  "id": "nasalub",
+  "title": "NASA · Lubricantes de rosca",
+  "text": "Límite útil de temperatura. °C convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada."
+ },
+ {
+  "type": "tabla",
+  "id": "nasaprec",
+  "title": "NASA · Precisión de la precarga según el método",
+  "text": "Precisión alcanzable y costo relativo (tacto = 1). Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada."
+ },
+ {
   "type": "cabeza",
   "id": "plana-avellana",
   "title": "Plana / Avellana",

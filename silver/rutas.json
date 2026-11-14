@@ -1,0 +1,32 @@
+{
+ "2": {
+  "title": "Ruta 2 · Ingeniería de la unión roscada",
+  "intro": "Investigación externa (ISO/ASTM/SAE y guías técnicas) complementaria al catálogo CATO.",
+  "levels": [
+   "",
+   "Fundamentos",
+   "Especialista",
+   "Maestro"
+  ]
+ },
+ "3": {
+  "title": "Ruta 3 · Identificación y especificación de roscas y tornillos",
+  "intro": "Basada en el Manual de bolsillo SENA Tecnoparque Rionegro (2019, CC BY-NC-SA 4.0). Aprende a identificar un tornillo por rosca, cabeza, accionamiento, resistencia y acabado.",
+  "levels": [
+   "",
+   "Identificador",
+   "Técnico",
+   "Experto"
+  ]
+ },
+ "4": {
+  "title": "Ruta 4 · Diseño de uniones y confiabilidad (NASA RP-1228)",
+  "intro": "Basada en el Fastener Design Manual de la NASA (Barrett, 1990), con la errata de 2008 sobre desgasificación. Materiales, recubrimientos, corrosión, retención, fatiga, torque y falsificaciones.",
+  "levels": [
+   "",
+   "Diseñador",
+   "Ingeniero",
+   "Auditor"
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+# Ruta 2 · Ingeniería de la unión roscada  (cat|nivel|pregunta|correcta|3 incorrectas|explicación)
+r2a|1|En una clase 8.8, el primer número indica…|La resistencia a tracción nominal ÷ 100|El límite elástico en MPa|La dureza Rockwell|El diámetro en mm|800 mpa. ISO 898-1: primer número × 100 = Rm nominal en MPa.
+r2a|1|En una clase 8.8, el segundo número indica…|La relación entre límite elástico y resistencia|La longitud del tornillo|El paso de rosca|El espesor del recubrimiento|0,8. Límite elástico nominal = 8 × 8 × 10 = 640 MPa.
+r2a|1|¿Cuál es la resistencia a tracción nominal de un tornillo 10.9?|1000 MPa|900 MPa|1090 MPa|1200 MPa|10 × 100 = 1000 MPa.
+r2a|1|¿Cuál es la resistencia nominal de un 12.9?|1200 MPa|1290 MPa|900 MPa|1000 MPa|12 × 100 = 1200 MPa.
+r2a|1|¿Cuál de estas clases es la más resistente?|12.9|8.8|5.8|4.6|Mayor primer número, mayor resistencia nominal.
+r2a|1|¿Qué suele ir marcado en la cabeza de un tornillo métrico de alta resistencia?|La clase y la marca del fabricante|Solo el diámetro|El número de lote del cliente|La fecha de fabricación|P. ej. 8.8. Da trazabilidad y permite verificar la clase en obra.
+r2a|1|La tuerca de un tornillo debe tener…|Carga de prueba igual o mayor|Menor carga de prueba para no dañarlo|Cualquier clase|Solo mayor dureza superficial|La del tornillo. Si la tuerca es más débil, la rosca se barre antes de la precarga.
+r2a|2|¿Qué límite elástico nominal tiene un tornillo 8.8?|640 MPa|800 MPa|580 MPa|940 MPa|0,8 × 800 = 640 MPa.
+r2a|2|¿Qué límite elástico nominal corresponde a un 10.9?|900 MPa|1000 MPa|830 MPa|1100 MPa|0,9 × 1000 = 900 MPa; la norma exige mínimo 940 MPa.
+r2a|2|¿Cuál es la tensión de carga de prueba de un 10.9?|830 MPa|580 MPa|970 MPa|1040 MPa|En 12.9 es 970 MPa y en 8.8 (d ≤ 16 mm) 580 MPa.
+r2a|2|¿Cuál es la tensión de carga de prueba de un 12.9?|970 MPa|830 MPa|1100 MPa|1220 MPa|1100 MPa es el límite elástico mínimo del 12.9.
+r2a|2|¿Cuál es la carga de prueba (Sp) de un 8.8 con d ≤ 16 mm?|580 MPa|600 MPa|640 MPa|800 MPa|Para d > 16 mm sube a 600 MPa.
+r2a|2|¿Cuál es la resistencia mínima a tracción de un 10.9?|1040 MPa|1000 MPa|940 MPa|830 MPa|1000 MPa es el valor nominal.
+r2a|2|¿Qué indica A4 en un tornillo inoxidable A4-80?|Acero ≈ 316 con molibdeno|Acero ≈ 304 sin níquel|Acero al carbono cincado|Acero de herramientas|A2 ≈ 304 y A4 ≈ 316.
+r2a|2|¿Qué resistencia mínima tiene un A2-70?|700 MPa|450 MPa|800 MPa|500 MPa|450 MPa es su límite elástico mínimo.
+r2a|2|¿Qué es el galling en tornillos inoxidables?|Soldadura en frío por fricción entre roscas|Corrosión por picadura|Rotura por fatiga|Aflojamiento por vibración|Se previene con antigripante y apriete lento.
+r2a|3|El 10.9 es aproximadamente cuánto más resistente a tracción que el 8.8?|30 % más|5 % más|60 % más|El doble|1040 ÷ 800 = 1,30.
+r2a|3|¿Cuál es más resistente: un A2-70 o un A4-80?|A4-80, por su clase 80|A2-70, por contener menos níquel|Son iguales|A2-70, por ser 304|La resistencia depende de la clase, no de A2 o A4.
+r2a|3|¿Qué es la carga de prueba de un tornillo?|La carga que resiste sin deformación permanente|La carga de rotura|La carga de fatiga|La carga máxima de servicio|Es la base para calcular la precarga.
+r2a|3|¿Por qué los 12.9 exigen más cuidado bajo choque?|Son menos dúctiles|Se oxidan más rápido|Tienen menor resistencia|No admiten torque|Clases menores. La alta resistencia suele reducir la ductilidad.
+r2b|1|¿Qué fórmula relaciona torque, fricción, diámetro y precarga?|T = K · D · F|T = F ÷ (K · D)|T = K ÷ (D · F)|T = K + D + F|K es el factor de fricción (de tuerca).
+r2b|1|¿Qué es K en T = K · D · F?|El factor de fricción de rosca y bajo cabeza|El diámetro del tornillo|La precarga|El paso de rosca|Depende de lubricación, recubrimiento y arandelas.
+r2b|1|Si lubricas las roscas y mantienes el mismo torque, la precarga…|Aumenta|Disminuye|Queda igual|Se anula|Al bajar K, el mismo torque produce más tensión.
+r2b|1|¿Qué precarga se usa típicamente en el montaje?|75 % de la carga de prueba|10 % de la carga de prueba|120 % de la carga de prueba|La resistencia de rotura|Es el criterio de las tablas de torque-tensión.
+r2b|1|El torque es una medida…|Indirecta de la tensión del tornillo|Directa de la precarga|De la dureza|De la longitud de rosca|Por eso se vigila K y se pueden hacer ensayos con celda de carga.
+r2b|2|¿Cómo se reparte el torque de apriete aproximadamente?|50 % bajo cabeza, 40 % en rosca, 10 % estira el tornillo|10 % bajo cabeza, 40 % en rosca, 50 % estira|33 % cada uno|90 % estira el tornillo|La mayor parte se pierde en fricción.
+r2b|2|¿Qué valor típico de K tiene el acero sin recubrir y seco?|0,20 – 0,25|0,05|0,50|0,90|El lubricado ronda 0,15.
+r2b|2|¿Qué valor de K se toma en condiciones lubricadas en las tablas de torque?|0,15|0,30|0,05|0,45|Con PTFE o cera baja a ≈ 0,12.
+r2b|2|Un acabado rugoso y seco, con el mismo torque, da…|Menos precarga|Más precarga|La misma precarga|Precarga negativa|Sube K y la fricción consume más torque.
+r2b|2|¿Cuál es el área de esfuerzo aproximada de un M10×1,5?|58 mm²|78,5 mm²|36,6 mm²|84 mm²|As = π/4·(d − 0,9382·P)².
+r2b|2|¿Cuál es la carga de prueba aproximada de un M10 clase 10.9?|48 kN|34 kN|56 kN|84 kN|830 MPa × 58 mm² ≈ 48,1 kN.
+r2b|2|¿Y la precarga al 75 % de la prueba en ese M10 10.9?|36 kN|48 kN|25 kN|58 kN|0,75 × 48,1 ≈ 36,1 kN.
+r2b|3|Torque de un M10 10.9 con K = 0,20 y precarga del 75 %:|72 N·m|54 N·m|36 N·m|120 N·m|0,20 × 0,010 m × 36 100 N ≈ 72 N·m.
+r2b|3|Torque de ese mismo M10 10.9 con K = 0,15:|54 N·m|72 N·m|38 N·m|90 N·m|0,15 × 0,010 × 36 100 ≈ 54 N·m.
+r2b|3|Torque de un M8 10.9 con K = 0,20 al 75 %:|36 N·m|25 N·m|54 N·m|72 N·m|En 8.8 con K = 0,20 son ≈ 25 N·m.
+r2b|3|Torque de un M12 10.9 con K = 0,20 al 75 %:|126 N·m|94 N·m|72 N·m|312 N·m|Con K = 0,15 serían ≈ 94 N·m.
+r2b|3|¿Cuál es el área de esfuerzo aproximada de un M8×1,25?|36,6 mm²|58 mm²|20,1 mm²|50,3 mm²|π/4·(8 − 0,9382·1,25)² ≈ 36,6 mm².
+r2b|3|Si pasas de K = 0,20 a K = 0,15 sin cambiar el torque, la precarga sube aproximadamente…|33 %|5 %|10 %|75 %|0,20 ÷ 0,15 = 1,33.
+r2b|3|Para conservar la misma precarga al pasar de K = 0,20 a 0,15, el torque debe…|Bajar ≈ 25 %|Subir ≈ 25 %|Quedar igual|Duplicarse|T es proporcional a K: 0,15 ÷ 0,20 = 0,75.
+r2b|3|Las tablas de torque solo se cumplen si la tuerca o el agujero roscado…|Tienen carga de prueba ≥ a la resistencia del tornillo|Son de mayor dureza superficial|Están lubricados con aceite|Tienen rosca fina|Si no, la rosca hembra se barre antes de alcanzar la precarga.
+r2c|1|¿Cómo protege el zinc al acero?|Por sacrificio, corroyéndose antes|Aislándolo con una capa de aceite|Elevando su dureza|Aumentando su conductividad|El acero. Actúa como ánodo de sacrificio.
+r2c|2|¿Qué es la fragilización por hidrógeno?|Pérdida de ductilidad por hidrógeno atómico bajo tracción|Corrosión por picadura|Fatiga por vibración|Fluencia a alta temperatura|Produce fractura frágil retardada.
+r2c|2|¿Qué tornillos son más susceptibles a la fragilización por hidrógeno?|Los de dureza alta|Los de baja dureza|Los de acero inoxidable austenítico|Los de latón|Clases 10.9 y 12.9. El riesgo crece con la resistencia.
+r2c|2|¿Desde qué dureza considera susceptibles los tornillos ASTM F1941?|39 HRC|20 HRC|60 HRC|10 HRC|Equivale a unos 390 HV.
+r2c|2|¿El horneado después del baño elimina por completo el riesgo?|No, solo lo reduce|Sí, siempre|Solo en acero inoxidable|Solo en roscas finas|ISO 4042 indica que no se puede garantizar la eliminación completa.
+r2c|2|¿Qué recubrimientos no generan hidrógeno?|Zinc laminar y zinc mecánico|Zincado electrolítico y niquelado|Cobrizado y latonado|Fosfatado y zincado negro|Son alternativas para 10.9 y 12.9.
+r2c|2|¿Qué sistema suele ofrecer más resistencia a la corrosión?|Zinc-níquel o zinc laminar|Zincado claro|Fosfatado sin aceite|Cobrizado|Pueden superar cientos o más de mil horas en niebla salina.
+r2c|2|¿Qué mide la niebla salina (ISO 9227)?|La resistencia relativa de un recubrimiento en condiciones aceleradas|La vida útil real en servicio|La dureza del tornillo|El espesor del recubrimiento|No hay correlación directa con la vida real.
+r2c|3|¿A qué temperatura se hornea un tornillo cincado de alta resistencia?|Entre 190 y 220 °C|Entre 40 y 60 °C|Entre 400 y 500 °C|Entre 600 y 700 °C|Y debe comenzar lo antes posible, máximo 4 h después del baño.
+r2c|3|Un 12.9 en ambiente corrosivo: ¿qué recubrimiento conviene?|Zinc laminar o zinc mecánico|Electrocincado sin hornear|Cobrizado|Ninguno|Evitas el riesgo de hidrógeno.
+r2c|3|Un cliente exige 240 h a óxido rojo. ¿Qué es correcto?|Es una exigencia de laboratorio: debe definirse por escrito junto con el espesor|Garantiza 10 años de vida|Solo importa el óxido blanco|Se cumple con cualquier cincado|Las horas de niebla salina son comparativas, no predictivas.
+r2c|3|¿Qué pasivación se usa hoy en lugar del cromo hexavalente?|Trivalente|Pentavalente|Fosfato de hierro|Ninguna|Las pasivaciones hexavalentes están restringidas en la mayoría de aplicaciones.
+r2d|1|¿Qué es un tornillo autoperforante?|Uno con punta de broca que perfora y rosca sin pre-taladro|Uno sin rosca|Uno solo para madera|Uno que se suelda|Se usa en techos, ductos y perfilería metálica.
+r2d|1|¿Qué indica el número de punta (1 a 5) en un autoperforante?|La capacidad de perforación: mayor número|El diámetro de la rosca|El torque máximo|La clase de resistencia|Más espesor. La punta es más larga cuanto mayor es el número.
+r2d|2|La capacidad de perforación debe cubrir…|El espesor total de las láminas|Solo la lámina superior|Solo el diámetro de la cabeza|La longitud del tornillo|Incluidos los espacios. Si no, la rosca engancha antes de terminar de perforar.
+r2d|2|¿Qué normas se citan para tornillos autoperforantes?|SAE J78 y ASTM C1513|ISO 898-1 solamente|DIN 7970 solamente|ANSI B18.6.1 solamente|C1513 cubre tornillos de acero para perfilería conformada en frío.
+r2d|2|¿Qué hace un tornillo que forma rosca?|Compacta el material sin generar viruta|Corta y retira material|Solo perfora|Solo suelda|Los tornillos de corte tienen ranura y filos.
+r2d|3|En materiales frágiles, ¿qué rosca se prefiere?|Cortada, para evitar grietas|Formada a alta presión|Siempre formada|Ninguna|La rosca cortada genera menos tensiones internas.
+r2d|3|Las puntas #4 y #5…|No sustituyen pernos estructurales|Se usan como pernos de anclaje|Solo perforan madera|No tienen rosca|Son para mayores espesores, pero no son estructurales.
+r2e|1|¿Qué enganche mínimo de rosca se recomienda en acero?|1 × d|0,25 × d|3 × d|5 × d|Para que el tornillo falle antes que la rosca.
+r2e|1|¿Y en aluminio?|2 × d|0,5 × d|1 × d|0,25 × d|El aluminio tiene menor resistencia al corte.
+r2e|2|¿Y en fundición?|1,5 × d|0,5 × d|3 × d|0,25 × d|Plásticos: 2 a 2,5 × d.
+r2e|2|¿Cuál es la causa principal del aflojamiento de una unión?|La pérdida de precarga|El exceso de lubricante|El color del recubrimiento|La clase de la tuerca|Puede ser por giro (autoaflojamiento) o por asentamiento y relajación.
+r2e|2|¿Qué mide el ensayo Junker?|El aflojamiento bajo vibración transversal|La dureza|La niebla salina|El torque de ruptura|Se normaliza en DIN 65151 e ISO 16130.
+r2e|2|¿Qué protección ofrecen las arandelas planas o de presión simples?|Poca o ninguna frente a vibración|La mejor|Igual que un adhesivo|Más que una tuerca de torque|Las de cuña y las tuercas de torque predominante funcionan mejor.
+r2e|2|¿Cómo evita el aflojamiento una arandela de cuña?|Con ángulo de leva mayor que el paso|Aumentando el diámetro|Reduciendo el espesor|Con un recubrimiento negro|Que mantiene la tensión. Se usan en pares.
+r2e|3|Los causantes del aflojamiento no rotacional son…|Asentamiento, relajación y fluencia|Solo el viento|El exceso de zinc|La clase de la tuerca|No hay giro relativo entre tuerca y tornillo.
+r2e|3|¿Qué ocurre con un torque insuficiente?|Micromovimientos que dan asentamiento y pérdida de precarga|Mayor resistencia a la fatiga|Menor fricción|Mayor dureza|El efecto se propaga en cascada.
+r2e|3|¿Compensa un antiaflojante un tornillo mal apretado?|No|Sí, siempre|Solo si es de acero inoxidable|Solo con arandela plana|Hay que torquear al 100 % de la precarga especificada.
+r2e|3|Si el material hembra es más débil que el tornillo, el enganche debe…|Aumentarse|Reducirse|Mantenerse igual|Eliminarse|Así falla el tornillo antes que la rosca.
+r2e|3|¿Qué rosca da más área de corte por unidad de longitud?|La fina|La gruesa|Ninguna|La cónica|Por eso puede equivaler a un enganche algo menor.
+r2e|3|Un M8 en aluminio: ¿cuántos mm de enganche mínimos?|16 mm|8 mm|4 mm|24 mm|2 × 8 mm.

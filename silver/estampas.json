@@ -1,0 +1,66 @@
+[
+ {
+  "id": "ranura-pala",
+  "name": "Ranura (pala)",
+  "d": "M8 20H32",
+  "desc": "Ranura recta para destornillador de pala; el catálogo da su ancho J y profundidad T.",
+  "uso": "Cabezas ranuradas de todos los tipos.",
+  "source": "Catálogo"
+ },
+ {
+  "id": "phillips-cruz",
+  "name": "Phillips (cruz)",
+  "d": "M20 8V32M8 20H32",
+  "desc": "Estampa en cruz con M diámetro, S profundidad y N ancho; destornillador N° 0 a 4 según el calibre.",
+  "uso": "Cilíndrica, plana, oval, redonda, lenteja y binding.",
+  "source": "Catálogo"
+ },
+ {
+  "id": "combinada",
+  "name": "Combinada",
+  "d": "M20 8V32M8 20H32M6 20H34",
+  "desc": "Ranura de pala y estampa Phillips en la misma cabeza: admite ambos destornilladores.",
+  "uso": "Cilíndrica y binding.",
+  "source": "Catálogo"
+ },
+ {
+  "id": "pozidriv-z",
+  "name": "Pozidriv (Z)",
+  "d": "M20 8V32M8 20H32M12 12L28 28M28 12L12 28",
+  "desc": "Cruz con marcas adicionales a 45° que mejoran el agarre. No debe accionarse con un Phillips.",
+  "uso": "Carpintería y ensambles; el catálogo menciona la estría Z en aglomerado.",
+  "source": "General"
+ },
+ {
+  "id": "torx-hexalobular",
+  "name": "Torx (hexalobular)",
+  "d": "M20.0 9.0 L23.6 13.8 L29.5 14.5 L27.2 20.0 L29.5 25.5 L23.6 26.2 L20.0 31.0 L16.4 26.2 L10.5 25.5 L12.8 20.0 L10.5 14.5 L16.4 13.8Z",
+  "desc": "Seis lóbulos redondeados: transmite más torque con menor riesgo de que la punta se salga. Se designa T10, T15, T20, T25, T30…",
+  "uso": "Tornillos especiales y ensambles en serie.",
+  "source": "General"
+ },
+ {
+  "id": "torx-con-pin-seguridad",
+  "name": "Torx con pin (seguridad)",
+  "d": "M20.0 9.0 L23.6 13.8 L29.5 14.5 L27.2 20.0 L29.5 25.5 L23.6 26.2 L20.0 31.0 L16.4 26.2 L10.5 25.5 L12.8 20.0 L10.5 14.5 L16.4 13.8Z M18 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0",
+  "desc": "Estampa de seis lóbulos con un pin central: resiste manipulación no autorizada. Aparece en la foto de tornillos especiales del catálogo.",
+  "uso": "Equipos expuestos y antivandálicos.",
+  "source": "General"
+ },
+ {
+  "id": "hexagono-interior-allen",
+  "name": "Hexágono interior (Allen)",
+  "d": "M30.0 20.0 L25.0 28.7 L15.0 28.7 L10.0 20.0 L15.0 11.3 L25.0 11.3Z",
+  "desc": "Alojamiento hexagonal para llave Allen. En un M6 (ISO 4762) se usa llave de 5 mm; en M8, de 6 mm.",
+  "uso": "Cabezas cilíndricas Allen y botón.",
+  "source": "General"
+ },
+ {
+  "id": "cuadrada-robertson",
+  "name": "Cuadrada (Robertson)",
+  "d": "M13 13H27V27H13Z",
+  "desc": "Alojamiento cuadrado con buen agarre y poco deslizamiento.",
+  "uso": "Construcción y carpintería.",
+  "source": "General"
+ }
+]

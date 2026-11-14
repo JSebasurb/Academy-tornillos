@@ -1,0 +1,9 @@
+﻿Material;Tratamiento;Temperatura de diseño;Resistencia última;Comentario
+Acero al carbono;Zincado;-65 a 250 °F (-54 a 121 °C);≥ 55 ksi (379 MPa);Más económico y común
+Acero aleado;Cadmiado, niquelado, zincado o cromado;−65 °F hasta el límite del recubrimiento;Hasta 300 ksi (2068 MPa);Algunos se usan a 900 °F (482 °C)
+Inoxidable A-286;Pasivado (MIL-S-5002);-423 a 1200 °F (-253 a 649 °C);Hasta 220 ksi (1517 MPa);"Mejor opción aeroespacial; no susceptible a corrosión por esfuerzo"
+Inoxidable 17-4PH;Ninguno;-300 a 600 °F (-184 a 316 °C);Hasta 220 ksi (1517 MPa);—
+Inoxidable 17-7PH;Pasivado;-200 a 600 °F (-129 a 316 °C);Hasta 220 ksi (1517 MPa);—
+Inoxidable serie 300;Oxidado en horno;-423 a 800 °F (-253 a 427 °C);70 a 140 ksi (483 a 965 MPa);La oxidación reduce el galling
+Inoxidable 410, 416, 430;Pasivado;-250 a 1200 °F (-157 a 649 °C);Hasta 180 ksi (1241 MPa);Se corroerá ligeramente
+Titanio;Ninguno;-350 a 500 °F (-212 a 260 °C);Hasta 160 ksi (1103 MPa);Uso aeroespacial

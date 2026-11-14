@@ -1488,5 +1488,1230 @@
     "5"
    ]
   ]
+ },
+ {
+  "id": "iso898",
+  "title": "ISO 898-1 · Clases de resistencia métricas",
+  "note": "MPa. Rm nominal = primer número × 100; límite elástico nominal = primer × segundo × 10. Sp = tensión de carga de prueba. En 8.8 se muestran valores d ≤ 16 / d > 16 mm. Fuente externa (ISO 898-1 vía tablas técnicas); verificar con la norma vigente.",
+  "columns": [
+   {
+    "name": "Clase",
+    "numeric": true
+   },
+   {
+    "name": "Rm nominal",
+    "numeric": true
+   },
+   {
+    "name": "Rm mín",
+    "numeric": false
+   },
+   {
+    "name": "Rp0,2 mín",
+    "numeric": false
+   },
+   {
+    "name": "Sp prueba",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "4.6",
+    "400",
+    "—",
+    "—",
+    "225"
+   ],
+   [
+    "5.8",
+    "500",
+    "—",
+    "—",
+    "380"
+   ],
+   [
+    "8.8",
+    "800",
+    "800 / 830",
+    "640 / 660",
+    "580 / 600"
+   ],
+   [
+    "10.9",
+    "1000",
+    "1040",
+    "940",
+    "830"
+   ],
+   [
+    "12.9",
+    "1200",
+    "1220",
+    "1100",
+    "970"
+   ]
+  ]
+ },
+ {
+  "id": "inox",
+  "title": "ISO 3506-1 · Inoxidables A2 y A4",
+  "note": "Clase = resistencia mínima a tracción ÷ 100 (A4-80 → 800 MPa). A2 ≈ 304; A4 ≈ 316 (con molibdeno). Fuente externa.",
+  "columns": [
+   {
+    "name": "Clase",
+    "numeric": false
+   },
+   {
+    "name": "Acero ≈",
+    "numeric": false
+   },
+   {
+    "name": "Rm mín",
+    "numeric": true
+   },
+   {
+    "name": "Rp0,2 mín",
+    "numeric": true
+   },
+   {
+    "name": "Uso típico",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "A2-50",
+    "304 recocido",
+    "500",
+    "210",
+    "Cargas bajas"
+   ],
+   [
+    "A2-70",
+    "304",
+    "700",
+    "450",
+    "General, interior o exterior leve"
+   ],
+   [
+    "A2-80",
+    "304",
+    "800",
+    "600",
+    "Mayor carga"
+   ],
+   [
+    "A4-70",
+    "316 (con Mo)",
+    "700",
+    "450",
+    "Marino, costero, químico"
+   ],
+   [
+    "A4-80",
+    "316 (con Mo)",
+    "800",
+    "600",
+    "Marino de alta resistencia"
+   ]
+  ]
+ },
+ {
+  "id": "kfac",
+  "title": "Factor K (factor de tuerca) · orientativo",
+  "note": "T = K·D·F. K reúne fricción de rosca y bajo cabeza; varía con lubricación, recubrimiento y arandela. Fuente externa (tablas de torque-tensión).",
+  "columns": [
+   {
+    "name": "Condición",
+    "numeric": false
+   },
+   {
+    "name": "K típico",
+    "numeric": false
+   },
+   {
+    "name": "Nota",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "PTFE o cera",
+    "0.12",
+    "Fricción muy baja"
+   ],
+   [
+    "Lubricado (aceite)",
+    "0.15",
+    "Referencia de tablas de torque"
+   ],
+   [
+    "Cincado, seco",
+    "0.17–0.20",
+    "Depende del proveedor"
+   ],
+   [
+    "Acero sin recubrir, seco",
+    "0.20–0.25",
+    "Alta dispersión"
+   ]
+  ]
+ },
+ {
+  "id": "eng",
+  "title": "Enganche mínimo de rosca (guía general)",
+  "note": "Longitud mínima para que falle el tornillo antes de barrerse la rosca hembra. Si el material hembra es más débil, aumentar. Fuente externa.",
+  "columns": [
+   {
+    "name": "Material de la rosca hembra",
+    "numeric": false
+   },
+   {
+    "name": "Enganche mínimo",
+    "numeric": false
+   },
+   {
+    "name": "Ejemplo M10",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Acero",
+    "1,0 × d",
+    "10 mm"
+   ],
+   [
+    "Fundición",
+    "1,5 × d",
+    "15 mm"
+   ],
+   [
+    "Aluminio o zinc",
+    "2,0 × d",
+    "20 mm"
+   ],
+   [
+    "Plástico",
+    "2,0–2,5 × d",
+    "20–25 mm"
+   ]
+  ]
+ },
+ {
+  "id": "hid",
+  "title": "Recubrimientos y fragilización por hidrógeno",
+  "note": "Riesgo en aceros de dureza alta (> 39 HRC según ASTM F1941; ISO 4042 exige precaución desde 320 HV). Fuente externa.",
+  "columns": [
+   {
+    "name": "Recubrimiento",
+    "numeric": false
+   },
+   {
+    "name": "¿Riesgo de hidrógeno?",
+    "numeric": false
+   },
+   {
+    "name": "Comentario",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Zincado electrolítico",
+    "Sí",
+    "Hornear tras el baño; evitar en > 39 HRC"
+   ],
+   [
+    "Zinc-níquel",
+    "Sí, menor",
+    "Un proveedor no lo recomienda en 12.9 ni cementados"
+   ],
+   [
+    "Zinc laminar (flake)",
+    "No",
+    "Alternativa para 10.9 y 12.9"
+   ],
+   [
+    "Zinc mecánico",
+    "No",
+    "Piezas sensibles"
+   ]
+  ]
+ },
+ {
+  "id": "tor",
+  "title": "Torque orientativo al 75 % de la carga de prueba",
+  "note": "N·m calculados con T = K·D·F, F = 0,75·Sp·As. Columnas: 8.8 y 10.9 con K = 0,15 y 0,20. Indicativo: no sustituye la especificación del cliente.",
+  "columns": [
+   {
+    "name": "Rosca",
+    "numeric": false
+   },
+   {
+    "name": "8.8 K=0,15",
+    "numeric": true
+   },
+   {
+    "name": "8.8 K=0,20",
+    "numeric": true
+   },
+   {
+    "name": "10.9 K=0,15",
+    "numeric": true
+   },
+   {
+    "name": "10.9 K=0,20",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "M6",
+    "8",
+    "11",
+    "11",
+    "15"
+   ],
+   [
+    "M8",
+    "19",
+    "25",
+    "27",
+    "36"
+   ],
+   [
+    "M10",
+    "38",
+    "50",
+    "54",
+    "72"
+   ],
+   [
+    "M12",
+    "66",
+    "88",
+    "94",
+    "126"
+   ],
+   [
+    "M16",
+    "164",
+    "218",
+    "234",
+    "312"
+   ]
+  ]
+ },
+ {
+  "id": "sae",
+  "title": "Grados SAE · resistencia mínima (ksi)",
+  "note": "ksi (1 ksi ≈ 6,895 MPa). Grados 1 a 8.2 para tornillos pulgada. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Grado",
+    "numeric": true
+   },
+   {
+    "name": "Diámetro (pulg.)",
+    "numeric": false
+   },
+   {
+    "name": "Prueba",
+    "numeric": true
+   },
+   {
+    "name": "Elástica",
+    "numeric": true
+   },
+   {
+    "name": "Tracción",
+    "numeric": true
+   },
+   {
+    "name": "Material",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "1",
+    "1/4 – 1 1/2",
+    "33",
+    "36",
+    "60",
+    "Acero de bajo o medio carbono"
+   ],
+   [
+    "2",
+    "1/4 – 3/4",
+    "55",
+    "57",
+    "74",
+    "Acero de bajo o medio carbono"
+   ],
+   [
+    "2",
+    "7/8 – 1 1/2",
+    "33",
+    "36",
+    "60",
+    "Acero de bajo o medio carbono"
+   ],
+   [
+    "4",
+    "1/4 – 1 1/2",
+    "65",
+    "100",
+    "115",
+    "Acero estirado en frío"
+   ],
+   [
+    "5",
+    "1/4 – 1",
+    "85",
+    "92",
+    "120",
+    "Acero medio carbono templado y revenido"
+   ],
+   [
+    "5",
+    "1 1/8 – 1 1/2",
+    "74",
+    "81",
+    "105",
+    "Acero medio carbono templado y revenido"
+   ],
+   [
+    "5.2",
+    "1/4 – 1",
+    "85",
+    "92",
+    "120",
+    "Acero martensítico bajo carbono templado y revenido"
+   ],
+   [
+    "7",
+    "1/4 – 1 1/2",
+    "105",
+    "115",
+    "133",
+    "Acero aleado templado y revenido"
+   ],
+   [
+    "8",
+    "1/4 – 1 1/2",
+    "120",
+    "130",
+    "150",
+    "Acero aleado templado y revenido"
+   ],
+   [
+    "8.2",
+    "1/4 – 1",
+    "120",
+    "130",
+    "150",
+    "Acero martensítico bajo carbono templado y revenido"
+   ]
+  ]
+ },
+ {
+  "id": "clsmet",
+  "title": "Clases métricas · resistencia mínima (MPa)",
+  "note": "Prueba, elástica y tracción mínimas. La clase 8.8 se encuentra en la tabla ISO 898-1. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Clase",
+    "numeric": true
+   },
+   {
+    "name": "Diámetro",
+    "numeric": false
+   },
+   {
+    "name": "Prueba",
+    "numeric": true
+   },
+   {
+    "name": "Elástica",
+    "numeric": true
+   },
+   {
+    "name": "Tracción",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "4.6",
+    "M5 – M36",
+    "225",
+    "240",
+    "400"
+   ],
+   [
+    "4.8",
+    "M1,6 – M16",
+    "310",
+    "340",
+    "420"
+   ],
+   [
+    "5.8",
+    "M5 – M24",
+    "380",
+    "420",
+    "520"
+   ],
+   [
+    "9.8",
+    "≤ M16",
+    "650",
+    "720",
+    "900"
+   ],
+   [
+    "10.9",
+    "M5 – M36",
+    "830",
+    "940",
+    "1040"
+   ],
+   [
+    "12.9",
+    "M1,6 – M36",
+    "970",
+    "1100",
+    "1220"
+   ]
+  ]
+ },
+ {
+  "id": "ajuste",
+  "title": "Clases de ajuste de rosca",
+  "note": "A = rosca exterior (tornillo), B = interior (tuerca). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Ajuste",
+    "numeric": false
+   },
+   {
+    "name": "Unificado exterior",
+    "numeric": false
+   },
+   {
+    "name": "Unificado interior",
+    "numeric": false
+   },
+   {
+    "name": "Métrico exterior",
+    "numeric": false
+   },
+   {
+    "name": "Métrico interior",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Holgado",
+    "1A",
+    "1B",
+    "8g",
+    "7H"
+   ],
+   [
+    "Medio",
+    "2A",
+    "2B",
+    "6g",
+    "6H"
+   ],
+   [
+    "Cerrado",
+    "3A",
+    "3B",
+    "4g",
+    "5H"
+   ]
+  ]
+ },
+ {
+  "id": "metpaso",
+  "title": "Rosca métrica gruesa · paso y broca de machuelo",
+  "note": "Paso y diámetro de broca en mm. Regla práctica: broca ≈ diámetro − paso. Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Rosca",
+    "numeric": false
+   },
+   {
+    "name": "Paso (mm)",
+    "numeric": true
+   },
+   {
+    "name": "Broca (mm)",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "M1",
+    "0.25",
+    "0.75"
+   ],
+   [
+    "M1.2",
+    "0.25",
+    "0.95"
+   ],
+   [
+    "M1.6",
+    "0.35",
+    "1.25"
+   ],
+   [
+    "M2",
+    "0.4",
+    "1.6"
+   ],
+   [
+    "M2.5",
+    "0.45",
+    "2.05"
+   ],
+   [
+    "M3",
+    "0.5",
+    "2.5"
+   ],
+   [
+    "M3.5",
+    "0.6",
+    "2.9"
+   ],
+   [
+    "M4",
+    "0.7",
+    "3.3"
+   ],
+   [
+    "M5",
+    "0.8",
+    "4.2"
+   ],
+   [
+    "M6",
+    "1",
+    "5"
+   ],
+   [
+    "M7",
+    "1",
+    "6"
+   ],
+   [
+    "M8",
+    "1.25",
+    "6.8"
+   ],
+   [
+    "M10",
+    "1.5",
+    "8.5"
+   ],
+   [
+    "M12",
+    "1.75",
+    "10.2"
+   ],
+   [
+    "M14",
+    "2",
+    "12"
+   ],
+   [
+    "M16",
+    "2",
+    "14"
+   ],
+   [
+    "M18",
+    "2.5",
+    "15.5"
+   ],
+   [
+    "M20",
+    "2.5",
+    "17.5"
+   ],
+   [
+    "M22",
+    "2.5",
+    "19.5"
+   ],
+   [
+    "M24",
+    "3",
+    "21"
+   ],
+   [
+    "M27",
+    "3",
+    "24"
+   ],
+   [
+    "M30",
+    "3.5",
+    "26.5"
+   ],
+   [
+    "M33",
+    "3.5",
+    "29.5"
+   ],
+   [
+    "M36",
+    "4",
+    "32"
+   ],
+   [
+    "M42",
+    "4.5",
+    "37.5"
+   ],
+   [
+    "M48",
+    "5",
+    "43"
+   ],
+   [
+    "M56",
+    "5.5",
+    "50.5"
+   ],
+   [
+    "M64",
+    "6",
+    "58"
+   ],
+   [
+    "M100",
+    "6",
+    "94"
+   ]
+  ]
+ },
+ {
+  "id": "uncb",
+  "title": "Rosca UNC (ordinaria) · hilos y broca",
+  "note": "Hilos por pulgada, diámetro nominal y broca de machuelo (mm). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Rosca",
+    "numeric": false
+   },
+   {
+    "name": "Hilos/pulg",
+    "numeric": true
+   },
+   {
+    "name": "Ø nominal (mm)",
+    "numeric": true
+   },
+   {
+    "name": "Broca (mm)",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "Nº4",
+    "40",
+    "2.845",
+    "2.25"
+   ],
+   [
+    "Nº5",
+    "40",
+    "3.175",
+    "2.6"
+   ],
+   [
+    "Nº6",
+    "32",
+    "3.505",
+    "2.75"
+   ],
+   [
+    "Nº8",
+    "32",
+    "4.166",
+    "3.4"
+   ],
+   [
+    "Nº10",
+    "24",
+    "4.826",
+    "3.8"
+   ],
+   [
+    "Nº12",
+    "24",
+    "5.486",
+    "4.5"
+   ],
+   [
+    "1/4",
+    "20",
+    "6.35",
+    "5.1"
+   ],
+   [
+    "5/16",
+    "18",
+    "7.938",
+    "6.6"
+   ],
+   [
+    "3/8",
+    "16",
+    "9.525",
+    "8"
+   ],
+   [
+    "7/16",
+    "14",
+    "11.133",
+    "9.4"
+   ],
+   [
+    "1/2",
+    "13",
+    "12.7",
+    "10.75"
+   ],
+   [
+    "9/16",
+    "12",
+    "14.288",
+    "12.2"
+   ],
+   [
+    "5/8",
+    "11",
+    "15.875",
+    "13.5"
+   ],
+   [
+    "3/4",
+    "10",
+    "19.05",
+    "16.5"
+   ],
+   [
+    "7/8",
+    "9",
+    "22.225",
+    "19.5"
+   ],
+   [
+    "1",
+    "8",
+    "25.4",
+    "22.25"
+   ]
+  ]
+ },
+ {
+  "id": "unfb",
+  "title": "Rosca UNF (fina) · hilos y broca",
+  "note": "Hilos por pulgada, diámetro nominal y broca de machuelo (mm). Fuente: Manual de bolsillo para la identificación y especificación de roscas y tornillos (SENA, 2019, CC BY-NC-SA 4.0).",
+  "columns": [
+   {
+    "name": "Rosca",
+    "numeric": false
+   },
+   {
+    "name": "Hilos/pulg",
+    "numeric": true
+   },
+   {
+    "name": "Ø nominal (mm)",
+    "numeric": true
+   },
+   {
+    "name": "Broca (mm)",
+    "numeric": true
+   }
+  ],
+  "rows": [
+   [
+    "Nº4",
+    "48",
+    "2.845",
+    "2.35"
+   ],
+   [
+    "Nº5",
+    "44",
+    "3.175",
+    "2.65"
+   ],
+   [
+    "Nº6",
+    "40",
+    "3.505",
+    "2.9"
+   ],
+   [
+    "Nº8",
+    "36",
+    "4.166",
+    "3.5"
+   ],
+   [
+    "Nº10",
+    "32",
+    "4.826",
+    "4.1"
+   ],
+   [
+    "Nº12",
+    "28",
+    "5.486",
+    "4.6"
+   ],
+   [
+    "1/4",
+    "28",
+    "6.35",
+    "5.5"
+   ],
+   [
+    "5/16",
+    "24",
+    "7.94",
+    "6.9"
+   ],
+   [
+    "3/8",
+    "24",
+    "9.53",
+    "8.5"
+   ],
+   [
+    "7/16",
+    "20",
+    "11.13",
+    "9.9"
+   ],
+   [
+    "1/2",
+    "20",
+    "12.7",
+    "11.5"
+   ],
+   [
+    "9/16",
+    "18",
+    "14.29",
+    "12.9"
+   ],
+   [
+    "5/8",
+    "18",
+    "15.88",
+    "14.5"
+   ],
+   [
+    "3/4",
+    "16",
+    "19.05",
+    "17.5"
+   ],
+   [
+    "7/8",
+    "14",
+    "22.23",
+    "20.5"
+   ],
+   [
+    "1",
+    "12",
+    "25.4",
+    "23.25"
+   ]
+  ]
+ },
+ {
+  "id": "nasamat",
+  "title": "NASA · Materiales de sujeción",
+  "note": "Temperatura de diseño y resistencia última a temperatura ambiente. °C y MPa convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada.",
+  "columns": [
+   {
+    "name": "Material",
+    "numeric": false
+   },
+   {
+    "name": "Tratamiento",
+    "numeric": false
+   },
+   {
+    "name": "Temperatura de diseño",
+    "numeric": false
+   },
+   {
+    "name": "Resistencia última",
+    "numeric": false
+   },
+   {
+    "name": "Comentario",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Acero al carbono",
+    "Zincado",
+    "-65 a 250 °F (-54 a 121 °C)",
+    "≥ 55 ksi (379 MPa)",
+    "Más económico y común"
+   ],
+   [
+    "Acero aleado",
+    "Cadmiado, niquelado, zincado o cromado",
+    "−65 °F hasta el límite del recubrimiento",
+    "Hasta 300 ksi (2068 MPa)",
+    "Algunos se usan a 900 °F (482 °C)"
+   ],
+   [
+    "Inoxidable A-286",
+    "Pasivado (MIL-S-5002)",
+    "-423 a 1200 °F (-253 a 649 °C)",
+    "Hasta 220 ksi (1517 MPa)",
+    "Mejor opción aeroespacial; no susceptible a corrosión por esfuerzo"
+   ],
+   [
+    "Inoxidable 17-4PH",
+    "Ninguno",
+    "-300 a 600 °F (-184 a 316 °C)",
+    "Hasta 220 ksi (1517 MPa)",
+    "—"
+   ],
+   [
+    "Inoxidable 17-7PH",
+    "Pasivado",
+    "-200 a 600 °F (-129 a 316 °C)",
+    "Hasta 220 ksi (1517 MPa)",
+    "—"
+   ],
+   [
+    "Inoxidable serie 300",
+    "Oxidado en horno",
+    "-423 a 800 °F (-253 a 427 °C)",
+    "70 a 140 ksi (483 a 965 MPa)",
+    "La oxidación reduce el galling"
+   ],
+   [
+    "Inoxidable 410, 416, 430",
+    "Pasivado",
+    "-250 a 1200 °F (-157 a 649 °C)",
+    "Hasta 180 ksi (1241 MPa)",
+    "Se corroerá ligeramente"
+   ],
+   [
+    "Titanio",
+    "Ninguno",
+    "-350 a 500 °F (-212 a 260 °C)",
+    "Hasta 160 ksi (1103 MPa)",
+    "Uso aeroespacial"
+   ]
+  ]
+ },
+ {
+  "id": "nasarec",
+  "title": "NASA · Recubrimientos: límite útil de temperatura",
+  "note": "Límite útil de diseño. °C convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada.",
+  "columns": [
+   {
+    "name": "Recubrimiento",
+    "numeric": false
+   },
+   {
+    "name": "Límite útil",
+    "numeric": false
+   },
+   {
+    "name": "Observación",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Cadmio",
+    "450 °F (232 °C)",
+    "El más común en sujetadores aeroespaciales; se funde a 600 °F"
+   ],
+   [
+    "Zinc",
+    "140 a 250 °F (60 a 121 °C)",
+    "Autorreparable (sacrificio) y más económico que el cadmio"
+   ],
+   [
+    "Fosfatos (Mn, Zn, Fe)",
+    "225 a 400 °F (107 a 204 °C)",
+    "Moderadamente resistentes; base para pintura"
+   ],
+   [
+    "Cromo",
+    "800 a 1200 °F (427 a 649 °C)",
+    "Costoso; requiere cobre y níquel previos"
+   ],
+   [
+    "Plata",
+    "1600 °F (871 °C)",
+    "Ineficaz contra corrosión; excelente lubricante a alta temperatura"
+   ],
+   [
+    "Óxido negro (con aceite)",
+    "≤ 300 °F (149 °C)",
+    "Solo mejora la apariencia"
+   ],
+   [
+    "Preoxidación (solo inoxidable)",
+    "1200 °F (649 °C)",
+    "Evita el engranamiento de roscas"
+   ],
+   [
+    "Níquel",
+    "1100 °F (593 °C)",
+    "Más costoso que cadmio o zinc"
+   ],
+   [
+    "SermaGard / Sermatel W",
+    "450 a 1000 °F (232 a 538 °C)",
+    "Aluminio en aglutinante con cromatos, curado a 650 °F"
+   ],
+   [
+    "IVD (aluminio por vapor de iones)",
+    "925 °F (496 °C)",
+    "Sin hidrógeno; requiere cámara de vacío"
+   ],
+   [
+    "Níquel-cadmio difundido",
+    "900 °F (482 °C)",
+    "Costoso; control estricto contra hidrógeno"
+   ]
+  ]
+ },
+ {
+  "id": "nasalub",
+  "title": "NASA · Lubricantes de rosca",
+  "note": "Límite útil de temperatura. °C convertidos. Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada.",
+  "columns": [
+   {
+    "name": "Lubricante",
+    "numeric": false
+   },
+   {
+    "name": "Límite útil",
+    "numeric": false
+   },
+   {
+    "name": "Observación",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Aceite o grasa",
+    "250 °F (121 °C)",
+    "El más común; no sirve en vacío"
+   ],
+   [
+    "Grafito",
+    "212 a 250 °F (100 a 121 °C)",
+    "Requiere humedad del portador; no usar en vacío"
+   ],
+   [
+    "Disulfuro de molibdeno",
+    "750 °F (399 °C)",
+    "Usable en vacío; sobre ≈ 750 °F se vuelve abrasivo"
+   ],
+   [
+    "Recubrimientos sinérgicos",
+    "500 °F (260 °C)",
+    "Fluorocarbono horneado en matriz metálica; funciona en vacío"
+   ],
+   [
+    "Neverseez",
+    "2200 °F (1204 °C)",
+    "Base petróleo; deja óxidos protectores"
+   ],
+   [
+    "Silver Goop",
+    "1500 °F (816 °C)",
+    "20–30 % plata; no usar en aluminio ni magnesio"
+   ],
+   [
+    "Compuestos de retención de roscas",
+    "275 °F (135 °C)",
+    "Epóxicos desmontables; lubricante inicial"
+   ]
+  ]
+ },
+ {
+  "id": "nasaprec",
+  "title": "NASA · Precisión de la precarga según el método",
+  "note": "Precisión alcanzable y costo relativo (tacto = 1). Fuente: NASA RP-1228 Fastener Design Manual (Barrett, 1990), traducción aportada.",
+  "columns": [
+   {
+    "name": "Método",
+    "numeric": false
+   },
+   {
+    "name": "Precisión",
+    "numeric": false
+   },
+   {
+    "name": "Costo relativo",
+    "numeric": false
+   }
+  ],
+  "rows": [
+   [
+    "Tacto (juicio del operador)",
+    "±35 %",
+    "1"
+   ],
+   [
+    "Llave dinamométrica",
+    "±25 %",
+    "1,5"
+   ],
+   [
+    "Giro de la tuerca",
+    "±15 %",
+    "3"
+   ],
+   [
+    "Arandelas indicadoras de carga",
+    "±10 %",
+    "7"
+   ],
+   [
+    "Elongación del sujetador",
+    "±3 a 5 %",
+    "15"
+   ],
+   [
+    "Galgas de deformación",
+    "±1 %",
+    "20"
+   ]
+  ]
  }
 ]

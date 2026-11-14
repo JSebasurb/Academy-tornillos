@@ -1,0 +1,47 @@
+[
+ {
+  "ruta": 2,
+  "name": "ISO 898-1 (clases de resistencia métricas) y tablas técnicas de distribuidores",
+  "covers": "Clases 8.8/10.9/12.9, Rm, Rp0,2, Sp"
+ },
+ {
+  "ruta": 2,
+  "name": "ISO 3506-1:2020 (inoxidables A2/A4)",
+  "covers": "Clases 50/70/80 y galling"
+ },
+ {
+  "ruta": 2,
+  "name": "ISO 4042, ASTM F1941, ISO/TR 20491, ISO 15330",
+  "covers": "Recubrimientos y fragilización por hidrógeno"
+ },
+ {
+  "ruta": 2,
+  "name": "Tablas de torque-tensión de Fastenal (T = K·D·F)",
+  "covers": "Factor K y precarga al 75 % de la carga de prueba"
+ },
+ {
+  "ruta": 2,
+  "name": "Nord-Lock y guías de enganche de rosca",
+  "covers": "1 × d en acero, 2 × d en aluminio; aflojamiento y Junker"
+ },
+ {
+  "ruta": 2,
+  "name": "SAE J78, ASTM C1513 y guías de fabricantes de autoperforantes",
+  "covers": "Puntos 1–5, capacidad y rosca formada/cortada"
+ },
+ {
+  "ruta": 2,
+  "name": "ISO 9227 y notas técnicas de acabados",
+  "covers": "Niebla salina y sus límites"
+ },
+ {
+  "ruta": 3,
+  "name": "Manual de bolsillo para la identificación y especificación de roscas y tornillos",
+  "covers": "Jaime A. Londoño Mejía y Héctor F. Cardona Puerta; SENA Tecnoparque nodo Rionegro, 2019. Licencia CC BY-NC-SA 4.0 (uso educativo con atribución)."
+ },
+ {
+  "ruta": 4,
+  "name": "NASA Reference Publication 1228 · Fastener Design Manual (R. T. Barrett, 1990)",
+  "covers": "Traducción aportada por el usuario, con errata del 17 de junio de 2008 sobre desgasificación del zinc y del cadmio en vacío. Documento original de la NASA; verificar fórmulas con la fuente."
+ }
+]
